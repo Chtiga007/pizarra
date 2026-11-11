@@ -91,6 +91,30 @@ footer .src a:hover{color:var(--accent)}
   .ind.wide{grid-template-columns:1fr}
   .ind.wide svg{grid-row:auto;grid-column:1;height:50px}
 }
+/* Modo tablero: en pantallas de escritorio todo entra en una sola pantalla, sin scroll de página. */
+@media (min-width:1001px) and (min-height:600px){
+  html,body{height:100%;overflow:hidden}
+  .page{height:100vh;height:100dvh;padding:16px 24px 12px;gap:12px;grid-template-rows:auto auto minmax(0,1fr) auto auto}
+  .lead{font-size:clamp(18px,1.9vw,23px)}
+  .sub{margin-top:4px;font-size:13px;line-height:1.4}
+  h2{margin-bottom:8px}
+  .main{min-height:0;align-items:stretch;gap:18px}
+  #indicadores{min-height:0;display:flex;flex-direction:column}
+  .grid{gap:8px}
+  .ind{padding:10px 12px 9px;border-radius:12px}
+  .ind .v{font-size:clamp(18px,1.6vw,22px);margin-top:3px}
+  .ind.wide svg{height:48px}
+  .world{margin-top:8px;padding:8px 12px;gap:4px 18px}
+  #titulares{min-height:0;display:flex;flex-direction:column}
+  .news{flex:1;min-height:0;overflow:auto;padding:2px 14px}
+  .news a{padding:7px 0}
+  .news .t{font-size:13.5px}
+  .agenda{flex-wrap:nowrap;gap:8px}
+  .ag{padding:8px 12px;border-radius:12px;min-width:0}
+  .ag .b{font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  footer{position:relative}
+  footer details[open] .src{position:absolute;bottom:22px;left:0;right:0;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;max-height:50vh;overflow:auto;box-shadow:0 8px 30px rgba(0,0,0,.15)}
+}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 </head>
