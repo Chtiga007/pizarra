@@ -154,6 +154,24 @@ footer .src a:hover{color:var(--accent)}
   </footer>
 </div>
 <div class="tip" id="tip"></div>
+<script>
+/* Aviso si los datos quedaron viejos: compara "iso" (AAAA-MM-DD) con el último día hábil esperado en Argentina. */
+(function(){
+  function chk(D){
+    if(!D||!D.iso) return;
+    var now=new Date(new Date().toLocaleString('en-US',{timeZone:'America/Argentina/Buenos_Aires'}));
+    var exp=new Date(now); if(now.getHours()*60+now.getMinutes()<19*60) exp.setDate(exp.getDate()-1);
+    while(exp.getDay()===0||exp.getDay()===6) exp.setDate(exp.getDate()-1);
+    var e=exp.getFullYear()+'-'+String(exp.getMonth()+1).padStart(2,'0')+'-'+String(exp.getDate()).padStart(2,'0');
+    if(D.iso<e){ var b=document.createElement('div'); b.setAttribute('role','status');
+      b.style.cssText='background:#fdf1d6;color:#7a4b00;border:1px solid #f0c66b;border-radius:10px;padding:8px 12px;font-size:13px;font-weight:600';
+      b.textContent='Atención: estos datos son del '+D.fecha+'. La actualización de hoy todavía no llegó.';
+      var p=document.getElementById('pizarra'); if(p) p.insertBefore(b,p.children[1]); }
+  }
+  window.__chkStale=chk;
+})();
+</script>
+
 
 <script>
 fetch('data.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.json();}).then(function(D){
@@ -207,6 +225,7 @@ fetch('data.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.js
       r.addEventListener('mousemove',show); r.addEventListener('touchstart',show,{passive:true}); r.addEventListener('mouseleave',function(){tip.style.opacity=0;});
       spark.appendChild(r); });
   }
+  if(window.__chkStale) window.__chkStale(D);
   draw(); var rt; window.addEventListener('resize',function(){clearTimeout(rt); rt=setTimeout(draw,120);});
   new MutationObserver(draw).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
 })();
