@@ -1,338 +1,65 @@
 {
  "fecha": "Miércoles 11 de noviembre de 2026",
- "corte": "Actualizado a las 16:40 h · cierre del mercado cambiario",
- "frase": "El riesgo país afloja a 853 puntos y el Tesoro sale a renovar $10,6 billones.",
+ "corte": "Actualizado a las 17:25 h · licitación del Tesoro sin resultado todavía",
+ "frase": "Dólar calmo y riesgo país en 853: todos esperan el resultado de la licitación de $10,6 billones.",
  "claves": [
-  "El dólar cerró calmo: mayorista $1.544 y blue $1.565, con el MEP apenas arriba del oficial.",
-  "REM del BCRA: el mercado espera 1,8% de inflación en octubre y crecimiento de apenas 0,7% en 2026.",
-  "Confianza en el Gobierno (Di Tella): 1,95 puntos en octubre, cerca de los mínimos de la gestión."
+  "El dólar cerró tranquilo: mayorista $1.544 y blue $1.565; el MEP quedó apenas 1,9% arriba.",
+  "EE.UU.: la inflación sorprendió y el mercado da por segura una suba de tasas en diciembre.",
+  "El jueves a las 16 h el INDEC publica la inflación de octubre; los analistas esperan 1,8%."
  ],
  "indicadores": [
-  {
-   "k": "Dólar oficial",
-   "v": "$1.570",
-   "d": "BNA venta · mayorista $1.544",
-   "tend": "flat",
-   "estado": "verde"
-  },
-  {
-   "k": "Dólar MEP",
-   "v": "$1.573",
-   "d": "Cierre · brecha 1,9%",
-   "tend": "flat",
-   "estado": "verde"
-  },
-  {
-   "k": "Contado con liqui",
-   "v": "$1.666",
-   "d": "Cierre · brecha 7,9%",
-   "tend": "flat",
-   "estado": "amarillo"
-  },
-  {
-   "k": "Dólar blue",
-   "v": "$1.565",
-   "d": "Cierre · subió $10",
-   "tend": "flat",
-   "estado": "verde"
-  },
-  {
-   "k": "Riesgo país",
-   "v": "853",
-   "d": "−86 desde el viernes",
-   "tend": "up",
-   "estado": "rojo",
-   "serie": true
-  },
-  {
-   "k": "Reservas BCRA",
-   "v": "49.642 M",
-   "d": "USD · dato del 5/11",
-   "tend": "down",
-   "estado": "amarillo"
-  },
-  {
-   "k": "Depósitos en USD",
-   "v": "42.883 M",
-   "d": "Récord · octubre",
-   "tend": "up",
-   "estado": "verde"
-  },
-  {
-   "k": "Merval",
-   "v": "≈ 83.000",
-   "d": "Rueda volátil",
-   "tend": "down",
-   "estado": "amarillo"
-  },
-  {
-   "k": "Licitación hoy",
-   "v": "$10,6 bn",
-   "d": "Resultado pendiente · se esperaba 90%–100%",
-   "tend": "flat",
-   "estado": "amarillo"
-  },
-  {
-   "k": "Compras BCRA",
-   "v": "USD 51 M",
-   "d": "En noviembre",
-   "tend": "flat",
-   "estado": "amarillo"
-  },
-  {
-   "k": "Inflación oct.",
-   "v": "1,8%",
-   "d": "Esperada (REM) · sale el jueves",
-   "tend": "flat",
-   "estado": "amarillo"
-  }
+  {"k": "Dólar oficial", "v": "$1.570", "d": "BNA venta · mayorista $1.544", "tend": "flat", "estado": "verde"},
+  {"k": "Dólar MEP", "v": "$1.573", "d": "Cierre · brecha 1,9%", "tend": "flat", "estado": "verde"},
+  {"k": "Contado con liqui", "v": "$1.666", "d": "Cierre · brecha 7,9%", "tend": "flat", "estado": "amarillo"},
+  {"k": "Dólar blue", "v": "$1.565", "d": "Cierre · compra $1.545", "tend": "flat", "estado": "verde"},
+  {"k": "Riesgo país", "v": "853", "d": "−86 desde el viernes", "tend": "down", "estado": "rojo", "serie": true},
+  {"k": "Reservas BCRA", "v": "49.642 M", "d": "USD · dato del 5/11 (pago al FMI)", "tend": "down", "estado": "amarillo"},
+  {"k": "Depósitos en USD", "v": "42.883 M", "d": "Récord · cierre de octubre", "tend": "up", "estado": "verde"},
+  {"k": "Merval", "v": "≈ 84.450", "d": "+0,4% · rueda volátil", "tend": "up", "estado": "amarillo"},
+  {"k": "Licitación hoy", "v": "$10,6 bn", "d": "Resultado pendiente · se espera ~100%", "tend": "flat", "estado": "amarillo"},
+  {"k": "Compras BCRA", "v": "USD 51 M", "d": "En noviembre · dato del 5/11", "tend": "flat", "estado": "amarillo"},
+  {"k": "Inflación oct.", "v": "1,8%", "d": "Esperada (REM) · sale el jueves", "tend": "flat", "estado": "amarillo"}
  ],
- "riesgo": [
-  [
-   "10/07",
-   402
-  ],
-  [
-   "30/09",
-   607
-  ],
-  [
-   "16/10",
-   648
-  ],
-  [
-   "30/10",
-   787
-  ],
-  [
-   "02/11",
-   805
-  ],
-  [
-   "03/11",
-   831
-  ],
-  [
-   "04/11",
-   852
-  ],
-  [
-   "05/11",
-   925
-  ],
-  [
-   "06/11",
-   939
-  ],
-  [
-   "09/11",
-   873
-  ],
-  [
-   "10/11",
-   853
-  ],
-  [
-   "11/11",
-   853
-  ]
- ],
+ "riesgo": [["10/07", 402], ["30/09", 607], ["16/10", 648], ["30/10", 787], ["02/11", 805], ["03/11", 831], ["04/11", 852], ["05/11", 925], ["06/11", 939], ["09/11", 873], ["10/11", 853], ["11/11", 853]],
  "mundo": [
-  {
-   "k": "S&P 500",
-   "v": "7.618",
-   "d": "+1,3%",
-   "tend": "up"
-  },
-  {
-   "k": "Nasdaq",
-   "v": "25.559",
-   "d": "+2,0%",
-   "tend": "up"
-  },
-  {
-   "k": "Brent",
-   "v": "USD 93",
-   "d": "sube",
-   "tend": "up"
-  },
-  {
-   "k": "Oro",
-   "v": "USD 4.030",
-   "d": "baja",
-   "tend": "down"
-  },
-  {
-   "k": "Fed",
-   "v": "3,75–4%",
-   "d": "¿suba el 9/12?",
-   "tend": "flat"
-  }
+  {"k": "S&P 500", "v": "7.521", "d": "cierre 10/11 · hoy +0,9%", "tend": "up"},
+  {"k": "Nasdaq", "v": "25.066", "d": "cierre 10/11 · hoy +1,3%", "tend": "up"},
+  {"k": "Brent", "v": "USD 93", "d": "+1,7%", "tend": "up"},
+  {"k": "Oro", "v": "USD 4.057", "d": "+0,6%", "tend": "up"},
+  {"k": "Fed", "v": "3,75–4%", "d": "suba descontada el 9/12", "tend": "up"}
  ],
  "titulares": [
-  {
-   "sec": "Economía",
-   "s": "Infobae",
-   "t": "Licitación de $10,6 bn: el mercado espera renovar entre 90% y 100%",
-   "u": "https://www.infobae.com/economia/2026/11/11/el-gobierno-enfrenta-vencimientos-por-mas-de-10-billones-hoy-que-esperan-en-el-mercado/"
-  },
-  {
-   "sec": "Economía",
-   "s": "FMyA (Marull)",
-   "t": "9 de cada 10 dólares que compró el BCRA tuvieron cobertura vendida como contrapartida",
-   "u": "https://infobae.com/economia/2026/11/10/por-que-la-suba-del-riesgo-pais-afecta-la-compra-de-reservas-del-banco-central-y-la-cobertura-cambiaria"
-  },
-  {
-   "sec": "Economía",
-   "s": "REM · BCRA",
-   "t": "Analistas suben la inflación esperada y recortan el dólar de fin de año",
-   "u": "https://perfil.com/economia/rem-del-bcra-el-precio-que-le-ponen-a-la-inflacion-y-al-dolar-45-actores-del-mercado-a9fcc7k2dRuP"
-  },
-  {
-   "sec": "Política",
-   "s": "La Nación",
-   "t": "En el Gobierno admiten desorden y preocupa el cortocircuito con Bullrich",
-   "u": "https://www.lanacion.com.ar/politica/en-el-gobierno-admiten-desorden-en-la-gestion-y-preocupa-el-cortocircuito-con-bullrich-nid11112026/"
-  },
-  {
-   "sec": "Política",
-   "s": "Ámbito",
-   "t": "Se fue el Papa: Milei encara el frente interno sin Presupuesto 2027",
-   "u": "https://www.ambito.com/politica/papa-leon-XIV-argentina-javier-milei-iglesia-vaticano-caba-lujan-misa-carcel-devoto-en-vivo-minuto-a-minuto-11-noviembre"
-  },
-  {
-   "sec": "Política",
-   "s": "Página/12",
-   "t": "Carpa VIP en la misa papal: denuncias y pedidos de informe",
-   "u": "https://www.pagina12.com.ar/"
-  },
-  {
-   "sec": "Mundo",
-   "s": "Forbes AR",
-   "t": "Los demócratas controlarán ambas cámaras del Congreso de EE.UU.",
-   "u": "https://www.forbesargentina.com/today/ola-azul-estados-unidos-democratas-logran-triunfo-historico-controlaran-ambas-camaras-condicionan-trump-n101702/amp"
-  },
-  {
-   "sec": "Mundo",
-   "s": "El Nuevo Día",
-   "t": "EE.UU. e Irán, sin acuerdo por el estrecho de Ormuz",
-   "u": "https://www.elnuevodia.com/noticias/mundo/notas/estados-unidos-ataca-objetivos-iranies-en-el-estrecho-de-ormuz-y-aviva-la-incertidumbre/"
-  }
+  {"sec": "Economía", "s": "Infobae", "t": "Licitación de $10,6 billones: el mercado apuesta a renovar casi todo", "u": "https://www.infobae.com/economia/2026/11/11/el-gobierno-enfrenta-vencimientos-por-mas-de-10-billones-hoy-que-esperan-en-el-mercado/"},
+  {"sec": "Economía", "s": "iProfesional", "t": "Después de hoy vienen dos licitaciones más pesadas: unos $66 billones", "u": "https://www.iprofesional.com/finanzas/468799-el-gobierno-busca-renovar-105-billones-de-deuda-y-cae-el-riesgo-pais"},
+  {"sec": "Economía", "s": "Perfil", "t": "El dólar volvió a operar tras los feriados con una suba leve", "u": "https://www.perfil.com/economia/el-dolar-opera-al-alza-este-miercoles-tras-cinco-dias-sin-actividad-adNy13S9O6dB"},
+  {"sec": "Política", "s": "La Nación", "t": "En el Gobierno reconocen desorden y preocupa el choque con Bullrich", "u": "https://www.lanacion.com.ar/politica/en-el-gobierno-admiten-desorden-en-la-gestion-y-preocupa-el-cortocircuito-con-bullrich-nid11112026/"},
+  {"sec": "Política", "s": "Letra P", "t": "Oficialismo fragmentado y Presupuesto 2027 sin acuerdo en el Congreso", "u": "https://www.letrap.com.ar/politica/el-gobierno-balcanizado-javier-milei-como-testigo-n5428077"},
+  {"sec": "Política", "s": "Infobae", "t": "Caputo pidió no leer en clave partidaria los mensajes del papa León XIV", "u": "https://www.infobae.com/economia/2026/11/11/a-la-gente-que-no-tiene-fe-le-cuesta-procesar-situaciones-como-las-de-estos-dias-la-reflexion-de-caputo-tras-la-visita-del-papa/"},
+  {"sec": "Mundo", "s": "La Nación / AP", "t": "La inflación de EE.UU. sorprendió al alza y Wall Street cerró en baja", "u": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-tuesday-11102026-nid10112026/"},
+  {"sec": "Mundo", "s": "Reuters vía T&I News", "t": "El oro rebota y el mercado da por hecha una suba de la Fed en diciembre", "u": "https://www.tradingandinvestmentnews.co.uk/gold-price-rebound-fed-hike-bets/"}
  ],
  "agenda": [
-  {
-   "w": "Hoy · noche",
-   "b": "Resultado de la licitación del Tesoro"
-  },
-  {
-   "w": "Jueves 12/11 · 16 h",
-   "b": "INDEC publica la inflación de octubre"
-  },
-  {
-   "w": "Lunes 30/11",
-   "b": "Vencen $29,4 bn y cierran las sesiones ordinarias"
-  },
-  {
-   "w": "Miércoles 9/12",
-   "b": "Reunión de la Fed"
-  }
+  {"w": "Hoy · noche", "b": "Resultado de la licitación del Tesoro"},
+  {"w": "Jueves 12/11 · 16 h", "b": "INDEC publica la inflación de octubre"},
+  {"w": "Lunes 30/11", "b": "Vencen $29,4 bn y cierran las sesiones ordinarias"},
+  {"w": "Mar. 8 y mié. 9/12", "b": "Reunión de la Fed: el mercado espera suba"}
  ],
  "fuentes": [
-  [
-   "Ámbito · Dólar al cierre 11/11",
-   "https://www.ambito.com/finanzas/dolar-blue-hoy-cuanto-cerro-este-miercoles-11-noviembre-n6344115"
-  ],
-  [
-   "El Litoral · Cierre del dólar 11/11",
-   "https://www.ellitoral.com/economia/cerro-dolar-bancos-argentinos-miercoles-11-noviembre-2026-blue-mep_0_xeX9fXn0mj.html"
-  ],
-  [
-   "La Nación · Dólar en vivo",
-   "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotizan-el-oficial-y-el-paralelo-este-miercoles-11-de-nid11112026/"
-  ],
-  [
-   "El Cronista · Dólar hoy",
-   "https://www.cronista.com/finanzas-mercados/dolar-blue-hoy-a-cuanto-cotiza-el-miercoles-11-de-noviembre-con-el-mep-y-el-ccl/"
-  ],
-  [
-   "Ámbito · Dólar hoy",
-   "https://www.ambito.com/finanzas/dolar-blue-hoy-cuanto-opera-este-miercoles-11-noviembre-n6343778"
-  ],
-  [
-   "Rava · Riesgo país",
-   "https://www.rava.com/perfil/RIESGO%20PAIS"
-  ],
-  [
-   "Rankia · Riesgo país",
-   "https://www.rankia.com.ar/noticias/bolsa/7537688-riesgo-pais-hoy-4-noviembre-2026-831-puntos-nuevo-maximo-ano"
-  ],
-  [
-   "iProfesional · Fed y riesgo país",
-   "https://www.iprofesional.com/economia/467726-por-que-el-mercado-palpita-una-suba-de-tasas-de-la-fed-antes-de-fin-de-ano"
-  ],
-  [
-   "Ámbito · Reservas y FMI",
-   "https://www.ambito.com/finanzas/el-bcra-ya-compro-mas-us16000-millones-el-ano-pero-las-reservas-cayeron-un-pago-al-fmi-n6342144"
-  ],
-  [
-   "Examedia · Depósitos récord",
-   "https://examedia.com.ar/portada/post/88196372"
-  ],
-  [
-   "C5N · Merval",
-   "https://www.c5n.com/economia/riesgo-pais-bonos-acciones-argentinas-miercoles-11-noviembre-2026"
-  ],
-  [
-   "BAE Negocios · Merval",
-   "https://www.baenegocios.com/finanzas/el-merval-opera-con-cautela-y-el-riesgo-pais-ronda-los-850-puntos/"
-  ],
-  [
-   "Perfil · Inflación de octubre",
-   "https://www.perfil.com/economia/indec-publica-la-inflacion-de-octubre-los-privados-anticipan-un-dato-cercano-al-2-pero-alimentos-y-tarifas-empujan-el-indice-acLcd7V7dFm6"
-  ],
-  [
-   "CNN · Markets",
-   "https://www.cnn.com/markets"
-  ],
-  [
-   "Infobae/EFE · Petróleo",
-   "https://www.infobae.com/espana/agencias/2026/11/11/la-bolsa-sube-un-046-y-recupera-los-20000-puntos-pese-al-repunte-del-precio-del-crudo/"
-  ],
-  [
-   "DailyForex · Oro e inflación EE.UU.",
-   "https://es.dailyforex.com/forex-news/2026/11/forex-hoy-ipc-en-usa-muestra-desaceleracion-11-noviembre-2026/251695"
-  ],
-  [
-   "La Política Online",
-   "https://www.lapoliticaonline.com/"
-  ],
-  [
-   "Página/12",
-   "https://www.pagina12.com.ar/"
-  ],
-  [
-   "El Cronista · Dólar en bancos y BCRA",
-   "https://www.cronista.com/finanzas-mercados/dolar-hoy-a-cuanto-cotiza-el-oficial-en-los-bancos-de-la-city-hoy-miercoles-11-de-noviembre/"
-  ],
-  [
-   "Infobae · Licitación del Tesoro",
-   "https://www.infobae.com/economia/2026/11/11/el-gobierno-enfrenta-vencimientos-por-mas-de-10-billones-hoy-que-esperan-en-el-mercado/"
-  ],
-  [
-   "Perfil · REM del BCRA",
-   "https://perfil.com/economia/rem-del-bcra-el-precio-que-le-ponen-a-la-inflacion-y-al-dolar-45-actores-del-mercado-a9fcc7k2dRuP"
-  ],
-  [
-   "DolarHoy · REM: crecimiento 0,7%",
-   "https://dolarhoy.com/economia/el-rem-redujo-a-0-7-el-crecimiento-esperado-y-elevo-la-inflacion-de-2026-202611614530"
-  ],
-  [
-   "Forbes AR · Confianza en el Gobierno (Di Tella)",
-   "https://www.forbesargentina.com/today/la-confianza-gobierno-milei-subio-octubre-pero-acumula-una-caida-207-fines-2025-n101138"
-  ],
-  [
-   "Infobae · FMyA y reservas",
-   "https://infobae.com/economia/2026/11/10/por-que-la-suba-del-riesgo-pais-afecta-la-compra-de-reservas-del-banco-central-y-la-cobertura-cambiaria"
-  ]
+  ["Ámbito · Dólar al cierre 11/11", "https://www.ambito.com/finanzas/dolar-blue-hoy-cuanto-cerro-este-miercoles-11-noviembre-n6344115"],
+  ["Perfil · Dólar, Merval y bonos 11/11", "https://www.perfil.com/economia/el-dolar-opera-al-alza-este-miercoles-tras-cinco-dias-sin-actividad-adNy13S9O6dB"],
+  ["El Cronista · Dólar en bancos y BCRA", "https://www.cronista.com/finanzas-mercados/dolar-hoy-a-cuanto-cotiza-el-oficial-en-los-bancos-de-la-city-hoy-miercoles-11-de-noviembre/"],
+  ["Infobae · Mercados 11/11", "https://www.infobae.com/economia/2026/11/11/mercados-las-acciones-argentinas-operan-sin-cambios-en-una-jornada-con-actividad-limitada-en-wall-street/"],
+  ["C5N · Riesgo país 11/11", "https://www.c5n.com/economia/riesgo-pais-bonos-acciones-argentinas-miercoles-11-noviembre-2026"],
+  ["Ámbito · Bonos y acciones 11/11", "https://www.ambito.com/finanzas/bonos-y-acciones-la-city-local-vuelve-operar-despues-los-feriados-pero-la-referencia-wall-street-n6343901"],
+  ["Infobae · Reservas, compras y pago al FMI", "https://www.infobae.com/economia/2026/11/05/el-banco-central-ya-compro-mas-de-usd-16000-millones-en-2026-pero-las-reservas-cayeron-por-un-pago-al-fmi/"],
+  ["E. German · Informe Monetario del BCRA (depósitos)", "https://eduardogerman.com/2026/11/11/los-depositos-privados-en-dolares-marcaron-un-record-y-las-reservas-del-bcra-subieron-usd-2-474-millones/"],
+  ["Infobae · Licitación del Tesoro", "https://www.infobae.com/economia/2026/11/11/el-gobierno-enfrenta-vencimientos-por-mas-de-10-billones-hoy-que-esperan-en-el-mercado/"],
+  ["iProfesional · Licitación y vencimientos", "https://www.iprofesional.com/finanzas/468799-el-gobierno-busca-renovar-105-billones-de-deuda-y-cae-el-riesgo-pais"],
+  ["Perfil · REM del BCRA", "https://perfil.com/economia/rem-del-bcra-el-precio-que-le-ponen-a-la-inflacion-y-al-dolar-45-actores-del-mercado-a9fcc7k2dRuP"],
+  ["La Nación / AP · Wall Street 10/11", "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-tuesday-11102026-nid10112026/"],
+  ["Trading & Investment News · Oro y FedWatch", "https://www.tradingandinvestmentnews.co.uk/gold-price-rebound-fed-hike-bets/"],
+  ["La Nación · Política", "https://www.lanacion.com.ar/politica/en-el-gobierno-admiten-desorden-en-la-gestion-y-preocupa-el-cortocircuito-con-bullrich-nid11112026/"],
+  ["Letra P · Política", "https://www.letrap.com.ar/politica/el-gobierno-balcanizado-javier-milei-como-testigo-n5428077"],
+  ["Infobae · Caputo y la visita del Papa", "https://www.infobae.com/economia/2026/11/11/a-la-gente-que-no-tiene-fe-le-cuesta-procesar-situaciones-como-las-de-estos-dias-la-reflexion-de-caputo-tras-la-visita-del-papa/"]
  ]
 }
