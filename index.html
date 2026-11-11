@@ -92,14 +92,14 @@ footer .src a:hover{color:var(--accent)}
   .ind.wide svg{grid-row:auto;grid-column:1;height:50px}
 }
 /* Modo tablero: en pantallas de escritorio todo entra en una sola pantalla, sin scroll de página. */
-@media (min-width:1001px) and (min-height:600px){
+@media (min-width:1001px) and (min-height:740px){
   html,body{height:100%;overflow:hidden}
   .page{height:100vh;height:100dvh;padding:16px 24px 12px;gap:12px;grid-template-rows:auto auto minmax(0,1fr) auto auto}
   .lead{font-size:clamp(18px,1.9vw,23px)}
   .sub{margin-top:4px;font-size:13px;line-height:1.4}
   h2{margin-bottom:8px}
   .main{min-height:0;align-items:stretch;gap:18px}
-  #indicadores{min-height:0;display:flex;flex-direction:column}
+  #indicadores{min-height:0;display:flex;flex-direction:column;overflow:auto}
   .grid{gap:8px}
   .ind{padding:10px 12px 9px;border-radius:12px}
   .ind .v{font-size:clamp(18px,1.6vw,22px);margin-top:3px}
