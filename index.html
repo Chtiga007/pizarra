@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pizarra · Política y Economía</title>
+<meta name="theme-color" content="#1d4ed8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pizarra">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%231d4ed8'/%3E%3Ctext x='50' y='68' font-size='56' font-family='Arial' font-weight='700' fill='white' text-anchor='middle'%3EP%3C/text%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+<style>
+/* Lectura fácil: una columna, letra grande, alto contraste, palabras en lugar de colores solos. */
+:root{
+  --bg:#ffffff; --ink:#0b0f19; --muted:#3f4756; --line:#d9dee6; --soft:#f3f5f8;
+  --accent:#1d4ed8; --ok:#0a7a4f; --ok-bg:#e3f4ec; --warn:#8a5a00; --warn-bg:#fdf1d6; --bad:#b42318; --bad-bg:#fde7e5;
+  --font:"Atkinson Hyperlegible", Verdana, Arial, sans-serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:21px/1.5 var(--font);-webkit-text-size-adjust:100%}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.page{max-width:680px;margin:0 auto;padding:24px 20px 48px}
+header{border-bottom:3px solid var(--ink);padding-bottom:14px}
+.brand{font-size:18px;font-weight:700;color:var(--accent);letter-spacing:.02em}
+h1{font-size:30px;line-height:1.2;margin:6px 0 0}
+.upd{font-size:18px;color:var(--muted);margin-top:4px}
+section{margin-top:30px}
+h2{font-size:24px;margin:0 0 12px}
+.frase{font-size:26px;font-weight:700;line-height:1.3;margin:0;background:var(--soft);padding:18px;border-radius:12px;border-left:6px solid var(--accent)}
+.claves{margin:14px 0 0;padding-left:26px}
+.claves li{margin-bottom:10px}
+.nums{display:grid;gap:12px}
+.num{border:2px solid var(--line);border-radius:14px;padding:14px 16px;display:grid;grid-template-columns:1fr auto;gap:2px 12px;align-items:center}
+.num .k{font-size:20px;font-weight:700}
+.num .v{font-size:34px;font-weight:700;line-height:1.1;font-variant-numeric:tabular-nums}
+.num .d{font-size:18px;color:var(--muted);grid-column:1 / -1}
+.estado{grid-row:1 / span 2;grid-column:2;font-size:17px;font-weight:700;padding:6px 12px;border-radius:999px;white-space:nowrap;align-self:start}
+.estado.verde{background:var(--ok-bg);color:var(--ok)}
+.estado.amarillo{background:var(--warn-bg);color:var(--warn)}
+.estado.rojo{background:var(--bad-bg);color:var(--bad)}
+.news{list-style:none;margin:0;padding:0}
+.news li{border-bottom:2px solid var(--line);padding:14px 0}
+.news li:last-child{border-bottom:0}
+.news .sec{font-size:16px;font-weight:700;color:var(--accent);text-transform:uppercase;letter-spacing:.05em}
+.news a{display:block;color:var(--ink);text-decoration:none;font-weight:700;font-size:22px;line-height:1.3;margin-top:2px}
+.news a:hover{text-decoration:underline}
+.news .src{font-size:17px;color:var(--muted);margin-top:2px}
+.agenda{list-style:none;margin:0;padding:0}
+.agenda li{padding:10px 0;border-bottom:2px solid var(--line)}
+.agenda li:last-child{border-bottom:0}
+.agenda b{display:block;color:var(--accent);font-size:18px}
+.btn{display:block;width:100%;margin-top:34px;font:700 22px var(--font);padding:18px;border-radius:14px;border:0;background:var(--accent);color:#fff;cursor:pointer}
+footer{margin-top:24px;font-size:16px;color:var(--muted)}
+.err{background:var(--warn-bg);color:var(--warn);padding:16px;border-radius:12px;font-weight:700}
+@media (max-width:420px){ body{font-size:20px} h1{font-size:26px} .frase{font-size:23px} .num .v{font-size:30px} }
+</style>
+</head>
+<body>
+<main class="page" id="pizarra">
+  <header>
+    <div class="brand">PIZARRA · POLÍTICA Y ECONOMÍA</div>
+    <h1 id="fecha">Cargando…</h1>
+    <div class="upd" id="corte"></div>
+  </header>
+
+  <section id="hoy">
+    <h2>Lo más importante de hoy</h2>
+    <p class="frase" id="frase"></p>
+    <ul class="claves" id="claves"></ul>
+  </section>
+
+  <section id="numeros">
+    <h2>Los números del día</h2>
+    <div class="nums" id="nums"></div>
+  </section>
+
+  <section id="noticias">
+    <h2>Noticias</h2>
+    <ul class="news" id="news"></ul>
+  </section>
+
+  <section id="viene">
+    <h2>Lo que viene</h2>
+    <ul class="agenda" id="agenda"></ul>
+  </section>
+
+  <button class="btn" id="recargar" type="button">Ver lo último</button>
+  <footer>Se actualiza todos los días hábiles a las 17 h. Datos de medios, agencias y fuentes oficiales.</footer>
+</main>
+<script>
+(function(){
+  var ESTADO={verde:'Tranquilo',amarillo:'Atención',rojo:'Preocupa'};
+  var ELEGIDOS=['Dólar oficial','Dólar blue','Dólar MEP','Riesgo país','Reservas BCRA','Depósitos en USD'];
+  function el(t,c,x){var e=document.createElement(t); if(c) e.className=c; if(x!=null) e.textContent=x; return e;}
+  function pintar(D){
+    document.getElementById('fecha').textContent=D.fecha||'';
+    document.getElementById('corte').textContent=D.corte||'';
+    document.getElementById('frase').textContent=D.frase||'';
+    var cl=document.getElementById('claves'); cl.textContent='';
+    (D.claves||[]).forEach(function(c){ cl.appendChild(el('li',null,c)); });
+
+    var ind=D.indicadores||[], elegidos=[];
+    ELEGIDOS.forEach(function(k){ ind.forEach(function(i){ if(i.k===k) elegidos.push(i); }); });
+    ind.forEach(function(i){ if(elegidos.length<6 && elegidos.indexOf(i)<0) elegidos.push(i); });
+    var n=document.getElementById('nums'); n.textContent='';
+    elegidos.slice(0,6).forEach(function(i){
+      var c=el('div','num'); c.appendChild(el('div','k',i.k)); c.appendChild(el('div','v',i.v));
+      if(ESTADO[i.estado]) c.appendChild(el('span','estado '+i.estado,ESTADO[i.estado]));
+      c.appendChild(el('div','d',i.d||'')); n.appendChild(c);
+    });
+
+    var tit=D.titulares||[], pick=[], cupo={'Economía':2,'Política':2,'Mundo':1};
+    tit.forEach(function(t){ if(cupo[t.sec]>0){ pick.push(t); cupo[t.sec]--; } });
+    var ul=document.getElementById('news'); ul.textContent='';
+    pick.forEach(function(t){ var li=el('li'); li.appendChild(el('div','sec',t.sec));
+      var a=el('a',null,t.t); a.href=t.u; a.target='_blank'; a.rel='noopener'; li.appendChild(a);
+      li.appendChild(el('div','src','Fuente: '+t.s)); ul.appendChild(li); });
+
+    var ag=document.getElementById('agenda'); ag.textContent='';
+    (D.agenda||[]).slice(0,3).forEach(function(a){ var li=el('li'); li.appendChild(el('b',null,a.w)); li.appendChild(document.createTextNode(a.b)); ag.appendChild(li); });
+  }
+  function cargar(){
+    fetch('data.json?t='+Date.now(),{cache:'no-store'}).then(function(r){ if(!r.ok) throw new Error(r.status); return r.json(); })
+      .then(pintar)
+      .catch(function(){ var h=document.getElementById('hoy'); h.textContent=''; h.appendChild(el('div','err','No se pudo cargar la información. Revisá la conexión a internet y tocá "Ver lo último".')); });
+  }
+  document.getElementById('recargar').addEventListener('click',function(){ location.reload(); });
+  cargar();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,330 @@
+{
+ "fecha": "Miércoles 11 de noviembre de 2026",
+ "corte": "Actualizado a las 15:45 h",
+ "frase": "El riesgo país afloja a 853 puntos y el Tesoro sale a renovar $10,6 billones.",
+ "claves": [
+  "El mayorista sube a $1.566,90, lejos del techo de la banda ($1.958); el blue sigue debajo del oficial.",
+  "REM del BCRA: el mercado espera 1,8% de inflación en octubre y crecimiento de apenas 0,7% en 2026.",
+  "Confianza en el Gobierno (Di Tella): 1,95 puntos en octubre, cerca de los mínimos de la gestión."
+ ],
+ "indicadores": [
+  {
+   "k": "Dólar oficial",
+   "v": "$1.570",
+   "d": "BNA venta · mayorista $1.566,90",
+   "tend": "flat",
+   "estado": "verde"
+  },
+  {
+   "k": "Dólar MEP",
+   "v": "$1.571",
+   "d": "Brecha 0,3%",
+   "tend": "flat",
+   "estado": "verde"
+  },
+  {
+   "k": "Contado con liqui",
+   "v": "$1.664",
+   "d": "Brecha 6,2%",
+   "tend": "flat",
+   "estado": "amarillo"
+  },
+  {
+   "k": "Dólar blue",
+   "v": "$1.565",
+   "d": "Debajo del oficial",
+   "tend": "flat",
+   "estado": "verde"
+  },
+  {
+   "k": "Riesgo país",
+   "v": "853",
+   "d": "−86 desde el viernes",
+   "tend": "up",
+   "estado": "rojo",
+   "serie": true
+  },
+  {
+   "k": "Reservas BCRA",
+   "v": "49.642 M",
+   "d": "USD · dato del 5/11",
+   "tend": "down",
+   "estado": "amarillo"
+  },
+  {
+   "k": "Depósitos en USD",
+   "v": "42.883 M",
+   "d": "Récord · octubre",
+   "tend": "up",
+   "estado": "verde"
+  },
+  {
+   "k": "Merval",
+   "v": "≈ 83.000",
+   "d": "Rueda volátil",
+   "tend": "down",
+   "estado": "amarillo"
+  },
+  {
+   "k": "Licitación hoy",
+   "v": "$10,6 bn",
+   "d": "Rollover esperado: 90%–100%",
+   "tend": "flat",
+   "estado": "amarillo"
+  },
+  {
+   "k": "Compras BCRA",
+   "v": "USD 51 M",
+   "d": "En noviembre",
+   "tend": "flat",
+   "estado": "amarillo"
+  },
+  {
+   "k": "Inflación oct.",
+   "v": "1,8%",
+   "d": "Esperada (REM) · sale el jueves",
+   "tend": "flat",
+   "estado": "amarillo"
+  }
+ ],
+ "riesgo": [
+  [
+   "10/07",
+   402
+  ],
+  [
+   "30/09",
+   607
+  ],
+  [
+   "16/10",
+   648
+  ],
+  [
+   "30/10",
+   787
+  ],
+  [
+   "02/11",
+   805
+  ],
+  [
+   "03/11",
+   831
+  ],
+  [
+   "04/11",
+   852
+  ],
+  [
+   "05/11",
+   925
+  ],
+  [
+   "06/11",
+   939
+  ],
+  [
+   "09/11",
+   873
+  ],
+  [
+   "10/11",
+   853
+  ],
+  [
+   "11/11",
+   853
+  ]
+ ],
+ "mundo": [
+  {
+   "k": "S&P 500",
+   "v": "7.618",
+   "d": "+1,3%",
+   "tend": "up"
+  },
+  {
+   "k": "Nasdaq",
+   "v": "25.559",
+   "d": "+2,0%",
+   "tend": "up"
+  },
+  {
+   "k": "Brent",
+   "v": "USD 93",
+   "d": "sube",
+   "tend": "up"
+  },
+  {
+   "k": "Oro",
+   "v": "USD 4.030",
+   "d": "baja",
+   "tend": "down"
+  },
+  {
+   "k": "Fed",
+   "v": "3,75–4%",
+   "d": "¿suba el 9/12?",
+   "tend": "flat"
+  }
+ ],
+ "titulares": [
+  {
+   "sec": "Economía",
+   "s": "Infobae",
+   "t": "Licitación de $10,6 bn: el mercado espera renovar entre 90% y 100%",
+   "u": "https://www.infobae.com/economia/2026/11/11/el-gobierno-enfrenta-vencimientos-por-mas-de-10-billones-hoy-que-esperan-en-el-mercado/"
+  },
+  {
+   "sec": "Economía",
+   "s": "FMyA (Marull)",
+   "t": "9 de cada 10 dólares que compró el BCRA tuvieron cobertura vendida como contrapartida",
+   "u": "https://infobae.com/economia/2026/11/10/por-que-la-suba-del-riesgo-pais-afecta-la-compra-de-reservas-del-banco-central-y-la-cobertura-cambiaria"
+  },
+  {
+   "sec": "Economía",
+   "s": "REM · BCRA",
+   "t": "Analistas suben la inflación esperada y recortan el dólar de fin de año",
+   "u": "https://perfil.com/economia/rem-del-bcra-el-precio-que-le-ponen-a-la-inflacion-y-al-dolar-45-actores-del-mercado-a9fcc7k2dRuP"
+  },
+  {
+   "sec": "Política",
+   "s": "La Nación",
+   "t": "En el Gobierno admiten desorden y preocupa el cortocircuito con Bullrich",
+   "u": "https://www.lanacion.com.ar/politica/en-el-gobierno-admiten-desorden-en-la-gestion-y-preocupa-el-cortocircuito-con-bullrich-nid11112026/"
+  },
+  {
+   "sec": "Política",
+   "s": "Ámbito",
+   "t": "Se fue el Papa: Milei encara el frente interno sin Presupuesto 2027",
+   "u": "https://www.ambito.com/politica/papa-leon-XIV-argentina-javier-milei-iglesia-vaticano-caba-lujan-misa-carcel-devoto-en-vivo-minuto-a-minuto-11-noviembre"
+  },
+  {
+   "sec": "Política",
+   "s": "Página/12",
+   "t": "Carpa VIP en la misa papal: denuncias y pedidos de informe",
+   "u": "https://www.pagina12.com.ar/"
+  },
+  {
+   "sec": "Mundo",
+   "s": "Forbes AR",
+   "t": "Los demócratas controlarán ambas cámaras del Congreso de EE.UU.",
+   "u": "https://www.forbesargentina.com/today/ola-azul-estados-unidos-democratas-logran-triunfo-historico-controlaran-ambas-camaras-condicionan-trump-n101702/amp"
+  },
+  {
+   "sec": "Mundo",
+   "s": "El Nuevo Día",
+   "t": "EE.UU. e Irán, sin acuerdo por el estrecho de Ormuz",
+   "u": "https://www.elnuevodia.com/noticias/mundo/notas/estados-unidos-ataca-objetivos-iranies-en-el-estrecho-de-ormuz-y-aviva-la-incertidumbre/"
+  }
+ ],
+ "agenda": [
+  {
+   "w": "Hoy · tarde",
+   "b": "Resultado de la licitación del Tesoro"
+  },
+  {
+   "w": "Jueves 12/11 · 16 h",
+   "b": "INDEC publica la inflación de octubre"
+  },
+  {
+   "w": "Lunes 30/11",
+   "b": "Vencen $29,4 bn y cierran las sesiones ordinarias"
+  },
+  {
+   "w": "Miércoles 9/12",
+   "b": "Reunión de la Fed"
+  }
+ ],
+ "fuentes": [
+  [
+   "La Nación · Dólar en vivo",
+   "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotizan-el-oficial-y-el-paralelo-este-miercoles-11-de-nid11112026/"
+  ],
+  [
+   "El Cronista · Dólar hoy",
+   "https://www.cronista.com/finanzas-mercados/dolar-blue-hoy-a-cuanto-cotiza-el-miercoles-11-de-noviembre-con-el-mep-y-el-ccl/"
+  ],
+  [
+   "Ámbito · Dólar hoy",
+   "https://www.ambito.com/finanzas/dolar-blue-hoy-cuanto-opera-este-miercoles-11-noviembre-n6343778"
+  ],
+  [
+   "Rava · Riesgo país",
+   "https://www.rava.com/perfil/RIESGO%20PAIS"
+  ],
+  [
+   "Rankia · Riesgo país",
+   "https://www.rankia.com.ar/noticias/bolsa/7537688-riesgo-pais-hoy-4-noviembre-2026-831-puntos-nuevo-maximo-ano"
+  ],
+  [
+   "iProfesional · Fed y riesgo país",
+   "https://www.iprofesional.com/economia/467726-por-que-el-mercado-palpita-una-suba-de-tasas-de-la-fed-antes-de-fin-de-ano"
+  ],
+  [
+   "Ámbito · Reservas y FMI",
+   "https://www.ambito.com/finanzas/el-bcra-ya-compro-mas-us16000-millones-el-ano-pero-las-reservas-cayeron-un-pago-al-fmi-n6342144"
+  ],
+  [
+   "Examedia · Depósitos récord",
+   "https://examedia.com.ar/portada/post/88196372"
+  ],
+  [
+   "C5N · Merval",
+   "https://www.c5n.com/economia/riesgo-pais-bonos-acciones-argentinas-miercoles-11-noviembre-2026"
+  ],
+  [
+   "BAE Negocios · Merval",
+   "https://www.baenegocios.com/finanzas/el-merval-opera-con-cautela-y-el-riesgo-pais-ronda-los-850-puntos/"
+  ],
+  [
+   "Perfil · Inflación de octubre",
+   "https://www.perfil.com/economia/indec-publica-la-inflacion-de-octubre-los-privados-anticipan-un-dato-cercano-al-2-pero-alimentos-y-tarifas-empujan-el-indice-acLcd7V7dFm6"
+  ],
+  [
+   "CNN · Markets",
+   "https://www.cnn.com/markets"
+  ],
+  [
+   "Infobae/EFE · Petróleo",
+   "https://www.infobae.com/espana/agencias/2026/11/11/la-bolsa-sube-un-046-y-recupera-los-20000-puntos-pese-al-repunte-del-precio-del-crudo/"
+  ],
+  [
+   "DailyForex · Oro e inflación EE.UU.",
+   "https://es.dailyforex.com/forex-news/2026/11/forex-hoy-ipc-en-usa-muestra-desaceleracion-11-noviembre-2026/251695"
+  ],
+  [
+   "La Política Online",
+   "https://www.lapoliticaonline.com/"
+  ],
+  [
+   "Página/12",
+   "https://www.pagina12.com.ar/"
+  ],
+  [
+   "El Cronista · Dólar en bancos y BCRA",
+   "https://www.cronista.com/finanzas-mercados/dolar-hoy-a-cuanto-cotiza-el-oficial-en-los-bancos-de-la-city-hoy-miercoles-11-de-noviembre/"
+  ],
+  [
+   "Infobae · Licitación del Tesoro",
+   "https://www.infobae.com/economia/2026/11/11/el-gobierno-enfrenta-vencimientos-por-mas-de-10-billones-hoy-que-esperan-en-el-mercado/"
+  ],
+  [
+   "Perfil · REM del BCRA",
+   "https://perfil.com/economia/rem-del-bcra-el-precio-que-le-ponen-a-la-inflacion-y-al-dolar-45-actores-del-mercado-a9fcc7k2dRuP"
+  ],
+  [
+   "DolarHoy · REM: crecimiento 0,7%",
+   "https://dolarhoy.com/economia/el-rem-redujo-a-0-7-el-crecimiento-esperado-y-elevo-la-inflacion-de-2026-202611614530"
+  ],
+  [
+   "Forbes AR · Confianza en el Gobierno (Di Tella)",
+   "https://www.forbesargentina.com/today/la-confianza-gobierno-milei-subio-octubre-pero-acumula-una-caida-207-fines-2025-n101138"
+  ],
+  [
+   "Infobae · FMyA y reservas",
+   "https://infobae.com/economia/2026/11/10/por-que-la-suba-del-riesgo-pais-afecta-la-compra-de-reservas-del-banco-central-y-la-cobertura-cambiaria"
+  ]
+ ]
+}
