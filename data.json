@@ -1,9 +1,9 @@
 {
  "fecha": "Miércoles 11 de noviembre de 2026",
- "corte": "Actualizado a las 15:45 h",
+ "corte": "Actualizado a las 16:40 h · cierre del mercado cambiario",
  "frase": "El riesgo país afloja a 853 puntos y el Tesoro sale a renovar $10,6 billones.",
  "claves": [
-  "El mayorista sube a $1.566,90, lejos del techo de la banda ($1.958); el blue sigue debajo del oficial.",
+  "El dólar cerró calmo: mayorista $1.544 y blue $1.565, con el MEP apenas arriba del oficial.",
   "REM del BCRA: el mercado espera 1,8% de inflación en octubre y crecimiento de apenas 0,7% en 2026.",
   "Confianza en el Gobierno (Di Tella): 1,95 puntos en octubre, cerca de los mínimos de la gestión."
  ],
@@ -11,28 +11,28 @@
   {
    "k": "Dólar oficial",
    "v": "$1.570",
-   "d": "BNA venta · mayorista $1.566,90",
+   "d": "BNA venta · mayorista $1.544",
    "tend": "flat",
    "estado": "verde"
   },
   {
    "k": "Dólar MEP",
-   "v": "$1.571",
-   "d": "Brecha 0,3%",
+   "v": "$1.573",
+   "d": "Cierre · brecha 1,9%",
    "tend": "flat",
    "estado": "verde"
   },
   {
    "k": "Contado con liqui",
-   "v": "$1.664",
-   "d": "Brecha 6,2%",
+   "v": "$1.666",
+   "d": "Cierre · brecha 7,9%",
    "tend": "flat",
    "estado": "amarillo"
   },
   {
    "k": "Dólar blue",
    "v": "$1.565",
-   "d": "Debajo del oficial",
+   "d": "Cierre · subió $10",
    "tend": "flat",
    "estado": "verde"
   },
@@ -68,7 +68,7 @@
   {
    "k": "Licitación hoy",
    "v": "$10,6 bn",
-   "d": "Rollover esperado: 90%–100%",
+   "d": "Resultado pendiente · se esperaba 90%–100%",
    "tend": "flat",
    "estado": "amarillo"
   },
@@ -221,7 +221,7 @@
  ],
  "agenda": [
   {
-   "w": "Hoy · tarde",
+   "w": "Hoy · noche",
    "b": "Resultado de la licitación del Tesoro"
   },
   {
@@ -238,6 +238,14 @@
   }
  ],
  "fuentes": [
+  [
+   "Ámbito · Dólar al cierre 11/11",
+   "https://www.ambito.com/finanzas/dolar-blue-hoy-cuanto-cerro-este-miercoles-11-noviembre-n6344115"
+  ],
+  [
+   "El Litoral · Cierre del dólar 11/11",
+   "https://www.ellitoral.com/economia/cerro-dolar-bancos-argentinos-miercoles-11-noviembre-2026-blue-mep_0_xeX9fXn0mj.html"
+  ],
   [
    "La Nación · Dólar en vivo",
    "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotizan-el-oficial-y-el-paralelo-este-miercoles-11-de-nid11112026/"
