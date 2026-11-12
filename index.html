@@ -8,7 +8,7 @@
 <meta name="apple-mobile-web-app-title" content="Pizarra">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Oswald:wght@600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Oswald:wght@600;700&family=Playfair+Display:wght@700;800;900&family=Newsreader:ital,opsz,wght@1,6..72,400;1,6..72,500&display=swap" rel="stylesheet">
 <style>
 /* Minimalista, una sola pantalla: clima del día arriba; izquierda números (con modo "en criollo"); derecha lectura / empresas / titulares; abajo agenda. */
 :root{
@@ -297,7 +297,7 @@ footer details[open] .src{box-shadow:var(--sh-md)}
 .arr{display:inline-block;font-size:.55em;margin-left:6px;vertical-align:.32em;font-weight:900}
 .arr.good{color:var(--up)} .arr.bad{color:var(--down)} .arr.neu{color:var(--muted)}
 @keyframes subir{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
-.ind,.world,.panel,.ag,.lead,.clima{animation:subir .45s cubic-bezier(.2,.7,.2,1) both}
+.ind,.world,.panel,.ag,.lead,.tapa{animation:subir .45s cubic-bezier(.2,.7,.2,1) both}
 .grid .ind:nth-child(2){animation-delay:.03s}.grid .ind:nth-child(3){animation-delay:.06s}.grid .ind:nth-child(4){animation-delay:.09s}
 .grid .ind:nth-child(5){animation-delay:.12s}.grid .ind:nth-child(6){animation-delay:.15s}.grid .ind:nth-child(7){animation-delay:.18s}
 .grid .ind:nth-child(8){animation-delay:.21s}.grid .ind:nth-child(9){animation-delay:.24s}.grid .ind:nth-child(10){animation-delay:.27s}.grid .ind:nth-child(11){animation-delay:.3s}
@@ -311,7 +311,7 @@ footer .src{columns:auto;display:grid;grid-template-columns:repeat(auto-fill,min
 .src-h{font-size:12px;font-weight:800;color:var(--ink);margin-bottom:4px}
 .src-card a{display:block;font-size:12px;color:var(--muted);padding:2px 0}
 .src-card a:hover{color:var(--accent);text-decoration:underline}
-@media (prefers-reduced-motion:reduce){ .ind,.world,.panel,.ag,.lead,.clima{animation:none} .toast{transition:none} }
+@media (prefers-reduced-motion:reduce){ .ind,.world,.panel,.ag,.lead,.tapa{animation:none} .toast{transition:none} }
 /* ===== Encabezado con la identidad del canal (negro, blanco y rojo YouTube) ===== */
 .hdr{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:12px 20px;padding:12px 16px;border-radius:18px;
   background:linear-gradient(180deg,#ffffff,#f6f7f9);border:1px solid rgba(17,24,39,.08);box-shadow:var(--sh-md),inset 0 1px 0 #fff;position:relative;overflow:hidden}
@@ -382,6 +382,59 @@ footer .src{columns:auto;display:grid;grid-template-columns:repeat(auto-fill,min
   box-shadow:inset 0 1px 0 rgba(255,255,255,.3),0 6px 16px -6px rgba(37,211,102,.65),0 2px 4px rgba(16,24,40,.08)}
 .btn-guion:hover{background:linear-gradient(180deg,#2be070,#1fb257);box-shadow:inset 0 1px 0 rgba(255,255,255,.3),0 10px 22px -8px rgba(37,211,102,.7),0 2px 4px rgba(16,24,40,.08)}
 .btn-guion:focus-visible{outline:2px solid #128C7E;outline-offset:3px}
+/* ===== Resumen del día con estética de tapa de diario ===== */
+.tapa{position:relative;padding:12px 0 12px;border-top:3px double var(--ink);border-bottom:1px solid var(--ink)}
+.volanta{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;margin:0 0 4px}
+.volanta .clima-tag{background:none;box-shadow:none;padding:0;border-radius:0;color:#c8102e;font:700 13px/1.2 "Oswald",Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase}
+.volanta .clima-tag::before{content:"";display:inline-block;width:9px;height:9px;margin-right:8px;background:currentColor;vertical-align:.05em}
+.volanta .clima-tag.tranquilo{color:#0f8c62} .volanta .clima-tag.tenso{color:#b86e00} .volanta .clima-tag.rebote{color:#2457c5}
+.volanta .clima-tag.panico,.volanta .clima-tag.atipico{color:#c8102e}
+.dateline{font:600 11px/1.2 var(--font);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.dateline::before{content:"—";margin-right:10px;color:var(--ring-strong)}
+.tapa .lead{font:900 clamp(26px,3.3vw,42px)/1.08 "Playfair Display",Georgia,"Times New Roman",serif;letter-spacing:-.012em;color:var(--ink);margin:2px 0 6px;max-width:30ch;text-wrap:balance}
+.bajada{margin:0;font:italic 500 clamp(15px,1.35vw,18px)/1.4 "Newsreader",Georgia,serif;color:var(--muted);max-width:70ch}
+.tapa .atipica{display:block;margin:10px 0 0;padding:6px 0 6px 12px;background:none;border:0;border-left:3px solid #c8102e;border-radius:0;font:italic 400 14px/1.4 "Newsreader",Georgia,serif;color:var(--ink);max-width:95ch}
+.tapa .atipica::before{content:"Nota de la redacción. ";font:700 11px/1 var(--font);letter-spacing:.1em;text-transform:uppercase;color:#c8102e;font-style:normal;margin-right:4px}
+.tapa .atipica[hidden]{display:none}
+@media (min-width:1001px) and (min-height:740px){
+  .tapa{padding:8px 0 9px}
+  .tapa .lead{font-size:clamp(24px,2.5vw,34px);margin-bottom:4px;max-width:none}
+  .bajada{font-size:16px}
+  .tapa .atipica{margin-top:6px;padding:3px 0 3px 12px;font-size:13.5px}
+}
+@media (max-width:560px){ .tapa .lead{font-size:29px} }
+@media (min-width:1001px){
+  .tapa{display:grid;grid-template-columns:minmax(0,1fr) 300px;column-gap:28px;align-items:start}
+  .tapa .volanta,.tapa .lead,.tapa .bajada{grid-column:1}
+  .tapa .atipica{grid-column:2;grid-row:1 / span 3;align-self:center;margin:0;padding:8px 0 8px 14px;font-size:13.5px}
+  .tapa .atipica::before{display:block;margin:0 0 4px}
+}
+@media (min-width:1001px) and (min-height:740px){
+  .tapa .lead{font-size:clamp(24px,2.3vw,32px)}
+  .bajada{font-size:15.5px}
+}
+@media (max-width:560px){
+  .dateline{display:block;width:100%;letter-spacing:.06em}
+  .dateline::before{display:none}
+}
+@media (min-width:1001px) and (min-height:740px) and (max-height:1000px){
+  .sh-s{display:none}
+  .sh{align-items:center;margin-bottom:6px}
+  .tapa{padding:6px 0 7px}
+  .tapa .lead{font-size:clamp(24px,2.15vw,30px);margin:0 0 3px}
+  .bajada{font-size:15px}
+  .ind .d{line-height:1.35}
+  #hoy .sh{margin-bottom:6px}
+}
+@media (min-width:1001px) and (min-height:740px) and (max-height:1000px){
+  .grid{gap:7px}
+  .ind{padding:7px 11px 6px}
+  .ind .v{font-size:clamp(17px,1.45vw,21px);margin-top:1px}
+  .ind .d{font-size:11.5px;margin-top:1px}
+  .ind.wide svg{height:40px}
+  .world{padding:6px 12px;gap:2px 16px;font-size:12.5px}
+  .world-wrap{margin-top:6px}
+}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 </head>
@@ -403,9 +456,12 @@ footer .src{columns:auto;display:grid;grid-template-columns:repeat(auto-fill,min
 
   <section id="hoy">
     <div class="sh"><div class="sh-t"><span class="sh-i sh-hoy" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg></span><div><h2>Resumen del día</h2><p class="sh-s">El clima del mercado y lo más importante, en una línea</p></div></div></div>
-    <div class="clima"><span class="clima-tag" id="clima-tag"></span><span class="clima-por" id="clima-por"></span></div>
-    <p class="lead" id="frase"></p>
-    <div class="atipica" id="atipica" hidden></div>
+    <article class="tapa">
+      <div class="volanta"><span class="clima-tag" id="clima-tag"></span><span class="dateline" id="dateline"></span></div>
+      <h1 class="lead" id="frase"></h1>
+      <p class="bajada" id="clima-por"></p>
+      <p class="atipica" id="atipica" hidden></p>
+    </article>
   </section>
 
   <div class="main">
@@ -494,7 +550,7 @@ footer .src{columns:auto;display:grid;grid-template-columns:repeat(auto-fill,min
   function pintar(D){
     $('fecha').textContent=D.fecha||''; $('corte').textContent=D.corte||'';
     var c=D.clima||{}; $('clima-tag').textContent=c.tag||'Hoy'; $('clima-tag').className='clima-tag '+(c.tipo||''); $('clima-por').textContent=c.por||'';
-    $('frase').textContent=D.frase||'';
+    $('frase').textContent=D.frase||''; $('dateline').textContent='Buenos Aires, '+(D.fecha||'');
     if(D.atipica){ $('atipica').textContent=D.atipica; $('atipica').hidden=false; }
 
     var grid=$('grid'), spark=null;
