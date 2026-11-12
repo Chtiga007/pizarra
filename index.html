@@ -626,8 +626,7 @@ footer .src{columns:auto;display:grid;grid-template-columns:repeat(auto-fill,min
 
     // Aviso de datos viejos
     if(D.iso){ var now=new Date(new Date().toLocaleString('en-US',{timeZone:'America/Argentina/Buenos_Aires'}));
-      var exp=new Date(now); if(now.getHours()*60+now.getMinutes()<19*60) exp.setDate(exp.getDate()-1);
-      while(exp.getDay()===0||exp.getDay()===6) exp.setDate(exp.getDate()-1);
+      var exp=new Date(now); if(now.getHours()*60+now.getMinutes()<13*60) exp.setDate(exp.getDate()-1);
       var e=exp.getFullYear()+'-'+String(exp.getMonth()+1).padStart(2,'0')+'-'+String(exp.getDate()).padStart(2,'0');
       if(D.iso<e){ var b=el('div','stale','Atención: estos datos son del '+D.fecha+'. La actualización de hoy todavía no llegó.'); b.setAttribute('role','status'); $('pizarra').insertBefore(b,$('pizarra').children[1]); } }
 
