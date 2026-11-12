@@ -240,6 +240,29 @@ body{background:radial-gradient(1200px 520px at 12% -12%,var(--glow),transparent
 .modal{backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
 .stale{box-shadow:var(--sh-sm)}
 footer details[open] .src{box-shadow:var(--sh-md)}
+/* ===== Títulos de sección ===== */
+.sh{align-items:flex-end;margin:0 0 10px}
+.sh-t{display:flex;align-items:center;gap:10px;min-width:0}
+.sh-i{flex:none;width:30px;height:30px;border-radius:9px;display:grid;place-items:center;color:var(--accent);background:linear-gradient(180deg,var(--card),var(--card2));border:1px solid var(--ring);box-shadow:var(--sh-sm),var(--hi)}
+.sh-i svg{width:16px;height:16px}
+.sh h2{font-size:15px;font-weight:800;letter-spacing:-.01em;text-transform:none;color:var(--ink);line-height:1.2}
+.sh-s{margin:1px 0 0;font-size:12px;color:var(--muted);line-height:1.3}
+#hoy .sh{margin-bottom:8px}
+.world-wrap{margin-top:12px}
+.world-wrap .world{margin-top:0}
+#lectura .sh-i{color:#7a4fd6}
+#agenda-sec .sh-i{color:var(--warn)}
+.world-wrap .sh-i{color:var(--up)}
+#hoy .sh-i{color:#e08a00}
+@media (min-width:1001px) and (min-height:740px){
+  .sh{margin-bottom:7px}
+  .sh-i{width:26px;height:26px;border-radius:8px}
+  .sh-i svg{width:14px;height:14px}
+  .sh h2{font-size:14px}
+  .sh-s{font-size:11.5px}
+  .world-wrap{margin-top:8px}
+  .world-wrap .sh{margin-bottom:6px}
+}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 </head>
@@ -254,6 +277,7 @@ footer details[open] .src{box-shadow:var(--sh-md)}
   </header>
 
   <section id="hoy">
+    <div class="sh"><div class="sh-t"><span class="sh-i" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v2M12 19v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M3 12h2M19 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4"/><circle cx="12" cy="12" r="4"/></svg></span><div><h2>Resumen del día</h2><p class="sh-s">El clima del mercado y lo más importante, en una línea</p></div></div></div>
     <div class="clima"><span class="clima-tag" id="clima-tag"></span><span class="clima-por" id="clima-por"></span></div>
     <p class="lead" id="frase"></p>
     <div class="atipica" id="atipica" hidden></div>
@@ -261,11 +285,12 @@ footer details[open] .src{box-shadow:var(--sh-md)}
 
   <div class="main">
     <section id="indicadores">
-      <div class="sh"><h2>Argentina en números</h2><button class="toggle" id="btn-criollo" type="button" aria-pressed="false">Explicar en criollo</button></div>
+      <div class="sh"><div class="sh-t"><span class="sh-i" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19V9M10 19V5M16 19v-7M22 19H2"/></svg></span><div><h2>Argentina en números</h2><p class="sh-s">Dólar, riesgo país, reservas y bolsa · valores de cierre</p></div></div><button class="toggle" id="btn-criollo" type="button" aria-pressed="false">Explicar en criollo</button></div>
       <div class="grid" id="grid"></div>
-      <div class="world" id="mundo" aria-label="Mercados internacionales"></div>
+      <div class="world-wrap"><div class="sh"><div class="sh-t"><span class="sh-i" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3z"/></svg></span><div><h2>Mercados del mundo</h2><p class="sh-s">Wall Street, empresas clave y la Fed</p></div></div></div><div class="world" id="mundo" aria-label="Mercados internacionales"></div></div>
     </section>
     <section id="lectura">
+      <div class="sh"><div class="sh-t"><span class="sh-i" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h11a3 3 0 013 3v11H7a3 3 0 01-3-3V5z"/><path d="M8 9h6M8 13h6"/></svg></span><div><h2>Análisis del día</h2><p class="sh-s">Qué pasó, por qué, y qué significa para vos</p></div></div></div>
       <div class="panel">
         <div class="tabs" role="tablist">
           <button class="tab" role="tab" id="t-lec" aria-selected="true" aria-controls="p-lec">Lectura del día</button>
@@ -287,7 +312,7 @@ footer details[open] .src{box-shadow:var(--sh-md)}
   </div>
 
   <section id="agenda-sec">
-    <div class="sh"><h2>Lo que viene</h2></div>
+    <div class="sh"><div class="sh-t"><span class="sh-i" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></span><div><h2>Agenda: lo que viene</h2><p class="sh-s">Datos, vencimientos y reuniones de los próximos días</p></div></div></div>
     <div class="agenda" id="agenda"></div>
   </section>
 
