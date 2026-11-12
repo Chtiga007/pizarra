@@ -131,9 +131,21 @@ footer .src a:hover{color:var(--accent)}
 .mhead{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:14px 16px;border-bottom:1px solid var(--line)}
 .mhead b{font-size:15px}
 .mclose{border:0;background:transparent;font-size:22px;line-height:1;cursor:pointer;color:var(--muted);padding:2px 6px}
-.mbox textarea{flex:1;min-height:320px;border:0;padding:14px 16px;font:13.5px/1.5 ui-monospace,Menlo,Consolas,monospace;background:var(--bg);color:var(--ink);resize:none}
+.mbox textarea{flex:1;min-height:320px;width:100%;border:0;padding:14px 16px;font:16px/1.5 var(--font);background:var(--bg);color:var(--ink);resize:none;-webkit-text-size-adjust:100%}
+.mbox textarea[readonly]{cursor:default}
 .mfoot{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:12px 16px;border-top:1px solid var(--line)}
 .mfoot span{font-size:12px;color:var(--muted)}
+.mact{display:flex;gap:8px}
+.btn-sec{background:transparent;border:1px solid var(--line);color:var(--ink);border-radius:999px;padding:8px 14px;font-weight:700;font-size:13px;cursor:pointer}
+@media (max-width:640px){
+  .modal{padding:0;align-items:stretch}
+  .mbox{width:100%;height:100%;max-height:none;border-radius:0;padding-top:env(safe-area-inset-top);padding-bottom:env(safe-area-inset-bottom)}
+  .mbox textarea{min-height:0}
+  .mfoot{flex-direction:column;align-items:stretch}
+  .mfoot span{text-align:center}
+  .mact{flex-direction:row}
+  .mact button{flex:1;padding:14px;font-size:16px}
+}
 
 @media (max-width:1000px){ .main{grid-template-columns:1fr} .pane{max-height:none} }
 @media (max-width:560px){
@@ -224,8 +236,8 @@ footer .src a:hover{color:var(--accent)}
 <div class="modal" id="modal" hidden role="dialog" aria-modal="true" aria-labelledby="m-title">
   <div class="mbox">
     <div class="mhead"><b id="m-title">Guion del día para WhatsApp</b><button class="mclose" id="m-close" type="button" aria-label="Cerrar">×</button></div>
-    <textarea id="m-text" spellcheck="false"></textarea>
-    <div class="mfoot"><span id="m-msg">Podés editar el texto antes de copiarlo.</span><button class="btn-guion" id="m-copy" type="button">Copiar</button></div>
+    <textarea id="m-text" spellcheck="false" readonly></textarea>
+    <div class="mfoot"><span id="m-msg">Tocá "Copiar" y pegalo en WhatsApp.</span><div class="mact"><button class="btn-sec" id="m-edit" type="button">Editar</button><button class="btn-guion" id="m-copy" type="button">Copiar</button></div></div>
   </div>
 </div>
 
@@ -313,14 +325,15 @@ footer .src a:hover{color:var(--accent)}
 
     // Guion
     var modal=$('modal'), ta=$('m-text');
-    $('abrir-guion').addEventListener('click',function(){ ta.value=armarGuion(D); modal.hidden=false; $('m-msg').textContent='Podés editar el texto antes de copiarlo.'; ta.focus(); ta.setSelectionRange(0,0); });
-    function cerrar(){ modal.hidden=true; }
+    $('abrir-guion').addEventListener('click',function(){ ta.value=armarGuion(D); ta.readOnly=true; $('m-edit').textContent='Editar'; modal.hidden=false; ta.scrollTop=0; $('m-msg').textContent='Tocá "Copiar" y pegalo en WhatsApp.'; document.body.style.overflow='hidden'; });
+    $('m-edit').addEventListener('click',function(){ if(ta.readOnly){ ta.readOnly=false; this.textContent='Listo'; ta.focus(); } else { ta.readOnly=true; this.textContent='Editar'; ta.blur(); } });
+    function cerrar(){ modal.hidden=true; ta.blur(); document.body.style.overflow=''; }
     $('m-close').addEventListener('click',cerrar);
     modal.addEventListener('click',function(e){ if(e.target===modal) cerrar(); });
     document.addEventListener('keydown',function(e){ if(e.key==='Escape') cerrar(); });
     $('m-copy').addEventListener('click',function(){
       function ok(){ $('m-msg').textContent='¡Copiado! Pegalo en WhatsApp.'; }
-      function manual(){ ta.focus(); ta.select(); try{ if(document.execCommand('copy')) return ok(); }catch(_){} $('m-msg').textContent='Seleccioná todo el texto y copialo manualmente.'; }
+      function manual(){ var ro=ta.readOnly; ta.readOnly=false; ta.focus(); ta.setSelectionRange(0,ta.value.length); var done=false; try{ done=document.execCommand('copy'); }catch(_){} ta.blur(); ta.readOnly=ro; if(done) return ok(); $('m-msg').textContent='Mantené apretado el texto, elegí "Seleccionar todo" y copialo.'; }
       try{ navigator.clipboard.writeText(ta.value).then(ok,manual); }catch(_){ manual(); }
     });
 
