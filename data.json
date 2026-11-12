@@ -12,7 +12,7 @@
  "claves": [
   "La inflación de octubre fue 2,2%, más que el 1,9% de septiembre; 33,1% en doce meses.",
   "El Banco Central compró USD 103 millones, lo más alto del mes, pero las reservas bajaron USD 252 millones.",
-  "Renunció el CEO de Nvidia y Wall Street cayó 0,4%; acá el riesgo país bajó a 822."
+  "Renunció el CEO de Nvidia y Wall Street cayó 0,4%; acá el riesgo país bajó a 813."
  ],
  "indicadores": [
   {
@@ -45,8 +45,8 @@
   },
   {
    "k": "Riesgo país",
-   "v": "822",
-   "d": "−30 · venía de 852 el miércoles",
+   "v": "813",
+   "d": "−39 · venía de 852 el miércoles",
    "tend": "down",
    "estado": "rojo",
    "serie": true
@@ -146,7 +146,7 @@
   ],
   [
    "12/11",
-   822
+   813
   ]
  ],
  "mundo": [
@@ -300,7 +300,7 @@
   {
    "sec": "Economía",
    "s": "El Cronista",
-   "t": "Suben los bonos y el riesgo país baja a 822 puntos",
+   "t": "Suben los bonos y el riesgo país perfora los 820 puntos",
    "u": "https://www.cronista.com/finanzas-mercados/el-riesgo-pais-cayo-a-822-puntos-que-paso-con-los-bonos-y-las-acciones-argentinas-en-medio-del-caso-nvidia/"
   },
   {
@@ -352,7 +352,7 @@
    "b": "Reunión de la Fed: el mercado espera suba"
   }
  ],
- "guion": "*DÍA DE INFLACIÓN Y ESCÁNDALO*\n\n*1) Qué pasó en EEUU hoy en criollo*\n- La bolsa de EEUU cayó un poco: el día arrancó con un susto grande y después se calmó.\n- *S&P 500:* bajó 0,4%. Es como un promedio de las 500 empresas más grandes de EEUU.\n- *Nasdaq:* bajó 0,4%, pero a la mañana llegó a caer más de 1%. Es el índice de las tecnológicas.\n- *Dow Jones:* bajó 0,4%. Es el promedio de 30 empresas grandes y tradicionales.\n- *Nvidia:* renunció su CEO, Jensen Huang, por un escándalo personal. La acción llegó a caer 14% y cerró con −4,3%. Es la que hace los chips de la inteligencia artificial.\n- *AMD (+5,9%) y Broadcom (+5,5%):* subieron porque son competidoras de Nvidia y podrían quedarse con clientes.\n- La tasa de los bonos de EEUU a 10 años pasó el 5%. Es como el precio del crédito allá: si sube, el dinero se encarece en todo el mundo.\n\n*2) Qué pasó en Argentina hoy en criollo*\n- El dato del día: la inflación de octubre fue 2,2%, más que el 1,9% de septiembre. En el año acumula 26,3% y en los últimos 12 meses, 33,1%.\n- Lo que más subió fue vivienda, agua, luz y gas: 4,2%, por el gas.\n- *Merval:* bajó 0,95%, quinta baja seguida. Es el índice de las acciones argentinas. Subieron Metrogas (5,8%) y Comercial del Plata (3,4%); bajaron IRSA (3,6%) y BBVA (3%).\n- *Bonos:* subieron, y el *riesgo país* bajó a 822 puntos. Es como el puntaje de miedo que nos ponen los de afuera. Venía de 852.\n- *Dólar oficial:* 1.520 para comprar y 1.570 para vender en Banco Nación. Sin cambios.\n- *Dólar blue:* 1.545 y 1.565. Quieto. Es el dólar de la calle.\n- *Dólar MEP:* 1.581. Es el que comprás por la bolsa con pesos.\n- *Dólar CCL:* 1.670. Es el que usan las empresas para sacar plata afuera.\n- *Banco Central:* compró 103 millones de dólares, lo más alto del mes. Pero las reservas bajaron 252 millones, a 49.078 millones.\n\n*3) Lo que NADIE te está contando*\n- El gas pesó fuerte: el rubro vivienda y servicios subió casi el doble que el promedio, por los cambios en la Zona Fría.\n- El Banco Central compró dos días seguidos, pero las reservas cayeron igual los dos días: 312 millones ayer y 252 hoy. Y no explicó por qué.\n- En noviembre lleva comprados 183 millones; en todo octubre había comprado 1.396 millones.\n- Es como cuando cobrás unos pesos extra, pero la cuenta del banco igual te da menos a fin de mes.\n\n*4) Qué significa esto para tu bolsillo mañana*\n- Si tu sueldo o tu plazo fijo suben menos de 2,2% por mes, pierden contra los precios.\n- Si vivís en zona fría, ojo con la próxima boleta de gas: fue lo que más aumentó.\n- Dólar: el oficial y el blue siguen casi iguales. Si la tasa de EEUU sigue subiendo, puede aparecer presión.\n- Si la Fed sube la tasa en diciembre, se encarecen las deudas y cuotas en dólares.\n- En criollo: los precios no terminan de frenar y afuera el mundo está nervioso. El dólar, por ahora, aguanta.",
+ "guion": "*DÍA DE INFLACIÓN Y ESCÁNDALO*\n\n*1) Qué pasó en EEUU hoy en criollo*\n- La bolsa de EEUU cayó un poco: el día arrancó con un susto grande y después se calmó.\n- *S&P 500:* bajó 0,4%. Es como un promedio de las 500 empresas más grandes de EEUU.\n- *Nasdaq:* bajó 0,4%, pero a la mañana llegó a caer más de 1%. Es el índice de las tecnológicas.\n- *Dow Jones:* bajó 0,4%. Es el promedio de 30 empresas grandes y tradicionales.\n- *Nvidia:* renunció su CEO, Jensen Huang, por un escándalo personal. La acción llegó a caer 14% y cerró con −4,3%. Es la que hace los chips de la inteligencia artificial.\n- *AMD (+5,9%) y Broadcom (+5,5%):* subieron porque son competidoras de Nvidia y podrían quedarse con clientes.\n- La tasa de los bonos de EEUU a 10 años pasó el 5%. Es como el precio del crédito allá: si sube, el dinero se encarece en todo el mundo.\n\n*2) Qué pasó en Argentina hoy en criollo*\n- El dato del día: la inflación de octubre fue 2,2%, más que el 1,9% de septiembre. En el año acumula 26,3% y en los últimos 12 meses, 33,1%.\n- Lo que más subió fue vivienda, agua, luz y gas: 4,2%, por el gas.\n- *Merval:* bajó 0,95%, quinta baja seguida. Es el índice de las acciones argentinas. Subieron Metrogas (5,8%) y Comercial del Plata (3,4%); bajaron IRSA (3,6%) y BBVA (3%).\n- *Bonos:* subieron, y el *riesgo país* bajó a 813 puntos. Es como el puntaje de miedo que nos ponen los de afuera. Venía de 852.\n- *Dólar oficial:* 1.520 para comprar y 1.570 para vender en Banco Nación. Sin cambios.\n- *Dólar blue:* 1.545 y 1.565. Quieto. Es el dólar de la calle.\n- *Dólar MEP:* 1.581. Es el que comprás por la bolsa con pesos.\n- *Dólar CCL:* 1.670. Es el que usan las empresas para sacar plata afuera.\n- *Banco Central:* compró 103 millones de dólares, lo más alto del mes. Pero las reservas bajaron 252 millones, a 49.078 millones.\n\n*3) Lo que NADIE te está contando*\n- El gas pesó fuerte: el rubro vivienda y servicios subió casi el doble que el promedio, por los cambios en la Zona Fría.\n- El Banco Central compró dos días seguidos, pero las reservas cayeron igual los dos días: 312 millones ayer y 252 hoy. Y no explicó por qué.\n- En noviembre lleva comprados 183 millones; en todo octubre había comprado 1.396 millones.\n- Es como cuando cobrás unos pesos extra, pero la cuenta del banco igual te da menos a fin de mes.\n\n*4) Qué significa esto para tu bolsillo mañana*\n- Si tu sueldo o tu plazo fijo suben menos de 2,2% por mes, pierden contra los precios.\n- Si vivís en zona fría, ojo con la próxima boleta de gas: fue lo que más aumentó.\n- Dólar: el oficial y el blue siguen casi iguales. Si la tasa de EEUU sigue subiendo, puede aparecer presión.\n- Si la Fed sube la tasa en diciembre, se encarecen las deudas y cuotas en dólares.\n- En criollo: los precios no terminan de frenar y afuera el mundo está nervioso. El dólar, por ahora, aguanta.",
  "fuentes": [
   [
    "Ámbito · Dólar al cierre 12/11",
@@ -371,7 +371,7 @@
    "https://www.infobae.com/america/agencias/2026/11/12/la-bolsa-de-buenos-aires-cierra-con-una-caida-del-095/"
   ],
   [
-   "El Cronista · Riesgo país 822",
+   "El Cronista · Bonos y riesgo país",
    "https://www.cronista.com/finanzas-mercados/el-riesgo-pais-cayo-a-822-puntos-que-paso-con-los-bonos-y-las-acciones-argentinas-en-medio-del-caso-nvidia/"
   ],
   [
@@ -413,6 +413,10 @@
   [
    "Ámbito · Depósitos en USD (récord de octubre, dato previo)",
    "https://www.ambito.com/finanzas/las-reservas-del-bcra-cayeron-minimos-mas-un-mes-pero-se-mantuvieron-las-compras-pese-al-feriado-eeuu-n6344161"
+  ],
+  [
+   "Los Primeros TV · Riesgo país cierra en 813",
+   "https://www.losprimeros.tv/economia/el-riesgo-pais-cae-hasta-los-813-puntos_a6af61f0b7139d0df6ff19570"
   ]
  ]
 }
