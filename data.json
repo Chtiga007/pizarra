@@ -394,5 +394,37 @@
    "Letra P · Política",
    "https://www.letrap.com.ar/politica/el-gobierno-balcanizado-javier-milei-como-testigo-n5428077"
   ]
+ ],
+ "politica": [
+  {
+   "s": "La Nación",
+   "t": "En el Gobierno admiten desorden en la gestión y preocupa el cortocircuito con Bullrich",
+   "g": "La mesa política volvió a reunirse; Milei pidió no confrontar con la senadora.",
+   "u": "https://www.lanacion.com.ar/politica/en-el-gobierno-admiten-desorden-en-la-gestion-y-preocupa-el-cortocircuito-con-bullrich-nid11112026/"
+  },
+  {
+   "s": "Ámbito",
+   "t": "Se fue el Papa y Milei encara el frente interno sin Presupuesto 2027",
+   "g": "Quedan tres semanas de sesiones ordinarias y la ley de leyes sigue sin acuerdo.",
+   "u": "https://www.ambito.com/politica/papa-leon-XIV-argentina-javier-milei-iglesia-vaticano-caba-lujan-misa-carcel-devoto-en-vivo-minuto-a-minuto-11-noviembre"
+  },
+  {
+   "s": "Diario Panorama",
+   "t": "El Presupuesto 2027 quedó trabado por los reclamos de gobernadores y aliados",
+   "g": "En el Gobierno reconocen demoras: los pedidos de las provincias frenan el acuerdo.",
+   "u": "https://www.diariopanorama.com/noticia/571904/presupuesto-2027-quedo-trabado-reclamos-gobernadores-bloques-aliados"
+  },
+  {
+   "s": "Letra P",
+   "t": "Un oficialismo fragmentado, con Milei como testigo",
+   "g": "Las internas libertarias complican la agenda legislativa.",
+   "u": "https://www.letrap.com.ar/politica/el-gobierno-balcanizado-javier-milei-como-testigo-n5428077"
+  },
+  {
+   "s": "Infobae",
+   "t": "Caputo pidió no leer en clave partidaria los mensajes del papa León XIV",
+   "g": "El ministro reflexionó tras la visita del Pontífice al país.",
+   "u": "https://www.infobae.com/economia/2026/11/11/a-la-gente-que-no-tiene-fe-le-cuesta-procesar-situaciones-como-las-de-estos-dias-la-reflexion-de-caputo-tras-la-visita-del-papa/"
+  }
  ]
 }
