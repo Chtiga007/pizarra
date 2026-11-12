@@ -1,17 +1,24 @@
 {
  "fecha": "Miércoles 11 de noviembre de 2026",
- "corte": "Actualizado a las 17:25 h · licitación del Tesoro sin resultado todavía",
- "frase": "Dólar calmo y riesgo país en 853: todos esperan el resultado de la licitación de $10,6 billones.",
+ "iso": "2026-11-11",
+ "corte": "Actualizado a las 22:40 h · valores de cierre",
+ "clima": {
+  "tag": "Día raro y a media máquina",
+  "tipo": "atipico",
+  "por": "Volvió el mercado tras 5 días sin operar, pero con EE.UU. sin bonos por feriado."
+ },
+ "frase": "El Tesoro renovó el 84% real de su deuda y soltó $1,7 billones; el dólar, tranquilo.",
+ "atipica": "Rueda atípica: primera tras 5 días sin mercado y con los bonos de EE.UU. cerrados por el Día de los Veteranos. Hubo poco volumen, así que conviene no sobreinterpretar.",
  "claves": [
-  "El dólar cerró tranquilo: mayorista $1.544 y blue $1.565; el MEP quedó apenas 1,9% arriba.",
-  "EE.UU.: la inflación sorprendió y el mercado da por segura una suba de tasas en diciembre.",
-  "El jueves a las 16 h el INDEC publica la inflación de octubre; los analistas esperan 1,8%."
+  "El dólar cerró calmo: mayorista $1.544 y blue $1.565, con el MEP apenas 1,9% arriba.",
+  "El Banco Central compró USD 29 millones, pero las reservas bajaron USD 312 millones.",
+  "El jueves a las 16 h el INDEC publica la inflación de octubre; se espera 1,8%."
  ],
  "indicadores": [
   {
    "k": "Dólar oficial",
    "v": "$1.570",
-   "d": "BNA venta · mayorista $1.544",
+   "d": "BNA venta · compra $1.520",
    "tend": "flat",
    "estado": "verde"
   },
@@ -32,22 +39,22 @@
   {
    "k": "Dólar blue",
    "v": "$1.565",
-   "d": "Cierre · compra $1.545",
-   "tend": "flat",
+   "d": "Subió $10 · compra $1.545",
+   "tend": "up",
    "estado": "verde"
   },
   {
    "k": "Riesgo país",
-   "v": "853",
-   "d": "−86 desde el viernes",
+   "v": "852",
+   "d": "−87 · venía de 939 el viernes",
    "tend": "down",
    "estado": "rojo",
    "serie": true
   },
   {
    "k": "Reservas BCRA",
-   "v": "49.642 M",
-   "d": "USD · dato del 5/11 (pago al FMI)",
+   "v": "49.330 M",
+   "d": "USD · −312 M hoy",
    "tend": "down",
    "estado": "amarillo"
   },
@@ -60,23 +67,23 @@
   },
   {
    "k": "Merval",
-   "v": "≈ 84.450",
-   "d": "+0,4% · rueda volátil",
-   "tend": "up",
-   "estado": "amarillo"
-  },
-  {
-   "k": "Licitación hoy",
-   "v": "$10,6 bn",
-   "d": "Resultado pendiente · se espera ~100%",
-   "tend": "flat",
+   "v": "83.457",
+   "d": "−0,76% · cuarta baja seguida",
+   "tend": "down",
    "estado": "amarillo"
   },
   {
    "k": "Compras BCRA",
-   "v": "USD 51 M",
-   "d": "En noviembre · dato del 5/11",
-   "tend": "flat",
+   "v": "USD 29 M",
+   "d": "Hoy · USD 80 M en noviembre",
+   "tend": "up",
+   "estado": "amarillo"
+  },
+  {
+   "k": "Licitación",
+   "v": "84%",
+   "d": "Renovación real · oficial 103%",
+   "tend": "down",
    "estado": "amarillo"
   },
   {
@@ -134,59 +141,135 @@
   ],
   [
    "11/11",
-   853
+   852
   ]
  ],
  "mundo": [
   {
    "k": "S&P 500",
-   "v": "7.521",
-   "d": "cierre 10/11 · hoy +0,9%",
+   "v": "7.619",
+   "d": "+1,3%",
    "tend": "up"
   },
   {
    "k": "Nasdaq",
-   "v": "25.066",
-   "d": "cierre 10/11 · hoy +1,3%",
+   "v": "25.466",
+   "d": "+1,6%",
    "tend": "up"
   },
   {
-   "k": "Brent",
-   "v": "USD 93",
-   "d": "+1,7%",
+   "k": "Dow Jones",
+   "v": "52.486",
+   "d": "+0,5%",
    "tend": "up"
   },
   {
-   "k": "Oro",
-   "v": "USD 4.057",
-   "d": "+0,6%",
-   "tend": "up"
+   "k": "Nvidia",
+   "v": "USD 173,73",
+   "d": "cae fuerte después del cierre",
+   "tend": "down"
   },
   {
    "k": "Fed",
    "v": "3,75–4%",
-   "d": "suba descontada el 9/12",
-   "tend": "up"
+   "d": "¿suba el 9/12?",
+   "tend": "flat"
   }
  ],
+ "porque": [
+  {
+   "q": "Wall Street rebotó después de un martes feo",
+   "p": "El martes se asustó por la inflación de EE.UU. (0,4% en octubre, más de lo esperado). Hoy los buenos resultados de CoreWeave reactivaron a las tecnológicas."
+  },
+  {
+   "q": "Nvidia se desplomó después del cierre",
+   "p": "Un informe dijo que el directorio se prepara para remover a su CEO, Jensen Huang. Había subido durante la rueda."
+  },
+  {
+   "q": "Las reservas bajaron aunque el Banco Central compró",
+   "p": "Cayó el oro y se fortaleció el dólar en el mundo: eso achica el valor de lo que hay guardado."
+  },
+  {
+   "q": "El Tesoro soltó pesos",
+   "p": "Ese mismo día vencían dos bonos ajustados por inflación y lo colocado no alcanzó a cubrir todo."
+  }
+ ],
+ "oculto": "Finanzas anunció que renovó el 103% de la deuda, pero ese número deja afuera dos bonos que vencían hoy. Con ellos, la renovación real fue del 84% y el Tesoro liberó unos $1,7 billones: la primera licitación que suelta pesos desde agosto. A eso se suma que la calma de hoy fue de feriado, con EE.UU. sin operar bonos. No hubo examen de verdad.",
+ "bolsillo": [
+  "El jueves a las 16 h sale la inflación de octubre: se espera alrededor de 1,8%. Si da más alto, los precios siguen apurados.",
+  "Dólar: el blue y el oficial están casi iguales, así que no hay apuro ni ganga.",
+  "Si la Fed sube la tasa en diciembre, el crédito se encarece en todo el mundo: ojo con deudas y cuotas en dólares.",
+  "Los $1,7 billones que soltó el Tesoro son pesos que el mercado va a mirar: si se van al dólar, presionan."
+ ],
+ "empresas": {
+  "ar": [
+   {
+    "n": "Comercial del Plata",
+    "c": "+8,7%",
+    "que": "Holding argentino con negocios en energía y otras industrias."
+   },
+   {
+    "n": "Telecom",
+    "c": "+4,7%",
+    "que": "Internet, celulares (Personal) y TV por cable."
+   },
+   {
+    "n": "Supervielle",
+    "c": "+2,9%",
+    "que": "Banco privado argentino."
+   },
+   {
+    "n": "YPF",
+    "c": "−3,9%",
+    "que": "La petrolera de mayoría estatal: nafta, gas y Vaca Muerta."
+   },
+   {
+    "n": "TGS",
+    "c": "−2,1%",
+    "que": "Transporta el gas por los gasoductos del sur."
+   },
+   {
+    "n": "Banco Macro",
+    "c": "−1,2%",
+    "que": "Uno de los bancos privados más grandes del país."
+   }
+  ],
+  "eeuu": [
+   {
+    "n": "Nvidia",
+    "c": "−8,6% fuera de hora",
+    "que": "Hace los chips de la inteligencia artificial. Cerró en USD 173,73 y cayó después."
+   },
+   {
+    "n": "CoreWeave",
+    "c": "subió fuerte",
+    "que": "Alquila computadoras para IA. Sus resultados impulsaron a las tecnológicas."
+   },
+   {
+    "n": "Apple",
+    "c": "récord",
+    "que": "La del iPhone. Marcó un nuevo máximo histórico."
+   }
+  ]
+ },
  "titulares": [
   {
    "sec": "Economía",
    "s": "Infobae",
-   "t": "Licitación de $10,6 billones: el mercado apuesta a renovar casi todo",
-   "u": "https://www.infobae.com/economia/2026/11/11/el-gobierno-enfrenta-vencimientos-por-mas-de-10-billones-hoy-que-esperan-en-el-mercado/"
+   "t": "Licitación: el Gobierno renovó el 84% real y liberó pesos al mercado",
+   "u": "https://www.infobae.com/economia/2026/11/11/licitacion-clave-el-gobierno-renovo-el-84-de-los-vencimientos-de-deuda-y-libero-pesos-al-mercado/"
   },
   {
    "sec": "Economía",
-   "s": "iProfesional",
-   "t": "Después de hoy vienen dos licitaciones más pesadas: unos $66 billones",
-   "u": "https://www.iprofesional.com/finanzas/468799-el-gobierno-busca-renovar-105-billones-de-deuda-y-cae-el-riesgo-pais"
+   "s": "La Nación",
+   "t": "El Banco Central aprovechó un dólar ofrecido y compró USD 29 millones",
+   "u": "https://www.lanacion.com.ar/economia/el-banco-central-aprovecho-un-dolar-ofrecido-para-comprar-us29-millones-nid11112026/"
   },
   {
    "sec": "Economía",
-   "s": "Perfil",
-   "t": "El dólar volvió a operar tras los feriados con una suba leve",
-   "u": "https://www.perfil.com/economia/el-dolar-opera-al-alza-este-miercoles-tras-cinco-dias-sin-actividad-adNy13S9O6dB"
+   "s": "Infobae",
+   "t": "La Bolsa porteña cayó por cuarta rueda seguida",
+   "u": "https://www.infobae.com/economia/2026/11/11/la-bolsa-portena-cayo-por-cuarta-rueda-seguida-y-se-mantiene-la-cautela-sobre-las-acciones-y-los-bonos-argentinos/"
   },
   {
    "sec": "Política",
@@ -208,22 +291,18 @@
   },
   {
    "sec": "Mundo",
-   "s": "La Nación / AP",
-   "t": "La inflación de EE.UU. sorprendió al alza y Wall Street cerró en baja",
-   "u": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-tuesday-11102026-nid10112026/"
+   "s": "AP / Yahoo Finance",
+   "t": "Wall Street rebotó de la mano de la inteligencia artificial",
+   "u": "https://finance.yahoo.com/markets/stocks/articles/major-us-stock-indexes-fared-211834867.html"
   },
   {
    "sec": "Mundo",
-   "s": "Reuters vía T&I News",
-   "t": "El oro rebota y el mercado da por hecha una suba de la Fed en diciembre",
-   "u": "https://www.tradingandinvestmentnews.co.uk/gold-price-rebound-fed-hike-bets/"
+   "s": "Stocktitan / CNBC",
+   "t": "Nvidia cae después del cierre por versiones de que removerían a su CEO",
+   "u": "https://www.stocktitan.net/articles/stock-market-today-live-november-11-2026"
   }
  ],
  "agenda": [
-  {
-   "w": "Hoy · noche",
-   "b": "Resultado de la licitación del Tesoro"
-  },
   {
    "w": "Jueves 12/11 · 16 h",
    "b": "INDEC publica la inflación de octubre"
@@ -235,60 +314,77 @@
   {
    "w": "Mar. 8 y mié. 9/12",
    "b": "Reunión de la Fed: el mercado espera suba"
+  },
+  {
+   "w": "Martes 15/12",
+   "b": "Vencen $36,6 bn en pesos"
   }
  ],
+ "guion": "*DÍA RARO Y A MEDIA MÁQUINA*\n\n*1) Qué pasó en EEUU hoy en criollo*\n- La bolsa de EEUU rebotó después de un martes feo. Ayer se asustó y hoy respiró.\n- *Nasdaq:* subió 1,6%. Es el índice de las empresas de tecnología: apps, chips e inteligencia artificial.\n- *S&P 500:* subió 1,3%. Es como un promedio de las 500 empresas más grandes de EEUU.\n- *Dow Jones:* subió 0,5%. Es el promedio de 30 empresas grandes y tradicionales.\n- *Nvidia:* cerró en 173,73 dólares, pero después del cierre se desplomó: salió la versión de que el directorio quiere sacar a su CEO. Es la que hace los chips de la inteligencia artificial.\n- ¿Por qué el susto de ayer? En EEUU los precios subieron 0,4% en octubre, más de lo esperado. Eso hace pensar que la Fed, que es como su Banco Central, suba la tasa en diciembre.\n\n*2) Qué pasó en Argentina hoy en criollo*\n- Volvimos de 5 días sin mercado por los feriados y la visita del Papa. Y en EEUU no operaron los bonos por feriado, así que hubo poco movimiento.\n- *Merval:* bajó 0,76%. Es el índice de las acciones argentinas. Subieron Comercial del Plata (8,7%) y Telecom (4,7%); bajó YPF (3,9%).\n- *Riesgo país:* 852 puntos. Es como el puntaje de miedo que nos ponen los de afuera. El viernes estaba en 939.\n- *Dólar oficial:* 1.520 para comprar y 1.570 para vender en Banco Nación.\n- *Dólar blue:* 1.545 y 1.565. Subió 10 pesos. Es el dólar de la calle.\n- *Dólar MEP:* 1.573. Es el que comprás por la bolsa con pesos.\n- *Dólar CCL:* 1.666. Es el que usan las empresas para sacar plata afuera.\n- *Banco Central:* compró 29 millones de dólares, pero las reservas igual bajaron 312 millones, a 49.330 millones.\n\n*3) Lo que NADIE te está contando*\n- El Gobierno dijo que renovó el 103% de la deuda en pesos, pero ese número deja afuera dos bonos que vencían hoy.\n- Contándolos, renovó el 84% y soltó unos 1,7 billones de pesos a la calle. Es la primera vez desde agosto.\n- Es como cuando decís que pagaste todas las cuentas del mes, pero te olvidaste de dos.\n- Y la calma de hoy fue de feriado: en EEUU no hubo examen de bonos.\n\n*4) Qué significa esto para tu bolsillo mañana*\n- Mañana a las 16 sale la inflación de octubre. Se espera alrededor de 1,8%.\n- Si tenés que comprar dólares, el blue y el oficial están casi iguales: no hay apuro ni ganga.\n- Si tenés cuotas o deudas en dólares, ojo: si EEUU sube la tasa en diciembre, el crédito se encarece en todo el mundo.\n- En criollo: hoy fue un día de pausa. Mañana, con todo el mundo operando y el dato de inflación, se va a ver para dónde va la cosa.",
  "fuentes": [
   [
    "Ámbito · Dólar al cierre 11/11",
    "https://www.ambito.com/finanzas/dolar-blue-hoy-cuanto-cerro-este-miercoles-11-noviembre-n6344115"
   ],
   [
-   "Perfil · Dólar, Merval y bonos 11/11",
-   "https://www.perfil.com/economia/el-dolar-opera-al-alza-este-miercoles-tras-cinco-dias-sin-actividad-adNy13S9O6dB"
+   "El Litoral · Cierre del dólar 11/11",
+   "https://www.ellitoral.com/economia/cerro-dolar-bancos-argentinos-miercoles-11-noviembre-2026-blue-mep_0_xeX9fXn0mj.html"
   ],
   [
-   "El Cronista · Dólar en bancos y BCRA",
-   "https://www.cronista.com/finanzas-mercados/dolar-hoy-a-cuanto-cotiza-el-oficial-en-los-bancos-de-la-city-hoy-miercoles-11-de-noviembre/"
+   "EFE / ABC · Merval al cierre",
+   "https://www.abc.com.py/internacionales/2026/11/11/la-bolsa-de-buenos-aires-cierra-con-una-bajada-del-076/"
   ],
   [
-   "Infobae · Mercados 11/11",
-   "https://www.infobae.com/economia/2026/11/11/mercados-las-acciones-argentinas-operan-sin-cambios-en-una-jornada-con-actividad-limitada-en-wall-street/"
+   "El Cronista · Acciones y riesgo país 852",
+   "https://www.cronista.com/finanzas-mercados/acciones-y-bonos-volvieron-a-caer-y-el-riesgo-pais-cerro-en-852-puntos/"
   ],
   [
-   "C5N · Riesgo país 11/11",
-   "https://www.c5n.com/economia/riesgo-pais-bonos-acciones-argentinas-miercoles-11-noviembre-2026"
+   "Examedia · Acciones que bajaron",
+   "https://examedia.com.ar/portada/post/88220897"
   ],
   [
-   "Ámbito · Bonos y acciones 11/11",
-   "https://www.ambito.com/finanzas/bonos-y-acciones-la-city-local-vuelve-operar-despues-los-feriados-pero-la-referencia-wall-street-n6343901"
+   "La Nación · BCRA compró USD 29 M",
+   "https://www.lanacion.com.ar/economia/el-banco-central-aprovecho-un-dolar-ofrecido-para-comprar-us29-millones-nid11112026/"
   ],
   [
-   "Infobae · Reservas, compras y pago al FMI",
-   "https://www.infobae.com/economia/2026/11/05/el-banco-central-ya-compro-mas-de-usd-16000-millones-en-2026-pero-las-reservas-cayeron-por-un-pago-al-fmi/"
+   "BAE Negocios · Reservas USD 49.330 M",
+   "https://www.baenegocios.com/finanzas/el-dolar-bajo-tras-cinco-dias-sin-operaciones-y-el-bcra-compro-otros-usd-29-millones/"
   ],
   [
-   "E. German · Informe Monetario del BCRA (depósitos)",
-   "https://eduardogerman.com/2026/11/11/los-depositos-privados-en-dolares-marcaron-un-record-y-las-reservas-del-bcra-subieron-usd-2-474-millones/"
+   "Ámbito · Reservas y compras",
+   "https://www.ambito.com/finanzas/las-reservas-del-bcra-cayeron-minimos-mas-un-mes-pero-se-mantuvieron-las-compras-pese-al-feriado-eeuu-n6344161"
   ],
   [
-   "Infobae · Licitación del Tesoro",
-   "https://www.infobae.com/economia/2026/11/11/el-gobierno-enfrenta-vencimientos-por-mas-de-10-billones-hoy-que-esperan-en-el-mercado/"
+   "Infobae · Licitación (84%)",
+   "https://www.infobae.com/economia/2026/11/11/licitacion-clave-el-gobierno-renovo-el-84-de-los-vencimientos-de-deuda-y-libero-pesos-al-mercado/"
   ],
   [
-   "iProfesional · Licitación y vencimientos",
-   "https://www.iprofesional.com/finanzas/468799-el-gobierno-busca-renovar-105-billones-de-deuda-y-cae-el-riesgo-pais"
+   "Bloomberg Línea · Licitación",
+   "https://www.bloomberglinea.com/economia/tesoro-argentino-informa-rollover-superior-al-100-pero-liberara-pesos-tras-tension-en-las-tasas/"
+  ],
+  [
+   "Rava · Riesgo país",
+   "https://www.rava.com/perfil/RIESGO%20PAIS"
   ],
   [
    "Perfil · REM del BCRA",
    "https://perfil.com/economia/rem-del-bcra-el-precio-que-le-ponen-a-la-inflacion-y-al-dolar-45-actores-del-mercado-a9fcc7k2dRuP"
   ],
   [
-   "La Nación / AP · Wall Street 10/11",
-   "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-tuesday-11102026-nid10112026/"
+   "Yahoo Finance / AP · Wall Street 11/11",
+   "https://finance.yahoo.com/markets/stocks/articles/major-us-stock-indexes-fared-211834867.html"
   ],
   [
-   "Trading & Investment News · Oro y FedWatch",
-   "https://www.tradingandinvestmentnews.co.uk/gold-price-rebound-fed-hike-bets/"
+   "TheStreet · CoreWeave y Apple",
+   "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-11-2026"
+  ],
+  [
+   "Stocktitan · Nvidia fuera de hora",
+   "https://www.stocktitan.net/articles/stock-market-today-live-november-11-2026"
+  ],
+  [
+   "Ámbito · Oro y dólar global",
+   "https://www.ambito.com/finanzas/las-reservas-del-bcra-cayeron-minimos-mas-un-mes-pero-se-mantuvieron-las-compras-pese-al-feriado-eeuu-n6344161"
   ],
   [
    "La Nación · Política",
@@ -297,11 +393,6 @@
   [
    "Letra P · Política",
    "https://www.letrap.com.ar/politica/el-gobierno-balcanizado-javier-milei-como-testigo-n5428077"
-  ],
-  [
-   "Infobae · Caputo y la visita del Papa",
-   "https://www.infobae.com/economia/2026/11/11/a-la-gente-que-no-tiene-fe-le-cuesta-procesar-situaciones-como-las-de-estos-dias-la-reflexion-de-caputo-tras-la-visita-del-papa/"
   ]
- ],
- "iso": "2026-11-11"
+ ]
 }

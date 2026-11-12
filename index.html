@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
-/* Minimalista, una sola pantalla: arriba la frase del día, a la izquierda 8 indicadores, a la derecha 10 titulares, abajo agenda. */
+/* Minimalista, una sola pantalla: clima del día arriba; izquierda números (con modo "en criollo"); derecha lectura / empresas / titulares; abajo agenda. */
 :root{
   --bg:#f7f8fa; --card:#ffffff; --ink:#111827; --muted:#6b7280; --line:#e8ebef;
   --accent:#2f6fdb; --up:#0f9b6c; --down:#e0474c; --warn:#d48a00;
@@ -31,88 +31,135 @@
 html,body{margin:0}
 body{background:var(--bg);color:var(--ink);font:15px/1.5 var(--font);-webkit-font-smoothing:antialiased}
 a{color:inherit;text-decoration:none}
-a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}
-.page{max-width:1240px;margin:0 auto;padding:28px 24px 32px;display:grid;gap:22px}
+a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}
+button{font:inherit;color:inherit}
+.page{max-width:1240px;margin:0 auto;padding:22px 24px 28px;display:grid;gap:18px}
 
-header{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:6px 20px}
+header{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 16px}
 .brand{font-weight:800;font-size:20px;letter-spacing:-.02em}
 .brand span{color:var(--accent)}
+.hright{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
 .date{color:var(--muted);font-size:13px}
+.btn-guion{background:var(--accent);color:#fff;border:0;border-radius:999px;padding:8px 14px;font-weight:700;font-size:13px;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
+.btn-guion:hover{filter:brightness(1.08)}
 
-.lead{font-weight:700;font-size:clamp(20px,2.3vw,26px);line-height:1.3;letter-spacing:-.015em;max-width:60ch;text-wrap:balance;margin:0}
-.sub{margin:8px 0 0;color:var(--muted);font-size:14px;max-width:80ch}
+.clima{display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px}
+.clima-tag{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:5px 10px;border-radius:6px;background:var(--ink);color:var(--bg)}
+.clima-tag.tranquilo{background:var(--up);color:#fff} .clima-tag.tenso{background:var(--warn);color:#fff}
+.clima-tag.panico{background:var(--down);color:#fff} .clima-tag.rebote{background:var(--accent);color:#fff}
+.clima-por{font-size:13.5px;color:var(--muted)}
+.lead{font-weight:700;font-size:clamp(20px,2.3vw,26px);line-height:1.3;letter-spacing:-.015em;max-width:62ch;text-wrap:balance;margin:6px 0 0}
+.atipica{margin-top:8px;font-size:12.5px;font-weight:600;color:var(--warn);display:flex;gap:6px;align-items:baseline}
+.atipica::before{content:"●";font-size:9px}
 
-.main{display:grid;grid-template-columns:1.25fr 1fr;gap:22px;align-items:start}
-h2{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 10px}
+.main{display:grid;grid-template-columns:1.2fr 1fr;gap:20px;align-items:start}
+.sh{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:0 0 10px}
+h2{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0}
+.toggle{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:4px 10px;font-size:12px;font-weight:700;cursor:pointer;color:var(--muted)}
+.toggle[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
 
 .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
-.ind{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 14px 12px;min-width:0}
+.ind{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 13px 11px;min-width:0}
 .ind .k{font-size:12.5px;color:var(--muted);font-weight:600;display:flex;align-items:center;gap:6px}
 .dot{width:7px;height:7px;border-radius:50%;flex:none;background:var(--muted)}
 .dot.verde{background:var(--up)} .dot.amarillo{background:var(--warn)} .dot.rojo{background:var(--down)}
-.ind .v{font-size:clamp(19px,1.9vw,24px);font-weight:800;letter-spacing:-.02em;margin-top:6px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.ind .v{font-size:clamp(19px,1.9vw,24px);font-weight:800;letter-spacing:-.02em;margin-top:5px;font-variant-numeric:tabular-nums;white-space:nowrap}
 .ind .d{font-size:12px;color:var(--muted);margin-top:2px;font-variant-numeric:tabular-nums}
 .ind .d.up{color:var(--up)} .ind .d.down{color:var(--down)}
-.ind.wide{grid-column:span 2;display:grid;grid-template-columns:auto 1fr;gap:4px 14px;align-items:center}
-.ind.wide svg{grid-row:1 / span 3;grid-column:2;width:100%;height:58px;display:block}
-.world{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:14px;padding:12px 14px;background:var(--card);border:1px solid var(--line);border-radius:14px;font-size:13px}
+.ind .cr{display:none;font-size:12px;color:var(--ink);margin-top:3px;line-height:1.35}
+.criollo .ind .d{display:none} .criollo .ind .cr{display:block}
+.ind.wide{grid-column:span 2;display:grid;grid-template-columns:auto 1fr;gap:3px 14px;align-items:center}
+.ind.wide svg{grid-row:1 / span 4;grid-column:2;width:100%;height:56px;display:block}
+.world{display:flex;flex-wrap:wrap;gap:6px 20px;margin-top:10px;padding:10px 14px;background:var(--card);border:1px solid var(--line);border-radius:14px;font-size:13px}
 .world div{white-space:nowrap}
 .world b{font-weight:600;color:var(--muted);margin-right:6px}
 .world .up{color:var(--up);font-weight:600} .world .down{color:var(--down);font-weight:600}
 
-.news{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:6px 16px;list-style:none;margin:0}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:14px;display:flex;flex-direction:column;min-height:0}
+.tabs{display:flex;gap:4px;padding:6px;border-bottom:1px solid var(--line)}
+.tab{flex:1;border:0;background:transparent;border-radius:9px;padding:7px 8px;font-size:13px;font-weight:700;color:var(--muted);cursor:pointer}
+.tab[aria-selected="true"]{background:var(--bg);color:var(--ink)}
+.pane{padding:6px 16px 12px;overflow:auto;min-height:0}
+.pane[hidden]{display:none}
+.blk{padding:10px 0;border-bottom:1px solid var(--line)}
+.blk:last-child{border-bottom:0}
+.blk h3{margin:0 0 6px;font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
+.blk.oculto h3{color:var(--warn)}
+.qp{margin:0;padding:0;list-style:none;display:grid;gap:7px}
+.qp li{font-size:13.5px;line-height:1.4}
+.qp b{display:block;font-size:13.5px}
+.qp span{color:var(--muted)}
+.oc{font-size:13.5px;line-height:1.45;margin:0}
+.bol{margin:0;padding-left:18px;font-size:13.5px;line-height:1.4;display:grid;gap:5px}
+.nota{font-size:11px;color:var(--muted);margin-top:6px}
+
+.emp h3{margin:10px 0 4px;font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.emp ul{list-style:none;margin:0;padding:0}
+.emp li{display:grid;grid-template-columns:1fr auto;gap:0 10px;padding:7px 0;border-bottom:1px solid var(--line)}
+.emp li:last-child{border-bottom:0}
+.emp .n{font-weight:700;font-size:13.5px}
+.emp .c{font-weight:800;font-size:13.5px;font-variant-numeric:tabular-nums;text-align:right}
+.emp .c.up{color:var(--up)} .emp .c.down{color:var(--down)}
+.emp .q{grid-column:1 / -1;font-size:12px;color:var(--muted)}
+
+.news{list-style:none;margin:0;padding:0}
 .news li{border-bottom:1px solid var(--line)}
 .news li:last-child{border-bottom:0}
-.news a{display:grid;grid-template-columns:1fr auto;gap:1px 12px;padding:9px 0}
-.news .t{font-weight:600;font-size:14px;line-height:1.35}
+.news a{display:grid;grid-template-columns:1fr auto;gap:1px 12px;padding:8px 0}
+.news .t{font-weight:600;font-size:13.5px;line-height:1.35}
 .news a:hover .t{color:var(--accent)}
 .news .m{font-size:11.5px;color:var(--muted);grid-column:1}
 .news .tag{grid-row:1 / span 2;grid-column:2;align-self:center;font-size:11px;font-weight:700;color:var(--muted);background:var(--bg);border-radius:999px;padding:3px 9px}
-.news .tag.Política{color:var(--accent)}
-.news .tag.Mundo{color:var(--warn)}
+.news .tag.Política{color:var(--accent)} .news .tag.Mundo{color:var(--warn)}
 
 .agenda{display:flex;flex-wrap:wrap;gap:10px}
-.ag{flex:1 1 220px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px}
+.ag{flex:1 1 220px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 14px}
 .ag .w{font-size:12px;font-weight:700;color:var(--accent)}
 .ag .b{font-size:14px;font-weight:600;margin-top:2px}
 
-footer{font-size:12px;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 16px}
+footer{font-size:12px;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 16px;position:relative}
 footer details summary{cursor:pointer}
-footer details[open]{flex-basis:100%}
 footer .src{columns:3 220px;margin-top:8px}
 footer .src a{display:block;padding:1px 0}
 footer .src a:hover{color:var(--accent)}
 .tip{position:fixed;pointer-events:none;background:var(--ink);color:var(--bg);font-size:12px;font-weight:600;padding:4px 8px;border-radius:6px;opacity:0;transition:opacity .1s;z-index:9}
+.stale{background:#fdf1d6;color:#7a4b00;border:1px solid #f0c66b;border-radius:10px;padding:8px 12px;font-size:13px;font-weight:600}
 
-@media (max-width:1000px){ .main{grid-template-columns:1fr} }
+.modal{position:fixed;inset:0;background:rgba(10,14,20,.55);display:flex;align-items:center;justify-content:center;padding:16px;z-index:20}
+.modal[hidden]{display:none}
+.mbox{background:var(--card);border-radius:16px;width:min(680px,100%);max-height:100%;display:flex;flex-direction:column;box-shadow:0 20px 60px rgba(0,0,0,.3)}
+.mhead{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:14px 16px;border-bottom:1px solid var(--line)}
+.mhead b{font-size:15px}
+.mclose{border:0;background:transparent;font-size:22px;line-height:1;cursor:pointer;color:var(--muted);padding:2px 6px}
+.mbox textarea{flex:1;min-height:320px;border:0;padding:14px 16px;font:13.5px/1.5 ui-monospace,Menlo,Consolas,monospace;background:var(--bg);color:var(--ink);resize:none}
+.mfoot{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:12px 16px;border-top:1px solid var(--line)}
+.mfoot span{font-size:12px;color:var(--muted)}
+
+@media (max-width:1000px){ .main{grid-template-columns:1fr} .pane{max-height:none} }
 @media (max-width:560px){
-  .page{padding:20px 16px 28px}
+  .page{padding:18px 16px 26px}
   .grid{grid-template-columns:1fr 1fr}
   .ind.wide{grid-template-columns:1fr}
   .ind.wide svg{grid-row:auto;grid-column:1;height:50px}
 }
-/* Modo tablero: en pantallas de escritorio todo entra en una sola pantalla, sin scroll de página. */
+/* Modo tablero en escritorio: todo en una pantalla, con desplazamiento interno en cada panel. */
 @media (min-width:1001px) and (min-height:740px){
   html,body{height:100%;overflow:hidden}
-  .page{height:100vh;height:100dvh;padding:16px 24px 12px;gap:12px;grid-template-rows:auto auto minmax(0,1fr) auto auto}
-  .lead{font-size:clamp(18px,1.9vw,23px)}
-  .sub{margin-top:4px;font-size:13px;line-height:1.4}
-  h2{margin-bottom:8px}
+  .page{height:100vh;height:100dvh;padding:14px 24px 10px;gap:10px;grid-template-rows:auto auto minmax(0,1fr) auto auto}
+  .lead{font-size:clamp(18px,1.8vw,22px);margin-top:4px}
+  .atipica{margin-top:4px}
   .main{min-height:0;align-items:stretch;gap:18px}
   #indicadores{min-height:0;display:flex;flex-direction:column;overflow:auto}
   .grid{gap:8px}
-  .ind{padding:10px 12px 9px;border-radius:12px}
-  .ind .v{font-size:clamp(18px,1.6vw,22px);margin-top:3px}
-  .ind.wide svg{height:48px}
+  .ind{padding:9px 12px 8px;border-radius:12px}
+  .ind .v{font-size:clamp(18px,1.55vw,22px);margin-top:2px}
+  .ind.wide svg{height:46px}
   .world{margin-top:8px;padding:8px 12px;gap:4px 18px}
-  #titulares{min-height:0;display:flex;flex-direction:column}
-  .news{flex:1;min-height:0;overflow:auto;padding:2px 14px}
-  .news a{padding:7px 0}
-  .news .t{font-size:13.5px}
+  #lectura{min-height:0;display:flex;flex-direction:column}
+  .panel{flex:1}
   .agenda{flex-wrap:nowrap;gap:8px}
   .ag{padding:8px 12px;border-radius:12px;min-width:0}
   .ag .b{font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-  footer{position:relative}
   footer details[open] .src{position:absolute;bottom:22px;left:0;right:0;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;max-height:50vh;overflow:auto;box-shadow:0 8px 30px rgba(0,0,0,.15)}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
@@ -122,114 +169,190 @@ footer .src a:hover{color:var(--accent)}
 <div class="page" id="pizarra">
   <header>
     <div class="brand">Pizarra <span>·</span> Política y Economía</div>
-    <div class="date" id="fecha"></div>
+    <div class="hright">
+      <span class="date" id="fecha"></span>
+      <button class="btn-guion" id="abrir-guion" type="button">Copiar guion para WhatsApp</button>
+    </div>
   </header>
 
   <section id="hoy">
+    <div class="clima"><span class="clima-tag" id="clima-tag"></span><span class="clima-por" id="clima-por"></span></div>
     <p class="lead" id="frase"></p>
-    <p class="sub" id="claves"></p>
+    <div class="atipica" id="atipica" hidden></div>
   </section>
 
   <div class="main">
     <section id="indicadores">
-      <h2>Argentina en números</h2>
+      <div class="sh"><h2>Argentina en números</h2><button class="toggle" id="btn-criollo" type="button" aria-pressed="false">Explicar en criollo</button></div>
       <div class="grid" id="grid"></div>
       <div class="world" id="mundo" aria-label="Mercados internacionales"></div>
     </section>
-    <section id="titulares">
-      <h2>Titulares</h2>
-      <ul class="news" id="news"></ul>
+    <section id="lectura">
+      <div class="panel">
+        <div class="tabs" role="tablist">
+          <button class="tab" role="tab" id="t-lec" aria-selected="true" aria-controls="p-lec">Lectura del día</button>
+          <button class="tab" role="tab" id="t-emp" aria-selected="false" aria-controls="p-emp">Empresas</button>
+          <button class="tab" role="tab" id="t-tit" aria-selected="false" aria-controls="p-tit">Titulares</button>
+        </div>
+        <div class="pane" id="p-lec" role="tabpanel">
+          <div class="blk"><h3>Qué pasó y por qué</h3><ul class="qp" id="porque"></ul></div>
+          <div class="blk oculto"><h3>Lo que nadie te está contando</h3><p class="oc" id="oculto"></p></div>
+          <div class="blk"><h3>Qué significa para tu bolsillo</h3><ul class="bol" id="bolsillo"></ul><div class="nota">Escenarios posibles, no recomendaciones de inversión.</div></div>
+        </div>
+        <div class="pane emp" id="p-emp" role="tabpanel" hidden>
+          <h3>Argentina</h3><ul id="emp-ar"></ul>
+          <h3>Estados Unidos</h3><ul id="emp-us"></ul>
+        </div>
+        <div class="pane" id="p-tit" role="tabpanel" hidden><ul class="news" id="news"></ul></div>
+      </div>
     </section>
   </div>
 
   <section id="agenda-sec">
-    <h2>Lo que viene</h2>
+    <div class="sh"><h2>Lo que viene</h2></div>
     <div class="agenda" id="agenda"></div>
   </section>
 
   <footer id="pie">
     <span id="corte"></span>
-    <span>Cifras relevadas de medios y agencias; titulares resumidos con palabras propias.</span>
+    <span>Valores de cierre relevados de medios, agencias y fuentes oficiales; textos con palabras propias.</span>
     <details><summary>Ver fuentes</summary><div class="src" id="fuentes"></div></details>
   </footer>
 </div>
 <div class="tip" id="tip"></div>
-<script>
-/* Aviso si los datos quedaron viejos: compara "iso" (AAAA-MM-DD) con el último día hábil esperado en Argentina. */
-(function(){
-  function chk(D){
-    if(!D||!D.iso) return;
-    var now=new Date(new Date().toLocaleString('en-US',{timeZone:'America/Argentina/Buenos_Aires'}));
-    var exp=new Date(now); if(now.getHours()*60+now.getMinutes()<19*60) exp.setDate(exp.getDate()-1);
-    while(exp.getDay()===0||exp.getDay()===6) exp.setDate(exp.getDate()-1);
-    var e=exp.getFullYear()+'-'+String(exp.getMonth()+1).padStart(2,'0')+'-'+String(exp.getDate()).padStart(2,'0');
-    if(D.iso<e){ var b=document.createElement('div'); b.setAttribute('role','status');
-      b.style.cssText='background:#fdf1d6;color:#7a4b00;border:1px solid #f0c66b;border-radius:10px;padding:8px 12px;font-size:13px;font-weight:600';
-      b.textContent='Atención: estos datos son del '+D.fecha+'. La actualización de hoy todavía no llegó.';
-      var p=document.getElementById('pizarra'); if(p) p.insertBefore(b,p.children[1]); }
-  }
-  window.__chkStale=chk;
-})();
-</script>
+
+<div class="modal" id="modal" hidden role="dialog" aria-modal="true" aria-labelledby="m-title">
+  <div class="mbox">
+    <div class="mhead"><b id="m-title">Guion del día para WhatsApp</b><button class="mclose" id="m-close" type="button" aria-label="Cerrar">×</button></div>
+    <textarea id="m-text" spellcheck="false"></textarea>
+    <div class="mfoot"><span id="m-msg">Podés editar el texto antes de copiarlo.</span><button class="btn-guion" id="m-copy" type="button">Copiar</button></div>
+  </div>
+</div>
 
 
 <script>
-fetch('data.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.json();}).then(function(D){
 (function(){
+  var CRIOLLO={
+    'Dólar oficial':'El precio del dólar en el banco.',
+    'Dólar MEP':'El que comprás por la bolsa con pesos. Es legal.',
+    'Contado con liqui':'El que usan las empresas para sacar plata afuera.',
+    'Dólar blue':'El dólar de la calle, el informal.',
+    'Riesgo país':'El puntaje de miedo que nos ponen los de afuera. Más alto, peor.',
+    'Reservas BCRA':'Los dólares que tiene guardados el Banco Central.',
+    'Depósitos en USD':'Los dólares de la gente en los bancos. Si bajan rápido, hay corrida.',
+    'Merval':'El promedio de las acciones de las empresas argentinas.',
+    'Compras BCRA':'Los dólares que compró el Banco Central para su caja.',
+    'Licitación':'El Estado pide prestado en pesos para pagar lo que vence.',
+    'Inflación oct.':'Cuánto subieron los precios en el mes.'
+  };
   function el(t,c,x){var e=document.createElement(t); if(c) e.className=c; if(x!=null) e.textContent=x; return e;}
-  document.getElementById('fecha').textContent=D.fecha;
-  document.getElementById('corte').textContent=D.corte;
-  document.getElementById('frase').textContent=D.frase;
-  document.getElementById('claves').textContent=(D.claves||[]).join('  ·  ');
+  function $(id){return document.getElementById(id);}
 
-  var grid=document.getElementById('grid'), spark=null;
-  D.indicadores.forEach(function(i){
-    var c=el('div','ind'+(i.serie?' wide':''));
-    var k=el('div','k'); k.appendChild(el('span','dot '+(i.estado||''))); k.appendChild(document.createTextNode(i.k));
-    c.appendChild(k); c.appendChild(el('div','v',i.v));
-    var cls=i.k==='Riesgo país'? (i.d.trim().charAt(0)==='−'?'up':'down') : '';
-    c.appendChild(el('div','d '+cls,i.d));
-    if(i.serie){ spark=document.createElementNS('http://www.w3.org/2000/svg','svg'); spark.setAttribute('aria-label','Evolución del riesgo país'); c.appendChild(spark); }
-    grid.appendChild(c);
-  });
-
-  var w=document.getElementById('mundo');
-  (D.mundo||[]).forEach(function(m){ var d=el('div'); d.appendChild(el('b',null,m.k)); d.appendChild(document.createTextNode(m.v+' ')); d.appendChild(el('span',m.tend==='up'?'up':(m.tend==='down'?'down':''),m.d)); w.appendChild(d); });
-
-  var ul=document.getElementById('news');
-  D.titulares.forEach(function(n){ var li=el('li'); var a=el('a'); a.href=n.u; a.target='_blank'; a.rel='noopener';
-    a.appendChild(el('span','t',n.t)); a.appendChild(el('span','m',n.s)); a.appendChild(el('span','tag '+n.sec,n.sec)); li.appendChild(a); ul.appendChild(li); });
-
-  var ag=document.getElementById('agenda');
-  D.agenda.forEach(function(a){ var c=el('div','ag'); c.appendChild(el('div','w',a.w)); c.appendChild(el('div','b',a.b)); ag.appendChild(c); });
-
-  var fu=document.getElementById('fuentes');
-  D.fuentes.forEach(function(f){ var a=el('a',null,f[0]); a.href=f[1]; a.target='_blank'; a.rel='noopener'; fu.appendChild(a); });
-
-  var tip=document.getElementById('tip');
-  function draw(){
-    if(!spark||!D.riesgo) return;
-    var NS='http://www.w3.org/2000/svg'; while(spark.firstChild) spark.removeChild(spark.firstChild);
-    var W=Math.max(120,spark.clientWidth||200), H=58, p=5, data=D.riesgo, n=data.length;
-    spark.setAttribute('viewBox','0 0 '+W+' '+H);
-    var vs=data.map(function(d){return d[1];}), lo=Math.min.apply(null,vs), hi=Math.max.apply(null,vs);
-    function x(i){return p+(W-2*p)*i/(n-1);} function y(v){return p+(H-2*p)*(1-(v-lo)/(hi-lo||1));}
-    var col=getComputedStyle(document.documentElement).getPropertyValue('--down').trim();
-    var line=data.map(function(d,i){return x(i)+','+y(d[1]);}).join(' L');
-    function S(t,a){var e=document.createElementNS(NS,t); for(var k in a) e.setAttribute(k,a[k]); return e;}
-    spark.appendChild(S('path',{d:'M'+x(0)+','+H+' L'+line+' L'+x(n-1)+','+H+'Z',fill:col,'fill-opacity':.1}));
-    spark.appendChild(S('path',{d:'M'+line,fill:'none',stroke:col,'stroke-width':2,'stroke-linejoin':'round','stroke-linecap':'round'}));
-    spark.appendChild(S('circle',{cx:x(n-1),cy:y(data[n-1][1]),r:3.5,fill:col}));
-    data.forEach(function(d,i){ var r=S('rect',{x:x(i)-(W/n)/2,y:0,width:W/n,height:H,fill:'transparent'});
-      function show(e){ var t=e.touches?e.touches[0]:e; tip.textContent=d[0]+': '+d[1].toLocaleString('es-AR')+' pb'; tip.style.left=(t.clientX+10)+'px'; tip.style.top=(t.clientY-30)+'px'; tip.style.opacity=1; }
-      r.addEventListener('mousemove',show); r.addEventListener('touchstart',show,{passive:true}); r.addEventListener('mouseleave',function(){tip.style.opacity=0;});
-      spark.appendChild(r); });
+  function armarGuion(D){
+    if(D.guion) return D.guion;
+    var L=[], ind={}; (D.indicadores||[]).forEach(function(i){ind[i.k]=i;});
+    L.push('*'+((D.clima&&D.clima.tag)||'RESUMEN DEL DÍA').toUpperCase()+'*','');
+    L.push('*1) Qué pasó en EEUU hoy en criollo*');
+    (D.mundo||[]).forEach(function(m){ L.push('- *'+m.k+':* '+m.v+' ('+m.d+')'); });
+    L.push('','*2) Qué pasó en Argentina hoy en criollo*');
+    ['Merval','Riesgo país','Dólar oficial','Dólar blue','Dólar MEP','Contado con liqui','Reservas BCRA'].forEach(function(k){ var i=ind[k]; if(i) L.push('- *'+k+':* '+i.v+'. '+(CRIOLLO[k]||'')); });
+    L.push('','*3) Lo que NADIE te está contando*','- '+(D.oculto||''));
+    L.push('','*4) Qué significa esto para tu bolsillo mañana*'); (D.bolsillo||[]).forEach(function(b){L.push('- '+b);});
+    return L.join('\n');
   }
-  if(window.__chkStale) window.__chkStale(D);
-  draw(); var rt; window.addEventListener('resize',function(){clearTimeout(rt); rt=setTimeout(draw,120);});
-  new MutationObserver(draw).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
+
+  function pintar(D){
+    $('fecha').textContent=D.fecha||''; $('corte').textContent=D.corte||'';
+    var c=D.clima||{}; $('clima-tag').textContent=c.tag||'Hoy'; $('clima-tag').className='clima-tag '+(c.tipo||''); $('clima-por').textContent=c.por||'';
+    $('frase').textContent=D.frase||'';
+    if(D.atipica){ $('atipica').textContent=D.atipica; $('atipica').hidden=false; }
+
+    var grid=$('grid'), spark=null;
+    (D.indicadores||[]).forEach(function(i){
+      var card=el('div','ind'+(i.serie?' wide':''));
+      var k=el('div','k'); k.appendChild(el('span','dot '+(i.estado||''))); k.appendChild(document.createTextNode(i.k));
+      card.appendChild(k); card.appendChild(el('div','v',i.v));
+      var cls=i.k==='Riesgo país'?(String(i.d).trim().charAt(0)==='−'?'up':'down'):(i.tend==='up'&&i.estado==='verde'?'':'');
+      card.appendChild(el('div','d '+cls,i.d||''));
+      card.appendChild(el('div','cr',i.criollo||CRIOLLO[i.k]||i.d||''));
+      if(i.serie){ spark=document.createElementNS('http://www.w3.org/2000/svg','svg'); spark.setAttribute('aria-label','Evolución del riesgo país'); card.appendChild(spark); }
+      grid.appendChild(card);
+    });
+    var w=$('mundo');
+    (D.mundo||[]).forEach(function(m){ var d=el('div'); d.appendChild(el('b',null,m.k)); d.appendChild(document.createTextNode(m.v+' ')); d.appendChild(el('span',m.tend==='up'?'up':(m.tend==='down'?'down':''),m.d)); w.appendChild(d); });
+
+    var pq=$('porque'); (D.porque||[]).forEach(function(x){ var li=el('li'); li.appendChild(el('b',null,x.q)); li.appendChild(el('span',null,x.p)); pq.appendChild(li); });
+    $('oculto').textContent=D.oculto||'';
+    var bo=$('bolsillo'); (D.bolsillo||[]).forEach(function(b){ bo.appendChild(el('li',null,b)); });
+
+    function emp(id,arr){ var u=$(id); (arr||[]).forEach(function(e){ var li=el('li'); li.appendChild(el('span','n',e.n));
+      var s=String(e.c||''); li.appendChild(el('span','c '+(s.charAt(0)==='+'?'up':(s.charAt(0)==='−'||s.charAt(0)==='-'?'down':'')),s));
+      li.appendChild(el('span','q',e.que||'')); u.appendChild(li); }); }
+    emp('emp-ar',(D.empresas||{}).ar); emp('emp-us',(D.empresas||{}).eeuu);
+
+    var ul=$('news'); (D.titulares||[]).forEach(function(n){ var li=el('li'); var a=el('a'); a.href=n.u; a.target='_blank'; a.rel='noopener';
+      a.appendChild(el('span','t',n.t)); a.appendChild(el('span','m',n.s)); a.appendChild(el('span','tag '+n.sec,n.sec)); li.appendChild(a); ul.appendChild(li); });
+    var ag=$('agenda'); (D.agenda||[]).forEach(function(a){ var x=el('div','ag'); x.appendChild(el('div','w',a.w)); x.appendChild(el('div','b',a.b)); ag.appendChild(x); });
+    var fu=$('fuentes'); (D.fuentes||[]).forEach(function(f){ var a=el('a',null,f[0]); a.href=f[1]; a.target='_blank'; a.rel='noopener'; fu.appendChild(a); });
+
+    // Aviso de datos viejos
+    if(D.iso){ var now=new Date(new Date().toLocaleString('en-US',{timeZone:'America/Argentina/Buenos_Aires'}));
+      var exp=new Date(now); if(now.getHours()*60+now.getMinutes()<19*60) exp.setDate(exp.getDate()-1);
+      while(exp.getDay()===0||exp.getDay()===6) exp.setDate(exp.getDate()-1);
+      var e=exp.getFullYear()+'-'+String(exp.getMonth()+1).padStart(2,'0')+'-'+String(exp.getDate()).padStart(2,'0');
+      if(D.iso<e){ var b=el('div','stale','Atención: estos datos son del '+D.fecha+'. La actualización de hoy todavía no llegó.'); b.setAttribute('role','status'); $('pizarra').insertBefore(b,$('pizarra').children[1]); } }
+
+    // Pestañas
+    var tabs=[['t-lec','p-lec'],['t-emp','p-emp'],['t-tit','p-tit']];
+    tabs.forEach(function(t){ $(t[0]).addEventListener('click',function(){ tabs.forEach(function(o){ var on=o[0]===t[0]; $(o[0]).setAttribute('aria-selected',on?'true':'false'); $(o[1]).hidden=!on; }); }); });
+
+    // Modo criollo
+    var bc=$('btn-criollo'); function setCr(on){ $('indicadores').classList.toggle('criollo',on); bc.setAttribute('aria-pressed',on?'true':'false'); try{localStorage.setItem('pz-criollo',on?'1':'0');}catch(_){} }
+    var ini=false; try{ini=localStorage.getItem('pz-criollo')==='1';}catch(_){} setCr(ini);
+    bc.addEventListener('click',function(){ setCr(bc.getAttribute('aria-pressed')!=='true'); });
+
+    // Guion
+    var modal=$('modal'), ta=$('m-text');
+    $('abrir-guion').addEventListener('click',function(){ ta.value=armarGuion(D); modal.hidden=false; $('m-msg').textContent='Podés editar el texto antes de copiarlo.'; ta.focus(); ta.setSelectionRange(0,0); });
+    function cerrar(){ modal.hidden=true; }
+    $('m-close').addEventListener('click',cerrar);
+    modal.addEventListener('click',function(e){ if(e.target===modal) cerrar(); });
+    document.addEventListener('keydown',function(e){ if(e.key==='Escape') cerrar(); });
+    $('m-copy').addEventListener('click',function(){
+      function ok(){ $('m-msg').textContent='¡Copiado! Pegalo en WhatsApp.'; }
+      function manual(){ ta.focus(); ta.select(); try{ if(document.execCommand('copy')) return ok(); }catch(_){} $('m-msg').textContent='Seleccioná todo el texto y copialo manualmente.'; }
+      try{ navigator.clipboard.writeText(ta.value).then(ok,manual); }catch(_){ manual(); }
+    });
+
+    // Mini curva del riesgo país
+    var tip=$('tip');
+    function draw(){
+      if(!spark||!D.riesgo||D.riesgo.length<2) return;
+      var NS='http://www.w3.org/2000/svg'; while(spark.firstChild) spark.removeChild(spark.firstChild);
+      var W=Math.max(120,spark.clientWidth||200), H=56, p=5, data=D.riesgo, n=data.length;
+      spark.setAttribute('viewBox','0 0 '+W+' '+H);
+      var vs=data.map(function(d){return d[1];}), lo=Math.min.apply(null,vs), hi=Math.max.apply(null,vs);
+      function x(i){return p+(W-2*p)*i/(n-1);} function y(v){return p+(H-2*p)*(1-(v-lo)/(hi-lo||1));}
+      var col=getComputedStyle(document.documentElement).getPropertyValue('--down').trim();
+      var line=data.map(function(d,i){return x(i)+','+y(d[1]);}).join(' L');
+      function S(t,a){var e=document.createElementNS(NS,t); for(var k in a) e.setAttribute(k,a[k]); return e;}
+      spark.appendChild(S('path',{d:'M'+x(0)+','+H+' L'+line+' L'+x(n-1)+','+H+'Z',fill:col,'fill-opacity':.1}));
+      spark.appendChild(S('path',{d:'M'+line,fill:'none',stroke:col,'stroke-width':2,'stroke-linejoin':'round','stroke-linecap':'round'}));
+      spark.appendChild(S('circle',{cx:x(n-1),cy:y(data[n-1][1]),r:3.5,fill:col}));
+      data.forEach(function(d,i){ var r=S('rect',{x:x(i)-(W/n)/2,y:0,width:W/n,height:H,fill:'transparent'});
+        function show(ev){ var t=ev.touches?ev.touches[0]:ev; tip.textContent=d[0]+': '+d[1].toLocaleString('es-AR')+' pb'; tip.style.left=(t.clientX+10)+'px'; tip.style.top=(t.clientY-30)+'px'; tip.style.opacity=1; }
+        r.addEventListener('mousemove',show); r.addEventListener('touchstart',show,{passive:true}); r.addEventListener('mouseleave',function(){tip.style.opacity=0;});
+        spark.appendChild(r); });
+    }
+    draw(); var rt; window.addEventListener('resize',function(){clearTimeout(rt); rt=setTimeout(draw,120);});
+    new MutationObserver(draw).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
+  }
+
+  var inline=document.getElementById('datos');
+  if(inline){ pintar(JSON.parse(inline.textContent)); }
+  else { fetch('data.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.json();}).then(pintar)
+    .catch(function(){ $('frase').textContent='No se pudo cargar la información. Revisá la conexión y recargá la página.'; }); }
 })();
-}).catch(function(){ document.getElementById('frase').textContent='No se pudo cargar la información. Revisá la conexión y recargá la página.'; });
 </script>
 </body>
 </html>
