@@ -1,39 +1,39 @@
 {
- "fecha": "Jueves 12 de noviembre de 2026",
- "iso": "2026-11-12",
- "corte": "Actualizado a las 20:05 h · cierre definitivo",
+ "fecha": "Viernes 13 de noviembre de 2026",
+ "iso": "2026-11-13",
+ "corte": "Actualizado a las 12:19 h · valores parciales de la rueda",
  "clima": {
-  "tag": "Día de inflación y escándalo",
-  "tipo": "tenso",
-  "por": "La inflación subió a 2,2% y Wall Street tembló por la salida del CEO de Nvidia."
+  "tag": "Viernes de respiro y cuentas",
+  "tipo": "tranquilo",
+  "por": "Wall Street abre en alza tras un dato de precios mejor de lo esperado; el dólar, quieto."
  },
- "frase": "La inflación de octubre trepó a 2,2% empujada por el gas; el dólar, quieto.",
+ "frase": "El dólar arranca quieto y preocupan los USD 4.400 millones que vencen en enero.",
  "atipica": null,
  "claves": [
-  "La inflación de octubre fue 2,2%, más que el 1,9% de septiembre; 33,1% en doce meses.",
-  "El Banco Central compró USD 103 millones, lo más alto del mes, pero las reservas bajaron USD 252 millones.",
-  "Renunció el CEO de Nvidia y Wall Street cayó 0,4%; acá el riesgo país bajó a 813."
+  "El dólar oficial abre sin cambios en $1.570; el blue sigue en $1.565.",
+  "El Tesoro tiene menos de USD 100 millones depositados y en enero vencen USD 4.378 millones.",
+  "En EE.UU., los precios mayoristas subieron 0,3% en octubre (se esperaba 0,4%) y Wall Street abre en alza."
  ],
  "indicadores": [
   {
    "k": "Dólar oficial",
    "v": "$1.570",
-   "d": "BNA venta · sin cambios · compra $1.520",
+   "d": "BNA venta · sin cambios en la apertura · compra $1.520",
    "tend": "flat",
    "estado": "verde"
   },
   {
    "k": "Dólar MEP",
-   "v": "$1.581",
-   "d": "Subió $8 · brecha 2,3%",
-   "tend": "up",
+   "v": "$1.574",
+   "d": "Último dato (Ámbito) · brecha 1,8%",
+   "tend": "flat",
    "estado": "verde"
   },
   {
    "k": "Contado con liqui",
-   "v": "$1.670",
-   "d": "Subió $4 · brecha 8,0%",
-   "tend": "up",
+   "v": "$1.679",
+   "d": "Último dato (Ámbito) · brecha 8,7%",
+   "tend": "flat",
    "estado": "amarillo"
   },
   {
@@ -45,16 +45,16 @@
   },
   {
    "k": "Riesgo país",
-   "v": "813",
-   "d": "−39 · venía de 852 el miércoles",
+   "v": "829",
+   "d": "−23 · cierre del jueves; venía de 852 el miércoles",
    "tend": "down",
    "estado": "rojo",
    "serie": true
   },
   {
    "k": "Reservas BCRA",
-   "v": "49.078 M",
-   "d": "USD · −252 M hoy (dato provisorio)",
+   "v": "49.073 M",
+   "d": "USD · −257 M el jueves, por la baja del oro",
    "tend": "down",
    "estado": "amarillo"
   },
@@ -67,32 +67,32 @@
   },
   {
    "k": "Merval",
-   "v": "82.644",
-   "d": "−0,95% · quinta baja seguida",
+   "v": "82.492",
+   "d": "−1,1% · cierre del jueves, quinta baja seguida",
    "tend": "down",
    "estado": "amarillo"
   },
   {
    "k": "Compras BCRA",
    "v": "USD 103 M",
-   "d": "Hoy · USD 183 M en noviembre",
+   "d": "Jueves · USD 183 M en noviembre · USD 16.151 M en 2026",
    "tend": "up",
    "estado": "verde"
   },
   {
-   "k": "Inflación oct.",
-   "v": "2,2%",
-   "d": "Subió desde 1,9% en sept. · arriba de lo esperado",
+   "k": "Vencimientos enero",
+   "v": "USD 4.378 M",
+   "d": "Hay asegurados unos USD 660 M · Tesoro con menos de USD 100 M",
    "tend": "up",
-   "estado": "rojo"
+   "estado": "rojo",
+   "criollo": "La deuda en dólares que el país tiene que pagar en enero y de dónde saldría la plata."
   },
   {
-   "k": "Inflación anual",
-   "v": "33,1%",
-   "d": "Bajó desde 33,4% · acumula 26,3% en 2026",
-   "tend": "down",
-   "estado": "amarillo",
-   "criollo": "Cuánto subieron los precios en los últimos 12 meses."
+   "k": "Inflación oct.",
+   "v": "2,2%",
+   "d": "Subió desde 1,9% · la núcleo fue 1,5%, la más baja en más de un año",
+   "tend": "up",
+   "estado": "rojo"
   }
  ],
  "riesgo": [
@@ -146,277 +146,298 @@
   ],
   [
    "12/11",
-   813
+   829
   ]
  ],
  "mundo": [
   {
    "k": "S&P 500",
-   "v": "7.592",
-   "d": "−0,4%",
-   "tend": "down"
+   "v": "+0,35%",
+   "d": "Apertura · venía de 7.592",
+   "tend": "up"
   },
   {
    "k": "Nasdaq",
-   "v": "25.366",
-   "d": "−0,4% · llegó a caer más de 1%",
-   "tend": "down"
+   "v": "+0,21%",
+   "d": "Apertura · venía de 25.366",
+   "tend": "up"
   },
   {
    "k": "Dow Jones",
-   "v": "52.297",
-   "d": "−0,4%",
-   "tend": "down"
+   "v": "+0,39%",
+   "d": "Apertura · venía de 52.297",
+   "tend": "up"
   },
   {
    "k": "Nvidia",
-   "v": "−4,3%",
-   "d": "Renunció su CEO · llegó a caer 14%",
-   "tend": "down"
+   "v": "+2,3%",
+   "d": "Premercado · rebota tras la renuncia de su CEO",
+   "tend": "up"
   },
   {
    "k": "Fed",
    "v": "3,75–4%",
-   "d": "Bono a 10 años arriba de 5% · ¿suba el 9/12?",
-   "tend": "up"
+   "d": "Precios mayoristas 0,3% (se esperaba 0,4%) · bono a 10 años 5,1%",
+   "tend": "flat"
   }
  ],
  "porque": [
   {
-   "q": "La inflación de octubre dio 2,2%",
-   "p": "Subió más que en septiembre (1,9%) por el gas: vivienda, agua, luz y gas trepó 4,2%. Caputo destacó que la inflación núcleo fue la más baja desde julio de 2025."
+   "q": "Wall Street abre con subas",
+   "p": "Los precios mayoristas de EE.UU. subieron 0,3% en octubre, menos que el 0,4% esperado. Eso baja un poco el miedo a que la Fed suba la tasa en diciembre."
   },
   {
-   "q": "Nvidia se hundió y arrastró a Wall Street",
-   "p": "Su CEO, Jensen Huang, renunció por un escándalo personal. La acción llegó a caer 14% y cerró −4,3%. AMD y Broadcom subieron: podrían quedarse con clientes."
+   "q": "Nvidia rebota después del golpe",
+   "p": "Tras la renuncia de Jensen Huang, la directora financiera Colette Kress quedó como CEO interina. La acción sube 2,3% antes de la apertura, después de caer 4,3% el jueves."
   },
   {
-   "q": "La tasa de EE.UU. a 10 años pasó el 5%",
-   "p": "Los inversores temen que la inflación siga alta allá y que la Fed suba la tasa en diciembre. Eso encarece el crédito en todo el mundo."
+   "q": "Preocupan los vencimientos de enero",
+   "p": "En enero hay que pagar USD 4.378 millones de deuda. El Tesoro tiene menos de USD 100 millones depositados y espera fondos del FMI, privatizaciones y préstamos."
   },
   {
-   "q": "El BCRA compró más, pero las reservas bajaron",
-   "p": "Compró USD 103 millones, el mayor monto de noviembre, pero las reservas cayeron USD 252 millones. El dato es provisorio y no se informó el motivo."
+   "q": "El Central compra, pero el oro le resta",
+   "p": "El jueves compró USD 103 millones, pero las reservas bajaron USD 257 millones: el oro cayó 2,8% y eso le restó unos USD 225 millones al valor de lo que guarda."
   }
  ],
- "oculto": "El titular es el 2,2%, pero el rubro vivienda, agua, luz y gas subió 4,2%, casi el doble del promedio, y Caputo lo atribuyó a los cambios en el régimen de Zona Fría. Además, el Banco Central compró dos días seguidos y aun así las reservas cayeron los dos días (−312 M y −252 M), sin explicación oficial. Y en noviembre lleva USD 183 millones comprados, contra USD 1.396 millones en todo octubre.",
+ "oculto": "El dato de inflación de octubre tiene una consecuencia poco comentada: como la banda del dólar se ajusta por inflación, el techo para diciembre ya supera los $2.000, muy por encima de los $1.545 del mayorista. Mientras tanto, el Tesoro tiene menos de USD 100 millones depositados frente a una meta de USD 3.700 millones para fin de año, y en enero vencen USD 4.378 millones. Lo que falta, unos USD 3.400 millones, depende de que el FMI apruebe la revisión, de privatizaciones que se postergaron (AySA y Belgrano Cargas) y de préstamos.",
  "bolsillo": [
   "Si tu sueldo o tu plazo fijo suben menos de 2,2% por mes, pierden contra los precios.",
-  "Si vivís en zona fría, la boleta de gas fue lo que más aumentó: conviene mirarla con atención.",
-  "Dólar: el oficial y el blue siguen casi iguales. Si la tasa de EE.UU. sigue subiendo, puede aparecer presión.",
-  "Si la Fed sube la tasa en diciembre, se encarecen las deudas y las cuotas en dólares."
+  "Dólar: el oficial y el blue arrancan quietos. Si en las próximas semanas no aparecen los fondos para enero, puede crecer la presión sobre el dólar.",
+  "Si la Fed finalmente no sube la tasa en diciembre, las deudas y cuotas en dólares no se encarecerían tanto.",
+  "Si viajás o pagás con tarjeta en dólares, el dólar tarjeta está en $2.041."
  ],
  "empresas": {
   "ar": [
    {
     "n": "Metrogas",
-    "c": "+5,8%",
-    "que": "Distribuye gas por cañería en la Ciudad y el sur del conurbano."
+    "c": "+2,0%",
+    "que": "Distribuye gas por cañería en la Ciudad y el sur del conurbano. (Cierre del jueves)"
    },
    {
-    "n": "Comercial del Plata",
-    "c": "+3,4%",
-    "que": "Holding argentino con negocios en energía y otras industrias."
+    "n": "BYMA",
+    "c": "+1,1%",
+    "que": "Es la propia Bolsa: gana con el volumen que se opera. (Cierre del jueves)"
+   },
+   {
+    "n": "Central Puerto",
+    "c": "+0,9%",
+    "que": "Genera electricidad con centrales térmicas y renovables. (Cierre del jueves)"
    },
    {
     "n": "IRSA",
-    "c": "−3,6%",
-    "que": "Dueña de shoppings, oficinas y hoteles."
+    "c": "−4,0%",
+    "que": "Dueña de shoppings, oficinas y hoteles. (Cierre del jueves)"
+   },
+   {
+    "n": "Banco Macro",
+    "c": "−3,4%",
+    "que": "Banco privado argentino, fuerte en el interior. (Cierre del jueves)"
    },
    {
     "n": "BBVA Argentina",
-    "c": "−3,0%",
-    "que": "Banco privado de capital español."
+    "c": "−3,1%",
+    "que": "Banco privado de capital español. (Cierre del jueves)"
    }
   ],
   "eeuu": [
    {
     "n": "Nvidia",
-    "c": "−4,3%",
-    "que": "Hace los chips de la inteligencia artificial. Renunció su CEO y llegó a caer 14%."
+    "c": "+2,3%",
+    "que": "Hace los chips de la inteligencia artificial. Rebota antes de la apertura tras la salida de su CEO."
    },
    {
-    "n": "AMD",
-    "c": "+5,9%",
-    "que": "Competidora de Nvidia en chips. Subió porque podría ganar clientes."
+    "n": "Microsoft",
+    "c": "−1,4%",
+    "que": "Dueña de Windows y Office. Lleva dos días con fallas en Outlook y Teams en todo el mundo."
    },
    {
-    "n": "Broadcom",
-    "c": "+5,5%",
-    "que": "Fabrica chips y redes para centros de datos. Subió por lo mismo."
-   },
-   {
-    "n": "CoreWeave",
-    "c": "−6,9%",
-    "que": "Alquila computadoras para IA; Nvidia es una de sus grandes accionistas."
+    "n": "Cisco",
+    "c": "−3,5%",
+    "que": "Hace equipos de redes e internet. Vendió más de lo esperado, pero los pedidos crecieron menos."
    }
   ]
  },
  "politica": [
   {
-   "s": "El Destape",
-   "t": "El Gobierno se prepara para llamar a extraordinarias por el Presupuesto y las PASO",
-   "g": "Menem lo dio por hecho: las ordinarias terminan el 30/11 y no se extienden.",
-   "u": "https://www.eldestapeweb.com/politica/gobierno-prepara-convocar-sesiones-extraordinarias-presupuesto-2027-suspension-paso-prioridades-20261112173313"
+   "s": "La Política Online",
+   "t": "Encuesta de AtlasIntel: Bullrich supera a Milei en imagen positiva",
+   "g": "Milei queda quinto con 36%; es una sola encuestadora.",
+   "u": "https://www.lapoliticaonline.com/politica/patricia-supera-en-imagen-positiva-a-milei-que-esta-quinto/"
   },
   {
-   "s": "Examedia",
-   "t": "Milei retoma la negociación del Presupuesto 2027 con sus aliados",
-   "g": "Piden cambios en fondos para provincias, universidades y discapacidad.",
-   "u": "https://examedia.com.ar/portada/post/88223932"
+   "s": "La Política Online",
+   "t": "Caputo presionó a Bullrich para votar el tratado de patentes que pide EE.UU.",
+   "g": "El Gobierno quiere sesionar en el Senado el 19 de noviembre.",
+   "u": "https://www.lapoliticaonline.com/congreso/bullrich-quiso-patear-el-tratado-de-patentes-para-despues-del-informe-de-santilli-en-el-senado/"
   },
   {
-   "s": "0264 Noticias",
-   "t": "El Senado convoca la comisión para tratar la suspensión de las PASO",
-   "g": "Asuntos Constitucionales se reúne el martes 17 a las 15 h.",
-   "u": "https://www.0264noticias.com.ar/noticias/2026/11/12/117044-suspension-de-las-paso-el-gobierno-nacional-destrabo-las-negociaciones-con-los-aliados-y-convoco-a-la-comision-del-senado"
-  },
-  {
-   "s": "Letra P",
-   "t": "Encuesta de DC Consultores: Bullrich queda segunda, 7 puntos detrás de Milei",
-   "g": "Milei 30,5%, Bullrich 23,7% y Kicillof 13,8%. Es una sola encuestadora.",
-   "u": "https://www.letrap.com.ar/politica/encuesta-patricia-bullrich-se-mete-la-carrera-presidencial-y-queda-segunda-siete-puntos-detras-milei-n5428157"
+   "s": "Ámbito",
+   "t": "Tras una semana difícil, Milei busca retomar la iniciativa en el Congreso",
+   "g": "Presupuesto 2027 y suspensión de las PASO, las prioridades antes del 30/11.",
+   "u": "https://www.ambito.com/politica/no-fue-como-lo-imagino-javier-milei-busca-olvidar-una-semana-obstaculos-el-impulso-la-agenda-legislativa-n6344807"
   },
   {
    "s": "Infobae",
-   "t": "Kicillof retoma su agenda rumbo a 2027 después de la visita del Papa",
-   "g": "Recorridas, el Presupuesto bonaerense y el debate por las reelecciones.",
-   "u": "https://www.infobae.com/politica/2026/11/12/kicillof-retoma-su-agenda-rumbo-a-2027-tras-la-visita-del-papa-recorridas-presupuesto-y-reelecciones-indefinidas/"
+   "t": "Después del Papa: una nueva Karina Milei y la convivencia forzada con Bullrich",
+   "g": "La inflación de octubre le recordó al Gobierno los problemas económicos.",
+   "u": "https://www.infobae.com/politica/2026/11/13/la-argentina-despues-de-leon-una-nueva-karina-milei-la-convivencia-forzada-con-bullrich-y-el-golpe-por-la-inflacion/"
+  },
+  {
+   "s": "El Destape",
+   "t": "Ni el mensaje del Papa destrabó la ley de ludopatía",
+   "g": "El proyecto sigue frenado en el Congreso.",
+   "u": "https://www.eldestapeweb.com/politica/mensaje-papa-leon-xiv-destrabo-debate-milei-sigue-frenando-ley-ludopatia-202611130510"
   }
  ],
  "titulares": [
   {
    "sec": "Economía",
-   "s": "Elonce",
-   "t": "La inflación de octubre fue 2,2% y acumula 26,3% en el año",
-   "u": "https://www.elonce.com/economia/la-inflacion-de-octubre-fue-del-2-2-y-acumulo-un-26-3-en-lo-que-va-del-ano.htm"
+   "s": "Ámbito",
+   "t": "El Central hizo su mayor compra en casi un mes, pero el oro bajó las reservas",
+   "u": "https://www.ambito.com/finanzas/el-bcra-realizo-la-mayor-compra-casi-un-mes-aunque-las-reservas-cayeron-arrastradas-el-oro-n6344627"
+  },
+  {
+   "sec": "Economía",
+   "s": "Ámbito",
+   "t": "Con la inflación de octubre, el techo de la banda para diciembre pasa los $2.000",
+   "u": "https://www.ambito.com/finanzas/dolar-hoy-y-dolar-blue-hoy-minuto-minuto-cuanto-opera-este-viernes-13-noviembre-n6344766"
   },
   {
    "sec": "Economía",
    "s": "Infobae",
-   "t": "El Banco Central compró más de USD 100 millones, el mayor monto del mes",
-   "u": "https://www.infobae.com/economia/2026/11/12/el-banco-central-compro-mas-de-usd-100-millones-el-mayor-monto-de-noviembre/"
-  },
-  {
-   "sec": "Economía",
-   "s": "El Cronista",
-   "t": "Suben los bonos y el riesgo país perfora los 820 puntos",
-   "u": "https://www.cronista.com/finanzas-mercados/el-riesgo-pais-cayo-a-822-puntos-que-paso-con-los-bonos-y-las-acciones-argentinas-en-medio-del-caso-nvidia/"
+   "t": "De dónde saldrán los USD 4.400 millones que vencen en enero",
+   "u": "https://www.infobae.com/economia/2026/11/13/de-donde-van-a-salir-los-dolares-para-pagar-casi-usd-4400-millones-de-vencimientos-en-enero/"
   },
   {
    "sec": "Política",
-   "s": "El Destape",
-   "t": "Extraordinarias en puerta: Presupuesto 2027 y PASO, las prioridades",
-   "u": "https://www.eldestapeweb.com/politica/gobierno-prepara-convocar-sesiones-extraordinarias-presupuesto-2027-suspension-paso-prioridades-20261112173313"
+   "s": "La Política Online",
+   "t": "El Gobierno apura a Bullrich para eliminar las PASO en el Senado",
+   "u": "https://www.lapoliticaonline.com/politica/el-gobierno-sale-a-atacar-a-bullrich-y-le-pide-que-apure-la-eliminacion-de-las-paso/"
+  },
+  {
+   "sec": "Política",
+   "s": "La Nación",
+   "t": "Milei, tras la inflación: quiere llevar la apertura económica del 30% al 90%",
+   "u": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-lo-unico-que-le-faltaba-al-pais-eran-reglas-claras-dijo-el-nid13112026/"
   },
   {
    "sec": "Política",
    "s": "Letra P",
-   "t": "Una encuesta ubica a Bullrich segunda en la carrera presidencial",
-   "u": "https://www.letrap.com.ar/politica/encuesta-patricia-bullrich-se-mete-la-carrera-presidencial-y-queda-segunda-siete-puntos-detras-milei-n5428157"
-  },
-  {
-   "sec": "Política",
-   "s": "Infobae",
-   "t": "Kicillof vuelve a su agenda pensando en 2027",
-   "u": "https://www.infobae.com/politica/2026/11/12/kicillof-retoma-su-agenda-rumbo-a-2027-tras-la-visita-del-papa-recorridas-presupuesto-y-reelecciones-indefinidas/"
+   "t": "Los diputados de Bullrich piden más cambios al proyecto de Malvinas",
+   "u": "https://www.letrap.com.ar/congreso/malvinas-la-tropa-patricia-bullrich-pide-cambios-al-proyecto-santiago-caputo-y-complica-la-aprobacion-n5427969"
   },
   {
    "sec": "Mundo",
-   "s": "Kiplinger",
-   "t": "Wall Street cae por la crisis en la conducción de Nvidia",
-   "u": "https://www.kiplinger.com/investing/stocks/stocks-slip-as-wall-street-weighs-nvidias-ceo-crisis-stock-market-today"
+   "s": "Ámbito",
+   "t": "Wall Street cierra una semana tensa por Nvidia y la inflación",
+   "u": "https://www.ambito.com/finanzas/wall-street-cierra-una-semana-tensiones-marcada-el-escandalo-nvidia-y-la-inflacion-eeuu-n6344772"
   },
   {
    "sec": "Mundo",
-   "s": "Yahoo Finance",
-   "t": "La tasa del bono de EE.UU. a 10 años supera el 5%",
-   "u": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-12-sp-500-nasdaq-dow-nvidia-invest-110027430.html"
+   "s": "Seoul Economic Daily",
+   "t": "Los precios mayoristas de EE.UU. subieron 0,3% en octubre, menos de lo previsto",
+   "u": "https://en.sedaily.com/world/2026/11/13/us-producer-prices-rise-03-percent-in-october-below-forecast"
   }
  ],
  "agenda": [
   {
    "w": "Martes 17/11 · 15 h",
-   "b": "Senado: comisión por suspender las PASO; buscan dictamen del Presupuesto"
+   "b": "Senado: comisión por la suspensión de las PASO"
+  },
+  {
+   "w": "Miércoles 18/11",
+   "b": "Posible sesión en Diputados: Carta Orgánica del BCRA y Soberanía Nacional"
   },
   {
    "w": "Miércoles 25/11",
-   "b": "Sesión en Diputados e informe del jefe de Gabinete en el Senado"
+   "b": "Diputados trataría el Presupuesto 2027"
   },
   {
    "w": "Lunes 30/11",
-   "b": "Vencen $29,4 bn y cierran las sesiones ordinarias"
-  },
-  {
-   "w": "Mar. 8 y mié. 9/12",
-   "b": "Reunión de la Fed: el mercado espera suba"
+   "b": "Cierran las sesiones ordinarias del Congreso"
   }
  ],
- "guion": "*DÍA DE INFLACIÓN Y ESCÁNDALO*\n\n*1) Qué pasó en EEUU hoy en criollo*\n- La bolsa de EEUU cayó un poco: el día arrancó con un susto grande y después se calmó.\n- *S&P 500:* bajó 0,4%. Es como un promedio de las 500 empresas más grandes de EEUU.\n- *Nasdaq:* bajó 0,4%, pero a la mañana llegó a caer más de 1%. Es el índice de las tecnológicas.\n- *Dow Jones:* bajó 0,4%. Es el promedio de 30 empresas grandes y tradicionales.\n- *Nvidia:* renunció su CEO, Jensen Huang, por un escándalo personal. La acción llegó a caer 14% y cerró con −4,3%. Es la que hace los chips de la inteligencia artificial.\n- *AMD (+5,9%) y Broadcom (+5,5%):* subieron porque son competidoras de Nvidia y podrían quedarse con clientes.\n- La tasa de los bonos de EEUU a 10 años pasó el 5%. Es como el precio del crédito allá: si sube, el dinero se encarece en todo el mundo.\n\n*2) Qué pasó en Argentina hoy en criollo*\n- El dato del día: la inflación de octubre fue 2,2%, más que el 1,9% de septiembre. En el año acumula 26,3% y en los últimos 12 meses, 33,1%.\n- Lo que más subió fue vivienda, agua, luz y gas: 4,2%, por el gas.\n- *Merval:* bajó 0,95%, quinta baja seguida. Es el índice de las acciones argentinas. Subieron Metrogas (5,8%) y Comercial del Plata (3,4%); bajaron IRSA (3,6%) y BBVA (3%).\n- *Bonos:* subieron, y el *riesgo país* bajó a 813 puntos. Es como el puntaje de miedo que nos ponen los de afuera. Venía de 852.\n- *Dólar oficial:* 1.520 para comprar y 1.570 para vender en Banco Nación. Sin cambios.\n- *Dólar blue:* 1.545 y 1.565. Quieto. Es el dólar de la calle.\n- *Dólar MEP:* 1.581. Es el que comprás por la bolsa con pesos.\n- *Dólar CCL:* 1.670. Es el que usan las empresas para sacar plata afuera.\n- *Banco Central:* compró 103 millones de dólares, lo más alto del mes. Pero las reservas bajaron 252 millones, a 49.078 millones.\n\n*3) Lo que NADIE te está contando*\n- El gas pesó fuerte: el rubro vivienda y servicios subió casi el doble que el promedio, por los cambios en la Zona Fría.\n- El Banco Central compró dos días seguidos, pero las reservas cayeron igual los dos días: 312 millones ayer y 252 hoy. Y no explicó por qué.\n- En noviembre lleva comprados 183 millones; en todo octubre había comprado 1.396 millones.\n- Es como cuando cobrás unos pesos extra, pero la cuenta del banco igual te da menos a fin de mes.\n\n*4) Qué significa esto para tu bolsillo mañana*\n- Si tu sueldo o tu plazo fijo suben menos de 2,2% por mes, pierden contra los precios.\n- Si vivís en zona fría, ojo con la próxima boleta de gas: fue lo que más aumentó.\n- Dólar: el oficial y el blue siguen casi iguales. Si la tasa de EEUU sigue subiendo, puede aparecer presión.\n- Si la Fed sube la tasa en diciembre, se encarecen las deudas y cuotas en dólares.\n- En criollo: los precios no terminan de frenar y afuera el mundo está nervioso. El dólar, por ahora, aguanta.",
+ "guion": "*VIERNES DE RESPIRO Y CUENTAS*\n_Avance del mediodía · valores parciales_\n\n*1) Qué está pasando en EEUU hoy en criollo*\n- La bolsa de EEUU abrió en alza después de dos días nerviosos.\n- *S&P 500:* sube 0,35%. Es como un promedio de las 500 empresas más grandes de EEUU.\n- *Nasdaq:* sube 0,21%. Es el índice de las tecnológicas.\n- *Dow Jones:* sube 0,39%. Es el promedio de 30 empresas grandes y tradicionales.\n- *El porqué:* los precios mayoristas subieron 0,3% en octubre, menos que el 0,4% esperado. Baja un poco el miedo a que la Fed suba la tasa en diciembre.\n- *Nvidia:* rebotaba 2,3% antes de la apertura. Tras la renuncia de su CEO, quedó al mando de forma interina la directora financiera.\n- *Microsoft (−1,4%):* lleva dos días con fallas en Outlook y Teams en todo el mundo.\n\n*2) Qué está pasando en Argentina hoy en criollo*\n- Mañana tranquila en el dólar, con la mira puesta en cómo se pagan las deudas de enero.\n- *Dólar oficial:* 1.520 para comprar y 1.570 para vender en Banco Nación. Sin cambios.\n- *Dólar blue:* 1.545 y 1.565. Quieto. Es el dólar de la calle.\n- *Dólar MEP:* 1.574. Es el que comprás por la bolsa con pesos.\n- *Dólar CCL:* 1.679. Es el que usan las empresas para sacar plata afuera.\n- *Riesgo país:* cerró el jueves en 829 puntos. Es como el puntaje de miedo que nos ponen los de afuera. Venía de 852.\n- *Merval:* el jueves bajó 1,1%, quinta baja seguida. Bajaron IRSA (4%), Macro (3,4%) y BBVA (3,1%); subieron Metrogas (2%) y BYMA (1,1%).\n- *Banco Central:* el jueves compró 103 millones de dólares, lo más alto en casi un mes. Pero las reservas bajaron 257 millones, a 49.073 millones, por la caída del oro.\n\n*3) Lo que NADIE te está contando*\n- En enero hay que pagar 4.378 millones de dólares de deuda, y el Tesoro tiene menos de 100 millones guardados.\n- Hay asegurados unos 660 millones. El resto depende del FMI, de privatizaciones que se postergaron y de préstamos.\n- Con la inflación de octubre, el techo de la banda del dólar para diciembre ya pasa los $2.000, lejos de los $1.545 del mayorista.\n- Es como tener la tarjeta con vencimiento en enero y la billetera casi vacía: hay ingresos prometidos, pero todavía no llegaron.\n\n*4) Qué significa esto para tu bolsillo*\n- Si tu sueldo o tu plazo fijo suben menos de 2,2% por mes, pierden contra los precios.\n- Si en las próximas semanas no aparecen los fondos para enero, puede crecer la presión sobre el dólar.\n- Si la Fed no sube la tasa en diciembre, las cuotas y deudas en dólares no se encarecerían tanto.\n- En criollo: hoy el dólar está tranquilo, pero la cuenta grande llega en enero y todavía falta juntar la plata.",
  "fuentes": [
   [
-   "Ámbito · Dólar al cierre 12/11",
-   "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-jueves-12-noviembre-n6344588"
+   "Ámbito · Dólar hoy 13/11",
+   "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cotiza-este-viernes-13-noviembre-n6344747"
   ],
   [
-   "BAE Negocios · Mayorista, BCRA e inflación",
-   "https://www.baenegocios.com/finanzas/el-dolar-borro-la-baja-del-miercoles-mientras-el-bcra-acelero-las-compras/"
+   "Ámbito · Dólar minuto a minuto y banda",
+   "https://www.ambito.com/finanzas/dolar-hoy-y-dolar-blue-hoy-minuto-minuto-cuanto-opera-este-viernes-13-noviembre-n6344766"
   ],
   [
-   "Infobae · Compras del BCRA y reservas",
-   "https://www.infobae.com/economia/2026/11/12/el-banco-central-compro-mas-de-usd-100-millones-el-mayor-monto-de-noviembre/"
+   "Ámbito · Compras del BCRA y reservas",
+   "https://www.ambito.com/finanzas/el-bcra-realizo-la-mayor-compra-casi-un-mes-aunque-las-reservas-cayeron-arrastradas-el-oro-n6344627"
   ],
   [
-   "EFE / Infobae · Merval al cierre",
-   "https://www.infobae.com/america/agencias/2026/11/12/la-bolsa-de-buenos-aires-cierra-con-una-caida-del-095/"
+   "Ámbito · Wall Street y la semana",
+   "https://www.ambito.com/finanzas/wall-street-cierra-una-semana-tensiones-marcada-el-escandalo-nvidia-y-la-inflacion-eeuu-n6344772"
   ],
   [
-   "El Cronista · Bonos y riesgo país",
-   "https://www.cronista.com/finanzas-mercados/el-riesgo-pais-cayo-a-822-puntos-que-paso-con-los-bonos-y-las-acciones-argentinas-en-medio-del-caso-nvidia/"
+   "Ámbito · Agenda legislativa",
+   "https://www.ambito.com/politica/no-fue-como-lo-imagino-javier-milei-busca-olvidar-una-semana-obstaculos-el-impulso-la-agenda-legislativa-n6344807"
   ],
   [
-   "Elonce · Inflación de octubre (INDEC)",
-   "https://www.elonce.com/economia/la-inflacion-de-octubre-fue-del-2-2-y-acumulo-un-26-3-en-lo-que-va-del-ano.htm"
+   "La Política Online · Encuesta AtlasIntel",
+   "https://www.lapoliticaonline.com/politica/patricia-supera-en-imagen-positiva-a-milei-que-esta-quinto/"
   ],
   [
-   "Kiplinger · Cierre de Wall Street",
-   "https://www.kiplinger.com/investing/stocks/stocks-slip-as-wall-street-weighs-nvidias-ceo-crisis-stock-market-today"
+   "La Política Online · Tratado de patentes",
+   "https://www.lapoliticaonline.com/congreso/bullrich-quiso-patear-el-tratado-de-patentes-para-despues-del-informe-de-santilli-en-el-senado/"
   ],
   [
-   "Yahoo Finance · Nvidia, tasas y Fed",
-   "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-12-sp-500-nasdaq-dow-nvidia-invest-110027430.html"
+   "La Política Online · PASO y Bullrich",
+   "https://www.lapoliticaonline.com/politica/el-gobierno-sale-a-atacar-a-bullrich-y-le-pide-que-apure-la-eliminacion-de-las-paso/"
   ],
   [
-   "Forbes Argentina · Acuerdo técnico con el FMI",
-   "https://www.forbesargentina.com/money/el-fmi-alcanzo-acuerdo-tecnico-argentina-tercera-revision-espera-aval-girar-us-900-millones-n101221"
+   "Rava · Riesgo país histórico",
+   "https://www.rava.com/cotizaciones/historico/riesgo-pais/hoy/"
   ],
   [
-   "El Destape · Extraordinarias",
-   "https://www.eldestapeweb.com/politica/gobierno-prepara-convocar-sesiones-extraordinarias-presupuesto-2027-suspension-paso-prioridades-20261112173313"
+   "Perfil · Riesgo país y Merval al cierre del jueves",
+   "https://www.perfil.com/economia/el-riesgo-pais-cerro-por-debajo-de-los-830-puntos-ante-el-avance-de-los-bonos-aIJJQ9e39SDr"
   ],
   [
-   "Examedia · Presupuesto 2027",
-   "https://examedia.com.ar/portada/post/88223932"
+   "C5N · Acciones y bonos",
+   "https://www.c5n.com/economia/riesgo-pais-acciones-bonos-argentinos-wall-street-viernes-13-noviembre-2026"
   ],
   [
-   "0264 Noticias · PASO en el Senado",
-   "https://www.0264noticias.com.ar/noticias/2026/11/12/117044-suspension-de-las-paso-el-gobierno-nacional-destrabo-las-negociaciones-con-los-aliados-y-convoco-a-la-comision-del-senado"
+   "Noticias Argentinas · Dólar en vivo",
+   "https://noticiasargentinas.com/economia/---en-vivo---precio-del-dolar-hoy-viernes-13-de-noviembre_a6af6d638d33dd5f8047d2064"
   ],
   [
-   "Letra P · Encuesta DC Consultores",
-   "https://www.letrap.com.ar/politica/encuesta-patricia-bullrich-se-mete-la-carrera-presidencial-y-queda-segunda-siete-puntos-detras-milei-n5428157"
+   "Infobae · Vencimientos de enero",
+   "https://www.infobae.com/economia/2026/11/13/de-donde-van-a-salir-los-dolares-para-pagar-casi-usd-4400-millones-de-vencimientos-en-enero/"
   ],
   [
-   "Infobae · Kicillof",
-   "https://www.infobae.com/politica/2026/11/12/kicillof-retoma-su-agenda-rumbo-a-2027-tras-la-visita-del-papa-recorridas-presupuesto-y-reelecciones-indefinidas/"
+   "Infobae · Karina Milei y Bullrich",
+   "https://www.infobae.com/politica/2026/11/13/la-argentina-despues-de-leon-una-nueva-karina-milei-la-convivencia-forzada-con-bullrich-y-el-golpe-por-la-inflacion/"
   ],
   [
-   "Ámbito · Depósitos en USD (récord de octubre, dato previo)",
-   "https://www.ambito.com/finanzas/las-reservas-del-bcra-cayeron-minimos-mas-un-mes-pero-se-mantuvieron-las-compras-pese-al-feriado-eeuu-n6344161"
+   "La Nación · Milei en vivo",
+   "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-lo-unico-que-le-faltaba-al-pais-eran-reglas-claras-dijo-el-nid13112026/"
   ],
   [
-   "Los Primeros TV · Riesgo país cierra en 813",
-   "https://www.losprimeros.tv/economia/el-riesgo-pais-cae-hasta-los-813-puntos_a6af61f0b7139d0df6ff19570"
+   "Letra P · Malvinas en Diputados",
+   "https://www.letrap.com.ar/congreso/malvinas-la-tropa-patricia-bullrich-pide-cambios-al-proyecto-santiago-caputo-y-complica-la-aprobacion-n5427969"
+  ],
+  [
+   "El Destape · Ley de ludopatía",
+   "https://www.eldestapeweb.com/politica/mensaje-papa-leon-xiv-destrabo-debate-milei-sigue-frenando-ley-ludopatia-202611130510"
+  ],
+  [
+   "TheStreet · Apertura de Wall Street",
+   "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-13-2026"
+  ],
+  [
+   "Yahoo Finance · Futuros, Nvidia, Cisco",
+   "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-edge-lower-095455708.html"
+  ],
+  [
+   "Seoul Economic Daily · PPI de octubre",
+   "https://en.sedaily.com/world/2026/11/13/us-producer-prices-rise-03-percent-in-october-below-forecast"
   ]
  ]
 }
