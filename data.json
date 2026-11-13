@@ -1,61 +1,61 @@
 {
  "fecha": "Viernes 13 de noviembre de 2026",
  "iso": "2026-11-13",
- "corte": "Actualizado a las 12:19 h · valores parciales de la rueda",
+ "corte": "Actualizado a las 19:47 h · cierre definitivo",
  "clima": {
-  "tag": "Viernes de respiro y cuentas",
-  "tipo": "tranquilo",
-  "por": "Wall Street abre en alza tras un dato de precios mejor de lo esperado; el dólar, quieto."
+  "tag": "Rebote con la cuenta pendiente",
+  "tipo": "rebote",
+  "por": "Las acciones cortan cinco bajas y las reservas suben, pero enero sigue sin fondos asegurados."
  },
- "frase": "El dólar arranca quieto y preocupan los USD 4.400 millones que vencen en enero.",
+ "frase": "Las acciones rebotan 3,1% y las reservas suben, pero la cuenta de enero sigue abierta.",
  "atipica": null,
  "claves": [
-  "El dólar oficial abre sin cambios en $1.570; el blue sigue en $1.565.",
-  "El Tesoro tiene menos de USD 100 millones depositados y en enero vencen USD 4.378 millones.",
-  "En EE.UU., los precios mayoristas subieron 0,3% en octubre (se esperaba 0,4%) y Wall Street abre en alza."
+  "El Merval rebotó 3,1% y cortó cinco bajas seguidas; el riesgo país cerró en 830 (+1), pero en la semana bajó 109 puntos.",
+  "El Banco Central compró USD 40 millones y las reservas subieron USD 524 millones, a USD 49.597 millones.",
+  "El blue subió $10 a $1.575, su mayor suba semanal en cuatro meses; el oficial quedó en $1.570."
  ],
  "indicadores": [
   {
    "k": "Dólar oficial",
    "v": "$1.570",
-   "d": "BNA venta · sin cambios en la apertura · compra $1.520",
+   "d": "BNA venta · sin cambios · mayorista $1.543,50 (−$2)",
    "tend": "flat",
    "estado": "verde"
   },
   {
    "k": "Dólar MEP",
-   "v": "$1.574",
-   "d": "Último dato (Ámbito) · brecha 1,8%",
-   "tend": "flat",
+   "v": "$1.577",
+   "d": "Subió $3 · venía de $1.574 · brecha 2,2%",
+   "tend": "up",
    "estado": "verde"
   },
   {
    "k": "Contado con liqui",
-   "v": "$1.679",
-   "d": "Último dato (Ámbito) · brecha 8,7%",
-   "tend": "flat",
+   "v": "$1.672",
+   "d": "Bajó $7 · venía de $1.679 · brecha 8,3%",
+   "tend": "down",
    "estado": "amarillo"
   },
   {
    "k": "Dólar blue",
-   "v": "$1.565",
-   "d": "Sin cambios · compra $1.545",
-   "tend": "flat",
-   "estado": "verde"
+   "v": "$1.575",
+   "d": "Subió $10 · compra $1.555 · +$20 en la semana, máximo nominal",
+   "tend": "up",
+   "estado": "amarillo"
   },
   {
    "k": "Riesgo país",
-   "v": "829",
-   "d": "−23 · cierre del jueves; venía de 852 el miércoles",
-   "tend": "down",
+   "v": "830",
+   "d": "+1 · venía de 829 el jueves · −109 en la semana (939 el 6/11)",
+   "tend": "up",
    "estado": "rojo",
    "serie": true
   },
   {
    "k": "Reservas BCRA",
-   "v": "49.073 M",
-   "d": "USD · −257 M el jueves, por la baja del oro",
-   "tend": "down",
+   "v": "49.597 M",
+   "d": "USD · +524 M hoy, tras caer 257 M el jueves",
+   "tend": "up",
    "estado": "amarillo"
   },
   {
@@ -67,22 +67,22 @@
   },
   {
    "k": "Merval",
-   "v": "82.492",
-   "d": "−1,1% · cierre del jueves, quinta baja seguida",
-   "tend": "down",
-   "estado": "amarillo"
+   "v": "85.053",
+   "d": "+3,1% · venía de 82.492 · cortó cinco bajas seguidas",
+   "tend": "up",
+   "estado": "verde"
   },
   {
    "k": "Compras BCRA",
-   "v": "USD 103 M",
-   "d": "Jueves · USD 183 M en noviembre · USD 16.151 M en 2026",
+   "v": "USD 40 M",
+   "d": "USD 223 M en noviembre · USD 16.191 M en 2026",
    "tend": "up",
    "estado": "verde"
   },
   {
    "k": "Vencimientos enero",
    "v": "USD 4.378 M",
-   "d": "Hay asegurados unos USD 660 M · Tesoro con menos de USD 100 M",
+   "d": "El Tesoro tiene USD 59 M en el BCRA tras pagarle USD 881 M al FMI",
    "tend": "up",
    "estado": "rojo",
    "criollo": "La deuda en dólares que el país tiene que pagar en enero y de dónde saldría la plata."
@@ -147,134 +147,143 @@
   [
    "12/11",
    829
+  ],
+  [
+   "13/11",
+   830
   ]
  ],
  "mundo": [
   {
    "k": "S&P 500",
-   "v": "+0,35%",
-   "d": "Apertura · venía de 7.592",
-   "tend": "up"
+   "v": "−0,4%",
+   "d": "Cerró en 7.561,67 · +2,5% en la semana",
+   "tend": "down"
   },
   {
    "k": "Nasdaq",
-   "v": "+0,21%",
-   "d": "Apertura · venía de 25.366",
-   "tend": "up"
+   "v": "−0,9%",
+   "d": "Cerró en 25.136 · igual, su mejor semana desde agosto",
+   "tend": "down"
   },
   {
    "k": "Dow Jones",
-   "v": "+0,39%",
-   "d": "Apertura · venía de 52.297",
+   "v": "+0,1%",
+   "d": "Cerró en 52.348 · +2,1% en la semana",
    "tend": "up"
   },
   {
-   "k": "Nvidia",
-   "v": "+2,3%",
-   "d": "Premercado · rebota tras la renuncia de su CEO",
-   "tend": "up"
+   "k": "AMD",
+   "v": "−8,8%",
+   "d": "Toma de ganancias en chips de IA · Nvidia −2%",
+   "tend": "down"
   },
   {
    "k": "Fed",
    "v": "3,75–4%",
-   "d": "Precios mayoristas 0,3% (se esperaba 0,4%) · bono a 10 años 5,1%",
-   "tend": "flat"
+   "d": "Bono a 10 años 5,15% · se espera una suba en diciembre",
+   "tend": "up"
   }
  ],
  "porque": [
   {
-   "q": "Wall Street abre con subas",
-   "p": "Los precios mayoristas de EE.UU. subieron 0,3% en octubre, menos que el 0,4% esperado. Eso baja un poco el miedo a que la Fed suba la tasa en diciembre."
+   "q": "Wall Street cayó, pero cerró una buena semana",
+   "p": "Se vendieron las acciones de inteligencia artificial por dudas sobre si sus ganancias justifican tanto gasto. Más del 60% de las empresas del S&P 500 subió."
   },
   {
-   "q": "Nvidia rebota después del golpe",
-   "p": "Tras la renuncia de Jensen Huang, la directora financiera Colette Kress quedó como CEO interina. La acción sube 2,3% antes de la apertura, después de caer 4,3% el jueves."
+   "q": "Los chips devolvieron lo ganado",
+   "p": "AMD cayó 8,8% y Broadcom 4,8% después de subir fuerte en la semana. Nvidia bajó 2% y perdió casi USD 600.000 millones de valor en la semana."
   },
   {
-   "q": "Preocupan los vencimientos de enero",
-   "p": "En enero hay que pagar USD 4.378 millones de deuda. El Tesoro tiene menos de USD 100 millones depositados y espera fondos del FMI, privatizaciones y préstamos."
+   "q": "Rebote de las acciones argentinas",
+   "p": "Después de cinco bajas seguidas y precios mínimos del año, aparecieron compradores. Cresud y Ternium subieron más de 8%."
   },
   {
-   "q": "El Central compra, pero el oro le resta",
-   "p": "El jueves compró USD 103 millones, pero las reservas bajaron USD 257 millones: el oro cayó 2,8% y eso le restó unos USD 225 millones al valor de lo que guarda."
+   "q": "El Central compró y las reservas subieron",
+   "p": "Compró USD 40 millones y las reservas subieron USD 524 millones. Pero el Tesoro tiene solo USD 59 millones en el BCRA y en enero vencen USD 4.378 millones."
   }
  ],
- "oculto": "El dato de inflación de octubre tiene una consecuencia poco comentada: como la banda del dólar se ajusta por inflación, el techo para diciembre ya supera los $2.000, muy por encima de los $1.545 del mayorista. Mientras tanto, el Tesoro tiene menos de USD 100 millones depositados frente a una meta de USD 3.700 millones para fin de año, y en enero vencen USD 4.378 millones. Lo que falta, unos USD 3.400 millones, depende de que el FMI apruebe la revisión, de privatizaciones que se postergaron (AySA y Belgrano Cargas) y de préstamos.",
+ "oculto": "Después de pagarle USD 881 millones al FMI, el Tesoro quedó con apenas USD 59 millones depositados en el Banco Central, mientras en enero vencen USD 4.378 millones de bonos. Un informe de Morgan Stanley citado por La Política Online calcula que los precios de los bonos ya suponen entre 41% y 52% de probabilidad de una fuerte crisis financiera o de default con el próximo gobierno; hace tres meses ese rango era de 11% a 20%. Por eso la tasa del Bonar 2029 llegó al 17%: el mercado cobra caro prestarle al país más allá de 2027.",
  "bolsillo": [
   "Si tu sueldo o tu plazo fijo suben menos de 2,2% por mes, pierden contra los precios.",
-  "Dólar: el oficial y el blue arrancan quietos. Si en las próximas semanas no aparecen los fondos para enero, puede crecer la presión sobre el dólar.",
-  "Si la Fed finalmente no sube la tasa en diciembre, las deudas y cuotas en dólares no se encarecerían tanto.",
+  "El blue subió $20 en la semana: si la demanda de dólares para fin de año sigue, puede seguir presionado aunque el oficial esté quieto.",
+  "Si la Fed sube la tasa en diciembre, las deudas y cuotas en dólares se encarecen y el crédito para la Argentina se hace más caro.",
   "Si viajás o pagás con tarjeta en dólares, el dólar tarjeta está en $2.041."
  ],
  "empresas": {
   "ar": [
    {
-    "n": "Metrogas",
-    "c": "+2,0%",
-    "que": "Distribuye gas por cañería en la Ciudad y el sur del conurbano. (Cierre del jueves)"
+    "n": "Cresud",
+    "c": "+8,6%",
+    "que": "Agro e inmuebles (es dueña de IRSA). En Nueva York su ADR subió más de 10%."
    },
    {
-    "n": "BYMA",
-    "c": "+1,1%",
-    "que": "Es la propia Bolsa: gana con el volumen que se opera. (Cierre del jueves)"
+    "n": "Ternium Argentina",
+    "c": "+8,1%",
+    "que": "Fabrica acero plano para autos, electrodomésticos y construcción."
    },
    {
     "n": "Central Puerto",
-    "c": "+0,9%",
-    "que": "Genera electricidad con centrales térmicas y renovables. (Cierre del jueves)"
+    "c": "+5,2%",
+    "que": "Genera electricidad con centrales térmicas y renovables."
    },
    {
-    "n": "IRSA",
-    "c": "−4,0%",
-    "que": "Dueña de shoppings, oficinas y hoteles. (Cierre del jueves)"
+    "n": "Pampa Energía",
+    "c": "+3,4%",
+    "que": "Genera electricidad y produce petróleo y gas en Vaca Muerta."
    },
    {
-    "n": "Banco Macro",
-    "c": "−3,4%",
-    "que": "Banco privado argentino, fuerte en el interior. (Cierre del jueves)"
+    "n": "BYMA",
+    "c": "−0,5%",
+    "que": "Es la propia Bolsa: gana con el volumen que se opera."
    },
    {
-    "n": "BBVA Argentina",
-    "c": "−3,1%",
-    "que": "Banco privado de capital español. (Cierre del jueves)"
+    "n": "Banco de Valores",
+    "c": "−0,2%",
+    "que": "Banco de la Bolsa: custodia y opera títulos para inversores."
    }
   ],
   "eeuu": [
    {
+    "n": "AMD",
+    "c": "−8,8%",
+    "que": "Hace procesadores y chips para inteligencia artificial. Devolvió parte de la fuerte suba de la semana."
+   },
+   {
+    "n": "Broadcom",
+    "c": "−4,8%",
+    "que": "Hace chips para redes y centros de datos. También tomó ganancias tras subir en la semana."
+   },
+   {
     "n": "Nvidia",
-    "c": "+2,3%",
-    "que": "Hace los chips de la inteligencia artificial. Rebota antes de la apertura tras la salida de su CEO."
+    "c": "−2,0%",
+    "que": "Hace los chips de la IA. Sigue golpeada tras la renuncia de su CEO."
    },
    {
-    "n": "Microsoft",
-    "c": "−1,4%",
-    "que": "Dueña de Windows y Office. Lleva dos días con fallas en Outlook y Teams en todo el mundo."
-   },
-   {
-    "n": "Cisco",
-    "c": "−3,5%",
-    "que": "Hace equipos de redes e internet. Vendió más de lo esperado, pero los pedidos crecieron menos."
+    "n": "Visa",
+    "c": "+1,3%",
+    "que": "Red de pagos con tarjeta. Subió con el resto de las empresas fuera de tecnología."
    }
   ]
  },
  "politica": [
   {
    "s": "La Política Online",
-   "t": "Encuesta de AtlasIntel: Bullrich supera a Milei en imagen positiva",
-   "g": "Milei queda quinto con 36%; es una sola encuestadora.",
-   "u": "https://www.lapoliticaonline.com/politica/patricia-supera-en-imagen-positiva-a-milei-que-esta-quinto/"
+   "t": "Encuesta de Tendencias: Kicillof le ganaría a Milei por 10 puntos en un ballotage",
+   "g": "En primera vuelta, empate técnico: 34% a 33,8%. Es una sola encuestadora.",
+   "u": "https://www.lapoliticaonline.com/politica/una-encuesta-le-da-a-kicillof-diez-puntos-de-ventaja-en-un-ballotage-con-milei/"
   },
   {
    "s": "La Política Online",
-   "t": "Caputo presionó a Bullrich para votar el tratado de patentes que pide EE.UU.",
-   "g": "El Gobierno quiere sesionar en el Senado el 19 de noviembre.",
-   "u": "https://www.lapoliticaonline.com/congreso/bullrich-quiso-patear-el-tratado-de-patentes-para-despues-del-informe-de-santilli-en-el-senado/"
+   "t": "Milei no habló de la suba de la inflación y prometió abrir más la economía",
+   "g": "Fue en la Gala Endeavor; habló de llegar al 90% del planeta en 2031.",
+   "u": "https://www.lapoliticaonline.com/politica/milei-eludio-hablar-de-la-suba-de-la-inflacion-y-prometio-abrir-mas-la-economia/"
   },
   {
    "s": "Ámbito",
-   "t": "Tras una semana difícil, Milei busca retomar la iniciativa en el Congreso",
-   "g": "Presupuesto 2027 y suspensión de las PASO, las prioridades antes del 30/11.",
-   "u": "https://www.ambito.com/politica/no-fue-como-lo-imagino-javier-milei-busca-olvidar-una-semana-obstaculos-el-impulso-la-agenda-legislativa-n6344807"
+   "t": "La AGN prepara una auditoría dura sobre los envíos de oro del BCRA al exterior",
+   "g": "Ya recibió la respuesta del Banco Central sobre el traslado del oro.",
+   "u": "https://www.ambito.com/politica/oro-la-agn-recibio-la-respuesta-del-bcra-y-prepara-una-dura-auditoria-los-envios-al-exterior-n6344725"
   },
   {
    "s": "Infobae",
@@ -283,60 +292,60 @@
    "u": "https://www.infobae.com/politica/2026/11/13/la-argentina-despues-de-leon-una-nueva-karina-milei-la-convivencia-forzada-con-bullrich-y-el-golpe-por-la-inflacion/"
   },
   {
-   "s": "El Destape",
-   "t": "Ni el mensaje del Papa destrabó la ley de ludopatía",
-   "g": "El proyecto sigue frenado en el Congreso.",
-   "u": "https://www.eldestapeweb.com/politica/mensaje-papa-leon-xiv-destrabo-debate-milei-sigue-frenando-ley-ludopatia-202611130510"
+   "s": "Página/12",
+   "t": "Críticas a la Corte Suprema por las domiciliarias a condenados de la dictadura",
+   "g": "El diario sostiene que el fallo buscó pasar inadvertido.",
+   "u": "https://www.pagina12.com.ar/2026/11/13/la-corte-busco-que-pasara-bajo-el-radar-su-guino-a-los-represores/"
   }
  ],
  "titulares": [
   {
    "sec": "Economía",
    "s": "Ámbito",
-   "t": "El Central hizo su mayor compra en casi un mes, pero el oro bajó las reservas",
-   "u": "https://www.ambito.com/finanzas/el-bcra-realizo-la-mayor-compra-casi-un-mes-aunque-las-reservas-cayeron-arrastradas-el-oro-n6344627"
+   "t": "El Central compró toda la semana y ya suma más de USD 200 millones en noviembre",
+   "u": "https://www.ambito.com/finanzas/el-bcra-sostuvo-las-compras-dolares-la-semana-y-ya-acumulo-mas-us200-millones-noviembre-n6345123"
   },
   {
    "sec": "Economía",
    "s": "Ámbito",
-   "t": "Con la inflación de octubre, el techo de la banda para diciembre pasa los $2.000",
-   "u": "https://www.ambito.com/finanzas/dolar-hoy-y-dolar-blue-hoy-minuto-minuto-cuanto-opera-este-viernes-13-noviembre-n6344766"
+   "t": "El blue tuvo su mayor suba semanal en cuatro meses y cerró en máximos",
+   "u": "https://www.ambito.com/finanzas/el-dolar-blue-anoto-su-mayor-suba-semanal-cuatro-meses-y-cerro-maximos-nominales-n6345069"
   },
   {
    "sec": "Economía",
    "s": "Infobae",
-   "t": "De dónde saldrán los USD 4.400 millones que vencen en enero",
-   "u": "https://www.infobae.com/economia/2026/11/13/de-donde-van-a-salir-los-dolares-para-pagar-casi-usd-4400-millones-de-vencimientos-en-enero/"
+   "t": "Las acciones argentinas rebotaron desde sus mínimos del año",
+   "u": "https://www.infobae.com/economia/2026/11/13/jornada-financiera-las-acciones-argentinas-rebotaron-desde-sus-precios-minimos-del-ano-y-el-riesgo-pais-tuvo-una-leve-caida/"
   },
   {
    "sec": "Política",
    "s": "La Política Online",
-   "t": "El Gobierno apura a Bullrich para eliminar las PASO en el Senado",
-   "u": "https://www.lapoliticaonline.com/politica/el-gobierno-sale-a-atacar-a-bullrich-y-le-pide-que-apure-la-eliminacion-de-las-paso/"
+   "t": "El Gobierno ofrece colectoras a Pullaro, Valdés y Cornejo para suspender las PASO",
+   "u": "https://www.lapoliticaonline.com/congreso/el-gobierno-tienta-a-pullaro-valdes-y-cornejo-con-una-colectora-a-cambio-de-la-suspension-de-las-paso/"
   },
   {
    "sec": "Política",
-   "s": "La Nación",
-   "t": "Milei, tras la inflación: quiere llevar la apertura económica del 30% al 90%",
-   "u": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-lo-unico-que-le-faltaba-al-pais-eran-reglas-claras-dijo-el-nid13112026/"
+   "s": "Ámbito",
+   "t": "Malvinas: el Tribunal del Mar fijó fecha para el fallo por el proyecto Sea Lion",
+   "u": "https://www.ambito.com/politica/malvinas-el-tribunal-del-mar-le-puso-fecha-al-fallo-el-reclamo-argentina-frenar-sea-lion-n6344584"
   },
   {
    "sec": "Política",
-   "s": "Letra P",
-   "t": "Los diputados de Bullrich piden más cambios al proyecto de Malvinas",
-   "u": "https://www.letrap.com.ar/congreso/malvinas-la-tropa-patricia-bullrich-pide-cambios-al-proyecto-santiago-caputo-y-complica-la-aprobacion-n5427969"
+   "s": "Página/12",
+   "t": "La campaña \"Cristina libre\" llegó a EE.UU.: reunión en el Council of the Americas",
+   "u": "https://www.pagina12.com.ar/2026/11/13/cristina-libre-llego-a-eeuu-como-fue-la-reunion-en-el-council-of-the-americas/"
+  },
+  {
+   "sec": "Mundo",
+   "s": "AP",
+   "t": "Wall Street cae el viernes, pero cierra una semana ganadora tras días turbulentos",
+   "u": "https://whdh.com/news/stocks-fall-but-wall-street-notches-a-winning-week-after-several-turbulent-days/"
   },
   {
    "sec": "Mundo",
    "s": "Ámbito",
    "t": "Wall Street cierra una semana tensa por Nvidia y la inflación",
    "u": "https://www.ambito.com/finanzas/wall-street-cierra-una-semana-tensiones-marcada-el-escandalo-nvidia-y-la-inflacion-eeuu-n6344772"
-  },
-  {
-   "sec": "Mundo",
-   "s": "Seoul Economic Daily",
-   "t": "Los precios mayoristas de EE.UU. subieron 0,3% en octubre, menos de lo previsto",
-   "u": "https://en.sedaily.com/world/2026/11/13/us-producer-prices-rise-03-percent-in-october-below-forecast"
   }
  ],
  "agenda": [
@@ -357,87 +366,107 @@
    "b": "Cierran las sesiones ordinarias del Congreso"
   }
  ],
- "guion": "*VIERNES DE RESPIRO Y CUENTAS*\n_Avance del mediodía · valores parciales_\n\n*1) Qué está pasando en EEUU hoy en criollo*\n- La bolsa de EEUU abrió en alza después de dos días nerviosos.\n- *S&P 500:* sube 0,35%. Es como un promedio de las 500 empresas más grandes de EEUU.\n- *Nasdaq:* sube 0,21%. Es el índice de las tecnológicas.\n- *Dow Jones:* sube 0,39%. Es el promedio de 30 empresas grandes y tradicionales.\n- *El porqué:* los precios mayoristas subieron 0,3% en octubre, menos que el 0,4% esperado. Baja un poco el miedo a que la Fed suba la tasa en diciembre.\n- *Nvidia:* rebotaba 2,3% antes de la apertura. Tras la renuncia de su CEO, quedó al mando de forma interina la directora financiera.\n- *Microsoft (−1,4%):* lleva dos días con fallas en Outlook y Teams en todo el mundo.\n\n*2) Qué está pasando en Argentina hoy en criollo*\n- Mañana tranquila en el dólar, con la mira puesta en cómo se pagan las deudas de enero.\n- *Dólar oficial:* 1.520 para comprar y 1.570 para vender en Banco Nación. Sin cambios.\n- *Dólar blue:* 1.545 y 1.565. Quieto. Es el dólar de la calle.\n- *Dólar MEP:* 1.574. Es el que comprás por la bolsa con pesos.\n- *Dólar CCL:* 1.679. Es el que usan las empresas para sacar plata afuera.\n- *Riesgo país:* cerró el jueves en 829 puntos. Es como el puntaje de miedo que nos ponen los de afuera. Venía de 852.\n- *Merval:* el jueves bajó 1,1%, quinta baja seguida. Bajaron IRSA (4%), Macro (3,4%) y BBVA (3,1%); subieron Metrogas (2%) y BYMA (1,1%).\n- *Banco Central:* el jueves compró 103 millones de dólares, lo más alto en casi un mes. Pero las reservas bajaron 257 millones, a 49.073 millones, por la caída del oro.\n\n*3) Lo que NADIE te está contando*\n- En enero hay que pagar 4.378 millones de dólares de deuda, y el Tesoro tiene menos de 100 millones guardados.\n- Hay asegurados unos 660 millones. El resto depende del FMI, de privatizaciones que se postergaron y de préstamos.\n- Con la inflación de octubre, el techo de la banda del dólar para diciembre ya pasa los $2.000, lejos de los $1.545 del mayorista.\n- Es como tener la tarjeta con vencimiento en enero y la billetera casi vacía: hay ingresos prometidos, pero todavía no llegaron.\n\n*4) Qué significa esto para tu bolsillo*\n- Si tu sueldo o tu plazo fijo suben menos de 2,2% por mes, pierden contra los precios.\n- Si en las próximas semanas no aparecen los fondos para enero, puede crecer la presión sobre el dólar.\n- Si la Fed no sube la tasa en diciembre, las cuotas y deudas en dólares no se encarecerían tanto.\n- En criollo: hoy el dólar está tranquilo, pero la cuenta grande llega en enero y todavía falta juntar la plata.",
+ "guion": "*REBOTE CON LA CUENTA PENDIENTE*\n_Cierre definitivo del viernes 13/11_\n\n*1) Qué pasó en EEUU hoy en criollo*\n- La bolsa de EEUU cerró el viernes en baja, pero ganó en la semana.\n- *S&P 500:* bajó 0,4%, a 7.561 puntos. Es como un promedio de las 500 empresas más grandes de EEUU. En la semana subió 2,5%.\n- *Nasdaq:* bajó 0,9%. Es el índice de las tecnológicas. Igual tuvo su mejor semana desde agosto.\n- *Dow Jones:* subió 0,1%. Es el promedio de 30 empresas grandes y tradicionales.\n- *El porqué:* se vendieron las acciones de inteligencia artificial por dudas de si sus ganancias justifican tanto gasto. Más del 60% de las empresas del S&P 500 subió.\n- *AMD (−8,8%) y Broadcom (−4,8%):* hacen chips y devolvieron parte de lo que habían subido en la semana. *Nvidia* bajó 2%.\n- *Tasas:* el bono a 10 años subió a 5,15% y se espera que la Fed suba la tasa en diciembre.\n\n*2) Qué pasó en Argentina hoy en criollo*\n- Día de rebote en la bolsa, con el dólar oficial quieto y el blue en alza.\n- *Merval:* subió 3,1%, a 85.053 puntos, y cortó cinco bajas seguidas. Subieron Cresud (8,6%), Ternium (8,1%), Central Puerto (5,2%) y Pampa (3,4%).\n- *Bonos:* casi sin cambios.\n- *Riesgo país:* cerró en 830 puntos. Es como el puntaje de miedo que nos ponen los de afuera. Venía de 829: subió 1 punto en el día, pero en la semana bajó 109.\n- *Dólar oficial:* 1.520 para comprar y 1.570 para vender en Banco Nación. Sin cambios.\n- *Dólar blue:* 1.555 y 1.575. Subió $10. Es el dólar de la calle y tuvo su mayor suba semanal en cuatro meses.\n- *Dólar MEP:* 1.577. Es el que comprás por la bolsa con pesos.\n- *Dólar CCL:* 1.672. Es el que usan las empresas para sacar plata afuera.\n- *Banco Central:* compró 40 millones de dólares y ya suma 223 millones en noviembre. Las reservas subieron 524 millones, a 49.597 millones.\n\n*3) Lo que NADIE te está contando*\n- Después de pagarle 881 millones al FMI, el Tesoro quedó con apenas 59 millones de dólares en el Banco Central.\n- En enero vencen 4.378 millones de dólares de bonos.\n- Según Morgan Stanley, los precios de los bonos ya suponen entre 41% y 52% de probabilidad de una fuerte crisis o default con el próximo gobierno. Hace tres meses era 11% a 20%.\n- Es como un vecino que paga todo al día, pero el banco igual le cobra más caro porque no sabe quién va a vivir en la casa en dos años.\n\n*4) Qué significa esto para tu bolsillo mañana*\n- Si tu sueldo o tu plazo fijo suben menos de 2,2% por mes, pierden contra los precios.\n- Si sigue la demanda de dólares de fin de año, el blue puede seguir presionado aunque el oficial esté quieto.\n- Si la Fed sube la tasa en diciembre, las deudas en dólares se encarecen.\n- En criollo: la semana terminó mejor que como empezó, pero la cuenta grande de enero todavía no tiene la plata juntada.",
  "fuentes": [
   [
-   "Ámbito · Dólar hoy 13/11",
-   "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cotiza-este-viernes-13-noviembre-n6344747"
+   "Ámbito · Dólar al cierre 13/11",
+   "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-viernes-13-noviembre-n6345065"
   ],
   [
-   "Ámbito · Dólar minuto a minuto y banda",
-   "https://www.ambito.com/finanzas/dolar-hoy-y-dolar-blue-hoy-minuto-minuto-cuanto-opera-este-viernes-13-noviembre-n6344766"
+   "Ámbito · Blue al cierre y semana",
+   "https://www.ambito.com/finanzas/el-dolar-blue-anoto-su-mayor-suba-semanal-cuatro-meses-y-cerro-maximos-nominales-n6345069"
   ],
   [
    "Ámbito · Compras del BCRA y reservas",
-   "https://www.ambito.com/finanzas/el-bcra-realizo-la-mayor-compra-casi-un-mes-aunque-las-reservas-cayeron-arrastradas-el-oro-n6344627"
+   "https://www.ambito.com/finanzas/el-bcra-sostuvo-las-compras-dolares-la-semana-y-ya-acumulo-mas-us200-millones-noviembre-n6345123"
+  ],
+  [
+   "Ámbito · Bonar 2029 al 17%",
+   "https://www.ambito.com/finanzas/con-el-riesgo-pais-arriba-800-puntos-la-tasa-del-bonar-2029-salto-al-17-y-complica-el-programa-financiero-2027-n6344622"
+  ],
+  [
+   "Ámbito · Auditoría del oro",
+   "https://www.ambito.com/politica/oro-la-agn-recibio-la-respuesta-del-bcra-y-prepara-una-dura-auditoria-los-envios-al-exterior-n6344725"
+  ],
+  [
+   "Ámbito · Malvinas y Sea Lion",
+   "https://www.ambito.com/politica/malvinas-el-tribunal-del-mar-le-puso-fecha-al-fallo-el-reclamo-argentina-frenar-sea-lion-n6344584"
   ],
   [
    "Ámbito · Wall Street y la semana",
    "https://www.ambito.com/finanzas/wall-street-cierra-una-semana-tensiones-marcada-el-escandalo-nvidia-y-la-inflacion-eeuu-n6344772"
   ],
   [
-   "Ámbito · Agenda legislativa",
-   "https://www.ambito.com/politica/no-fue-como-lo-imagino-javier-milei-busca-olvidar-una-semana-obstaculos-el-impulso-la-agenda-legislativa-n6344807"
+   "Ámbito · Empleo privado (SIPA)",
+   "https://www.ambito.com/economia/el-empleo-asalariado-privado-sumo-15-meses-seguidos-baja-mientras-el-monotributo-anoto-su-mayor-alza-dos-anos-n6344697"
   ],
   [
-   "La Política Online · Encuesta AtlasIntel",
-   "https://www.lapoliticaonline.com/politica/patricia-supera-en-imagen-positiva-a-milei-que-esta-quinto/"
+   "La Política Online · Encuesta Tendencias",
+   "https://www.lapoliticaonline.com/politica/una-encuesta-le-da-a-kicillof-diez-puntos-de-ventaja-en-un-ballotage-con-milei/"
   ],
   [
-   "La Política Online · Tratado de patentes",
-   "https://www.lapoliticaonline.com/congreso/bullrich-quiso-patear-el-tratado-de-patentes-para-despues-del-informe-de-santilli-en-el-senado/"
+   "La Política Online · Milei e inflación",
+   "https://www.lapoliticaonline.com/politica/milei-eludio-hablar-de-la-suba-de-la-inflacion-y-prometio-abrir-mas-la-economia/"
   ],
   [
-   "La Política Online · PASO y Bullrich",
-   "https://www.lapoliticaonline.com/politica/el-gobierno-sale-a-atacar-a-bullrich-y-le-pide-que-apure-la-eliminacion-de-las-paso/"
+   "La Política Online · Morgan Stanley y default",
+   "https://www.lapoliticaonline.com/economia/morgan-reconoce-que-el-50-del-mercado-estima-probable-un-default/"
+  ],
+  [
+   "La Política Online · Dólares para enero",
+   "https://www.lapoliticaonline.com/economia/caputo-tiene-apenas-usd-830-millones-para-pagar-vencimientos-por-usd-4-400-millones-en-enero/"
+  ],
+  [
+   "La Política Online · PASO y gobernadores",
+   "https://www.lapoliticaonline.com/congreso/el-gobierno-tienta-a-pullaro-valdes-y-cornejo-con-una-colectora-a-cambio-de-la-suspension-de-las-paso/"
+  ],
+  [
+   "Noticias Argentinas · Riesgo país al cierre",
+   "https://noticiasargentinas.com/economia/el-riesgo-pais-de-la-argentina-cerro-la-semana-en-830-puntos-basicos_a6af7838097b243a5b555fa2a"
   ],
   [
    "Rava · Riesgo país histórico",
    "https://www.rava.com/cotizaciones/historico/riesgo-pais/hoy/"
   ],
   [
-   "Perfil · Riesgo país y Merval al cierre del jueves",
-   "https://www.perfil.com/economia/el-riesgo-pais-cerro-por-debajo-de-los-830-puntos-ante-el-avance-de-los-bonos-aIJJQ9e39SDr"
+   "Infobae · Jornada financiera",
+   "https://www.infobae.com/economia/2026/11/13/jornada-financiera-las-acciones-argentinas-rebotaron-desde-sus-precios-minimos-del-ano-y-el-riesgo-pais-tuvo-una-leve-caida/"
   ],
   [
-   "C5N · Acciones y bonos",
-   "https://www.c5n.com/economia/riesgo-pais-acciones-bonos-argentinos-wall-street-viernes-13-noviembre-2026"
-  ],
-  [
-   "Noticias Argentinas · Dólar en vivo",
-   "https://noticiasargentinas.com/economia/---en-vivo---precio-del-dolar-hoy-viernes-13-de-noviembre_a6af6d638d33dd5f8047d2064"
-  ],
-  [
-   "Infobae · Vencimientos de enero",
-   "https://www.infobae.com/economia/2026/11/13/de-donde-van-a-salir-los-dolares-para-pagar-casi-usd-4400-millones-de-vencimientos-en-enero/"
+   "Infobae/EFE · Bolsa de Buenos Aires al cierre",
+   "https://www.infobae.com/america/agencias/2026/11/13/la-bolsa-de-buenos-aires-cierra-con-una-subida-del-268/"
   ],
   [
    "Infobae · Karina Milei y Bullrich",
    "https://www.infobae.com/politica/2026/11/13/la-argentina-despues-de-leon-una-nueva-karina-milei-la-convivencia-forzada-con-bullrich-y-el-golpe-por-la-inflacion/"
   ],
   [
-   "La Nación · Milei en vivo",
-   "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-lo-unico-que-le-faltaba-al-pais-eran-reglas-claras-dijo-el-nid13112026/"
+   "Negocios AR · Acciones y ADR",
+   "https://negociosar.com/el-msci-merval-rebota-mas-de-2-mientras-los-bonos-operan-mixtos-y-el-riesgo-pais-sube-a-832-puntos/"
   ],
   [
-   "Letra P · Malvinas en Diputados",
-   "https://www.letrap.com.ar/congreso/malvinas-la-tropa-patricia-bullrich-pide-cambios-al-proyecto-santiago-caputo-y-complica-la-aprobacion-n5427969"
+   "La Nación · Depósitos del Tesoro en el BCRA",
+   "https://www.lanacion.com.ar/economia/los-depositos-en-dolares-del-gobierno-en-el-bcra-tocaron-un-piso-pero-la-entidad-sigue-comprando-nid13112026/"
   ],
   [
-   "El Destape · Ley de ludopatía",
-   "https://www.eldestapeweb.com/politica/mensaje-papa-leon-xiv-destrabo-debate-milei-sigue-frenando-ley-ludopatia-202611130510"
+   "Página/12 · Corte Suprema",
+   "https://www.pagina12.com.ar/2026/11/13/la-corte-busco-que-pasara-bajo-el-radar-su-guino-a-los-represores/"
   ],
   [
-   "TheStreet · Apertura de Wall Street",
-   "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-13-2026"
+   "Página/12 · Cristina libre en EE.UU.",
+   "https://www.pagina12.com.ar/2026/11/13/cristina-libre-llego-a-eeuu-como-fue-la-reunion-en-el-council-of-the-americas/"
   ],
   [
-   "Yahoo Finance · Futuros, Nvidia, Cisco",
-   "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-edge-lower-095455708.html"
+   "AP · Cierre de Wall Street",
+   "https://whdh.com/news/stocks-fall-but-wall-street-notches-a-winning-week-after-several-turbulent-days/"
   ],
   [
-   "Seoul Economic Daily · PPI de octubre",
-   "https://en.sedaily.com/world/2026/11/13/us-producer-prices-rise-03-percent-in-october-below-forecast"
+   "AP · Índices de EE.UU. al cierre",
+   "https://krmg.com/2026/11/13/how-major-us-stock-indexes-fared-friday-11-13-2026/"
+  ],
+  [
+   "Eduardo German · Depósitos en dólares récord",
+   "https://eduardogerman.com/2026/11/11/los-depositos-privados-en-dolares-marcaron-un-record-y-las-reservas-del-bcra-subieron-usd-2-474-millones/"
   ]
  ]
 }
