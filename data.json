@@ -1,7 +1,7 @@
 {
  "fecha": "Sábado 14 de noviembre de 2026",
  "iso": "2026-11-14",
- "corte": "Actualizado a las 12:30 h · fin de semana",
+ "corte": "Actualizado a las 19:45 h · fin de semana",
  "clima": {
   "tag": "Fin de semana: balance y agenda",
   "tipo": "atipico",
@@ -12,7 +12,7 @@
  "claves": [
   "Sin mercado el fin de semana: el riesgo país cerró el viernes en 830 y bajó 109 puntos en la semana.",
   "El martes el Senado vuelve a tratar la suspensión de las PASO y el Tesoro hace un canje para pasar deuda a enero.",
-  "EE.UU. frenó todos sus vuelos más de cuatro horas el viernes por una falla en el control aéreo."
+  "Zelenski dijo que EE.UU. planteó sumar a Ucrania a la OTAN si se retira del Donbás."
  ],
  "indicadores": [
   {
@@ -281,9 +281,9 @@
   },
   {
    "s": "Ámbito",
-   "t": "El Gobierno vuelve a reunir la mesa política después de casi un mes",
-   "g": "En agenda: suspensión de las PASO, ley Malvinas y Presupuesto 2027.",
-   "u": "https://www.ambito.com/politica/el-gobierno-vuelve-reunir-la-mesa-semanas-paralisis-y-medio-tensiones-internas-n6345141"
+   "t": "Presupuesto 2027: dictamen en comisión el martes y sesión en Diputados el 25/11",
+   "g": "Los aliados piden fondos para provincias, universidades y discapacidad.",
+   "u": "https://www.ambito.com/politica/el-gobierno-oficializo-los-plazos-aprobar-el-presupuesto-2027-diputados-n6345178"
   },
   {
    "s": "Infobae",
@@ -326,8 +326,8 @@
   {
    "sec": "Política",
    "s": "Infobae",
-   "t": "PASO, Presupuesto y Discapacidad: el Congreso enfrenta diez días muy exigentes",
-   "u": "https://www.infobae.com/politica/2026/11/14/reforma-electoral-presupuesto-y-discapacidad-el-congreso-enfrenta-sus-diez-dias-mas-exigentes-del-ano/"
+   "t": "Kicillof sigue la pelea por las PASO para decidir si unifica las elecciones bonaerenses",
+   "u": "https://www.infobae.com/politica/2026/11/14/axel-kicillof-sigue-de-cerca-las-negociaciones-por-las-paso-para-definir-si-unifica-las-elecciones-bonaerenses/"
   },
   {
    "sec": "Política",
@@ -337,9 +337,9 @@
   },
   {
    "sec": "Mundo",
-   "s": "ABC News",
-   "t": "EE.UU. frenó todos sus vuelos más de cuatro horas por una falla del control aéreo",
-   "u": "https://abcnews.com/US/nationwide-ground-stop-ordered-airports-faa/story?id=138121848"
+   "s": "EFE",
+   "t": "Zelenski: EE.UU. planteó la OTAN para Ucrania a cambio de dejar el Donbás",
+   "u": "https://www.infobae.com/america/agencias/2026/11/14/zelenski-dice-que-eeuu-ha-planteado-admitir-a-ucrania-en-la-otan-si-se-retira-de-donbas/"
   },
   {
    "sec": "Mundo",
@@ -350,8 +350,8 @@
  ],
  "agenda": [
   {
-   "w": "Martes 17/11 · 15 h",
-   "b": "Senado: comisión de Asuntos Constitucionales por la suspensión de las PASO"
+   "w": "Martes 17/11 · 15 y 16 h",
+   "b": "Senado: comisión por la suspensión de las PASO · Diputados: dictamen del Presupuesto 2027"
   },
   {
    "w": "Martes 17/11",
@@ -366,8 +366,12 @@
    "b": "Diputados busca aprobar el Presupuesto 2027; Santilli informa en el Senado"
   }
  ],
- "guion": "*FIN DE SEMANA: BALANCE Y AGENDA*\n_Sábado 14/11 · sin mercado, valores del cierre del viernes_\n\n*1) Cómo cerró la semana en EEUU, en criollo*\n- La bolsa de EEUU cayó el viernes, pero cerró una semana ganadora.\n- *S&P 500:* subió 2,5% en la semana y quedó en 7.561 puntos. Es como un promedio de las 500 empresas más grandes de EEUU.\n- *Dow Jones:* subió 2,1% en la semana. Es el promedio de 30 empresas grandes y tradicionales.\n- *Nasdaq:* el viernes bajó 0,9%, pero igual tuvo su mejor semana desde agosto. Es el índice de las tecnológicas.\n- *El porqué del viernes:* se vendieron las acciones de inteligencia artificial. AMD cayó 8,8% y Nvidia 2%.\n- *Caos en el aire:* el viernes EEUU frenó todos sus vuelos más de cuatro horas por una falla en las comunicaciones del control aéreo. Se cancelaron miles de vuelos y hubo cambios en Ezeiza.\n\n*2) Cómo cerró la semana en Argentina, en criollo*\n- Este fin de semana no hay mercado: los números son los del viernes.\n- *Riesgo país:* 830 puntos. Es como el puntaje de miedo que nos ponen los de afuera. Venía de 939 el viernes anterior: bajó 109 en la semana.\n- *Merval:* 85.053 puntos. El viernes subió 3,1% y cortó cinco bajas seguidas.\n- *Dólar oficial:* $1.570 en Banco Nación. El mayorista tuvo su primera baja semanal en un mes.\n- *Dólar blue:* $1.575. Es el dólar de la calle y subió $20 en la semana.\n- *MEP y CCL:* $1.577 y $1.672. El MEP es el que comprás por la bolsa con pesos; el CCL, el que usan las empresas para sacar plata afuera.\n- *Banco Central:* compró 40 millones el viernes y ya suma 223 millones en noviembre. Las reservas quedaron en 49.597 millones.\n- *La semana que viene:* el martes el Senado vuelve a discutir la suspensión de las PASO y el Tesoro hace un canje para pasar deuda de noviembre a enero. El 25 Diputados quiere aprobar el Presupuesto.\n\n*3) Lo que NADIE te está contando*\n- El FMI pide un superávit de al menos 16,26 billones de pesos en 2026, pero el relevamiento del BCRA proyecta 15,1 billones.\n- El mercado espera que en diciembre el Estado gaste más de lo que recauda: un rojo de unos 3,74 billones.\n- Con la canasta actualizada que el Gobierno postergó, la inflación de octubre habría sido 2,4% y no 2,2%, según Equilibra. No es un dato oficial.\n- Es como la balanza del baño que marca un kilo menos: no miente del todo, pero conviene saber cuánto le falta calibrar.\n\n*4) Qué significa esto para tu bolsillo la semana que viene*\n- Si tu sueldo o tu plazo fijo suben menos de 2,2% por mes, pierden contra los precios.\n- Si el canje del martes sale bien, el Tesoro gana tiempo hasta enero; si sale mal, necesita pesos ahora.\n- Si sigue la demanda de dólares de fin de año, el blue puede seguir presionado aunque el oficial esté quieto.\n- En criollo: la semana terminó más tranquila en los mercados, pero lo que se juega ahora es la política y la cuenta de enero.",
+ "guion": "*FIN DE SEMANA: BALANCE Y AGENDA*\n_Sábado 14/11 · sin mercado, valores del cierre del viernes_\n\n*1) Cómo cerró la semana en EEUU, en criollo*\n- La bolsa de EEUU cayó el viernes, pero cerró una semana ganadora.\n- *S&P 500:* subió 2,5% en la semana y quedó en 7.561 puntos. Es como un promedio de las 500 empresas más grandes de EEUU.\n- *Dow Jones:* subió 2,1% en la semana. Es el promedio de 30 empresas grandes y tradicionales.\n- *Nasdaq:* el viernes bajó 0,9%, pero igual tuvo su mejor semana desde agosto. Es el índice de las tecnológicas.\n- *El porqué del viernes:* se vendieron las acciones de inteligencia artificial. AMD cayó 8,8% y Nvidia 2%.\n- *Caos en el aire:* el viernes EEUU frenó todos sus vuelos más de cuatro horas por una falla en las comunicaciones del control aéreo. Se cancelaron miles de vuelos y hubo cambios en Ezeiza.\n- *Afuera:* Zelenski contó que EEUU le planteó por primera vez entrar a la OTAN si Ucrania deja la parte del Donbás que todavía controla. Dijo que no puede decidirlo solo.\n\n*2) Cómo cerró la semana en Argentina, en criollo*\n- Este fin de semana no hay mercado: los números son los del viernes.\n- *Riesgo país:* 830 puntos. Es como el puntaje de miedo que nos ponen los de afuera. Venía de 939 el viernes anterior: bajó 109 en la semana.\n- *Merval:* 85.053 puntos. El viernes subió 3,1% y cortó cinco bajas seguidas.\n- *Dólar oficial:* $1.570 en Banco Nación. El mayorista tuvo su primera baja semanal en un mes.\n- *Dólar blue:* $1.575. Es el dólar de la calle y subió $20 en la semana.\n- *MEP y CCL:* $1.577 y $1.672. El MEP es el que comprás por la bolsa con pesos; el CCL, el que usan las empresas para sacar plata afuera.\n- *Banco Central:* compró 40 millones el viernes y ya suma 223 millones en noviembre. Las reservas quedaron en 49.597 millones.\n- *La semana que viene:* el martes el Senado vuelve a discutir la suspensión de las PASO y el Tesoro hace un canje para pasar deuda de noviembre a enero. El mismo martes se firma el dictamen del Presupuesto en comisión y el 25 Diputados quiere aprobarlo en el recinto.\n\n*3) Lo que NADIE te está contando*\n- El FMI pide un superávit de al menos 16,26 billones de pesos en 2026, pero el relevamiento del BCRA proyecta 15,1 billones.\n- El mercado espera que en diciembre el Estado gaste más de lo que recauda: un rojo de unos 3,74 billones.\n- Con la canasta actualizada que el Gobierno postergó, la inflación de octubre habría sido 2,4% y no 2,2%, según Equilibra. No es un dato oficial.\n- Es como la balanza del baño que marca un kilo menos: no miente del todo, pero conviene saber cuánto le falta calibrar.\n\n*4) Qué significa esto para tu bolsillo la semana que viene*\n- Si tu sueldo o tu plazo fijo suben menos de 2,2% por mes, pierden contra los precios.\n- Si el canje del martes sale bien, el Tesoro gana tiempo hasta enero; si sale mal, necesita pesos ahora.\n- Si sigue la demanda de dólares de fin de año, el blue puede seguir presionado aunque el oficial esté quieto.\n- En criollo: la semana terminó más tranquila en los mercados, pero lo que se juega ahora es la política y la cuenta de enero.",
  "fuentes": [
+  [
+   "Ámbito · Plazos del Presupuesto 2027",
+   "https://www.ambito.com/politica/el-gobierno-oficializo-los-plazos-aprobar-el-presupuesto-2027-diputados-n6345178"
+  ],
   [
    "Ámbito · Canje de la letra D30N6",
    "https://www.ambito.com/finanzas/deuda-el-tesoro-lanzo-un-nuevo-canje-letras-dolar-linked-postergar-vencimientos-enero-2027-n6345166"
@@ -411,6 +415,14 @@
   [
    "La Política Online · Dólares para enero",
    "https://www.lapoliticaonline.com/economia/caputo-tiene-apenas-usd-830-millones-para-pagar-vencimientos-por-usd-4-400-millones-en-enero/"
+  ],
+  [
+   "Infobae · Kicillof y las PASO",
+   "https://www.infobae.com/politica/2026/11/14/axel-kicillof-sigue-de-cerca-las-negociaciones-por-las-paso-para-definir-si-unifica-las-elecciones-bonaerenses/"
+  ],
+  [
+   "Infobae/EFE · Zelenski y la OTAN",
+   "https://www.infobae.com/america/agencias/2026/11/14/zelenski-dice-que-eeuu-ha-planteado-admitir-a-ucrania-en-la-otan-si-se-retira-de-donbas/"
   ],
   [
    "Infobae · PASO y viaje de Santilli",
