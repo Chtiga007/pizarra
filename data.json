@@ -1,61 +1,61 @@
 {
- "fecha": "Viernes 13 de noviembre de 2026",
- "iso": "2026-11-13",
- "corte": "Actualizado a las 19:47 h · cierre definitivo",
+ "fecha": "Sábado 14 de noviembre de 2026",
+ "iso": "2026-11-14",
+ "corte": "Actualizado a las 12:30 h · fin de semana",
  "clima": {
-  "tag": "Rebote con la cuenta pendiente",
-  "tipo": "rebote",
-  "por": "Las acciones cortan cinco bajas y las reservas suben, pero enero sigue sin fondos asegurados."
+  "tag": "Fin de semana: balance y agenda",
+  "tipo": "atipico",
+  "por": "Sin mercado: la semana cerró con menos riesgo país y un Congreso cargado."
  },
- "frase": "Las acciones rebotan 3,1% y las reservas suben, pero la cuenta de enero sigue abierta.",
- "atipica": null,
+ "frase": "Semana de alivio en los mercados; ahora mandan las PASO, el Presupuesto y la deuda.",
+ "atipica": "Es fin de semana y no hay mercado: los valores son los del cierre del viernes 13/11 y no hay que leer movimientos nuevos.",
  "claves": [
-  "El Merval rebotó 3,1% y cortó cinco bajas seguidas; el riesgo país cerró en 830 (+1), pero en la semana bajó 109 puntos.",
-  "El Banco Central compró USD 40 millones y las reservas subieron USD 524 millones, a USD 49.597 millones.",
-  "El blue subió $10 a $1.575, su mayor suba semanal en cuatro meses; el oficial quedó en $1.570."
+  "Sin mercado el fin de semana: el riesgo país cerró el viernes en 830 y bajó 109 puntos en la semana.",
+  "El martes el Senado vuelve a tratar la suspensión de las PASO y el Tesoro hace un canje para pasar deuda a enero.",
+  "EE.UU. frenó todos sus vuelos más de cuatro horas el viernes por una falla en el control aéreo."
  ],
  "indicadores": [
   {
    "k": "Dólar oficial",
    "v": "$1.570",
-   "d": "BNA venta · sin cambios · mayorista $1.543,50 (−$2)",
-   "tend": "flat",
+   "d": "Cierre del viernes · BNA venta · mayorista $1.543,50, primera baja semanal en un mes",
+   "tend": "down",
    "estado": "verde"
   },
   {
    "k": "Dólar MEP",
    "v": "$1.577",
-   "d": "Subió $3 · venía de $1.574 · brecha 2,2%",
-   "tend": "up",
+   "d": "Cierre del viernes · brecha 2,2%",
+   "tend": "flat",
    "estado": "verde"
   },
   {
    "k": "Contado con liqui",
    "v": "$1.672",
-   "d": "Bajó $7 · venía de $1.679 · brecha 8,3%",
-   "tend": "down",
+   "d": "Cierre del viernes · brecha 8,3%",
+   "tend": "flat",
    "estado": "amarillo"
   },
   {
    "k": "Dólar blue",
    "v": "$1.575",
-   "d": "Subió $10 · compra $1.555 · +$20 en la semana, máximo nominal",
+   "d": "Cierre del viernes · +$20 en la semana, máximo nominal",
    "tend": "up",
    "estado": "amarillo"
   },
   {
    "k": "Riesgo país",
    "v": "830",
-   "d": "+1 · venía de 829 el jueves · −109 en la semana (939 el 6/11)",
-   "tend": "up",
+   "d": "−109 en la semana · venía de 939 el 6/11 · cierre del viernes",
+   "tend": "down",
    "estado": "rojo",
    "serie": true
   },
   {
    "k": "Reservas BCRA",
    "v": "49.597 M",
-   "d": "USD · +524 M hoy, tras caer 257 M el jueves",
-   "tend": "up",
+   "d": "USD · cierre del viernes (+524 M ese día)",
+   "tend": "flat",
    "estado": "amarillo"
   },
   {
@@ -68,29 +68,29 @@
   {
    "k": "Merval",
    "v": "85.053",
-   "d": "+3,1% · venía de 82.492 · cortó cinco bajas seguidas",
-   "tend": "up",
+   "d": "Cierre del viernes · +3,1% ese día, cortó cinco bajas",
+   "tend": "flat",
    "estado": "verde"
   },
   {
    "k": "Compras BCRA",
    "v": "USD 40 M",
-   "d": "USD 223 M en noviembre · USD 16.191 M en 2026",
-   "tend": "up",
+   "d": "Viernes · USD 223 M en noviembre · USD 16.191 M en 2026",
+   "tend": "flat",
    "estado": "verde"
   },
   {
-   "k": "Vencimientos enero",
-   "v": "USD 4.378 M",
-   "d": "El Tesoro tiene USD 59 M en el BCRA tras pagarle USD 881 M al FMI",
-   "tend": "up",
-   "estado": "rojo",
-   "criollo": "La deuda en dólares que el país tiene que pagar en enero y de dónde saldría la plata."
+   "k": "Licitación",
+   "v": "Martes 17/11",
+   "d": "Canje: la letra D30N6 por una LELINK a enero de 2027",
+   "tend": "flat",
+   "estado": "amarillo",
+   "criollo": "El Tesoro ofrece cambiar una deuda que vence a fin de noviembre por otra que vence en enero, para no pagarla ahora."
   },
   {
    "k": "Inflación oct.",
    "v": "2,2%",
-   "d": "Subió desde 1,9% · la núcleo fue 1,5%, la más baja en más de un año",
+   "d": "Venía de 1,9% · con la canasta nueva habría sido 2,4% (Equilibra)",
    "tend": "up",
    "estado": "rojo"
   }
@@ -156,26 +156,26 @@
  "mundo": [
   {
    "k": "S&P 500",
-   "v": "−0,4%",
-   "d": "Cerró en 7.561,67 · +2,5% en la semana",
-   "tend": "down"
+   "v": "+2,5%",
+   "d": "En la semana · el viernes −0,4%, a 7.561,67",
+   "tend": "up"
   },
   {
    "k": "Nasdaq",
    "v": "−0,9%",
-   "d": "Cerró en 25.136 · igual, su mejor semana desde agosto",
-   "tend": "down"
+   "d": "Viernes, a 25.136 · igual, su mejor semana desde agosto",
+   "tend": "flat"
   },
   {
    "k": "Dow Jones",
-   "v": "+0,1%",
-   "d": "Cerró en 52.348 · +2,1% en la semana",
+   "v": "+2,1%",
+   "d": "En la semana · el viernes +0,1%, a 52.348",
    "tend": "up"
   },
   {
-   "k": "AMD",
-   "v": "−8,8%",
-   "d": "Toma de ganancias en chips de IA · Nvidia −2%",
+   "k": "Vuelos en EE.UU.",
+   "v": "4 h parados",
+   "d": "Freno total el viernes por una falla de comunicaciones",
    "tend": "down"
   },
   {
@@ -187,187 +187,199 @@
  ],
  "porque": [
   {
-   "q": "Wall Street cayó, pero cerró una buena semana",
-   "p": "Se vendieron las acciones de inteligencia artificial por dudas sobre si sus ganancias justifican tanto gasto. Más del 60% de las empresas del S&P 500 subió."
+   "q": "Wall Street ganó en la semana pese al viernes",
+   "p": "El viernes se vendieron las tecnológicas por dudas sobre la IA, pero en la semana el S&P 500 subió 2,5% y el Dow Jones 2,1%."
   },
   {
-   "q": "Los chips devolvieron lo ganado",
-   "p": "AMD cayó 8,8% y Broadcom 4,8% después de subir fuerte en la semana. Nvidia bajó 2% y perdió casi USD 600.000 millones de valor en la semana."
+   "q": "EE.UU. frenó todos sus vuelos por cuatro horas",
+   "p": "Falló el sistema de comunicaciones del control aéreo. El Gobierno culpó a equipos viejos y saturados; por ahora no hay señales de un ciberataque."
   },
   {
-   "q": "Rebote de las acciones argentinas",
-   "p": "Después de cinco bajas seguidas y precios mínimos del año, aparecieron compradores. Cresud y Ternium subieron más de 8%."
+   "q": "El riesgo país bajó 109 puntos en la semana",
+   "p": "Pasó de 939 a 830 y las acciones rebotaron. Pero el Tesoro tiene USD 59 millones en el BCRA y en enero vencen USD 4.378 millones."
   },
   {
-   "q": "El Central compró y las reservas subieron",
-   "p": "Compró USD 40 millones y las reservas subieron USD 524 millones. Pero el Tesoro tiene solo USD 59 millones en el BCRA y en enero vencen USD 4.378 millones."
+   "q": "La política vuelve al centro: PASO y Presupuesto",
+   "p": "El Gobierno necesita 37 votos en el Senado para suspender las PASO y quiere aprobar el Presupuesto en Diputados el 25/11, con la interna con Bullrich abierta."
   }
  ],
- "oculto": "Después de pagarle USD 881 millones al FMI, el Tesoro quedó con apenas USD 59 millones depositados en el Banco Central, mientras en enero vencen USD 4.378 millones de bonos. Un informe de Morgan Stanley citado por La Política Online calcula que los precios de los bonos ya suponen entre 41% y 52% de probabilidad de una fuerte crisis financiera o de default con el próximo gobierno; hace tres meses ese rango era de 11% a 20%. Por eso la tasa del Bonar 2029 llegó al 17%: el mercado cobra caro prestarle al país más allá de 2027.",
+ "oculto": "El acuerdo con el FMI pide para 2026 un superávit primario de al menos $16,26 billones, pero el último relevamiento del BCRA proyecta $15,1 billones y el mercado espera un déficit de unos $3,74 billones en diciembre, según La Política Online. Además, Equilibra recalculó la inflación con la canasta actualizada que el Gobierno postergó: octubre habría dado 2,4% en vez de 2,2%, y lo acumulado en el año, 28,1% en lugar de 26,3%. No son datos oficiales, pero muestran que la foto puede ser algo peor que la que se ve.",
  "bolsillo": [
-  "Si tu sueldo o tu plazo fijo suben menos de 2,2% por mes, pierden contra los precios.",
-  "El blue subió $20 en la semana: si la demanda de dólares para fin de año sigue, puede seguir presionado aunque el oficial esté quieto.",
-  "Si la Fed sube la tasa en diciembre, las deudas y cuotas en dólares se encarecen y el crédito para la Argentina se hace más caro.",
-  "Si viajás o pagás con tarjeta en dólares, el dólar tarjeta está en $2.041."
+  "Si tu sueldo o tu plazo fijo suben menos de 2,2% por mes, pierden contra los precios; con la canasta nueva, la vara sería más alta.",
+  "Si el canje del martes sale bien, el Tesoro gana tiempo hasta enero; si sale mal, tendrá que conseguir más pesos ahora.",
+  "El blue subió $20 en la semana: si sigue la demanda de fin de año, puede seguir presionado aunque el oficial esté quieto.",
+  "Si viajás a EE.UU. estos días, el freno del viernes dejó miles de vuelos cancelados y puede haber cambios de horario en Ezeiza."
  ],
  "empresas": {
   "ar": [
    {
     "n": "Cresud",
     "c": "+8,6%",
-    "que": "Agro e inmuebles (es dueña de IRSA). En Nueva York su ADR subió más de 10%."
+    "que": "El viernes · Agro e inmuebles (es dueña de IRSA). En Nueva York su ADR subió más de 10%."
    },
    {
     "n": "Ternium Argentina",
     "c": "+8,1%",
-    "que": "Fabrica acero plano para autos, electrodomésticos y construcción."
+    "que": "El viernes · Fabrica acero plano para autos, electrodomésticos y construcción."
    },
    {
     "n": "Central Puerto",
     "c": "+5,2%",
-    "que": "Genera electricidad con centrales térmicas y renovables."
+    "que": "El viernes · Genera electricidad con centrales térmicas y renovables."
    },
    {
     "n": "Pampa Energía",
     "c": "+3,4%",
-    "que": "Genera electricidad y produce petróleo y gas en Vaca Muerta."
+    "que": "El viernes · Genera electricidad y produce petróleo y gas en Vaca Muerta."
    },
    {
     "n": "BYMA",
     "c": "−0,5%",
-    "que": "Es la propia Bolsa: gana con el volumen que se opera."
+    "que": "El viernes · Es la propia Bolsa: gana con el volumen que se opera."
    },
    {
     "n": "Banco de Valores",
     "c": "−0,2%",
-    "que": "Banco de la Bolsa: custodia y opera títulos para inversores."
+    "que": "El viernes · Banco de la Bolsa: custodia y opera títulos para inversores."
    }
   ],
   "eeuu": [
    {
     "n": "AMD",
     "c": "−8,8%",
-    "que": "Hace procesadores y chips para inteligencia artificial. Devolvió parte de la fuerte suba de la semana."
+    "que": "El viernes · Hace procesadores y chips para inteligencia artificial. Devolvió parte de la fuerte suba de la semana."
    },
    {
     "n": "Broadcom",
     "c": "−4,8%",
-    "que": "Hace chips para redes y centros de datos. También tomó ganancias tras subir en la semana."
+    "que": "El viernes · Hace chips para redes y centros de datos. También tomó ganancias tras subir en la semana."
    },
    {
     "n": "Nvidia",
     "c": "−2,0%",
-    "que": "Hace los chips de la IA. Sigue golpeada tras la renuncia de su CEO."
+    "que": "El viernes · Hace los chips de la IA. Sigue golpeada tras la renuncia de su CEO."
    },
    {
     "n": "Visa",
     "c": "+1,3%",
-    "que": "Red de pagos con tarjeta. Subió con el resto de las empresas fuera de tecnología."
+    "que": "El viernes · Red de pagos con tarjeta. Subió con el resto de las empresas fuera de tecnología."
    }
   ]
  },
  "politica": [
   {
    "s": "La Política Online",
-   "t": "Encuesta de Tendencias: Kicillof le ganaría a Milei por 10 puntos en un ballotage",
-   "g": "En primera vuelta, empate técnico: 34% a 33,8%. Es una sola encuestadora.",
-   "u": "https://www.lapoliticaonline.com/politica/una-encuesta-le-da-a-kicillof-diez-puntos-de-ventaja-en-un-ballotage-con-milei/"
+   "t": "AtlasIntel: Bullrich supera a Milei en imagen positiva; él queda quinto",
+   "g": "Milei: 36% positiva y 62% negativa. Es una sola encuestadora.",
+   "u": "https://www.lapoliticaonline.com/politica/patricia-supera-en-imagen-positiva-a-milei-que-esta-quinto/"
   },
   {
    "s": "La Política Online",
-   "t": "Milei no habló de la suba de la inflación y prometió abrir más la economía",
-   "g": "Fue en la Gala Endeavor; habló de llegar al 90% del planeta en 2031.",
-   "u": "https://www.lapoliticaonline.com/politica/milei-eludio-hablar-de-la-suba-de-la-inflacion-y-prometio-abrir-mas-la-economia/"
+   "t": "Bullrich impulsa a Pablo Cervi como candidato a gobernador de Neuquén",
+   "g": "Neuquén vota el 14/2; las alianzas se inscriben hasta el 4/12.",
+   "u": "https://www.lapoliticaonline.com/politica/bullrich-empuja-a-cervi-como-candidato-a-gobernador-de-neuquen-y-cruza-a-nadia-marquez/"
   },
   {
    "s": "Ámbito",
-   "t": "La AGN prepara una auditoría dura sobre los envíos de oro del BCRA al exterior",
-   "g": "Ya recibió la respuesta del Banco Central sobre el traslado del oro.",
-   "u": "https://www.ambito.com/politica/oro-la-agn-recibio-la-respuesta-del-bcra-y-prepara-una-dura-auditoria-los-envios-al-exterior-n6344725"
+   "t": "El Gobierno vuelve a reunir la mesa política después de casi un mes",
+   "g": "En agenda: suspensión de las PASO, ley Malvinas y Presupuesto 2027.",
+   "u": "https://www.ambito.com/politica/el-gobierno-vuelve-reunir-la-mesa-semanas-paralisis-y-medio-tensiones-internas-n6345141"
   },
   {
    "s": "Infobae",
-   "t": "Después del Papa: una nueva Karina Milei y la convivencia forzada con Bullrich",
-   "g": "La inflación de octubre le recordó al Gobierno los problemas económicos.",
-   "u": "https://www.infobae.com/politica/2026/11/13/la-argentina-despues-de-leon-una-nueva-karina-milei-la-convivencia-forzada-con-bullrich-y-el-golpe-por-la-inflacion/"
+   "t": "PASO: el Gobierno cuenta 38 votos posibles en el Senado, uno más del mínimo",
+   "g": "Santilli viaja el jueves 19 a Mendoza para verse con Cornejo y otros gobernadores.",
+   "u": "https://www.infobae.com/politica/2026/11/14/suspension-de-las-paso-la-necesidad-urgente-del-gobierno-presiones-a-bullrich-y-el-viaje-clave-de-santilli/"
   },
   {
    "s": "Página/12",
-   "t": "Críticas a la Corte Suprema por las domiciliarias a condenados de la dictadura",
-   "g": "El diario sostiene que el fallo buscó pasar inadvertido.",
-   "u": "https://www.pagina12.com.ar/2026/11/13/la-corte-busco-que-pasara-bajo-el-radar-su-guino-a-los-represores/"
+   "t": "Críticas a los cambios en el Centro Nacional de Ciberseguridad",
+   "g": "El diario cuestiona que limite proveedores a empresas de EE.UU. y excluya a China.",
+   "u": "https://www.pagina12.com.ar/2026/11/14/para-javier-milei-la-patria-es-lo-segundo/"
   }
  ],
  "titulares": [
   {
    "sec": "Economía",
    "s": "Ámbito",
-   "t": "El Central compró toda la semana y ya suma más de USD 200 millones en noviembre",
-   "u": "https://www.ambito.com/finanzas/el-bcra-sostuvo-las-compras-dolares-la-semana-y-ya-acumulo-mas-us200-millones-noviembre-n6345123"
+   "t": "El Tesoro lanzó un canje para pasar vencimientos de noviembre a enero de 2027",
+   "u": "https://www.ambito.com/finanzas/deuda-el-tesoro-lanzo-un-nuevo-canje-letras-dolar-linked-postergar-vencimientos-enero-2027-n6345166"
   },
   {
    "sec": "Economía",
    "s": "Ámbito",
-   "t": "El blue tuvo su mayor suba semanal en cuatro meses y cerró en máximos",
-   "u": "https://www.ambito.com/finanzas/el-dolar-blue-anoto-su-mayor-suba-semanal-cuatro-meses-y-cerro-maximos-nominales-n6345069"
+   "t": "El dólar oficial bajó sobre el cierre y anotó su primera baja semanal en un mes",
+   "u": "https://www.ambito.com/finanzas/el-dolar-encara-el-cierre-la-semana-corta-un-leve-repunte-el-tramo-mayorista-n6344803"
   },
   {
    "sec": "Economía",
-   "s": "Infobae",
-   "t": "Las acciones argentinas rebotaron desde sus mínimos del año",
-   "u": "https://www.infobae.com/economia/2026/11/13/jornada-financiera-las-acciones-argentinas-rebotaron-desde-sus-precios-minimos-del-ano-y-el-riesgo-pais-tuvo-una-leve-caida/"
+   "s": "Perfil",
+   "t": "Con la canasta nueva que se postergó, la inflación de octubre habría sido 2,4%",
+   "u": "https://www.perfil.com/economia/la-inflacion-de-octubre-fue-del-22-pero-con-la-nueva-medicion-del-indec-que-postergo-el-gobierno-habria-llegado-al-24-a7jbK6p311OK"
   },
   {
    "sec": "Política",
    "s": "La Política Online",
-   "t": "El Gobierno ofrece colectoras a Pullaro, Valdés y Cornejo para suspender las PASO",
-   "u": "https://www.lapoliticaonline.com/congreso/el-gobierno-tienta-a-pullaro-valdes-y-cornejo-con-una-colectora-a-cambio-de-la-suspension-de-las-paso/"
+   "t": "Milei dio \"me gusta\" a un tuit que acusa a los Menem de empujar la ruptura con Bullrich",
+   "u": "https://www.lapoliticaonline.com/politica/milei-le-dio-like-a-un-tuit-que-pone-a-los-menem-conspirando-con-medios-criticos/"
   },
   {
    "sec": "Política",
-   "s": "Ámbito",
-   "t": "Malvinas: el Tribunal del Mar fijó fecha para el fallo por el proyecto Sea Lion",
-   "u": "https://www.ambito.com/politica/malvinas-el-tribunal-del-mar-le-puso-fecha-al-fallo-el-reclamo-argentina-frenar-sea-lion-n6344584"
+   "s": "Infobae",
+   "t": "PASO, Presupuesto y Discapacidad: el Congreso enfrenta diez días muy exigentes",
+   "u": "https://www.infobae.com/politica/2026/11/14/reforma-electoral-presupuesto-y-discapacidad-el-congreso-enfrenta-sus-diez-dias-mas-exigentes-del-ano/"
   },
   {
    "sec": "Política",
-   "s": "Página/12",
-   "t": "La campaña \"Cristina libre\" llegó a EE.UU.: reunión en el Council of the Americas",
-   "u": "https://www.pagina12.com.ar/2026/11/13/cristina-libre-llego-a-eeuu-como-fue-la-reunion-en-el-council-of-the-americas/"
+   "s": "La Nación",
+   "t": "Editorial: la reelección de intendentes bonaerenses, convertida en moneda de cambio",
+   "u": "https://www.lanacion.com.ar/editoriales/reeleccion-de-intendentes-globo-de-ensayo-y-moneda-de-cambio-nid14112026/"
+  },
+  {
+   "sec": "Mundo",
+   "s": "ABC News",
+   "t": "EE.UU. frenó todos sus vuelos más de cuatro horas por una falla del control aéreo",
+   "u": "https://abcnews.com/US/nationwide-ground-stop-ordered-airports-faa/story?id=138121848"
   },
   {
    "sec": "Mundo",
    "s": "AP",
-   "t": "Wall Street cae el viernes, pero cierra una semana ganadora tras días turbulentos",
+   "t": "Wall Street cayó el viernes, pero cerró una semana ganadora",
    "u": "https://whdh.com/news/stocks-fall-but-wall-street-notches-a-winning-week-after-several-turbulent-days/"
-  },
-  {
-   "sec": "Mundo",
-   "s": "Ámbito",
-   "t": "Wall Street cierra una semana tensa por Nvidia y la inflación",
-   "u": "https://www.ambito.com/finanzas/wall-street-cierra-una-semana-tensiones-marcada-el-escandalo-nvidia-y-la-inflacion-eeuu-n6344772"
   }
  ],
  "agenda": [
   {
    "w": "Martes 17/11 · 15 h",
-   "b": "Senado: comisión por la suspensión de las PASO"
+   "b": "Senado: comisión de Asuntos Constitucionales por la suspensión de las PASO"
+  },
+  {
+   "w": "Martes 17/11",
+   "b": "Canje del Tesoro (D30N6 a enero de 2027) y reunión de la mesa política"
   },
   {
    "w": "Miércoles 18/11",
-   "b": "Posible sesión en Diputados: Carta Orgánica del BCRA y Soberanía Nacional"
+   "b": "Diputados: Carta Orgánica del BCRA y ley de Soberanía Nacional"
   },
   {
    "w": "Miércoles 25/11",
-   "b": "Diputados trataría el Presupuesto 2027"
-  },
-  {
-   "w": "Lunes 30/11",
-   "b": "Cierran las sesiones ordinarias del Congreso"
+   "b": "Diputados busca aprobar el Presupuesto 2027; Santilli informa en el Senado"
   }
  ],
- "guion": "*REBOTE CON LA CUENTA PENDIENTE*\n_Cierre definitivo del viernes 13/11_\n\n*1) Qué pasó en EEUU hoy en criollo*\n- La bolsa de EEUU cerró el viernes en baja, pero ganó en la semana.\n- *S&P 500:* bajó 0,4%, a 7.561 puntos. Es como un promedio de las 500 empresas más grandes de EEUU. En la semana subió 2,5%.\n- *Nasdaq:* bajó 0,9%. Es el índice de las tecnológicas. Igual tuvo su mejor semana desde agosto.\n- *Dow Jones:* subió 0,1%. Es el promedio de 30 empresas grandes y tradicionales.\n- *El porqué:* se vendieron las acciones de inteligencia artificial por dudas de si sus ganancias justifican tanto gasto. Más del 60% de las empresas del S&P 500 subió.\n- *AMD (−8,8%) y Broadcom (−4,8%):* hacen chips y devolvieron parte de lo que habían subido en la semana. *Nvidia* bajó 2%.\n- *Tasas:* el bono a 10 años subió a 5,15% y se espera que la Fed suba la tasa en diciembre.\n\n*2) Qué pasó en Argentina hoy en criollo*\n- Día de rebote en la bolsa, con el dólar oficial quieto y el blue en alza.\n- *Merval:* subió 3,1%, a 85.053 puntos, y cortó cinco bajas seguidas. Subieron Cresud (8,6%), Ternium (8,1%), Central Puerto (5,2%) y Pampa (3,4%).\n- *Bonos:* casi sin cambios.\n- *Riesgo país:* cerró en 830 puntos. Es como el puntaje de miedo que nos ponen los de afuera. Venía de 829: subió 1 punto en el día, pero en la semana bajó 109.\n- *Dólar oficial:* 1.520 para comprar y 1.570 para vender en Banco Nación. Sin cambios.\n- *Dólar blue:* 1.555 y 1.575. Subió $10. Es el dólar de la calle y tuvo su mayor suba semanal en cuatro meses.\n- *Dólar MEP:* 1.577. Es el que comprás por la bolsa con pesos.\n- *Dólar CCL:* 1.672. Es el que usan las empresas para sacar plata afuera.\n- *Banco Central:* compró 40 millones de dólares y ya suma 223 millones en noviembre. Las reservas subieron 524 millones, a 49.597 millones.\n\n*3) Lo que NADIE te está contando*\n- Después de pagarle 881 millones al FMI, el Tesoro quedó con apenas 59 millones de dólares en el Banco Central.\n- En enero vencen 4.378 millones de dólares de bonos.\n- Según Morgan Stanley, los precios de los bonos ya suponen entre 41% y 52% de probabilidad de una fuerte crisis o default con el próximo gobierno. Hace tres meses era 11% a 20%.\n- Es como un vecino que paga todo al día, pero el banco igual le cobra más caro porque no sabe quién va a vivir en la casa en dos años.\n\n*4) Qué significa esto para tu bolsillo mañana*\n- Si tu sueldo o tu plazo fijo suben menos de 2,2% por mes, pierden contra los precios.\n- Si sigue la demanda de dólares de fin de año, el blue puede seguir presionado aunque el oficial esté quieto.\n- Si la Fed sube la tasa en diciembre, las deudas en dólares se encarecen.\n- En criollo: la semana terminó mejor que como empezó, pero la cuenta grande de enero todavía no tiene la plata juntada.",
+ "guion": "*FIN DE SEMANA: BALANCE Y AGENDA*\n_Sábado 14/11 · sin mercado, valores del cierre del viernes_\n\n*1) Cómo cerró la semana en EEUU, en criollo*\n- La bolsa de EEUU cayó el viernes, pero cerró una semana ganadora.\n- *S&P 500:* subió 2,5% en la semana y quedó en 7.561 puntos. Es como un promedio de las 500 empresas más grandes de EEUU.\n- *Dow Jones:* subió 2,1% en la semana. Es el promedio de 30 empresas grandes y tradicionales.\n- *Nasdaq:* el viernes bajó 0,9%, pero igual tuvo su mejor semana desde agosto. Es el índice de las tecnológicas.\n- *El porqué del viernes:* se vendieron las acciones de inteligencia artificial. AMD cayó 8,8% y Nvidia 2%.\n- *Caos en el aire:* el viernes EEUU frenó todos sus vuelos más de cuatro horas por una falla en las comunicaciones del control aéreo. Se cancelaron miles de vuelos y hubo cambios en Ezeiza.\n\n*2) Cómo cerró la semana en Argentina, en criollo*\n- Este fin de semana no hay mercado: los números son los del viernes.\n- *Riesgo país:* 830 puntos. Es como el puntaje de miedo que nos ponen los de afuera. Venía de 939 el viernes anterior: bajó 109 en la semana.\n- *Merval:* 85.053 puntos. El viernes subió 3,1% y cortó cinco bajas seguidas.\n- *Dólar oficial:* $1.570 en Banco Nación. El mayorista tuvo su primera baja semanal en un mes.\n- *Dólar blue:* $1.575. Es el dólar de la calle y subió $20 en la semana.\n- *MEP y CCL:* $1.577 y $1.672. El MEP es el que comprás por la bolsa con pesos; el CCL, el que usan las empresas para sacar plata afuera.\n- *Banco Central:* compró 40 millones el viernes y ya suma 223 millones en noviembre. Las reservas quedaron en 49.597 millones.\n- *La semana que viene:* el martes el Senado vuelve a discutir la suspensión de las PASO y el Tesoro hace un canje para pasar deuda de noviembre a enero. El 25 Diputados quiere aprobar el Presupuesto.\n\n*3) Lo que NADIE te está contando*\n- El FMI pide un superávit de al menos 16,26 billones de pesos en 2026, pero el relevamiento del BCRA proyecta 15,1 billones.\n- El mercado espera que en diciembre el Estado gaste más de lo que recauda: un rojo de unos 3,74 billones.\n- Con la canasta actualizada que el Gobierno postergó, la inflación de octubre habría sido 2,4% y no 2,2%, según Equilibra. No es un dato oficial.\n- Es como la balanza del baño que marca un kilo menos: no miente del todo, pero conviene saber cuánto le falta calibrar.\n\n*4) Qué significa esto para tu bolsillo la semana que viene*\n- Si tu sueldo o tu plazo fijo suben menos de 2,2% por mes, pierden contra los precios.\n- Si el canje del martes sale bien, el Tesoro gana tiempo hasta enero; si sale mal, necesita pesos ahora.\n- Si sigue la demanda de dólares de fin de año, el blue puede seguir presionado aunque el oficial esté quieto.\n- En criollo: la semana terminó más tranquila en los mercados, pero lo que se juega ahora es la política y la cuenta de enero.",
  "fuentes": [
+  [
+   "Ámbito · Canje de la letra D30N6",
+   "https://www.ambito.com/finanzas/deuda-el-tesoro-lanzo-un-nuevo-canje-letras-dolar-linked-postergar-vencimientos-enero-2027-n6345166"
+  ],
+  [
+   "Ámbito · Dólar oficial en la semana",
+   "https://www.ambito.com/finanzas/el-dolar-encara-el-cierre-la-semana-corta-un-leve-repunte-el-tramo-mayorista-n6344803"
+  ],
+  [
+   "Ámbito · Mesa política",
+   "https://www.ambito.com/politica/el-gobierno-vuelve-reunir-la-mesa-semanas-paralisis-y-medio-tensiones-internas-n6345141"
+  ],
   [
    "Ámbito · Dólar al cierre 13/11",
    "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-viernes-13-noviembre-n6345065"
@@ -381,44 +393,60 @@
    "https://www.ambito.com/finanzas/el-bcra-sostuvo-las-compras-dolares-la-semana-y-ya-acumulo-mas-us200-millones-noviembre-n6345123"
   ],
   [
-   "Ámbito · Bonar 2029 al 17%",
-   "https://www.ambito.com/finanzas/con-el-riesgo-pais-arriba-800-puntos-la-tasa-del-bonar-2029-salto-al-17-y-complica-el-programa-financiero-2027-n6344622"
+   "La Política Online · Encuesta AtlasIntel",
+   "https://www.lapoliticaonline.com/politica/patricia-supera-en-imagen-positiva-a-milei-que-esta-quinto/"
   ],
   [
-   "Ámbito · Auditoría del oro",
-   "https://www.ambito.com/politica/oro-la-agn-recibio-la-respuesta-del-bcra-y-prepara-una-dura-auditoria-los-envios-al-exterior-n6344725"
+   "La Política Online · Neuquén y Cervi",
+   "https://www.lapoliticaonline.com/politica/bullrich-empuja-a-cervi-como-candidato-a-gobernador-de-neuquen-y-cruza-a-nadia-marquez/"
   ],
   [
-   "Ámbito · Malvinas y Sea Lion",
-   "https://www.ambito.com/politica/malvinas-el-tribunal-del-mar-le-puso-fecha-al-fallo-el-reclamo-argentina-frenar-sea-lion-n6344584"
+   "La Política Online · Milei, el like y los Menem",
+   "https://www.lapoliticaonline.com/politica/milei-le-dio-like-a-un-tuit-que-pone-a-los-menem-conspirando-con-medios-criticos/"
   ],
   [
-   "Ámbito · Wall Street y la semana",
-   "https://www.ambito.com/finanzas/wall-street-cierra-una-semana-tensiones-marcada-el-escandalo-nvidia-y-la-inflacion-eeuu-n6344772"
-  ],
-  [
-   "Ámbito · Empleo privado (SIPA)",
-   "https://www.ambito.com/economia/el-empleo-asalariado-privado-sumo-15-meses-seguidos-baja-mientras-el-monotributo-anoto-su-mayor-alza-dos-anos-n6344697"
-  ],
-  [
-   "La Política Online · Encuesta Tendencias",
-   "https://www.lapoliticaonline.com/politica/una-encuesta-le-da-a-kicillof-diez-puntos-de-ventaja-en-un-ballotage-con-milei/"
-  ],
-  [
-   "La Política Online · Milei e inflación",
-   "https://www.lapoliticaonline.com/politica/milei-eludio-hablar-de-la-suba-de-la-inflacion-y-prometio-abrir-mas-la-economia/"
-  ],
-  [
-   "La Política Online · Morgan Stanley y default",
-   "https://www.lapoliticaonline.com/economia/morgan-reconoce-que-el-50-del-mercado-estima-probable-un-default/"
+   "La Política Online · Déficit de diciembre",
+   "https://www.lapoliticaonline.com/economia/el-mercado-proyecta-deficit-primario-y-financiero-en-el-ultimo-mes-del-ano/"
   ],
   [
    "La Política Online · Dólares para enero",
    "https://www.lapoliticaonline.com/economia/caputo-tiene-apenas-usd-830-millones-para-pagar-vencimientos-por-usd-4-400-millones-en-enero/"
   ],
   [
-   "La Política Online · PASO y gobernadores",
-   "https://www.lapoliticaonline.com/congreso/el-gobierno-tienta-a-pullaro-valdes-y-cornejo-con-una-colectora-a-cambio-de-la-suspension-de-las-paso/"
+   "Infobae · PASO y viaje de Santilli",
+   "https://www.infobae.com/politica/2026/11/14/suspension-de-las-paso-la-necesidad-urgente-del-gobierno-presiones-a-bullrich-y-el-viaje-clave-de-santilli/"
+  ],
+  [
+   "Infobae · Agenda del Congreso",
+   "https://www.infobae.com/politica/2026/11/14/reforma-electoral-presupuesto-y-discapacidad-el-congreso-enfrenta-sus-diez-dias-mas-exigentes-del-ano/"
+  ],
+  [
+   "Infobae/EFE · Temas internacionales",
+   "https://www.infobae.com/america/agencias/2026/11/14/temas-del-dia-de-efe-internacional-del-sabado-14-de-noviembre-1200-gmt/"
+  ],
+  [
+   "Total News Agency · Votos para suspender las PASO",
+   "https://totalnewsagency.com/2026/11/14/paso-milei-suma-votos-y-acelera-su-suspension/"
+  ],
+  [
+   "Perfil · Inflación con la canasta nueva",
+   "https://www.perfil.com/economia/la-inflacion-de-octubre-fue-del-22-pero-con-la-nueva-medicion-del-indec-que-postergo-el-gobierno-habria-llegado-al-24-a7jbK6p311OK"
+  ],
+  [
+   "Perfil · Tapa del sábado",
+   "https://www.perfil.com/actualidad/la-tapa-del-diario-perfil-del-sabado-14-de-noviembre-de-2026-aNRur8o6HH0x"
+  ],
+  [
+   "La Nación · Editorial reelección de intendentes",
+   "https://www.lanacion.com.ar/editoriales/reeleccion-de-intendentes-globo-de-ensayo-y-moneda-de-cambio-nid14112026/"
+  ],
+  [
+   "La Nación · Depósitos del Tesoro en el BCRA",
+   "https://www.lanacion.com.ar/economia/los-depositos-en-dolares-del-gobierno-en-el-bcra-tocaron-un-piso-pero-la-entidad-sigue-comprando-nid13112026/"
+  ],
+  [
+   "Página/12 · Ciberseguridad",
+   "https://www.pagina12.com.ar/2026/11/14/para-javier-milei-la-patria-es-lo-segundo/"
   ],
   [
    "Noticias Argentinas · Riesgo país al cierre",
@@ -429,32 +457,12 @@
    "https://www.rava.com/cotizaciones/historico/riesgo-pais/hoy/"
   ],
   [
-   "Infobae · Jornada financiera",
-   "https://www.infobae.com/economia/2026/11/13/jornada-financiera-las-acciones-argentinas-rebotaron-desde-sus-precios-minimos-del-ano-y-el-riesgo-pais-tuvo-una-leve-caida/"
-  ],
-  [
    "Infobae/EFE · Bolsa de Buenos Aires al cierre",
    "https://www.infobae.com/america/agencias/2026/11/13/la-bolsa-de-buenos-aires-cierra-con-una-subida-del-268/"
   ],
   [
-   "Infobae · Karina Milei y Bullrich",
-   "https://www.infobae.com/politica/2026/11/13/la-argentina-despues-de-leon-una-nueva-karina-milei-la-convivencia-forzada-con-bullrich-y-el-golpe-por-la-inflacion/"
-  ],
-  [
-   "Negocios AR · Acciones y ADR",
-   "https://negociosar.com/el-msci-merval-rebota-mas-de-2-mientras-los-bonos-operan-mixtos-y-el-riesgo-pais-sube-a-832-puntos/"
-  ],
-  [
-   "La Nación · Depósitos del Tesoro en el BCRA",
-   "https://www.lanacion.com.ar/economia/los-depositos-en-dolares-del-gobierno-en-el-bcra-tocaron-un-piso-pero-la-entidad-sigue-comprando-nid13112026/"
-  ],
-  [
-   "Página/12 · Corte Suprema",
-   "https://www.pagina12.com.ar/2026/11/13/la-corte-busco-que-pasara-bajo-el-radar-su-guino-a-los-represores/"
-  ],
-  [
-   "Página/12 · Cristina libre en EE.UU.",
-   "https://www.pagina12.com.ar/2026/11/13/cristina-libre-llego-a-eeuu-como-fue-la-reunion-en-el-council-of-the-americas/"
+   "ABC News · Freno de vuelos en EE.UU.",
+   "https://abcnews.com/US/nationwide-ground-stop-ordered-airports-faa/story?id=138121848"
   ],
   [
    "AP · Cierre de Wall Street",
