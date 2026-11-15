@@ -1,18 +1,18 @@
 {
- "fecha": "Sábado 14 de noviembre de 2026",
- "iso": "2026-11-14",
- "corte": "Actualizado a las 19:45 h · fin de semana",
+ "fecha": "Domingo 15 de noviembre de 2026",
+ "iso": "2026-11-15",
+ "corte": "Actualizado a las 12:21 h · fin de semana",
  "clima": {
-  "tag": "Fin de semana: balance y agenda",
+  "tag": "Domingo de reelección y votos",
   "tipo": "atipico",
-  "por": "Sin mercado: la semana cerró con menos riesgo país y un Congreso cargado."
+  "por": "Milei confirmó que va por la reelección y la semana trae PASO, Presupuesto y Nvidia."
  },
- "frase": "Semana de alivio en los mercados; ahora mandan las PASO, el Presupuesto y la deuda.",
- "atipica": "Es fin de semana y no hay mercado: los valores son los del cierre del viernes 13/11 y no hay que leer movimientos nuevos.",
+ "frase": "Milei confirmó que irá por la reelección; el Senado define esta semana las PASO.",
+ "atipica": "Es domingo y no hay mercado: los valores son los del cierre del viernes 13/11 y no hay que leer movimientos nuevos.",
  "claves": [
-  "Sin mercado el fin de semana: el riesgo país cerró el viernes en 830 y bajó 109 puntos en la semana.",
-  "El martes el Senado vuelve a tratar la suspensión de las PASO y el Tesoro hace un canje para pasar deuda a enero.",
-  "Zelenski dijo que EE.UU. planteó sumar a Ucrania a la OTAN si se retira del Donbás."
+  "Milei confirmó que buscará la reelección en 2027: «Para los que dudan, sí, estoy yendo».",
+  "El martes el Senado trata en comisión la suspensión de las PASO: hacen falta 37 votos y no están asegurados.",
+  "Sin mercado: el riesgo país quedó en 830 el viernes; el martes hay canje del Tesoro y Nvidia da resultados."
  ],
  "indicadores": [
   {
@@ -75,7 +75,7 @@
   {
    "k": "Compras BCRA",
    "v": "USD 40 M",
-   "d": "Viernes · USD 223 M en noviembre · USD 16.191 M en 2026",
+   "d": "Viernes · USD 223 M en noviembre · promedio diario USD 46 M (oct.: 66 M)",
    "tend": "flat",
    "estado": "verde"
   },
@@ -173,42 +173,42 @@
    "tend": "up"
   },
   {
-   "k": "Vuelos en EE.UU.",
-   "v": "4 h parados",
-   "d": "Freno total el viernes por una falla de comunicaciones",
-   "tend": "down"
+   "k": "Nvidia",
+   "v": "Martes 17",
+   "d": "Presenta resultados tras la salida de su CEO · el viernes −2,0%",
+   "tend": "flat"
   },
   {
    "k": "Fed",
    "v": "3,75–4%",
-   "d": "Bono a 10 años 5,15% · se espera una suba en diciembre",
+   "d": "Actas el miércoles 18 · el mercado espera una suba en diciembre",
    "tend": "up"
   }
  ],
  "porque": [
   {
-   "q": "Wall Street ganó en la semana pese al viernes",
-   "p": "El viernes se vendieron las tecnológicas por dudas sobre la IA, pero en la semana el S&P 500 subió 2,5% y el Dow Jones 2,1%."
+   "q": "Milei salió a confirmar que va por la reelección",
+   "p": "Lo dijo el sábado en la Casa Rosada, en plena pelea con Bullrich, que en varias encuestas y según el Financial Times tiene mejor imagen que él."
   },
   {
-   "q": "EE.UU. frenó todos sus vuelos por cuatro horas",
-   "p": "Falló el sistema de comunicaciones del control aéreo. El Gobierno culpó a equipos viejos y saturados; por ahora no hay señales de un ciberataque."
+   "q": "Las PASO, el centro de la semana en el Senado",
+   "p": "Para suspenderlas hacen falta 37 votos. La Casa Rosada dice tenerlos; Infobae cuenta 31 o 32 y el entorno de Bullrich dice que no están."
   },
   {
-   "q": "El riesgo país bajó 109 puntos en la semana",
-   "p": "Pasó de 939 a 830 y las acciones rebotaron. Pero el Tesoro tiene USD 59 millones en el BCRA y en enero vencen USD 4.378 millones."
+   "q": "Ultimátum por el Presupuesto antes de fin de año",
+   "p": "Milei quiere el dictamen el martes 17 y la votación en Diputados el 25. Lo considera clave para la relación con el FMI."
   },
   {
-   "q": "La política vuelve al centro: PASO y Presupuesto",
-   "p": "El Gobierno necesita 37 votos en el Senado para suspender las PASO y quiere aprobar el Presupuesto en Diputados el 25/11, con la interna con Bullrich abierta."
+   "q": "En EE.UU., todos miran a Nvidia y a la Fed",
+   "p": "Nvidia da resultados el martes tras la salida de su CEO, el miércoles salen las actas de la Fed y el jueves se espera el debut de Anthropic en el Nasdaq."
   }
  ],
- "oculto": "El acuerdo con el FMI pide para 2026 un superávit primario de al menos $16,26 billones, pero el último relevamiento del BCRA proyecta $15,1 billones y el mercado espera un déficit de unos $3,74 billones en diciembre, según La Política Online. Además, Equilibra recalculó la inflación con la canasta actualizada que el Gobierno postergó: octubre habría dado 2,4% en vez de 2,2%, y lo acumulado en el año, 28,1% en lugar de 26,3%. No son datos oficiales, pero muestran que la foto puede ser algo peor que la que se ve.",
+ "oculto": "Mientras el Gobierno apura el Presupuesto 2027, ya ejecutó el 84,1% del gasto de este año hasta octubre, el nivel más alto en diez años contra un promedio de 71,8%, y espera cerrar diciembre con déficit primario y financiero, según Infobae: sería la segunda vez en el año que se rompe el ancla fiscal. A la vez, las compras del BCRA se frenaron: promedian USD 46 millones por día en noviembre contra 66 millones en octubre, según Ámbito. Y GMA advierte que en 2027 vencen USD 28.400 millones de deuda y que con este riesgo país salir a refinanciar está casi vedado.",
  "bolsillo": [
-  "Si tu sueldo o tu plazo fijo suben menos de 2,2% por mes, pierden contra los precios; con la canasta nueva, la vara sería más alta.",
+  "Si tu sueldo o tu plazo fijo suben menos de 2,2% por mes, pierden contra los precios.",
+  "Las tasas en pesos rondan 24% anual (TAMAR 24,13%), cerca de 2% por mes: si la inflación sigue en 2,2%, el plazo fijo queda apenas por debajo.",
   "Si el canje del martes sale bien, el Tesoro gana tiempo hasta enero; si sale mal, tendrá que conseguir más pesos ahora.",
-  "El blue subió $20 en la semana: si sigue la demanda de fin de año, puede seguir presionado aunque el oficial esté quieto.",
-  "Si viajás a EE.UU. estos días, el freno del viernes dejó miles de vuelos cancelados y puede haber cambios de horario en Ezeiza."
+  "Si la pelea por las PASO y la interna con Bullrich se estiran, el riesgo país puede volver a subir y eso suele presionar al dólar."
  ],
  "empresas": {
   "ar": [
@@ -269,120 +269,120 @@
  "politica": [
   {
    "s": "La Política Online",
+   "t": "El Gobierno presiona a Bullrich para que apure la eliminación de las PASO",
+   "g": "Menem le dio dos semanas; en el Senado nadie confirma los 37 votos.",
+   "u": "https://www.lapoliticaonline.com/politica/el-gobierno-sale-a-atacar-a-bullrich-y-le-pide-que-apure-la-eliminacion-de-las-paso/"
+  },
+  {
+   "s": "La Política Online",
    "t": "AtlasIntel: Bullrich supera a Milei en imagen positiva; él queda quinto",
    "g": "Milei: 36% positiva y 62% negativa. Es una sola encuestadora.",
    "u": "https://www.lapoliticaonline.com/politica/patricia-supera-en-imagen-positiva-a-milei-que-esta-quinto/"
   },
   {
-   "s": "La Política Online",
-   "t": "Bullrich impulsa a Pablo Cervi como candidato a gobernador de Neuquén",
-   "g": "Neuquén vota el 14/2; las alianzas se inscriben hasta el 4/12.",
-   "u": "https://www.lapoliticaonline.com/politica/bullrich-empuja-a-cervi-como-candidato-a-gobernador-de-neuquen-y-cruza-a-nadia-marquez/"
-  },
-  {
    "s": "Ámbito",
-   "t": "Presupuesto 2027: dictamen en comisión el martes y sesión en Diputados el 25/11",
-   "g": "Los aliados piden fondos para provincias, universidades y discapacidad.",
-   "u": "https://www.ambito.com/politica/el-gobierno-oficializo-los-plazos-aprobar-el-presupuesto-2027-diputados-n6345178"
+   "t": "PASO: semana de definiciones en el Senado, con Bullrich al margen de la negociación",
+   "g": "Santilli negocia uno a uno con gobernadores; posible sesión el jueves 26.",
+   "u": "https://www.ambito.com/politica/paso-semana-definiciones-el-senado-la-interna-del-peronismo-la-mira-y-patricia-bullrich-marginada-n6345372"
   },
   {
    "s": "Infobae",
-   "t": "PASO: el Gobierno cuenta 38 votos posibles en el Senado, uno más del mínimo",
-   "g": "Santilli viaja el jueves 19 a Mendoza para verse con Cornejo y otros gobernadores.",
-   "u": "https://www.infobae.com/politica/2026/11/14/suspension-de-las-paso-la-necesidad-urgente-del-gobierno-presiones-a-bullrich-y-el-viaje-clave-de-santilli/"
+   "t": "Un Senado atravesado por internas: la reforma electoral reuniría 31 o 32 votos",
+   "g": "Necesita 37. Los aliados mantienen su respaldo a Bullrich.",
+   "u": "https://www.infobae.com/politica/2026/11/15/el-senado-quedo-atravesado-por-internas-y-las-paso-que-esta-en-juego-y-el-respaldo-de-los-aliados-a-bullrich/"
   },
   {
-   "s": "Página/12",
-   "t": "Críticas a los cambios en el Centro Nacional de Ciberseguridad",
-   "g": "El diario cuestiona que limite proveedores a empresas de EE.UU. y excluya a China.",
-   "u": "https://www.pagina12.com.ar/2026/11/14/para-javier-milei-la-patria-es-lo-segundo/"
+   "s": "El Destape",
+   "t": "En el entorno de Bullrich ven una «trampa» en la eliminación de las PASO",
+   "g": "Advierten: «si esto fracasa es culpa de Santilli». Ella dice que no romperá.",
+   "u": "https://www.eldestapeweb.com/politica/trampa-electoral-esquiva-patricia-bullrich-silencioso-plan-captar-desencantados-javier-milei-2026111512026"
   }
  ],
  "titulares": [
   {
    "sec": "Economía",
    "s": "Ámbito",
-   "t": "El Tesoro lanzó un canje para pasar vencimientos de noviembre a enero de 2027",
-   "u": "https://www.ambito.com/finanzas/deuda-el-tesoro-lanzo-un-nuevo-canje-letras-dolar-linked-postergar-vencimientos-enero-2027-n6345166"
+   "t": "Inflación, tasas y riesgo país: las luces amarillas que mira la city rumbo a 2027",
+   "u": "https://www.ambito.com/finanzas/inflacion-tasas-y-riesgo-pais-elevado-las-luces-amarillas-que-mira-la-city-rumbo-2027-n6344986"
   },
   {
    "sec": "Economía",
    "s": "Ámbito",
-   "t": "El dólar oficial bajó sobre el cierre y anotó su primera baja semanal en un mes",
-   "u": "https://www.ambito.com/finanzas/el-dolar-encara-el-cierre-la-semana-corta-un-leve-repunte-el-tramo-mayorista-n6344803"
+   "t": "El blue tuvo su mayor suba semanal en cuatro meses y cerró en máximo nominal",
+   "u": "https://www.ambito.com/finanzas/el-dolar-blue-anoto-su-mayor-suba-semanal-cuatro-meses-y-cerro-maximos-nominales-n6345069"
   },
   {
    "sec": "Economía",
-   "s": "Perfil",
-   "t": "Con la canasta nueva que se postergó, la inflación de octubre habría sido 2,4%",
-   "u": "https://www.perfil.com/economia/la-inflacion-de-octubre-fue-del-22-pero-con-la-nueva-medicion-del-indec-que-postergo-el-gobierno-habria-llegado-al-24-a7jbK6p311OK"
+   "s": "Infobae",
+   "t": "Milei exige aprobar Presupuesto y reforma política antes de fin de año",
+   "u": "https://www.infobae.com/politica/2026/11/15/el-proximo-fenomeno-politico-que-ve-el-gobierno-y-el-ultimatum-de-milei-a-sus-funcionarios/"
   },
   {
    "sec": "Política",
    "s": "La Política Online",
-   "t": "Milei dio \"me gusta\" a un tuit que acusa a los Menem de empujar la ruptura con Bullrich",
-   "u": "https://www.lapoliticaonline.com/politica/milei-le-dio-like-a-un-tuit-que-pone-a-los-menem-conspirando-con-medios-criticos/"
+   "t": "Bullrich impulsa a Pablo Cervi como candidato a gobernador de Neuquén",
+   "u": "https://www.lapoliticaonline.com/politica/bullrich-empuja-a-cervi-como-candidato-a-gobernador-de-neuquen-y-cruza-a-nadia-marquez/"
   },
   {
    "sec": "Política",
-   "s": "Infobae",
-   "t": "Kicillof sigue la pelea por las PASO para decidir si unifica las elecciones bonaerenses",
-   "u": "https://www.infobae.com/politica/2026/11/14/axel-kicillof-sigue-de-cerca-las-negociaciones-por-las-paso-para-definir-si-unifica-las-elecciones-bonaerenses/"
+   "s": "El Cronista",
+   "t": "Milei, en modo 2027: «Sí, estoy yendo por la reelección»",
+   "u": "https://www.elcronista.ar/milei-en-modo-2027-para-los-que-dudan-si-estoy-yendo-por-la-reeleccion"
   },
   {
    "sec": "Política",
-   "s": "La Nación",
-   "t": "Editorial: la reelección de intendentes bonaerenses, convertida en moneda de cambio",
-   "u": "https://www.lanacion.com.ar/editoriales/reeleccion-de-intendentes-globo-de-ensayo-y-moneda-de-cambio-nid14112026/"
+   "s": "Letra P",
+   "t": "Quince días decisivos en el Congreso, con el Gobierno sin control de su interna",
+   "u": "https://www.letrap.com.ar/congreso/javier-milei-enfrenta-15-dias-decisivos-y-pierde-el-control-su-interna-n5428223"
   },
   {
    "sec": "Mundo",
    "s": "EFE",
-   "t": "Zelenski: EE.UU. planteó la OTAN para Ucrania a cambio de dejar el Donbás",
-   "u": "https://www.infobae.com/america/agencias/2026/11/14/zelenski-dice-que-eeuu-ha-planteado-admitir-a-ucrania-en-la-otan-si-se-retira-de-donbas/"
+   "t": "Ucrania intensifica sus ataques a la infraestructura petrolera de Rusia",
+   "u": "https://unitel.bo/noticias/agencias/domingo-15-de-noviembre-de-2026-0200-gmt-NO24808401"
   },
   {
    "sec": "Mundo",
-   "s": "AP",
-   "t": "Wall Street cayó el viernes, pero cerró una semana ganadora",
-   "u": "https://whdh.com/news/stocks-fall-but-wall-street-notches-a-winning-week-after-several-turbulent-days/"
+   "s": "Bolsamanía",
+   "t": "Nvidia y las actas de la Fed, las claves bursátiles de la semana",
+   "u": "https://www.bolsamania.com/noticias/economia/nvidia-ipc-eurozona-actas-fed-claves-bursatiles-proxima-semana--24150244.html"
   }
  ],
  "agenda": [
   {
-   "w": "Martes 17/11 · 15 y 16 h",
-   "b": "Senado: comisión por la suspensión de las PASO · Diputados: dictamen del Presupuesto 2027"
+   "w": "Lunes 16/11",
+   "b": "Gobernadores del norte se reúnen en Salta · habla Warsh, titular de la Fed"
   },
   {
-   "w": "Martes 17/11",
-   "b": "Canje del Tesoro (D30N6 a enero de 2027) y reunión de la mesa política"
+   "w": "Martes 17/11 · 15 h",
+   "b": "Senado: comisión por las PASO · Diputados: dictamen del Presupuesto · canje del Tesoro · resultados de Nvidia"
   },
   {
-   "w": "Miércoles 18/11",
-   "b": "Diputados: Carta Orgánica del BCRA y ley de Soberanía Nacional"
+   "w": "Jueves 19/11",
+   "b": "Senado: sesión por la ley de Discapacidad · INDEC: comercio exterior de octubre · cumbre minera en Mendoza"
   },
   {
    "w": "Miércoles 25/11",
    "b": "Diputados busca aprobar el Presupuesto 2027; Santilli informa en el Senado"
   }
  ],
- "guion": "*FIN DE SEMANA: BALANCE Y AGENDA*\n_Sábado 14/11 · sin mercado, valores del cierre del viernes_\n\n*1) Cómo cerró la semana en EEUU, en criollo*\n- La bolsa de EEUU cayó el viernes, pero cerró una semana ganadora.\n- *S&P 500:* subió 2,5% en la semana y quedó en 7.561 puntos. Es como un promedio de las 500 empresas más grandes de EEUU.\n- *Dow Jones:* subió 2,1% en la semana. Es el promedio de 30 empresas grandes y tradicionales.\n- *Nasdaq:* el viernes bajó 0,9%, pero igual tuvo su mejor semana desde agosto. Es el índice de las tecnológicas.\n- *El porqué del viernes:* se vendieron las acciones de inteligencia artificial. AMD cayó 8,8% y Nvidia 2%.\n- *Caos en el aire:* el viernes EEUU frenó todos sus vuelos más de cuatro horas por una falla en las comunicaciones del control aéreo. Se cancelaron miles de vuelos y hubo cambios en Ezeiza.\n- *Afuera:* Zelenski contó que EEUU le planteó por primera vez entrar a la OTAN si Ucrania deja la parte del Donbás que todavía controla. Dijo que no puede decidirlo solo.\n\n*2) Cómo cerró la semana en Argentina, en criollo*\n- Este fin de semana no hay mercado: los números son los del viernes.\n- *Riesgo país:* 830 puntos. Es como el puntaje de miedo que nos ponen los de afuera. Venía de 939 el viernes anterior: bajó 109 en la semana.\n- *Merval:* 85.053 puntos. El viernes subió 3,1% y cortó cinco bajas seguidas.\n- *Dólar oficial:* $1.570 en Banco Nación. El mayorista tuvo su primera baja semanal en un mes.\n- *Dólar blue:* $1.575. Es el dólar de la calle y subió $20 en la semana.\n- *MEP y CCL:* $1.577 y $1.672. El MEP es el que comprás por la bolsa con pesos; el CCL, el que usan las empresas para sacar plata afuera.\n- *Banco Central:* compró 40 millones el viernes y ya suma 223 millones en noviembre. Las reservas quedaron en 49.597 millones.\n- *La semana que viene:* el martes el Senado vuelve a discutir la suspensión de las PASO y el Tesoro hace un canje para pasar deuda de noviembre a enero. El mismo martes se firma el dictamen del Presupuesto en comisión y el 25 Diputados quiere aprobarlo en el recinto.\n\n*3) Lo que NADIE te está contando*\n- El FMI pide un superávit de al menos 16,26 billones de pesos en 2026, pero el relevamiento del BCRA proyecta 15,1 billones.\n- El mercado espera que en diciembre el Estado gaste más de lo que recauda: un rojo de unos 3,74 billones.\n- Con la canasta actualizada que el Gobierno postergó, la inflación de octubre habría sido 2,4% y no 2,2%, según Equilibra. No es un dato oficial.\n- Es como la balanza del baño que marca un kilo menos: no miente del todo, pero conviene saber cuánto le falta calibrar.\n\n*4) Qué significa esto para tu bolsillo la semana que viene*\n- Si tu sueldo o tu plazo fijo suben menos de 2,2% por mes, pierden contra los precios.\n- Si el canje del martes sale bien, el Tesoro gana tiempo hasta enero; si sale mal, necesita pesos ahora.\n- Si sigue la demanda de dólares de fin de año, el blue puede seguir presionado aunque el oficial esté quieto.\n- En criollo: la semana terminó más tranquila en los mercados, pero lo que se juega ahora es la política y la cuenta de enero.",
+ "guion": "*DOMINGO DE REELECCIÓN Y VOTOS*\n_Domingo 15/11 · sin mercado, valores del cierre del viernes_\n\n*1) Cómo cerró la semana en EEUU y qué viene, en criollo*\n- *S&P 500:* subió 2,5% en la semana y quedó en 7.561 puntos. Es como un promedio de las 500 empresas más grandes de EEUU.\n- *Dow Jones:* subió 2,1% en la semana. Es el promedio de 30 empresas grandes y tradicionales.\n- *Nasdaq:* el viernes bajó 0,9%, pero tuvo su mejor semana desde agosto. Es el índice de las tecnológicas.\n- *Nvidia:* la empresa que hace los chips de la inteligencia artificial presenta resultados el martes, después de la salida de su CEO. Es el dato que más mira Wall Street esta semana.\n- *La Fed:* el miércoles publica las actas de su última reunión. El mercado espera que en diciembre suba la tasa: plata más cara en el mundo.\n- *Afuera:* Ucrania intensificó sus ataques contra la infraestructura petrolera de Rusia.\n\n*2) Cómo quedó Argentina y qué se viene, en criollo*\n- Hoy no hay mercado: los números son los del viernes.\n- *La noticia del fin de semana:* Milei confirmó que va por la reelección. «Para los que dudan, sí, estoy yendo», dijo el sábado en la Casa Rosada.\n- *Riesgo país:* 830 puntos. Es como el puntaje de miedo que nos ponen los de afuera. Venía de 939 el viernes anterior: bajó 109 en la semana.\n- *Merval:* 85.053 puntos. El viernes subió 3,1% y cortó cinco bajas seguidas.\n- *Dólar oficial:* $1.570 en Banco Nación. *Blue:* $1.575, el de la calle, que subió $20 en la semana.\n- *MEP y CCL:* $1.577 y $1.672. El MEP es el que comprás por la bolsa con pesos; el CCL, el que usan las empresas para sacar plata afuera.\n- *Banco Central:* compró 40 millones el viernes y suma 223 millones en noviembre. Las reservas quedaron en 49.597 millones.\n- *El martes:* el Senado trata en comisión la suspensión de las PASO (hacen falta 37 votos y no están asegurados), Diputados busca el dictamen del Presupuesto y el Tesoro hace un canje para pasar deuda de noviembre a enero.\n\n*3) Lo que NADIE te está contando*\n- Hasta octubre el Gobierno ya gastó el 84,1% de su presupuesto del año, lo más alto en diez años, y espera cerrar diciembre en rojo.\n- El Banco Central compra menos dólares: 46 millones por día en noviembre contra 66 millones en octubre.\n- En 2027 vencen 28.400 millones de dólares de deuda y, con este riesgo país, salir a pedir prestado afuera está casi cerrado.\n- Es como una familia que en noviembre ya se gastó casi todo el sueldo del año y encima tiene que renovar la tarjeta: necesita que el banco le siga prestando.\n\n*4) Qué significa esto para tu bolsillo esta semana*\n- Si tu sueldo o tu plazo fijo suben menos de 2,2% por mes, pierden contra los precios.\n- El plazo fijo rinde cerca de 2% por mes: si la inflación sigue en 2,2%, queda apenas por debajo.\n- Si el canje del martes sale bien, el Tesoro gana tiempo hasta enero; si sale mal, necesita pesos ahora.\n- En criollo: los mercados se calmaron, pero esta semana manda la política: PASO, Presupuesto y la pelea con Bullrich.",
  "fuentes": [
   [
-   "Ámbito · Plazos del Presupuesto 2027",
-   "https://www.ambito.com/politica/el-gobierno-oficializo-los-plazos-aprobar-el-presupuesto-2027-diputados-n6345178"
+   "Ámbito · PASO: semana de definiciones en el Senado",
+   "https://www.ambito.com/politica/paso-semana-definiciones-el-senado-la-interna-del-peronismo-la-mira-y-patricia-bullrich-marginada-n6345372"
+  ],
+  [
+   "Ámbito · Luces amarillas rumbo a 2027",
+   "https://www.ambito.com/finanzas/inflacion-tasas-y-riesgo-pais-elevado-las-luces-amarillas-que-mira-la-city-rumbo-2027-n6344986"
+  ],
+  [
+   "Ámbito · El Financial Times y la interna con Bullrich",
+   "https://ambito.com/politica/el-financial-times-se-hace-eco-la-interna-libertaria-patricia-bullrich-javier-milei-se-enfrenta-la-figura-mas-popular-su-gobierno-n6345278"
   ],
   [
    "Ámbito · Canje de la letra D30N6",
    "https://www.ambito.com/finanzas/deuda-el-tesoro-lanzo-un-nuevo-canje-letras-dolar-linked-postergar-vencimientos-enero-2027-n6345166"
-  ],
-  [
-   "Ámbito · Dólar oficial en la semana",
-   "https://www.ambito.com/finanzas/el-dolar-encara-el-cierre-la-semana-corta-un-leve-repunte-el-tramo-mayorista-n6344803"
-  ],
-  [
-   "Ámbito · Mesa política",
-   "https://www.ambito.com/politica/el-gobierno-vuelve-reunir-la-mesa-semanas-paralisis-y-medio-tensiones-internas-n6345141"
   ],
   [
    "Ámbito · Dólar al cierre 13/11",
@@ -397,6 +397,10 @@
    "https://www.ambito.com/finanzas/el-bcra-sostuvo-las-compras-dolares-la-semana-y-ya-acumulo-mas-us200-millones-noviembre-n6345123"
   ],
   [
+   "La Política Online · Presión a Bullrich por las PASO",
+   "https://www.lapoliticaonline.com/politica/el-gobierno-sale-a-atacar-a-bullrich-y-le-pide-que-apure-la-eliminacion-de-las-paso/"
+  ],
+  [
    "La Política Online · Encuesta AtlasIntel",
    "https://www.lapoliticaonline.com/politica/patricia-supera-en-imagen-positiva-a-milei-que-esta-quinto/"
   ],
@@ -405,76 +409,56 @@
    "https://www.lapoliticaonline.com/politica/bullrich-empuja-a-cervi-como-candidato-a-gobernador-de-neuquen-y-cruza-a-nadia-marquez/"
   ],
   [
-   "La Política Online · Milei, el like y los Menem",
-   "https://www.lapoliticaonline.com/politica/milei-le-dio-like-a-un-tuit-que-pone-a-los-menem-conspirando-con-medios-criticos/"
+   "La Política Online · Ruptura con Bullrich y riesgo país",
+   "https://www.lapoliticaonline.com/politica/la-ruptura-con-bullrich-pone-en-riesgo-la-reeleccion-de-milei/"
   ],
   [
-   "La Política Online · Déficit de diciembre",
-   "https://www.lapoliticaonline.com/economia/el-mercado-proyecta-deficit-primario-y-financiero-en-el-ultimo-mes-del-ano/"
+   "Infobae · El Senado, las PASO y Bullrich",
+   "https://www.infobae.com/politica/2026/11/15/el-senado-quedo-atravesado-por-internas-y-las-paso-que-esta-en-juego-y-el-respaldo-de-los-aliados-a-bullrich/"
   ],
   [
-   "La Política Online · Dólares para enero",
-   "https://www.lapoliticaonline.com/economia/caputo-tiene-apenas-usd-830-millones-para-pagar-vencimientos-por-usd-4-400-millones-en-enero/"
+   "Infobae · Ultimátum por el Presupuesto",
+   "https://www.infobae.com/politica/2026/11/15/el-proximo-fenomeno-politico-que-ve-el-gobierno-y-el-ultimatum-de-milei-a-sus-funcionarios/"
   ],
   [
-   "Infobae · Kicillof y las PASO",
-   "https://www.infobae.com/politica/2026/11/14/axel-kicillof-sigue-de-cerca-las-negociaciones-por-las-paso-para-definir-si-unifica-las-elecciones-bonaerenses/"
+   "El Cronista · Milei va por la reelección",
+   "https://www.elcronista.ar/milei-en-modo-2027-para-los-que-dudan-si-estoy-yendo-por-la-reeleccion"
   ],
   [
-   "Infobae/EFE · Zelenski y la OTAN",
-   "https://www.infobae.com/america/agencias/2026/11/14/zelenski-dice-que-eeuu-ha-planteado-admitir-a-ucrania-en-la-otan-si-se-retira-de-donbas/"
+   "Contexto Tucumán · Discurso de Milei en la Casa Rosada",
+   "https://www.contextotucuman.com/nota/428411/yquot;para-los-que-dudanyquot;-milei-confirmo-que-buscara-la-reeleccion-en-2027-y-prometio-devolver-500-000-millones-de-dolares-en-bajas-de-impuestos.html"
   ],
   [
-   "Infobae · PASO y viaje de Santilli",
-   "https://www.infobae.com/politica/2026/11/14/suspension-de-las-paso-la-necesidad-urgente-del-gobierno-presiones-a-bullrich-y-el-viaje-clave-de-santilli/"
+   "Letra P · Quince días decisivos en el Congreso",
+   "https://www.letrap.com.ar/congreso/javier-milei-enfrenta-15-dias-decisivos-y-pierde-el-control-su-interna-n5428223"
   ],
   [
-   "Infobae · Agenda del Congreso",
-   "https://www.infobae.com/politica/2026/11/14/reforma-electoral-presupuesto-y-discapacidad-el-congreso-enfrenta-sus-diez-dias-mas-exigentes-del-ano/"
+   "El Destape · Bullrich y la eliminación de las PASO",
+   "https://www.eldestapeweb.com/politica/trampa-electoral-esquiva-patricia-bullrich-silencioso-plan-captar-desencantados-javier-milei-2026111512026"
   ],
   [
-   "Infobae/EFE · Temas internacionales",
-   "https://www.infobae.com/america/agencias/2026/11/14/temas-del-dia-de-efe-internacional-del-sabado-14-de-noviembre-1200-gmt/"
-  ],
-  [
-   "Total News Agency · Votos para suspender las PASO",
-   "https://totalnewsagency.com/2026/11/14/paso-milei-suma-votos-y-acelera-su-suspension/"
-  ],
-  [
-   "Perfil · Inflación con la canasta nueva",
-   "https://www.perfil.com/economia/la-inflacion-de-octubre-fue-del-22-pero-con-la-nueva-medicion-del-indec-que-postergo-el-gobierno-habria-llegado-al-24-a7jbK6p311OK"
-  ],
-  [
-   "Perfil · Tapa del sábado",
-   "https://www.perfil.com/actualidad/la-tapa-del-diario-perfil-del-sabado-14-de-noviembre-de-2026-aNRur8o6HH0x"
-  ],
-  [
-   "La Nación · Editorial reelección de intendentes",
-   "https://www.lanacion.com.ar/editoriales/reeleccion-de-intendentes-globo-de-ensayo-y-moneda-de-cambio-nid14112026/"
-  ],
-  [
-   "La Nación · Depósitos del Tesoro en el BCRA",
-   "https://www.lanacion.com.ar/economia/los-depositos-en-dolares-del-gobierno-en-el-bcra-tocaron-un-piso-pero-la-entidad-sigue-comprando-nid13112026/"
-  ],
-  [
-   "Página/12 · Ciberseguridad",
-   "https://www.pagina12.com.ar/2026/11/14/para-javier-milei-la-patria-es-lo-segundo/"
+   "INDEC · Calendario de difusión",
+   "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf"
   ],
   [
    "Noticias Argentinas · Riesgo país al cierre",
    "https://noticiasargentinas.com/economia/el-riesgo-pais-de-la-argentina-cerro-la-semana-en-830-puntos-basicos_a6af7838097b243a5b555fa2a"
   ],
   [
-   "Rava · Riesgo país histórico",
-   "https://www.rava.com/cotizaciones/historico/riesgo-pais/hoy/"
-  ],
-  [
    "Infobae/EFE · Bolsa de Buenos Aires al cierre",
    "https://www.infobae.com/america/agencias/2026/11/13/la-bolsa-de-buenos-aires-cierra-con-una-subida-del-268/"
   ],
   [
-   "ABC News · Freno de vuelos en EE.UU.",
-   "https://abcnews.com/US/nationwide-ground-stop-ordered-airports-faa/story?id=138121848"
+   "EFE · Temas internacionales del domingo",
+   "https://unitel.bo/noticias/agencias/domingo-15-de-noviembre-de-2026-0200-gmt-NO24808401"
+  ],
+  [
+   "Bolsamanía · Agenda bursátil de la semana",
+   "https://www.bolsamania.com/noticias/economia/nvidia-ipc-eurozona-actas-fed-claves-bursatiles-proxima-semana--24150244.html"
+  ],
+  [
+   "CoinCentral · Semana de Wall Street",
+   "https://coincentral.com/the-week-ahead-nvidia-earnings-anthropic-ipo-and-fed-minutes-set-to-shake-wall-street"
   ],
   [
    "AP · Cierre de Wall Street",
