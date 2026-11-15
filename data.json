@@ -1,11 +1,11 @@
 {
  "fecha": "Domingo 15 de noviembre de 2026",
  "iso": "2026-11-15",
- "corte": "Actualizado a las 12:21 h · fin de semana",
+ "corte": "Actualizado a las 19:45 h · fin de semana",
  "clima": {
   "tag": "Domingo de reelección y votos",
   "tipo": "atipico",
-  "por": "Milei confirmó que va por la reelección y la semana trae PASO, Presupuesto y Nvidia."
+  "por": "Milei confirmó que va por la reelección; la semana trae PASO, Presupuesto, Nvidia y Tesla."
  },
  "frase": "Milei confirmó que irá por la reelección; el Senado define esta semana las PASO.",
  "atipica": "Es domingo y no hay mercado: los valores son los del cierre del viernes 13/11 y no hay que leer movimientos nuevos.",
@@ -314,8 +314,8 @@
   {
    "sec": "Economía",
    "s": "Infobae",
-   "t": "Milei exige aprobar Presupuesto y reforma política antes de fin de año",
-   "u": "https://www.infobae.com/politica/2026/11/15/el-proximo-fenomeno-politico-que-ve-el-gobierno-y-el-ultimatum-de-milei-a-sus-funcionarios/"
+   "t": "A Milei no le sobra nada para la reelección: cuida el dólar y apuesta a un rebote",
+   "u": "https://www.infobae.com/economia/2026/11/15/a-milei-no-le-sobra-nada-para-la-reeleccion-cuida-la-estabilidad-cambiaria-y-se-juega-a-un-rebote-de-la-actividad/"
   },
   {
    "sec": "Política",
@@ -331,15 +331,15 @@
   },
   {
    "sec": "Política",
-   "s": "Letra P",
-   "t": "Quince días decisivos en el Congreso, con el Gobierno sin control de su interna",
-   "u": "https://www.letrap.com.ar/congreso/javier-milei-enfrenta-15-dias-decisivos-y-pierde-el-control-su-interna-n5428223"
+   "s": "Ámbito",
+   "t": "Toyota, el CICyP y Tesla: la agenda de Milei para esta semana",
+   "u": "https://www.ambito.com/politica/la-agenda-javier-milei-reuniones-empresarios-actos-oficiales-y-el-lanzamiento-tesla-la-argentina-n6345457"
   },
   {
    "sec": "Mundo",
    "s": "EFE",
-   "t": "Ucrania intensifica sus ataques a la infraestructura petrolera de Rusia",
-   "u": "https://unitel.bo/noticias/agencias/domingo-15-de-noviembre-de-2026-0200-gmt-NO24808401"
+   "t": "EE.UU. espera normalizar el tráfico aéreo tras más de diez mil vuelos cancelados",
+   "u": "https://www.infobae.com/america/agencias/2026/11/15/temas-del-dia-de-efe-internacional-de-domingo-15-de-noviembre-1200-gmt/"
   },
   {
    "sec": "Mundo",
@@ -351,23 +351,27 @@
  "agenda": [
   {
    "w": "Lunes 16/11",
-   "b": "Gobernadores del norte se reúnen en Salta · habla Warsh, titular de la Fed"
+   "b": "Milei recibe a Toyota (13 h) y va a la cena del CICyP (20 h) · gobernadores del norte en Salta · habla Warsh (Fed)"
   },
   {
-   "w": "Martes 17/11 · 15 h",
-   "b": "Senado: comisión por las PASO · Diputados: dictamen del Presupuesto · canje del Tesoro · resultados de Nvidia"
+   "w": "Martes 17/11",
+   "b": "Senado: comisión por las PASO · Diputados: dictamen del Presupuesto · canje del Tesoro · Milei en las Jornadas Monetarias · resultados de Nvidia"
   },
   {
-   "w": "Jueves 19/11",
-   "b": "Senado: sesión por la ley de Discapacidad · INDEC: comercio exterior de octubre · cumbre minera en Mendoza"
+   "w": "Jue 19 y vie 20/11",
+   "b": "Senado: ley de Discapacidad · INDEC: comercio exterior · viernes 19 h: Milei en el lanzamiento de Tesla en la Argentina"
   },
   {
    "w": "Miércoles 25/11",
    "b": "Diputados busca aprobar el Presupuesto 2027; Santilli informa en el Senado"
   }
  ],
- "guion": "*DOMINGO DE REELECCIÓN Y VOTOS*\n_Domingo 15/11 · sin mercado, valores del cierre del viernes_\n\n*1) Cómo cerró la semana en EEUU y qué viene, en criollo*\n- *S&P 500:* subió 2,5% en la semana y quedó en 7.561 puntos. Es como un promedio de las 500 empresas más grandes de EEUU.\n- *Dow Jones:* subió 2,1% en la semana. Es el promedio de 30 empresas grandes y tradicionales.\n- *Nasdaq:* el viernes bajó 0,9%, pero tuvo su mejor semana desde agosto. Es el índice de las tecnológicas.\n- *Nvidia:* la empresa que hace los chips de la inteligencia artificial presenta resultados el martes, después de la salida de su CEO. Es el dato que más mira Wall Street esta semana.\n- *La Fed:* el miércoles publica las actas de su última reunión. El mercado espera que en diciembre suba la tasa: plata más cara en el mundo.\n- *Afuera:* Ucrania intensificó sus ataques contra la infraestructura petrolera de Rusia.\n\n*2) Cómo quedó Argentina y qué se viene, en criollo*\n- Hoy no hay mercado: los números son los del viernes.\n- *La noticia del fin de semana:* Milei confirmó que va por la reelección. «Para los que dudan, sí, estoy yendo», dijo el sábado en la Casa Rosada.\n- *Riesgo país:* 830 puntos. Es como el puntaje de miedo que nos ponen los de afuera. Venía de 939 el viernes anterior: bajó 109 en la semana.\n- *Merval:* 85.053 puntos. El viernes subió 3,1% y cortó cinco bajas seguidas.\n- *Dólar oficial:* $1.570 en Banco Nación. *Blue:* $1.575, el de la calle, que subió $20 en la semana.\n- *MEP y CCL:* $1.577 y $1.672. El MEP es el que comprás por la bolsa con pesos; el CCL, el que usan las empresas para sacar plata afuera.\n- *Banco Central:* compró 40 millones el viernes y suma 223 millones en noviembre. Las reservas quedaron en 49.597 millones.\n- *El martes:* el Senado trata en comisión la suspensión de las PASO (hacen falta 37 votos y no están asegurados), Diputados busca el dictamen del Presupuesto y el Tesoro hace un canje para pasar deuda de noviembre a enero.\n\n*3) Lo que NADIE te está contando*\n- Hasta octubre el Gobierno ya gastó el 84,1% de su presupuesto del año, lo más alto en diez años, y espera cerrar diciembre en rojo.\n- El Banco Central compra menos dólares: 46 millones por día en noviembre contra 66 millones en octubre.\n- En 2027 vencen 28.400 millones de dólares de deuda y, con este riesgo país, salir a pedir prestado afuera está casi cerrado.\n- Es como una familia que en noviembre ya se gastó casi todo el sueldo del año y encima tiene que renovar la tarjeta: necesita que el banco le siga prestando.\n\n*4) Qué significa esto para tu bolsillo esta semana*\n- Si tu sueldo o tu plazo fijo suben menos de 2,2% por mes, pierden contra los precios.\n- El plazo fijo rinde cerca de 2% por mes: si la inflación sigue en 2,2%, queda apenas por debajo.\n- Si el canje del martes sale bien, el Tesoro gana tiempo hasta enero; si sale mal, necesita pesos ahora.\n- En criollo: los mercados se calmaron, pero esta semana manda la política: PASO, Presupuesto y la pelea con Bullrich.",
+ "guion": "*DOMINGO DE REELECCIÓN Y VOTOS*\n_Domingo 15/11 · sin mercado, valores del cierre del viernes_\n\n*1) Cómo cerró la semana en EEUU y qué viene, en criollo*\n- *S&P 500:* subió 2,5% en la semana y quedó en 7.561 puntos. Es como un promedio de las 500 empresas más grandes de EEUU.\n- *Dow Jones:* subió 2,1% en la semana. Es el promedio de 30 empresas grandes y tradicionales.\n- *Nasdaq:* el viernes bajó 0,9%, pero tuvo su mejor semana desde agosto. Es el índice de las tecnológicas.\n- *Nvidia:* la empresa que hace los chips de la inteligencia artificial presenta resultados el martes, después de la salida de su CEO. Es el dato que más mira Wall Street esta semana.\n- *La Fed:* el miércoles publica las actas de su última reunión. El mercado espera que en diciembre suba la tasa: plata más cara en el mundo.\n- *Afuera:* en EEUU se espera que vuelvan a la normalidad los vuelos, después de más de diez mil cancelaciones por una falla en el sistema de comunicaciones.\n\n*2) Cómo quedó Argentina y qué se viene, en criollo*\n- Hoy no hay mercado: los números son los del viernes.\n- *La noticia del fin de semana:* Milei confirmó que va por la reelección. «Para los que dudan, sí, estoy yendo», dijo el sábado en la Casa Rosada.\n- *Riesgo país:* 830 puntos. Es como el puntaje de miedo que nos ponen los de afuera. Venía de 939 el viernes anterior: bajó 109 en la semana.\n- *Merval:* 85.053 puntos. El viernes subió 3,1% y cortó cinco bajas seguidas.\n- *Dólar oficial:* $1.570 en Banco Nación. *Blue:* $1.575, el de la calle, que subió $20 en la semana.\n- *MEP y CCL:* $1.577 y $1.672. El MEP es el que comprás por la bolsa con pesos; el CCL, el que usan las empresas para sacar plata afuera.\n- *Banco Central:* compró 40 millones el viernes y suma 223 millones en noviembre. Las reservas quedaron en 49.597 millones.\n- *El martes:* el Senado trata en comisión la suspensión de las PASO (hacen falta 37 votos y no están asegurados), Diputados busca el dictamen del Presupuesto y el Tesoro hace un canje para pasar deuda de noviembre a enero.\n- *La agenda de Milei:* el lunes recibe a Toyota y va a la cena de los empresarios del CICyP; el martes habla en las Jornadas Monetarias y el viernes va al lanzamiento de Tesla en la Argentina.\n\n*3) Lo que NADIE te está contando*\n- Hasta octubre el Gobierno ya gastó el 84,1% de su presupuesto del año, lo más alto en diez años, y espera cerrar diciembre en rojo.\n- El Banco Central compra menos dólares: 46 millones por día en noviembre contra 66 millones en octubre.\n- En 2027 vencen 28.400 millones de dólares de deuda y, con este riesgo país, salir a pedir prestado afuera está casi cerrado.\n- Es como una familia que en noviembre ya se gastó casi todo el sueldo del año y encima tiene que renovar la tarjeta: necesita que el banco le siga prestando.\n\n*4) Qué significa esto para tu bolsillo esta semana*\n- Si tu sueldo o tu plazo fijo suben menos de 2,2% por mes, pierden contra los precios.\n- El plazo fijo rinde cerca de 2% por mes: si la inflación sigue en 2,2%, queda apenas por debajo.\n- Si el canje del martes sale bien, el Tesoro gana tiempo hasta enero; si sale mal, necesita pesos ahora.\n- En criollo: los mercados se calmaron, pero esta semana manda la política: PASO, Presupuesto y la pelea con Bullrich.",
  "fuentes": [
+  [
+   "Ámbito · Agenda de Milei de la semana",
+   "https://www.ambito.com/politica/la-agenda-javier-milei-reuniones-empresarios-actos-oficiales-y-el-lanzamiento-tesla-la-argentina-n6345457"
+  ],
   [
    "Ámbito · PASO: semana de definiciones en el Senado",
    "https://www.ambito.com/politica/paso-semana-definiciones-el-senado-la-interna-del-peronismo-la-mira-y-patricia-bullrich-marginada-n6345372"
@@ -413,12 +417,20 @@
    "https://www.lapoliticaonline.com/politica/la-ruptura-con-bullrich-pone-en-riesgo-la-reeleccion-de-milei/"
   ],
   [
-   "Infobae · El Senado, las PASO y Bullrich",
-   "https://www.infobae.com/politica/2026/11/15/el-senado-quedo-atravesado-por-internas-y-las-paso-que-esta-en-juego-y-el-respaldo-de-los-aliados-a-bullrich/"
-  ],
-  [
    "Infobae · Ultimátum por el Presupuesto",
    "https://www.infobae.com/politica/2026/11/15/el-proximo-fenomeno-politico-que-ve-el-gobierno-y-el-ultimatum-de-milei-a-sus-funcionarios/"
+  ],
+  [
+   "Infobae · La economía y la reelección",
+   "https://www.infobae.com/economia/2026/11/15/a-milei-no-le-sobra-nada-para-la-reeleccion-cuida-la-estabilidad-cambiaria-y-se-juega-a-un-rebote-de-la-actividad/"
+  ],
+  [
+   "EFE · Temas internacionales del domingo",
+   "https://www.infobae.com/america/agencias/2026/11/15/temas-del-dia-de-efe-internacional-de-domingo-15-de-noviembre-1200-gmt/"
+  ],
+  [
+   "Infobae · El Senado, las PASO y Bullrich",
+   "https://www.infobae.com/politica/2026/11/15/el-senado-quedo-atravesado-por-internas-y-las-paso-que-esta-en-juego-y-el-respaldo-de-los-aliados-a-bullrich/"
   ],
   [
    "El Cronista · Milei va por la reelección",
@@ -447,10 +459,6 @@
   [
    "Infobae/EFE · Bolsa de Buenos Aires al cierre",
    "https://www.infobae.com/america/agencias/2026/11/13/la-bolsa-de-buenos-aires-cierra-con-una-subida-del-268/"
-  ],
-  [
-   "EFE · Temas internacionales del domingo",
-   "https://unitel.bo/noticias/agencias/domingo-15-de-noviembre-de-2026-0200-gmt-NO24808401"
   ],
   [
    "Bolsamanía · Agenda bursátil de la semana",
