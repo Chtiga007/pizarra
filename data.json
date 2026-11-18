@@ -1,60 +1,60 @@
 {
- "fecha": "Martes 17 de noviembre de 2026",
- "iso": "2026-11-17",
- "corte": "Actualizado a las 18:43 h · cierre definitivo",
+ "fecha": "Miércoles 18 de noviembre de 2026",
+ "iso": "2026-11-18",
+ "corte": "Actualizado a las 14:21 h · valores parciales de la rueda",
  "clima": {
-  "tag": "Calma tensa con dólar récord",
+  "tag": "Dólar en alza, bonos en verde",
   "tipo": "tenso",
-  "por": "La bolsa sube apenas, pero el riesgo país vuelve a 859 y el blue sostiene su récord"
+  "por": "El dólar vuelve a subir y marca récords, pero el riesgo país afloja hasta 849"
  },
- "frase": "El BCRA compra USD 74 M y suben las reservas, pero el riesgo país vuelve a 859",
+ "frase": "El dólar sube $5 y renueva récords, mientras el riesgo país baja a 849",
  "atipica": null,
  "claves": [
-  "Riesgo país 859 (+4, venía de 855); Merval +0,4%, a 81.794",
-  "BCRA compró USD 74 M; reservas +277 M, a USD 49.741 M",
-  "Canje: el Tesoro pasó a enero el 60,19% de la letra D30N6"
+  "Dólar: oficial $1.580 (+$5), blue $1.610 y CCL $1.712, parciales",
+  "Riesgo país 849 al mediodía (venía de 859); Merval +0,6%",
+  "Diputados se quedó sin quórum: se cayó la sesión por Malvinas y el BCRA"
  ],
  "indicadores": [
   {
    "k": "Dólar oficial",
-   "v": "$1.575",
-   "d": "Sin cambios · BNA venta, compra $1.525 · mayorista $1.552 (+$1), récord nominal",
-   "tend": "flat",
-   "estado": "verde"
+   "v": "$1.580",
+   "d": "Subió $5 · venía de $1.575 · mayorista $1.557 (+$5), parcial de las 13:21",
+   "tend": "up",
+   "estado": "amarillo"
   },
   {
    "k": "Dólar MEP",
-   "v": "$1.600,51",
-   "d": "+1% · brecha 1,6% con el oficial",
+   "v": "$1.607,51",
+   "d": "+$7 · venía de $1.600,51 · brecha 1,7% con el oficial",
    "tend": "up",
    "estado": "verde"
   },
   {
    "k": "Contado con liqui",
-   "v": "$1.691,09",
-   "d": "+0,3% · brecha 7,4% con el oficial",
+   "v": "$1.712",
+   "d": "+$21 · venía de $1.691,09 · brecha 8,4% con el oficial",
    "tend": "up",
    "estado": "amarillo"
   },
   {
    "k": "Dólar blue",
-   "v": "$1.605",
-   "d": "+$5 · venía de $1.600 · récord nominal · +$40 en tres ruedas",
+   "v": "$1.610",
+   "d": "+$5 · venía de $1.605 · otro récord nominal",
    "tend": "up",
    "estado": "rojo"
   },
   {
    "k": "Riesgo país",
-   "v": "859",
-   "d": "+4 · venía de 855 el lunes · los bonos en dólares dieron vuelta y bajaron",
-   "tend": "up",
+   "v": "849",
+   "d": "−10 · venía de 859 el martes · dato parcial del mediodía",
+   "tend": "down",
    "estado": "rojo",
    "serie": true
   },
   {
    "k": "Reservas BCRA",
    "v": "49.741 M",
-   "d": "USD · +277 M hoy · siguen debajo de 50.000 M",
+   "d": "USD · dato del martes (+277 M) · el de hoy sale a la tarde",
    "tend": "up",
    "estado": "amarillo"
   },
@@ -67,33 +67,33 @@
   },
   {
    "k": "Merval",
-   "v": "81.794",
-   "d": "+0,4% · leve rebote tras el lunes negro · suben Aluar y Pampa",
+   "v": "82.247",
+   "d": "+0,6% al mediodía · venía de 81.794 · suben YPF y Galicia",
    "tend": "up",
    "estado": "amarillo"
   },
   {
    "k": "Compras BCRA",
    "v": "USD 74 M",
-   "d": "Hoy (más del doble que el lunes) · USD 330 M en noviembre · USD 16.298 M en 2026",
+   "d": "Dato del martes · USD 330 M en noviembre · la compra de hoy se conoce a la tarde",
    "tend": "up",
    "estado": "verde"
   },
   {
-   "k": "Licitación",
-   "v": "60,19%",
-   "d": "Canje de la D30N6: entraron USD 2.854 M y pasan a la D29E7 (29/01/2027)",
-   "tend": "flat",
-   "estado": "amarillo",
-   "criollo": "El Tesoro logró que 6 de cada 10 dólares de una deuda que vencía a fin de mes se cobren recién en enero."
+   "k": "Diputados",
+   "v": "Sin quórum",
+   "d": "126 de 129 · se cayó la sesión por la Ley Malvinas y la reforma del BCRA",
+   "tend": "down",
+   "estado": "rojo",
+   "criollo": "Faltaron tres diputados para empezar: los proyectos del Gobierno quedaron sin tratar."
   },
   {
-   "k": "Superávit fiscal",
-   "v": "$1,9 billones",
-   "d": "Primario de octubre · financiero $1,6 billones · 1,4% del PBI en diez meses",
+   "k": "PASO en el Senado",
+   "v": "Cuarto intermedio",
+   "d": "La comisión vuelve a las 16 h · hacen falta 10 firmas para el dictamen",
    "tend": "flat",
-   "estado": "verde",
-   "criollo": "El Estado gastó menos de lo que recaudó en octubre, incluso después de pagar intereses."
+   "estado": "amarillo",
+   "criollo": "El Gobierno todavía junta las firmas para llevar la suspensión de las PASO al recinto el 26."
   }
  ],
  "riesgo": [
@@ -165,196 +165,206 @@
  "mundo": [
   {
    "k": "S&P 500",
-   "v": "−1,02%",
-   "d": "Cierre, a 7.341 · cuarta caída en fila, peor racha desde septiembre",
+   "v": "−0,64%",
+   "d": "Parcial del mediodía, a 7.293 · venía de cuatro bajas seguidas",
    "tend": "down"
   },
   {
    "k": "Nasdaq",
-   "v": "−0,74%",
-   "d": "Cierre, a 24.329 · las tecnológicas, a la espera de Nvidia",
+   "v": "−0,35%",
+   "d": "Parcial, a 24.244 · Nvidia no logra sostener la suba",
    "tend": "down"
   },
   {
    "k": "Dow Jones",
-   "v": "−1,67%",
-   "d": "Cierre, a 50.748 (−860 puntos) · pesan Home Depot y JPMorgan",
+   "v": "−1,24%",
+   "d": "Parcial, a 50.130 (−630 puntos) · lo hunden las prepagas",
    "tend": "down"
   },
   {
-   "k": "Nvidia",
-   "v": "+2,3%",
-   "d": "Fuera de hora · vendió USD 115.800 M en el trimestre (se esperaban 109.150 M); en la rueda, −0,4%",
-   "tend": "up"
+   "k": "UnitedHealth",
+   "v": "≈ −6%",
+   "d": "Una regla antifraude propuesta por el ente de salud (CMS) golpea a las prepagas",
+   "tend": "down"
   },
   {
    "k": "Fed",
    "v": "3,75–4%",
-   "d": "Musalem (Fed St. Louis) pide otra suba pronto · actas el miércoles 18",
-   "tend": "up"
+   "d": "Actas de la reunión de octubre a las 16 h (hora argentina) · bono a 10 años ≈5,07%",
+   "tend": "flat"
   }
  ],
  "porque": [
   {
-   "q": "Wall Street cayó por cuarta rueda seguida",
-   "p": "Antes de Nvidia hubo ventas en bancos, aerolíneas y software. Fallas técnicas golpearon a JPMorgan y a United, y un jefe de la Fed pidió otra suba de tasas."
+   "q": "Wall Street sigue floja pese a Nvidia",
+   "p": "Nvidia vendió más de lo esperado, pero sus acciones pasaron a bajar: el mercado duda de que tanta inversión en IA rinda. Además se hunden las prepagas."
   },
   {
-   "q": "Nvidia sorprendió después del cierre",
-   "p": "En su primer informe sin Jensen Huang vendió USD 115.800 M, más de lo esperado, y prevé 130.000 M. La acción subía 2,3% fuera de hora."
+   "q": "Las prepagas arrastran al Dow",
+   "p": "El ente de salud de EE.UU. propuso una regla contra el fraude y UnitedHealth y Humana caen cerca de 6%, lo que lleva al Dow a perder más de 600 puntos."
   },
   {
-   "q": "El riesgo país volvió a 859",
-   "p": "Los bonos en dólares arrancaron arriba pero terminaron en baja. Pesan las dudas sobre cómo pagará el Tesoro en enero y el contagio de la devaluación en Brasil."
+   "q": "El dólar sube otra vez y marca récords",
+   "p": "El oficial suma $5, a $1.580, y el blue llega a $1.610. Pesa la desconfianza por cómo se pagan los vencimientos de enero y el contagio de Brasil."
   },
   {
-   "q": "El Central compró más y subieron las reservas",
-   "p": "Compró USD 74 M, más del doble que el lunes, y las reservas subieron USD 277 M, a 49.741 M, aunque el oro les restó unos USD 30 M."
+   "q": "Los bonos respiran y el riesgo país baja",
+   "p": "Después de dos días de subas, los bonos en dólares rebotan y el riesgo país baja a 849 al mediodía, aunque sigue en zona de máximos de noviembre."
   }
  ],
- "oculto": "El canje de hoy salió peor que el anterior: en octubre el Tesoro había logrado pasar a otro plazo el 72,85% de la letra que vencía, y esta vez solo el 60,19%. Con los datos de Finanzas y de Infobae, quedan unos USD 1.890 M de la D30N6 que se pagan el 30 de noviembre. Según Ámbito, tras pagarle USD 881 M al FMI el Tesoro se había quedado con USD 59 M en su cuenta en dólares, y por eso volvió a comprarle USD 317 M al Central; la consultora Outlier calcula que todavía le faltan casi $3 billones para llegar a los vencimientos de enero.",
+ "oculto": "La última licitación en pesos se anunció con una renovación del 103,1%, pero GMA y Comafi calculan que, sumando otros títulos que vencían esa semana, la renovación real fue de alrededor del 84%: el Tesoro terminó soltando unos $1,6 billones. Según LPO, eso pasó con la liquidez de los bancos en un piso histórico (12,4% de los depósitos, contra más de 16% hace un año), y en paralelo técnicos del Banco Central recibieron la orden de estudiar los pasos para dolarizar. Son dos señales de un mismo problema: faltan pesos en los bancos y el Gobierno busca que el ahorro en dólares haga el trabajo del crédito.",
  "bolsillo": [
-  "Si el oficial sigue quieto en $1.575 y el blue en $1.605, la diferencia es chica (unos $30), pero el blue ya subió $40 en tres ruedas.",
-  "El dólar tarjeta está en $2.047,50: si pagás algo afuera, cualquier suba del oficial se nota en el resumen.",
-  "Si las tasas siguen cerca de los niveles de hoy (BADLAR 22,69% anual), el plazo fijo rinde menos de 2% por mes, debajo del 2,2% de inflación de octubre.",
-  "Si el riesgo país sigue arriba de 850, a empresas y provincias les sale más caro endeudarse, y eso puede trasladarse a las tasas de los préstamos."
+  "Si el oficial cierra en $1.580, el dólar tarjeta pasa a rondar los $2.054: lo que pagues afuera con tarjeta sale más caro.",
+  "Si el blue sigue subiendo de a $5 por día como esta semana, en un mes la diferencia con el oficial se agranda y vuelve el incentivo a comprar en la calle.",
+  "Si las tasas siguen debajo de la inflación de octubre (2,2%), el plazo fijo pierde contra los precios.",
+  "Si el riesgo país se queda cerca de 850, los préstamos para empresas y provincias siguen caros, y eso tarda en llegar a las cuotas de los créditos."
  ],
  "empresas": {
   "ar": [
    {
-    "n": "Aluar",
-    "c": "+3,8%",
-    "que": "Fabrica aluminio y exporta; fue la que más subió del panel líder."
+    "n": "Cresud",
+    "c": "+9,2%",
+    "que": "Campos y agro (ADR en Wall Street); la que más sube del día."
    },
    {
-    "n": "Pampa Energía",
-    "c": "+2,9%",
-    "que": "Genera electricidad y produce gas; siguió rebotando tras el lunes negro."
+    "n": "Central Puerto",
+    "c": "+5%",
+    "que": "Genera electricidad (ADR); sigue el rebote de las energéticas."
    },
    {
-    "n": "Grupo Supervielle",
-    "c": "hasta −5,6%",
-    "que": "Banco; entre las que más cayeron: en su balance los depósitos bajaron 11,6% en el trimestre."
+    "n": "YPF",
+    "c": "+2,6%",
+    "que": "La petrolera; encabeza las subas del Merval en pesos."
    },
    {
-    "n": "Metrogas y Comercial del Plata",
-    "c": "hasta −5,6%",
-    "que": "Distribuidora de gas porteña y holding diversificado; junto a Supervielle, las mayores bajas."
+    "n": "Grupo Galicia",
+    "c": "+2,4%",
+    "que": "Banco; los bancos rebotan tras las fuertes caídas del lunes."
+   },
+   {
+    "n": "Bioceres",
+    "c": "−5,4%",
+    "que": "Biotecnología para el agro (ADR); la que más baja."
+   },
+   {
+    "n": "Ternium",
+    "c": "−1,1%",
+    "que": "Fabrica acero (ADR); entre las pocas en rojo."
    }
   ],
   "eeuu": [
    {
+    "n": "UnitedHealth",
+    "c": "≈ −6%",
+    "que": "La prepaga más grande de EE.UU.; cae por una regla antifraude propuesta por el ente de salud."
+   },
+   {
+    "n": "Humana",
+    "c": "≈ −6%",
+    "que": "Prepaga para jubilados; mismo motivo que UnitedHealth."
+   },
+   {
+    "n": "TJX",
+    "c": "+10,1%",
+    "que": "Dueña de tiendas de ropa con descuento (TJ Maxx); vendió más de lo planeado."
+   },
+   {
     "n": "Nvidia",
-    "c": "+2,3%",
-    "que": "Fabrica los chips de la inteligencia artificial; sube fuera de hora tras vender más de lo esperado (en la rueda, −0,4%)."
-   },
-   {
-    "n": "United Airlines",
-    "c": "−4%",
-    "que": "Aerolínea; la golpearon una falla en sus sistemas y la suba del petróleo."
-   },
-   {
-    "n": "Home Depot",
-    "c": "−2,4%",
-    "que": "Cadena de materiales para la casa; ganó más de lo esperado, pero las hipotecas caras enfrían el negocio."
-   },
-   {
-    "n": "JPMorgan Chase",
-    "c": "−2,4%",
-    "que": "El banco más grande de EE.UU.; un problema técnico demoró pagos por Zelle."
+    "c": "−2%",
+    "que": "Fabrica los chips de la IA; buen balance, pero el mercado vende igual (parcial de la mañana)."
    }
   ]
  },
  "politica": [
   {
    "s": "La Política Online",
-   "t": "Sin las firmas, el Gobierno tuvo que postergar el dictamen para suspender las PASO",
-   "g": "Tiene 8 de 10; faltan Espínola, Fama, Ávila y Moisés",
-   "u": "https://www.lapoliticaonline.com/congreso/el-gobierno-tuvo-que-postergar-no-consiguio-los-votos-para-el-dictamen-de-las-paso/"
+   "t": "El Gobierno sacó dictamen del Presupuesto 2027 con ayuda de Jaldo y Jalil",
+   "g": "27 firmas; irá al recinto el miércoles 25 sin los recortes a discapacidad",
+   "u": "https://www.lapoliticaonline.com/congreso/el-gobierno-consiguio-dictamen-de-presupuesto-con-ayuda-del-pro-la-ucr-y-jaldo/"
   },
   {
    "s": "La Política Online",
-   "t": "Macri cede ante los gobernadores: el PRO votará la suspensión de las PASO",
-   "g": "Presionaron Frigerio, Torres y Jorge Macri; el PRO además empujará Ficha Limpia",
-   "u": "https://www.lapoliticaonline.com/politica/macri-cedio-ante-los-gobernadores-y-acepto-que-el-pro-vote-la-suspension-de-las-paso/"
+   "t": "Massa juntó a buena parte del peronismo y prometió unidad",
+   "g": "Acto en San Fernando, sin Kicillof; Uñac se anotó para 2027",
+   "u": "https://www.lapoliticaonline.com/politica/massa-junto-la-dirigencia-peronist/"
   },
   {
    "s": "Ámbito",
-   "t": "Milei, ante empresarios, responde a quienes piden devaluar",
-   "g": "Además anticipó que el riesgo país podía seguir subiendo",
-   "u": "https://www.ambito.com/politica/javier-milei-empresarios-se-termino-la-estafa-la-mentira-del-estado-la-argentina-n6345949"
+   "t": "Suspender las PASO: quiénes ganan poder y quiénes pierden",
+   "g": "LLA evita una interna; Kicillof, Massa y Uñac pierden una vía para competir",
+   "u": "https://www.ambito.com/politica/suspension-las-paso-quienes-ganan-poder-y-quienes-pierden-terreno-la-pelea-las-candidaturas-n6346377"
   },
   {
    "s": "Infobae",
-   "t": "Reforma política: cuarto intermedio hasta el miércoles por falta de firmas",
-   "g": "Si hay dictamen, el recinto votaría el jueves 26 de noviembre",
-   "u": "https://www.infobae.com/politica/2026/11/17/reforma-politica-el-oficialismo-pidio-un-cuarto-intermedio-por-falta-de-firmas-y-buscaria-dictaminar-manana/"
+   "t": "PASO: el oficialismo anunció cambios en las colectoras y pasó a cuarto intermedio",
+   "g": "La comisión vuelve a las 16; el recinto votaría el jueves 26",
+   "u": "https://www.infobae.com/politica/2026/11/18/congreso-en-vivo-el-debate-sobre-la-suspension-de-las-paso-en-la-comision-de-asuntos-constitucionales/"
   },
   {
-   "s": "Noticias Argentinas",
-   "t": "Un informe de la UCA dice que la pobreza es 10 puntos mayor que la del INDEC",
-   "g": "Lo atribuye a una canasta básica desactualizada; contradice al Presidente",
-   "u": "https://noticiasargentinas.com/politica/---javier-milei-en-vivo--anuncios-y-medidas-del-gobierno-minuto-a-minuto-del-17-de-noviembre-de-2026_a6afc200080252b427d3ea132"
+   "s": "El Argentino Diario",
+   "t": "Faltaron tres diputados y se cayó la sesión por la Ley Malvinas y el BCRA",
+   "g": "Hubo 126 presentes; Provincias Unidas no se sentó en sus bancas",
+   "u": "https://elargentinodiario.com.ar/politica/18/11/2026/faltaron-tres-diputados-y-se-cayo-la-sesion-por-la-ley-malvinas-y-el-bcra/"
   }
  ],
  "titulares": [
   {
    "sec": "Economía",
    "s": "Ámbito",
-   "t": "El BCRA aceleró sus compras y las reservas subieron más de USD 275 M",
-   "u": "https://www.ambito.com/finanzas/el-bcra-acelero-las-compras-dolares-y-las-reservas-subieron-mas-us275-millones-n6346345"
+   "t": "Emergentes: salieron más de USD 60.000 M en dos meses por el temor a la IA",
+   "u": "https://www.ambito.com/economia/mercados-emergentes-se-fugaron-mas-us60000-millones-dos-meses-y-crece-el-temor-la-crisis-la-ia-n6346444"
   },
   {
    "sec": "Economía",
    "s": "Ámbito",
-   "t": "Pese a otra compra al BCRA, al Tesoro todavía le faltan dólares para enero",
-   "u": "https://www.ambito.com/economia/deuda-pese-otra-compra-al-bcra-el-tesoro-necesita-sumar-mas-dolares-llegar-enero-cuantos-le-faltan-n6346200"
+   "t": "Industria: lo que compite con importados cae 19% y lo del mercado interno, 12%",
+   "u": "https://www.ambito.com/economia/las-3-caras-la-industria-expuestos-importaciones-y-al-mercado-interno-caen-12-y-19-mientras-exportadores-resisten-n6346413"
   },
   {
    "sec": "Economía",
-   "s": "BAE Negocios",
-   "t": "El mayorista marcó un nuevo récord y el riesgo país volvió a pasar los 850",
-   "u": "https://www.baenegocios.com/finanzas/el-mayorista-marco-un-nuevo-record-y-el-riesgo-pais-volvio-a-superar-los-850-puntos/"
+   "s": "C5N",
+   "t": "El riesgo país perfora los 850 y suben acciones y bonos",
+   "u": "https://www.c5n.com/economia/riesgo-pais-acciones-argentinas-wall-street-miercoles-18-noviembre-2026"
   },
   {
    "sec": "Política",
    "s": "La Política Online",
-   "t": "Sturzenegger, molesto por la versión de Quirno como reemplazo de Caputo",
-   "u": "https://www.lapoliticaonline.com/politica/sturzenegger-enfurecio-con-la-version-de-que-quirno-podria-reemplazar-a-caputo/"
+   "t": "Magistratura porteña: los libertarios quedaron terceros entre los abogados",
+   "u": "https://www.lapoliticaonline.com/politica/magistratura-gil-lavedra-y-angelici-se-quedaron-con-dos-consejeros-y-los-libertarios-quedaron-terceros/"
   },
   {
    "sec": "Política",
-   "s": "Parlamentario",
-   "t": "Se demora en el Senado la firma del dictamen de la reforma electoral",
-   "u": "https://www.parlamentario.com/2026/11/17/se-dilata-la-firma-del-dictamen-de-la-reforma-electoral-en-el-senado/"
+   "s": "Ámbito",
+   "t": "Filtración de Deutsche Bank: vuelven los seis casos contra Bausili",
+   "u": "https://www.ambito.com/politica/filtracion-mundial-los-seis-casos-los-que-santiago-bausili-fue-denunciado-conflicto-intereses-el-deutsche-bank-n6346385"
   },
   {
    "sec": "Política",
-   "s": "elDiarioAR",
-   "t": "Santilli asegura tener los votos para eliminar las PASO; Bullrich desconfía",
-   "u": "https://www.eldiarioar.com/politica/reforma-politica-santilli-asegura-votos-eliminar-paso-bullrich-desconfia_1_13669359.html"
+   "s": "El Destape",
+   "t": "Caputo criticó al peronismo ante pymes y pidió apoyo para Milei en 2027",
+   "u": "https://www.eldestapeweb.com/economia/aputo-cuestiono-peronismo-dolar-volvio-subir-cotizaciones-este-miercoles-20261118132158"
   },
   {
    "sec": "Mundo",
-   "s": "Infobae",
-   "t": "Wall Street sumó su cuarta baja seguida, la peor racha desde septiembre",
-   "u": "https://www.infobae.com/estados-unidos/2026/11/17/wall-street-encadeno-su-cuarta-sesion-consecutiva-de-perdidas-el-sp-500-y-el-nasdaq-sufren-su-peor-racha-desde-septiembre/"
+   "s": "Yahoo Finance",
+   "t": "Wall Street cae pese a Nvidia; Anthropic define el precio de su salida a bolsa",
+   "u": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-earnings-anthropic-ipo-143530588.html"
   },
   {
    "sec": "Mundo",
-   "s": "24/7 Wall St.",
-   "t": "Nvidia, sin Huang, vendió USD 115.800 M y sube fuera de hora",
-   "u": "https://247wallst.com/investing/2026/11/17/nvidias-first-report-without-jensen-huang-115-8-billion-in-revenue-a-130-billion-forecast-and-the-stock-is-up-2-3-after-hours/"
+   "s": "Infobae (EFE)",
+   "t": "Wall Street abrió mixta tras el balance de Nvidia",
+   "u": "https://infobae.com/america/agencias/2026/11/18/wall-street-abre-en-mixto-tras-unos-resultados-de-nvidia-por-encima-de-las-expectativas"
   }
  ],
  "agenda": [
   {
-   "w": "Miércoles 18/11",
-   "b": "Senado retoma el dictamen de las PASO (mediodía) · Diputados sesiona (12 h): Carta Orgánica del BCRA · actas de la Fed"
+   "w": "Hoy, 16 h",
+   "b": "Senado: vuelve el debate del dictamen de las PASO · actas de la Fed · a la noche, precio de la salida a bolsa de Anthropic"
   },
   {
    "w": "Jueves 19/11",
-   "b": "Senado: sesión por la ley de Discapacidad · Anthropic debuta en el Nasdaq"
+   "b": "Anthropic debuta en el Nasdaq · Senado: sesión por la ley de Discapacidad"
   },
   {
    "w": "Viernes 20/11",
@@ -362,106 +372,98 @@
   },
   {
    "w": "Mié 25 y jue 26/11",
-   "b": "Informe de gestión del jefe de Gabinete en el Senado (25) · posible votación de las PASO en el recinto (26)"
+   "b": "Presupuesto 2027 en el recinto de Diputados e informe del jefe de Gabinete en el Senado (25) · posible votación de las PASO (26)"
   }
  ],
- "guion": "*CALMA TENSA CON DÓLAR RÉCORD*\n_Edición de cierre · martes 17 de noviembre_\n\n*1) Qué pasó en EEUU hoy en criollo*\n- El S&P 500, el índice de las 500 empresas más grandes, cayó 1,02%, a 7.341 puntos. Cuarta baja seguida: la peor racha desde septiembre.\n- El Nasdaq, el de las tecnológicas, bajó 0,74%. El Dow Jones perdió 1,67%: unos 860 puntos.\n- Nvidia, la que fabrica los chips de la inteligencia artificial, cerró −0,4%, pero después de hora subía 2,3%: vendió USD 115.800 millones en el trimestre, más de lo esperado, en su primer informe sin Jensen Huang.\n- United Airlines cayó 4% por una falla en sus sistemas y la suba del petróleo.\n- Home Depot, la cadena de materiales para la casa, bajó 2,4%: las hipotecas caras enfrían su negocio. JPMorgan perdió 2,4% por un problema técnico con los pagos de Zelle.\n- Por qué: el mercado esperaba a Nvidia y un jefe de la Fed (Musalem) pidió otra suba de tasas. Tasas más altas = menos plata para la bolsa.\n\n*2) Qué pasó en Argentina hoy en criollo*\n- Después del lunes negro, la bolsa porteña rebotó poco: el Merval subió 0,4%, a 81.794 puntos.\n- Subieron Aluar (+3,8%), que fabrica aluminio, y Pampa Energía (+2,9%). Las mayores bajas fueron Metrogas, Comercial del Plata y Supervielle, de hasta 5,6%: el banco mostró en su balance que sus depósitos cayeron 11,6% en el trimestre.\n- Los bonos en dólares arrancaron arriba pero terminaron en baja.\n- Riesgo país: 859 puntos, venía de 855 el lunes. Es lo que paga de más Argentina para endeudarse.\n- Dólar oficial: quieto en $1.575 en el Banco Nación. El mayorista subió $1, a $1.552, nuevo récord nominal.\n- Blue: $1.605, $5 más y otro récord; suma $40 en tres ruedas. MEP: $1.600,51. Contado con liqui: $1.691,09, el que usan las empresas para girar afuera.\n- El Banco Central compró USD 74 millones, más del doble que el lunes (USD 330 millones en noviembre), y las reservas subieron USD 277 millones, a 49.741 millones.\n- Canje: el Tesoro logró pasar a enero de 2027 el 60,19% de una letra atada al dólar que vence el 30 de noviembre.\n\n*3) Lo que NADIE te está contando*\n- El canje salió peor que el de octubre: aquella vez se patearon el 72,85% de los vencimientos; ahora, el 60,19%. Quedan unos USD 1.890 millones de esa letra para pagar a fin de mes.\n- Según Ámbito, después de pagarle al FMI el Tesoro se había quedado con USD 59 millones en su cuenta en dólares y volvió a comprarle USD 317 millones al Central.\n- La consultora Outlier calcula que todavía le faltan casi $3 billones para llegar a los vencimientos de enero.\n- Es como refinanciar la tarjeta: pagás el mínimo, ganás un mes, pero el resumen que viene es más grande.\n\n*4) Qué significa esto para tu bolsillo mañana*\n- Si el oficial sigue quieto y el blue sigue subiendo, la diferencia entre los dos se va a agrandar.\n- El dólar tarjeta está en $2.047,50: cualquier suba del oficial se nota en el resumen.\n- Si las tasas se quedan donde están (BADLAR 22,69% anual), el plazo fijo rinde menos de 2% por mes, debajo del 2,2% de inflación de octubre.\n- En criollo: el Central junta dólares y el oficial está quieto, pero el blue no afloja y el mercado sigue desconfiando de cómo se paga la deuda de enero.",
+ "guion": "*DÓLAR EN ALZA, BONOS EN VERDE*\n_Aproximación del día · miércoles 18 de noviembre · valores parciales_\n\n*1) Qué está pasando en EEUU hoy en criollo*\n- El S&P 500, el índice de las 500 empresas más grandes, baja 0,64% al mediodía, a 7.293 puntos. Venía de cuatro caídas seguidas.\n- El Nasdaq, el de las tecnológicas, cae 0,35%. El Dow Jones pierde 1,24%: unos 630 puntos.\n- Nvidia, la que fabrica los chips de la inteligencia artificial, vendió más de lo esperado, pero su acción pasó a bajar cerca de 2%: el mercado duda de que tanta inversión en IA rinda.\n- Las prepagas se desploman: UnitedHealth y Humana caen cerca de 6% porque el ente de salud de EE.UU. propuso una regla contra el fraude.\n- TJX, dueña de tiendas de ropa con descuento, sube 10% porque vendió más de lo previsto.\n- A las 16 (hora argentina) salen las actas de la Fed, y a la noche Anthropic pone precio a su salida a la bolsa.\n\n*2) Qué está pasando en Argentina hoy en criollo*\n- Rueda de rebote tímido: el Merval sube 0,6% al mediodía, a 82.247 puntos.\n- En Buenos Aires suben YPF (+2,6%) y Galicia (+2,4%). En Wall Street, Cresud, de campos, sube 9,2%; Bioceres baja 5,4%.\n- Los bonos en dólares rebotan y el riesgo país baja a 849 puntos; venía de 859 el martes. Es lo que paga de más Argentina para endeudarse.\n- Dólar oficial: $1.580 en el Banco Nación, $5 más. El mayorista, $1.557, otro récord.\n- Blue: $1.610, $5 más y nuevo máximo. MEP: $1.607,51. Contado con liqui: $1.712, el que usan las empresas para girar afuera.\n- El Central había comprado USD 74 millones el martes y las reservas quedaron en 49.741 millones; el dato de hoy sale a la tarde.\n- En el Congreso, Diputados se quedó sin quórum (126 de 129) y se cayó la sesión por la Ley Malvinas y la reforma del Banco Central. En el Senado, las PASO siguen sin dictamen: vuelven a las 16.\n\n*3) Lo que NADIE te está contando*\n- La última licitación en pesos se anunció con 103,1% de renovación, pero según GMA y Comafi la real fue cerca del 84%: el Tesoro soltó unos $1,6 billones.\n- La liquidez de los bancos está en un piso: 12,4% de los depósitos, contra más de 16% hace un año.\n- Según LPO, técnicos del Central recibieron la orden de estudiar cómo dolarizar.\n- Es como una casa con la heladera vacía: en vez de llenarla, se piensa en usar la del vecino.\n\n*4) Qué significa esto para tu bolsillo mañana*\n- Si el oficial cierra en $1.580, el dólar tarjeta queda cerca de $2.054.\n- Si el blue sigue subiendo $5 por día, la diferencia con el oficial se agranda.\n- Si las tasas siguen debajo de la inflación (2,2% en octubre), el plazo fijo pierde contra los precios.\n- En criollo: el dólar sube despacio pero sin pausa, y los bonos respiran un poco; el cierre de la tarde dirá si el alivio se sostiene.",
  "fuentes": [
   [
-   "Ámbito · Dólar al cierre",
-   "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-martes-17-noviembre-n6346285"
+   "Ámbito · Dólar hoy",
+   "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cotiza-este-miercoles-18-noviembre-n6346462"
   ],
   [
-   "Ámbito · Blue en récord",
-   "https://www.ambito.com/finanzas/el-dolar-blue-avanzo-40-tres-ruedas-supero-los-1600-y-alcanzo-un-nuevo-maximo-nominal-n6346300"
+   "Ámbito · Minuto a minuto",
+   "https://www.ambito.com/finanzas/dolar-hoy-y-dolar-blue-hoy-minuto-minuto-cuanto-opera-este-miercoles-18-noviembre-n6346477"
   ],
   [
-   "Ámbito · Compras del BCRA y reservas",
-   "https://www.ambito.com/finanzas/el-bcra-acelero-las-compras-dolares-y-las-reservas-subieron-mas-us275-millones-n6346345"
+   "Ámbito · Bonos y riesgo país",
+   "https://www.ambito.com/finanzas/los-bonos-dolares-suben-pero-el-riesgo-pais-se-mantiene-encima-los-850-puntos-n6346590"
   ],
   [
-   "Ámbito · Tesoro y vencimientos de enero",
-   "https://www.ambito.com/economia/deuda-pese-otra-compra-al-bcra-el-tesoro-necesita-sumar-mas-dolares-llegar-enero-cuantos-le-faltan-n6346200"
+   "Ámbito · Fuga de emergentes",
+   "https://www.ambito.com/economia/mercados-emergentes-se-fugaron-mas-us60000-millones-dos-meses-y-crece-el-temor-la-crisis-la-ia-n6346444"
   ],
   [
-   "Ámbito · Milei ante empresarios",
-   "https://www.ambito.com/politica/javier-milei-empresarios-se-termino-la-estafa-la-mentira-del-estado-la-argentina-n6345949"
+   "Ámbito · Industria (IIEP-UBA)",
+   "https://www.ambito.com/economia/las-3-caras-la-industria-expuestos-importaciones-y-al-mercado-interno-caen-12-y-19-mientras-exportadores-resisten-n6346413"
   ],
   [
-   "La Política Online · Dictamen de las PASO postergado",
-   "https://www.lapoliticaonline.com/congreso/el-gobierno-tuvo-que-postergar-no-consiguio-los-votos-para-el-dictamen-de-las-paso/"
+   "Ámbito · PASO: ganadores y perdedores",
+   "https://www.ambito.com/politica/suspension-las-paso-quienes-ganan-poder-y-quienes-pierden-terreno-la-pelea-las-candidaturas-n6346377"
   ],
   [
-   "La Política Online · PRO y las PASO",
-   "https://www.lapoliticaonline.com/politica/macri-cedio-ante-los-gobernadores-y-acepto-que-el-pro-vote-la-suspension-de-las-paso/"
+   "Ámbito · Bausili y Deutsche Bank",
+   "https://www.ambito.com/politica/filtracion-mundial-los-seis-casos-los-que-santiago-bausili-fue-denunciado-conflicto-intereses-el-deutsche-bank-n6346385"
   ],
   [
-   "La Política Online · Sturzenegger y Quirno",
-   "https://www.lapoliticaonline.com/politica/sturzenegger-enfurecio-con-la-version-de-que-quirno-podria-reemplazar-a-caputo/"
+   "La Política Online · Dictamen del Presupuesto",
+   "https://www.lapoliticaonline.com/congreso/el-gobierno-consiguio-dictamen-de-presupuesto-con-ayuda-del-pro-la-ucr-y-jaldo/"
   ],
   [
-   "La Política Online · Dólar e inflación de octubre",
-   "https://www.lapoliticaonline.com/economia/falta-dato-rueda-bcra/"
+   "La Política Online · Acto de Massa",
+   "https://www.lapoliticaonline.com/politica/massa-junto-la-dirigencia-peronist/"
   ],
   [
-   "BAE Negocios · Cierre del mercado",
-   "https://www.baenegocios.com/finanzas/el-mayorista-marco-un-nuevo-record-y-el-riesgo-pais-volvio-a-superar-los-850-puntos/"
+   "La Política Online · Liquidez bancaria",
+   "https://www.lapoliticaonline.com/economia/la-liquidez-bancaria-esta-en-un-piso-historico-y-complica-la-baja-de-tasas/"
   ],
   [
-   "Economis · Resultado del canje de la D30N6",
-   "https://economis.com.ar/finanzas-rescato-el-6019-de-una-letra-dolar-linked-y-adjudico-usd-2-875-millones/"
+   "La Política Online · BCRA y dolarización",
+   "https://www.lapoliticaonline.com/economia/el-banco-central-empezo-a-trabajar-en-un-plan-de-dolarizacion/"
   ],
   [
-   "Economis · Canje de octubre (D30O6)",
-   "https://economis.com.ar/finanzas-rescato-el-7285-de-la-lelink-d30o6-mediante-un-canje-por-us-3-896-millones/"
+   "La Política Online · Magistratura porteña",
+   "https://www.lapoliticaonline.com/politica/magistratura-gil-lavedra-y-angelici-se-quedaron-con-dos-consejeros-y-los-libertarios-quedaron-terceros/"
   ],
   [
-   "Infobae · Factores detrás del riesgo país",
-   "https://www.infobae.com/economia/2026/11/17/se-suman-fantasmas-a-la-incertidumbre-electoral-los-factores-que-golpearon-a-la-argentina-y-empujaron-al-riesgo-pais/"
+   "El Destape · Dólar al mediodía y Caputo",
+   "https://www.eldestapeweb.com/economia/aputo-cuestiono-peronismo-dolar-volvio-subir-cotizaciones-este-miercoles-20261118132158"
   ],
   [
-   "Infobae · Reforma política en el Senado",
-   "https://www.infobae.com/politica/2026/11/17/reforma-politica-el-oficialismo-pidio-un-cuarto-intermedio-por-falta-de-firmas-y-buscaria-dictaminar-manana/"
+   "C5N · Riesgo país, acciones y ADRs",
+   "https://www.c5n.com/economia/riesgo-pais-acciones-argentinas-wall-street-miercoles-18-noviembre-2026"
   ],
   [
-   "Infobae · Cierre de Wall Street",
-   "https://www.infobae.com/estados-unidos/2026/11/17/wall-street-encadeno-su-cuarta-sesion-consecutiva-de-perdidas-el-sp-500-y-el-nasdaq-sufren-su-peor-racha-desde-septiembre/"
+   "Noticias Argentinas · Dólar en vivo",
+   "https://noticiasargentinas.com/economia/---en-vivo---precio-del-dolar-hoy-miercoles-18-de-noviembre_a6afd6d148499e3391901caa4"
   ],
   [
-   "C5N · Bonos y Supervielle",
-   "https://www.c5n.com/economia/riesgo-pais-bonos-mercados-17-noviembre-2026"
+   "El Cronista · Blue, MEP y CCL",
+   "https://www.cronista.com/finanzas-mercados/dolar-blue-hoy-a-cuanto-cotiza-este-miercoles-18-de-noviembre-con-el-mep-y-el-ccl/"
   ],
   [
-   "Rava · Riesgo país histórico",
-   "https://www.rava.com/cotizaciones/historico/riesgo-pais/hoy/"
+   "Infobae · PASO en el Senado",
+   "https://www.infobae.com/politica/2026/11/18/congreso-en-vivo-el-debate-sobre-la-suspension-de-las-paso-en-la-comision-de-asuntos-constitucionales/"
   ],
   [
-   "Parlamentario · Dictamen de la reforma electoral",
-   "https://www.parlamentario.com/2026/11/17/se-dilata-la-firma-del-dictamen-de-la-reforma-electoral-en-el-senado/"
+   "El Argentino Diario · Sesión caída en Diputados",
+   "https://elargentinodiario.com.ar/politica/18/11/2026/faltaron-tres-diputados-y-se-cayo-la-sesion-por-la-ley-malvinas-y-el-bcra/"
   ],
   [
-   "elDiarioAR · Votos para eliminar las PASO",
-   "https://www.eldiarioar.com/politica/reforma-politica-santilli-asegura-votos-eliminar-paso-bullrich-desconfia_1_13669359.html"
+   "Yahoo Finance · Wall Street en vivo",
+   "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-earnings-anthropic-ipo-143530588.html"
   ],
   [
-   "Noticias Argentinas · Gobierno en vivo",
-   "https://noticiasargentinas.com/politica/---javier-milei-en-vivo--anuncios-y-medidas-del-gobierno-minuto-a-minuto-del-17-de-noviembre-de-2026_a6afc200080252b427d3ea132"
+   "TipRanks (The Fly) · Wall Street al mediodía",
+   "https://www.tipranks.com/news/the-fly/midday-fly-by-nvidia-reports-q3-beat-target-posts-beat-and-raise-thefly-news"
   ],
   [
-   "24/7 Wall St. · Resultados de Nvidia",
-   "https://247wallst.com/investing/2026/11/17/nvidias-first-report-without-jensen-huang-115-8-billion-in-revenue-a-130-billion-forecast-and-the-stock-is-up-2-3-after-hours/"
+   "StockTitan · Acciones que más se mueven",
+   "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"
   ],
   [
-   "Kiplinger · Nvidia en la rueda",
-   "https://www.kiplinger.com/news/live/nvidia-earnings-live-updates-and-commentary-november-2026"
-  ],
-  [
-   "MarketScreener · Wall Street y Anthropic",
-   "https://es.marketscreener.com/noticias/wall-street-cae-a-la-espera-de-los-resultados-de-nvidia-y-la-salida-a-bolsa-de-anthropic-ce785edcda8df725"
-  ],
-  [
-   "Yahoo Finance · Wall Street en vivo y la Fed",
-   "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html"
+   "Infobae (EFE) · Apertura de Wall Street",
+   "https://infobae.com/america/agencias/2026/11/18/wall-street-abre-en-mixto-tras-unos-resultados-de-nvidia-por-encima-de-las-expectativas"
   ]
  ]
 }
