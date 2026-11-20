@@ -10,7 +10,7 @@
  "frase": "El riesgo país rompe los 1.000 puntos y el dólar sube en todas sus versiones",
  "atipica": "El lunes 23 es feriado: el mercado local no vuelve a operar hasta el martes 24, con Wall Street abierto el lunes. Ojo con sobreinterpretar el cierre de hoy.",
  "claves": [
-  "Riesgo país 1.065 (+134, venía de 931): primera vez arriba de 1.000 en 13 meses",
+  "Riesgo país 1.071 (+140, venía de 931): primera vez arriba de 1.000 en 13 meses",
   "Oficial $1.600 (+$15) y mayorista $1.580: la mayor suba semanal en 19 meses",
   "Blue $1.675, MEP $1.677,53 y CCL $1.782,10; la brecha con el CCL llega a 12,8%"
  ],
@@ -45,8 +45,8 @@
   },
   {
    "k": "Riesgo país",
-   "v": "1.065",
-   "d": "+134 · venía de 931 el jueves · último dato de Ámbito, 16:40 h (parcial)",
+   "v": "1.071",
+   "d": "+140 · venía de 931 el jueves · cierre (Ámbito)",
    "tend": "up",
    "estado": "rojo",
    "serie": true
@@ -171,7 +171,7 @@
   ],
   [
    "20/11",
-   1065
+   1071
   ]
  ],
  "mundo": [
@@ -377,8 +377,12 @@
    "b": "Vencen unos USD 4.400 M de deuda en dólares"
   }
  ],
- "guion": "*VIERNES NEGRO PARA LOS BONOS*\n_Cómo cerró el viernes 20 de noviembre_\n\n*1) Qué pasó en EEUU hoy en criollo*\n- El S&P 500, el índice de las 500 empresas más grandes, entró en corrección: ya está más de 10% abajo de su último máximo.\n- El Nasdaq, el de las tecnológicas, volvió a caer: los fabricantes de chips encabezaron las bajas. Antes de abrir, AMD perdía 7% e Intel más de 5%.\n- Anthropic, la empresa que hace Claude, llegó a perder hasta 14% en su segunda rueda y se acercó a los USD 83 a los que salió a la Bolsa.\n- El porqué: los inversores revisan cuánto valen las empresas de inteligencia artificial y salen de lo riesgoso.\n- En la Fed, Waller pidió evaluar una suba de tasas de medio punto en diciembre, y el dólar se fortaleció en el mundo a su nivel más alto en 19 meses.\n\n*2) Qué pasó en Argentina hoy en criollo*\n- Día de pánico: el mal clima del mundo, las dudas por la deuda de 2027 y el ruido político pegaron de lleno.\n- El riesgo país pasó los 1.000 puntos por primera vez en 13 meses: el último dato de Ámbito es 1.065 y venía de 931. Es lo que el mercado le cobra de más a la Argentina para prestarle.\n- Los bonos Globales cayeron hasta 2,2% y los Bonares 1% al mediodía.\n- El Merval bajaba 1,6% al mediodía, a 79.843 puntos, y pierde 13,3% en noviembre. El jueves los ADR se habían hundido: Supervielle −10,4%, BBVA −6,4%, Galicia −6,2%.\n- Dólar oficial: $1.600 en el Nación, $15 más. El mayorista, $1.580: la mayor suba semanal en 19 meses.\n- Blue: $1.675, $35 más y nuevo récord. Es el dólar de la calle.\n- MEP: $1.677,53, el que se compra legal con bonos. Contado con liqui: $1.782,10, récord; es el que usan las empresas para girar afuera. La brecha llega a 12,8%.\n- El Banco Central compró apenas USD 3 millones el jueves, lo menos desde que arrancó el programa, y las reservas bajaron USD 108 millones.\n\n*3) Lo que NADIE te está contando*\n- El Central compró más de USD 16.300 millones en el año, pero según La Política Online las reservas netas subieron apenas unos USD 1.000 millones desde el acuerdo con el FMI.\n- Según Criteria, citada por Ámbito, para 2027 el Central necesitaría comprar unos USD 12.650 millones.\n- Y el 9 de enero vencen unos USD 4.400 millones de deuda.\n- Es como llenar un balde agujereado: entra agua todos los días, pero el nivel casi no sube y la cuenta grande llega en enero.\n\n*4) Qué significa esto para tu bolsillo mañana*\n- Con el oficial en $1.600, el dólar tarjeta queda cerca de $2.080: lo que pagás afuera se encarece un poco.\n- Si el contado con liqui se queda arriba de $1.780, lo importado puede aumentar.\n- Si el riesgo país sigue arriba de 1.000, el crédito se encarece y eso, con el tiempo, llega a las cuotas.\n- En criollo: el mundo vende todo lo que huele a riesgo, a la Argentina le cobran cada vez más caro y con el lunes feriado el mercado se queda pensando hasta el martes.",
+ "guion": "*VIERNES NEGRO PARA LOS BONOS*\n_Cómo cerró el viernes 20 de noviembre_\n\n*1) Qué pasó en EEUU hoy en criollo*\n- El S&P 500, el índice de las 500 empresas más grandes, entró en corrección: ya está más de 10% abajo de su último máximo.\n- El Nasdaq, el de las tecnológicas, volvió a caer: los fabricantes de chips encabezaron las bajas. Antes de abrir, AMD perdía 7% e Intel más de 5%.\n- Anthropic, la empresa que hace Claude, llegó a perder hasta 14% en su segunda rueda y se acercó a los USD 83 a los que salió a la Bolsa.\n- El porqué: los inversores revisan cuánto valen las empresas de inteligencia artificial y salen de lo riesgoso.\n- En la Fed, Waller pidió evaluar una suba de tasas de medio punto en diciembre, y el dólar se fortaleció en el mundo a su nivel más alto en 19 meses.\n\n*2) Qué pasó en Argentina hoy en criollo*\n- Día de pánico: el mal clima del mundo, las dudas por la deuda de 2027 y el ruido político pegaron de lleno.\n- El riesgo país pasó los 1.000 puntos por primera vez en 13 meses: cerró en 1.071 (+15%) y venía de 931. Es lo que el mercado le cobra de más a la Argentina para prestarle.\n- Los bonos Globales cayeron hasta 2,2% y los Bonares 1% al mediodía.\n- El Merval bajaba 1,6% al mediodía, a 79.843 puntos, y pierde 13,3% en noviembre. El jueves los ADR se habían hundido: Supervielle −10,4%, BBVA −6,4%, Galicia −6,2%.\n- Dólar oficial: $1.600 en el Nación, $15 más. El mayorista, $1.580: la mayor suba semanal en 19 meses.\n- Blue: $1.675, $35 más y nuevo récord. Es el dólar de la calle.\n- MEP: $1.677,53, el que se compra legal con bonos. Contado con liqui: $1.782,10, récord; es el que usan las empresas para girar afuera. La brecha llega a 12,8%.\n- El Banco Central compró apenas USD 3 millones el jueves, lo menos desde que arrancó el programa, y las reservas bajaron USD 108 millones.\n\n*3) Lo que NADIE te está contando*\n- El Central compró más de USD 16.300 millones en el año, pero según La Política Online las reservas netas subieron apenas unos USD 1.000 millones desde el acuerdo con el FMI.\n- Según Criteria, citada por Ámbito, para 2027 el Central necesitaría comprar unos USD 12.650 millones.\n- Y el 9 de enero vencen unos USD 4.400 millones de deuda.\n- Es como llenar un balde agujereado: entra agua todos los días, pero el nivel casi no sube y la cuenta grande llega en enero.\n\n*4) Qué significa esto para tu bolsillo mañana*\n- Con el oficial en $1.600, el dólar tarjeta queda cerca de $2.080: lo que pagás afuera se encarece un poco.\n- Si el contado con liqui se queda arriba de $1.780, lo importado puede aumentar.\n- Si el riesgo país sigue arriba de 1.000, el crédito se encarece y eso, con el tiempo, llega a las cuotas.\n- En criollo: el mundo vende todo lo que huele a riesgo, a la Argentina le cobran cada vez más caro y con el lunes feriado el mercado se queda pensando hasta el martes.",
  "fuentes": [
+  [
+   "Ámbito · Riesgo país al cierre: 1.071",
+   "https://www.ambito.com/finanzas/dolar-blue-hoy-cuanto-cerro-este-viernes-20-noviembre-n6347716"
+  ],
   [
    "Ámbito · Dólar al cierre y brecha",
    "https://www.ambito.com/finanzas/el-dolar-oficial-intensifica-su-rally-alcista-y-el-mercado-mira-cerca-la-brecha-el-ccl-n6347487"
@@ -390,10 +394,6 @@
   [
    "Ámbito · La city y el riesgo político",
    "https://www.ambito.com/finanzas/el-riesgo-pais-supera-los-1000-puntos-y-la-city-ya-alerta-las-dudas-el-plan-financiero-y-el-riesgo-politico-n6347605"
-  ],
-  [
-   "Ámbito · Riesgo país en 1.065",
-   "https://www.ambito.com/finanzas/dolar-bonos-o-fondos-donde-encontrar-refugio-los-ahorros-la-escalada-del-riesgo-pais-n6347665"
   ],
   [
    "Ámbito · Dólar del jueves y brecha",
