@@ -5,12 +5,12 @@
  "clima": {
   "tag": "Día de pánico en los bonos",
   "tipo": "panico",
-  "por": "Wall Street cayó 2%, el riesgo país saltó a 910 y todos los dólares hicieron récord"
+  "por": "Wall Street cayó 2%, el riesgo país saltó a 931 y todos los dólares hicieron récord"
  },
- "frase": "El riesgo país vuela a 910, el dólar marca récords y el Central compra apenas USD 3 M",
+ "frase": "El riesgo país vuela a 931, el dólar marca récords y el Central compra apenas USD 3 M",
  "atipica": null,
  "claves": [
-  "Riesgo país 910 (+62, venía de 848), el más alto desde el 6/11; bonos caen hasta 3,9%",
+  "Riesgo país 931 (+83, venía de 848), el más alto desde el 6/11; bonos caen hasta 3,9%",
   "Blue $1.640 (+$10), CCL $1.741,05 y oficial $1.585: récords; brecha con el CCL 11,2%",
   "Wall Street cayó más de 2% pese al debut de Anthropic (+17,1%); el BCRA compró solo USD 3 M"
  ],
@@ -45,8 +45,8 @@
   },
   {
    "k": "Riesgo país",
-   "v": "910",
-   "d": "+62 · venía de 848 el miércoles · máximo desde el 6/11",
+   "v": "931",
+   "d": "+83 · venía de 848 el miércoles · máximo desde el 6/11",
    "tend": "up",
    "estado": "rojo",
    "serie": true
@@ -167,7 +167,7 @@
   ],
   [
    "19/11",
-   910
+   931
   ]
  ],
  "mundo": [
@@ -212,7 +212,7 @@
    "p": "AMD cayó cerca de 8% porque un fondo apostó en contra por sus vínculos con China; Nvidia bajó 2% por ventas para financiar compras de Anthropic."
   },
   {
-   "q": "El riesgo país saltó 62 puntos",
+   "q": "El riesgo país saltó 83 puntos",
    "p": "Venta fuerte de emergentes, la caída del real y dudas sobre cómo se pagarán los vencimientos de 2027 hicieron caer los bonos hasta casi 4%."
   },
   {
@@ -383,8 +383,12 @@
    "b": "Vence el crédito del BIS por USD 2.500 M que el BCRA tiene que renovar"
   }
  ],
- "guion": "*DÍA DE PÁNICO EN LOS BONOS*\n_Cierre del jueves 19 de noviembre_\n\n*1) Qué pasó en EEUU hoy en criollo*\n- Anthropic, la empresa de inteligencia artificial que hace Claude, debutó en la bolsa: colocó a USD 83, abrió a USD 111,50 y cerró a USD 97,17 (+17,1%). Fue la salida a bolsa más grande de la historia.\n- Pero el resto del mercado se hundió: el S&P 500, el de las 500 más grandes, cayó 2,02%; el Nasdaq, el de las tecnológicas, 2,25%; y el Dow Jones 2,19%, más de 1.100 puntos.\n- AMD, que fabrica chips, cayó cerca de 8%: un fondo apostó en contra por sus vínculos con China.\n- Nvidia bajó 2%: muchos vendieron otras tecnológicas para comprar Anthropic.\n- UnitedHealth, la prepaga más grande, cayó 5%: siguen saliendo inversores del sector salud.\n- El porqué: la Fed dejó ver que puede volver a subir tasas y el bono a 10 años está en 5,05%. En criollo: la plata en el mundo está cara y huye de lo riesgoso.\n\n*2) Qué pasó en Argentina hoy en criollo*\n- Día de pánico: el mal clima afuera, la caída del real brasileño y las dudas por los vencimientos de 2027 pegaron de lleno.\n- El Merval cayó 1,04%. En Nueva York se hundieron Supervielle (−7,2%), Globant (−5,2%), BBVA (−5,1%) y Edenor (−4,1%); solo Pampa terminó en verde.\n- Los bonos en dólares cayeron hasta 3,9% y el riesgo país saltó a 910 puntos; venía de 848. Es el nivel más alto desde el 6 de noviembre.\n- Dólar oficial: $1.585 en el Nación, $5 más. El mayorista, $1.565, otro récord nominal.\n- Blue: $1.640, $10 más y nuevo máximo. Es el dólar de la calle.\n- MEP: $1.638,31, el que se compra legal con bonos. Contado con liqui: $1.741,05, récord; es el que usan las empresas para girar afuera. La brecha ya es de 11,2%.\n- El Banco Central compró apenas USD 3 millones, la menor compra desde que arrancó el programa (USD 344 millones en noviembre), y las reservas bajaron USD 108 millones por la caída del oro.\n- En el Senado sigue la sesión por la Ley de Discapacidad; la suspensión de las PASO se vota el 26.\n\n*3) Lo que NADIE te está contando*\n- Las reservas cayeron aunque el Central compró: la compra fue tan chica que no alcanzó a tapar la baja del oro.\n- Se movieron unos USD 410 millones en bonos atados al dólar que vencen en enero: es gente que se cubre por si el oficial salta.\n- Según La Política Online, se complicó renovar un crédito de USD 2.500 millones con el BIS que vence en diciembre.\n- Es como un almacén que vende poco: aunque cobre algo cada día, si la mercadería del depósito pierde valor, la caja termina igual más flaca.\n\n*4) Qué significa esto para tu bolsillo mañana*\n- Con el oficial a $1.585, el dólar tarjeta subió a $2.060,50.\n- Si el contado con liqui sigue arriba de $1.700, lo importado puede aumentar.\n- Si el riesgo país se queda arriba de 900, el crédito se encarece y eso tarda, pero llega a las cuotas.\n- En criollo: afuera festejaron a Anthropic pero el resto se asustó, y acá los bonos se cayeron y el dólar no afloja.",
+ "guion": "*DÍA DE PÁNICO EN LOS BONOS*\n_Cierre del jueves 19 de noviembre_\n\n*1) Qué pasó en EEUU hoy en criollo*\n- Anthropic, la empresa de inteligencia artificial que hace Claude, debutó en la bolsa: colocó a USD 83, abrió a USD 111,50 y cerró a USD 97,17 (+17,1%). Fue la salida a bolsa más grande de la historia.\n- Pero el resto del mercado se hundió: el S&P 500, el de las 500 más grandes, cayó 2,02%; el Nasdaq, el de las tecnológicas, 2,25%; y el Dow Jones 2,19%, más de 1.100 puntos.\n- AMD, que fabrica chips, cayó cerca de 8%: un fondo apostó en contra por sus vínculos con China.\n- Nvidia bajó 2%: muchos vendieron otras tecnológicas para comprar Anthropic.\n- UnitedHealth, la prepaga más grande, cayó 5%: siguen saliendo inversores del sector salud.\n- El porqué: la Fed dejó ver que puede volver a subir tasas y el bono a 10 años está en 5,05%. En criollo: la plata en el mundo está cara y huye de lo riesgoso.\n\n*2) Qué pasó en Argentina hoy en criollo*\n- Día de pánico: el mal clima afuera, la caída del real brasileño y las dudas por los vencimientos de 2027 pegaron de lleno.\n- El Merval cayó 1,04%. En Nueva York se hundieron Supervielle (−7,2%), Globant (−5,2%), BBVA (−5,1%) y Edenor (−4,1%); solo Pampa terminó en verde.\n- Los bonos en dólares cayeron hasta 3,9% y el riesgo país saltó a 931 puntos; venía de 848. Es el nivel más alto desde el 6 de noviembre.\n- Dólar oficial: $1.585 en el Nación, $5 más. El mayorista, $1.565, otro récord nominal.\n- Blue: $1.640, $10 más y nuevo máximo. Es el dólar de la calle.\n- MEP: $1.638,31, el que se compra legal con bonos. Contado con liqui: $1.741,05, récord; es el que usan las empresas para girar afuera. La brecha ya es de 11,2%.\n- El Banco Central compró apenas USD 3 millones, la menor compra desde que arrancó el programa (USD 344 millones en noviembre), y las reservas bajaron USD 108 millones por la caída del oro.\n- En el Senado sigue la sesión por la Ley de Discapacidad; la suspensión de las PASO se vota el 26.\n\n*3) Lo que NADIE te está contando*\n- Las reservas cayeron aunque el Central compró: la compra fue tan chica que no alcanzó a tapar la baja del oro.\n- Se movieron unos USD 410 millones en bonos atados al dólar que vencen en enero: es gente que se cubre por si el oficial salta.\n- Según La Política Online, se complicó renovar un crédito de USD 2.500 millones con el BIS que vence en diciembre.\n- Es como un almacén que vende poco: aunque cobre algo cada día, si la mercadería del depósito pierde valor, la caja termina igual más flaca.\n\n*4) Qué significa esto para tu bolsillo mañana*\n- Con el oficial a $1.585, el dólar tarjeta subió a $2.060,50.\n- Si el contado con liqui sigue arriba de $1.700, lo importado puede aumentar.\n- Si el riesgo país se queda arriba de 900, el crédito se encarece y eso tarda, pero llega a las cuotas.\n- En criollo: afuera festejaron a Anthropic pero el resto se asustó, y acá los bonos se cayeron y el dólar no afloja.",
  "fuentes": [
+  [
+   "Noticias Argentinas · Riesgo país cerró en 931",
+   "https://noticiasargentinas.com/economia/el-riesgo-pais-de-la-argentina-cerro-la-jornada-en-931-puntos-basicos_a6aff6df609bc92d20f3ab9b4"
+  ],
   [
    "Ámbito · Dólar al cierre",
    "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-jueves-19-noviembre-n6347273"
@@ -444,10 +448,6 @@
   [
    "La Nación · Dólar, riesgo país y cobertura",
    "https://www.lanacion.com.ar/economia/el-dolar-volvio-a-subir-hasta-su-valor-mas-alto-del-ano-y-el-riesgo-pais-roza-los-900-puntos-nid19112026/"
-  ],
-  [
-   "La Gaceta · Riesgo país en 910",
-   "https://www.lagaceta.com.ar/nota/1163285/economia/riesgo-pais-supero-900-puntos-alcanzo-nivel-mas-alto-mas-ano.html"
   ],
   [
    "617.news · Cierre de bonos, ADRs y Merval",
