@@ -1,60 +1,60 @@
 {
- "fecha": "Jueves 19 de noviembre de 2026",
- "iso": "2026-11-19",
- "corte": "Actualizado a las 18:44 h · cierre definitivo",
+ "fecha": "Viernes 20 de noviembre de 2026",
+ "iso": "2026-11-20",
+ "corte": "Actualizado a las 13:48 h · valores parciales de la rueda",
  "clima": {
-  "tag": "Día de pánico en los bonos",
+  "tag": "Viernes negro para los bonos",
   "tipo": "panico",
-  "por": "Wall Street cayó 2%, el riesgo país saltó a 931 y todos los dólares hicieron récord"
+  "por": "El riesgo país pasó los 1.000 puntos por primera vez en 13 meses y el CCL hace récord"
  },
- "frase": "El riesgo país vuela a 931, el dólar marca récords y el Central compra apenas USD 3 M",
+ "frase": "El riesgo país supera los 1.000 puntos por primera vez en 13 meses",
  "atipica": null,
  "claves": [
-  "Riesgo país 931 (+83, venía de 848), el más alto desde el 6/11; bonos caen hasta 3,9%",
-  "Blue $1.640 (+$10), CCL $1.741,05 y oficial $1.585: récords; brecha con el CCL 11,2%",
-  "Wall Street cayó más de 2% pese al debut de Anthropic (+17,1%); el BCRA compró solo USD 3 M"
+  "Riesgo país 1.038 (+107, venía de 931): primera vez arriba de 1.000 desde octubre de 2025",
+  "CCL $1.753,40 y MEP $1.650,76 suben; brecha 11,5%; blue quieto en $1.640",
+  "Merval −1,6% y bolsas del mundo en rojo; el lunes 23 es feriado y no hay mercado"
  ],
  "indicadores": [
   {
    "k": "Dólar oficial",
    "v": "$1.585",
-   "d": "+$5 en el Nación · compra $1.535 · mayorista $1.565 (+$5,50), récord nominal",
-   "tend": "up",
+   "d": "Sin cambios en el Nación · mayorista $1.572 (+$7 vs. $1.565 del jueves)",
+   "tend": "flat",
    "estado": "amarillo"
   },
   {
    "k": "Dólar MEP",
-   "v": "$1.638,31",
-   "d": "+0,5% · venía de $1.629,84",
+   "v": "$1.650,76",
+   "d": "+$5,76 · venía de $1.645 el jueves · brecha 5%",
    "tend": "up",
    "estado": "amarillo"
   },
   {
    "k": "Contado con liqui",
-   "v": "$1.741,05",
-   "d": "+1,4% · venía de $1.717,06 · nuevo récord",
+   "v": "$1.753,40",
+   "d": "+$10,40 · venía de $1.743 el jueves · nuevo récord",
    "tend": "up",
    "estado": "rojo"
   },
   {
    "k": "Dólar blue",
    "v": "$1.640",
-   "d": "+$10 · venía de $1.630 · compra $1.620 · récord nominal",
-   "tend": "up",
+   "d": "Sin cambios · compra $1.620 · sigue en récord nominal",
+   "tend": "flat",
    "estado": "rojo"
   },
   {
    "k": "Riesgo país",
-   "v": "931",
-   "d": "+83 · venía de 848 el miércoles · máximo desde el 6/11",
+   "v": "1.038",
+   "d": "+107 · venía de 931 el jueves · parcial de las 12 h",
    "tend": "up",
    "estado": "rojo",
    "serie": true
   },
   {
    "k": "Reservas BCRA",
-   "v": "≈49.443 M",
-   "d": "USD · −108 M hoy por la baja del oro (sobre 49.551 M del miércoles)",
+   "v": "−USD 108 M",
+   "d": "Variación del jueves por la baja del oro · el dato de hoy sale a la tarde",
    "tend": "down",
    "estado": "amarillo"
   },
@@ -67,30 +67,30 @@
   },
   {
    "k": "Merval",
-   "v": "−1,04%",
-   "d": "En pesos · venía de 82.492 · a las 15:30 estaba en 81.780",
+   "v": "−1,6%",
+   "d": "79.843 puntos · venía de 81.146 · −13,3% en noviembre",
    "tend": "down",
    "estado": "rojo"
   },
   {
    "k": "Compras BCRA",
    "v": "USD 3 M",
-   "d": "La menor del programa · USD 344 M en noviembre · 16.312 M en el año",
+   "d": "Dato del jueves, la menor del programa · USD 344 M en noviembre",
    "tend": "down",
    "estado": "rojo"
   },
   {
    "k": "Brecha con el CCL",
-   "v": "11,2%",
-   "d": "CCL vs. mayorista · la más alta en más de un año · venía de 10,1%",
+   "v": "11,5%",
+   "d": "CCL vs. oficial · la más alta desde octubre de 2025",
    "tend": "up",
    "estado": "rojo",
    "criollo": "Cuánto más caro está el dólar para girar afuera que el oficial; si sube, hay más ganas de dolarizarse."
   },
   {
    "k": "Bonos en dólares",
-   "v": "Hasta −3,9%",
-   "d": "AL41 −3,92%, GD41 −3,40%, AL30 −3,13%, GD30 −3,01%",
+   "v": "Hasta −2,2%",
+   "d": "Globales hasta −2,2% y Bonares −1% · el jueves cayeron hasta 3,3%",
    "tend": "down",
    "estado": "rojo",
    "criollo": "Cuando los bonos caen, el mercado cobra más caro prestarle a la Argentina: por eso sube el riesgo país."
@@ -173,313 +173,291 @@
  "mundo": [
   {
    "k": "S&P 500",
-   "v": "−2,02%",
-   "d": "Cerró en 7.175,83 · sexta baja seguida",
+   "v": "−0,5%",
+   "d": "Futuros antes de abrir · el jueves cerró −1,97% en 7.179,38",
    "tend": "down"
   },
   {
    "k": "Nasdaq",
-   "v": "−2,25%",
-   "d": "Cerró en 23.879,20 · las tecnológicas, las más castigadas",
+   "v": "Casi −3%",
+   "d": "En plena rueda, según Ámbito · el jueves −2,25% en 23.879,20",
    "tend": "down"
   },
   {
    "k": "Dow Jones",
-   "v": "−2,19%",
-   "d": "Cerró en 49.097,06 · perdió 1.101 puntos",
-   "tend": "down"
+   "v": "Estable",
+   "d": "Futuros sin cambios antes de abrir · el jueves −2,19% en 49.097,77",
+   "tend": "flat"
   },
   {
    "k": "Anthropic",
-   "v": "USD 97,17",
-   "d": "+17,1% vs. USD 83 de colocación · abrió a 111,50 y fue perdiendo",
-   "tend": "up"
+   "v": "≈ −9%",
+   "d": "Opera debajo de su precio inicial · el jueves abrió a USD 111,50 (colocó a 83)",
+   "tend": "down"
   },
   {
    "k": "Fed",
    "v": "3,75–4%",
-   "d": "Las actas abrieron la puerta a nuevas subas · bono a 10 años 5,05%",
+   "d": "Goolsbee (Fed de Chicago): la inflación sigue muy por encima del 2%",
    "tend": "flat"
   }
  ],
  "porque": [
   {
-   "q": "Anthropic debutó y Wall Street igual se hundió",
-   "p": "Mucha plata salió de otras tecnológicas para comprar Anthropic y, con el bono a 10 años arriba de 5%, los inversores se alejaron del riesgo."
+   "q": "Asia vivió su peor semana desde 2020",
+   "p": "Se venden en masa las acciones ligadas a la inteligencia artificial: Taiwán cayó 6,2% hoy y 17,5% en la semana, y Nikkei 5,1%. El miedo cruzó a Wall Street."
   },
   {
-   "q": "AMD y Nvidia, en rojo",
-   "p": "AMD cayó cerca de 8% porque un fondo apostó en contra por sus vínculos con China; Nvidia bajó 2% por ventas para financiar compras de Anthropic."
+   "q": "Anthropic, en baja en su segunda rueda",
+   "p": "Tras el debut récord del jueves, los inversores revisan cuánto valen las empresas de IA y desarman posiciones: la euforia no alcanzó para sostener al resto."
   },
   {
-   "q": "El riesgo país saltó 83 puntos",
-   "p": "Venta fuerte de emergentes, la caída del real y dudas sobre cómo se pagarán los vencimientos de 2027 hicieron caer los bonos hasta casi 4%."
+   "q": "El riesgo país pasó los 1.000 puntos",
+   "p": "Al mal clima global se suman dudas sobre cómo se pagará la deuda de 2027 y el clima electoral adelantado: los bonos caen y prestarle al país sale más caro."
   },
   {
-   "q": "Todos los dólares marcaron récord",
-   "p": "Más gente busca cubrirse antes de 2027 y el Central casi no compra: USD 3 M hoy, la cifra más baja desde que arrancó el programa."
+   "q": "El contado con liqui, otra vez en récord",
+   "p": "Empresas y ahorristas se cubren comprando dólares financieros; el Central casi no compra en el mercado (USD 3 M el jueves)."
   }
  ],
- "oculto": "El Banco Central compró apenas USD 3 millones, la menor cifra desde que empezó su programa de compras, y aun así las reservas cayeron USD 108 millones por la baja del oro. En paralelo, según La Nación, se operaron unos USD 410 millones en bonos atados al dólar que vencen en enero: es gente que se cubre por si el oficial salta. Y La Política Online advierte que tras la caída de la sesión en Diputados se complicó la renovación de un crédito del BIS por USD 2.500 millones que vence en diciembre.",
+ "oculto": "Según La Política Online, el Tesoro le compró más de USD 300 millones al Banco Central el 12 de noviembre para pagar deuda: tenía apenas USD 59 millones depositados y el 9 de enero vencen unos USD 4.400 millones. Ámbito cita a Criteria: para 2027 el BCRA necesitaría comprar unos USD 12.650 millones, contra USD 4.900 millones estimados en septiembre. Y el ritmo va al revés: en noviembre compra USD 31 millones por día en promedio, la mitad que en octubre (USD 66 millones).",
  "bolsillo": [
-  "Con el oficial a $1.585, el dólar tarjeta subió a $2.060,50: lo que pagues afuera con tarjeta sale un poco más caro que ayer.",
-  "Si el contado con liqui sigue arriba de $1.700, los productos importados y los que miran ese dólar pueden aumentar.",
-  "Si el riesgo país se queda arriba de 900, el crédito para empresas y provincias se encarece y eso tarda, pero llega a las cuotas.",
-  "Si el real brasileño sigue débil, vacacionar en Brasil sale más barato en pesos, pero les cuesta más vender a las fábricas argentinas."
+  "Con el oficial quieto en $1.585, el dólar tarjeta sigue cerca de $2.067: hoy lo que pagás afuera no se encareció.",
+  "Si el contado con liqui se queda arriba de $1.750, los productos importados y los que se fijan con ese dólar pueden aumentar.",
+  "Si el riesgo país se mantiene arriba de 1.000, el crédito para empresas y provincias se encarece y, con tiempo, llega a las cuotas.",
+  "Si la brecha sigue arriba del 11%, crece la presión sobre el oficial; con el lunes feriado, el mercado no reabre hasta el martes 24."
  ],
  "empresas": {
   "ar": [
    {
     "n": "Supervielle",
-    "c": "−7,2%",
-    "que": "Banco; el ADR que más cayó, golpeado por la suba del riesgo país."
-   },
-   {
-    "n": "Globant",
-    "c": "−5,2%",
-    "que": "Desarrolla software para empresas; cae con la venta de tecnológicas (dato de la tarde)."
+    "c": "−10,4%",
+    "que": "Banco; el ADR más castigado del jueves por la suba del riesgo país."
    },
    {
     "n": "BBVA Argentina",
-    "c": "−5,1%",
-    "que": "Banco; los bancos sufren cuando caen los bonos que tienen en cartera."
+    "c": "−6,4%",
+    "que": "Banco; sufre cuando caen los bonos que tiene en cartera (cierre del jueves)."
+   },
+   {
+    "n": "Galicia",
+    "c": "−6,2%",
+    "que": "El grupo financiero más grande del país; cayó con todo el sector (cierre del jueves)."
    },
    {
     "n": "Edenor",
-    "c": "−4,1%",
-    "que": "Distribuye electricidad en el norte del AMBA; baja con el resto del panel."
-   },
-   {
-    "n": "YPF",
-    "c": "−3,1%",
-    "que": "La petrolera; cae pese a que el petróleo Brent subió cerca de 1% (dato de las 15:30)."
-   },
-   {
-    "n": "Pampa Energía",
-    "c": "+0,05%",
-    "que": "Genera electricidad y produce gas; la única que terminó en verde."
+    "c": "−5,7%",
+    "que": "Distribuye electricidad en el norte del AMBA; hoy los ADR operan dispares (cierre del jueves)."
    }
   ],
   "eeuu": [
    {
     "n": "Anthropic",
-    "c": "+17,1%",
-    "que": "Creadora de la inteligencia artificial Claude; en su primer día cerró a USD 97,17."
+    "c": "≈ −9%",
+    "que": "Creadora de la IA Claude; en su segunda rueda opera debajo de su precio inicial."
    },
    {
     "n": "AMD",
-    "c": "−8%",
-    "que": "Fabrica chips; un fondo apostó en contra por sus vínculos con China."
+    "c": "−7%",
+    "que": "Fabrica chips; cayó el jueves tras un informe de un fondo que apuesta en contra."
    },
    {
-    "n": "UnitedHealth",
-    "c": "−5%",
-    "que": "La prepaga más grande de EE.UU.; sigue la salida de inversores del sector salud."
+    "n": "Insmed",
+    "c": "+20,4%",
+    "que": "Laboratorio; subió el jueves por versiones de que Sanofi la quiere comprar."
    },
    {
-    "n": "Nvidia",
-    "c": "−2%",
-    "que": "Fabrica los chips de la IA; algunos vendieron para comprar Anthropic."
+    "n": "Dick's Sporting Goods",
+    "c": "−5,6%",
+    "que": "Cadena de artículos deportivos; cayó el jueves con el mercado."
    }
   ]
  },
  "politica": [
   {
    "s": "La Política Online",
-   "t": "Bullrich rechaza ser vice de Milei y pide cambiar el plan económico",
-   "g": "Se presentó como 'socia del proyecto' y pidió cambios en un año",
-   "u": "https://www.lapoliticaonline.com/politica/patricia-rechaza-el-ofrecimiento-de-ser-vice-de-milei-y-pide-cambiar-el-plan-economico/"
+   "t": "Caputo analizó postergar el aguinaldo de estatales que ganan más de $1,4 M",
+   "g": "Sacaría $1 billón de la caja de diciembre; luego Economía lo desmintió",
+   "u": "https://www.lapoliticaonline.com/economia/caputo-analiza-postergar-el-aguinaldo-de-los-estatales-que-ganan-mas-de-1-5-millon/"
   },
   {
    "s": "La Política Online",
-   "t": "Milei se define 'estoico intertemporal' y dice que su meme no era para Bullrich",
-   "g": "En A24 dijo que en 35 años la Argentina podría parecerse a EE.UU.",
-   "u": "https://www.lapoliticaonline.com/politica/milei-dijo-que-es-un-estoico-con-conciencia-intertemporal-y-que-en-35-anos-argentina-sera-como-eeuu/"
+   "t": "Milei se tiene fe para la reelección y lo adorna con citas inventadas",
+   "g": "En el CCK dijo que ganará en primera vuelta; Picasso y Alejandro Magno, sin registro",
+   "u": "https://www.lapoliticaonline.com/politica/milei-busco-generar-entusiasmo-por-su-reeleccion-con-citas-apocrifas-de-picasso-y-alejandro-magno/"
   },
   {
    "s": "Ámbito",
-   "t": "Peronismo sin PASO: acuerdo, interna abierta o listas separadas",
-   "g": "Los tres caminos que se abren si el Senado aprueba la suspensión el 26",
-   "u": "https://www.ambito.com/politica/los-tres-escenarios-del-peronismo-paso-acuerdo-interna-abierta-o-listas-separadas-n6347070"
+   "t": "Cornejo, Sadir, Frigerio y Poggi se muestran juntos en el CFI",
+   "g": "Gobernadores dialoguistas en plena negociación del Presupuesto y la suspensión de las PASO",
+   "u": "https://www.ambito.com/politica/cuatro-gobernadores-dialoguistas-se-reunen-medio-la-ofensiva-legislativa-javier-milei-n6347468"
   },
   {
-   "s": "El Destape",
-   "t": "El Gobierno dice tener entre 38 y 42 senadores para suspender las PASO",
-   "g": "La votación está prevista para el 26; ya mira el escenario en Diputados",
-   "u": "http://www.eldestapeweb.com/politica/gobierno-esta-confiado-asegura-tener-38-42-senadores-aprobar-suspension-paso-2026111916629"
+   "s": "Infobae",
+   "t": "Milei, entre la confianza en la reelección y las dudas económicas",
+   "g": "El Gobierno dice tener 38 votos en el Senado para suspender las PASO; necesita 37",
+   "u": "https://www.infobae.com/politica/2026/11/20/milei-atrapado-en-el-laberinto-de-2027-las-certezas-de-la-reeleccion-chocan-con-las-dudas-economicas/"
   },
   {
-   "s": "Parlamentario.com",
-   "t": "El Senado sesiona con discapacidad, propiedad privada y patentes",
-   "g": "Sesión larga con quórum desde las 11:25; ludopatía pasó a la semana próxima",
-   "u": "https://www.parlamentario.com/2026/11/19/el-senado-inicio-una-sesion-con-reformas-clave-en-discapacidad-propiedad-privada-y-patentes/"
+   "s": "MDZ",
+   "t": "Encuesta por provincias: dónde es fuerte Milei, Kicillof y Bullrich",
+   "g": "Bullrich tendría una carta fuerte en Mendoza, según el sondeo",
+   "u": "https://www.mdzol.com/politica/2026/11/20/encuesta-milei-tiene-sus-bastiones-kicillof-sus-refugios-y-bullrich-una-carta-fuerte-en-una-provincia-amiga-1996731.html"
   }
  ],
  "titulares": [
   {
    "sec": "Economía",
    "s": "Ámbito",
-   "t": "Dólar al cierre: blue a $1.640, CCL a $1.741 y brecha de 11,2%",
-   "u": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-jueves-19-noviembre-n6347273"
+   "t": "El riesgo país supera los 1.000 puntos por primera vez en 13 meses",
+   "u": "https://www.ambito.com/finanzas/los-bonos-dolares-se-desploman-wall-street-y-aumenta-la-presion-el-riesgo-pais-n6347533"
   },
   {
    "sec": "Economía",
    "s": "Ámbito",
-   "t": "Anthropic recaudó más de USD 107.000 M y superó el récord de SpaceX",
-   "u": "https://www.ambito.com/finanzas/fiebre-la-ia-anthropic-recaudo-mas-us107000-millones-su-salida-bolsa-y-pulverizo-el-record-spacex-n6346934"
+   "t": "El oficial sigue en alza y el mercado mira la brecha con el CCL",
+   "u": "https://www.ambito.com/finanzas/el-dolar-oficial-intensifica-su-rally-alcista-y-el-mercado-mira-cerca-la-brecha-el-ccl-n6347487"
   },
   {
    "sec": "Economía",
-   "s": "BAE Negocios",
-   "t": "El Central compró apenas USD 3 M y las reservas bajaron",
-   "u": "https://www.baenegocios.com/finanzas/el-banco-central-redujo-sus-compras-de-dolares-a-apenas-usd-3-millones-y-las-reservas-cayeron/"
+   "s": "La Política Online",
+   "t": "El Tesoro compra dólares al Central para pagar deuda y las reservas no repuntan",
+   "u": "https://www.lapoliticaonline.com/economia/caputo-empezo-a-comprar-dolares-al-bcra-para-pagar-la-deuda-pero-las-reservas-no-se-recuperan/"
   },
   {
    "sec": "Política",
    "s": "La Política Online",
-   "t": "Enojo en el Gobierno con Bullrich: la acusan de colgarse la medalla de las PASO",
-   "u": "https://www.lapoliticaonline.com/politica/indignacion-en-el-gobierno-con-bullrich-jugo-contra-la-suspension-de-las-paso-y-ahora-se-cuelga-la-medalla/"
+   "t": "Bullrich rechaza ser vice de Milei y pide cambiar el plan económico",
+   "u": "https://www.lapoliticaonline.com/politica/patricia-rechaza-el-ofrecimiento-de-ser-vice-de-milei-y-pide-cambiar-el-plan-economico/"
   },
   {
    "sec": "Política",
    "s": "Ámbito",
-   "t": "Milei niega una interna con Bullrich: 'Es mi socia política'",
-   "u": "https://www.ambito.com/politica/es-mi-socia-javier-milei-nego-una-interna-patricia-bullrich-y-apunto-contra-el-kirchnerismo-n6346910"
+   "t": "Sin PASO a la vista, el massismo anticipa unidad en el peronismo",
+   "u": "https://www.ambito.com/ambito-nacional/sin-paso-la-vista-el-frente-renovador-anticipa-acuerdo-unidad-el-peronismo-n6347483"
   },
   {
    "sec": "Política",
-   "s": "Infobae",
-   "t": "Tras gestos de distensión, Milei y Bullrich podrían reencontrarse esta noche",
-   "u": "https://www.infobae.com/politica/2026/11/19/tras-algunos-gestos-de-distension-bullrich-y-milei-podrian-reencontrarse-esta-noche-en-un-evento/"
+   "s": "Ámbito",
+   "t": "La Corte frena los aumentos de las prepagas: qué cambia para los afiliados",
+   "u": "https://www.ambito.com/politica/la-corte-suprema-frena-los-aumentos-las-prepagas-cuando-se-implementa-el-cambio-y-que-hacer-si-no-se-respeta-n6347534"
   },
   {
    "sec": "Mundo",
    "s": "Ámbito",
-   "t": "Cumbre histórica: Trump, Putin y Xi hablaron más de una hora",
-   "u": "https://www.ambito.com/mundo/historica-cumbre-donald-trump-vladimir-putin-y-xi-jinping-china-hablaron-mas-una-hora-los-desafios-globales-n6346970"
+   "t": "Las bolsas del mundo se hunden y Taiwán vive su peor semana desde 1990",
+   "u": "https://www.ambito.com/finanzas/las-bolsas-del-mundo-se-hunden-y-los-futuros-del-nasdaq-anticipan-otra-rueda-rojo-n6347451"
   },
   {
    "sec": "Mundo",
-   "s": "Yahoo Finance",
-   "t": "El Dow pierde 1.100 puntos y el Nasdaq 2% en el día del debut de Anthropic",
-   "u": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-live-141306032.html"
+   "s": "Ámbito",
+   "t": "Anthropic entra al top 10 de las empresas más valiosas del mundo",
+   "u": "https://www.ambito.com/finanzas/anthropic-ingresa-al-top-10-del-ranking-las-empresas-mas-valiosas-del-mundo-su-debut-wall-street-n6347489"
   }
  ],
  "agenda": [
   {
-   "w": "Viernes 20/11",
-   "b": "Milei en el lanzamiento de Tesla en la Argentina (19 h)"
+   "w": "Lunes 23/11",
+   "b": "Feriado por el Día de la Soberanía Nacional: no hay mercado local"
   },
   {
    "w": "Miércoles 25/11",
-   "b": "Presupuesto 2027 en Diputados · fijación del dólar de la letra D30N6"
+   "b": "Presupuesto 2027 en Diputados"
   },
   {
    "w": "Jueves 26/11",
-   "b": "Senado vota la suspensión de las PASO · licitación del Tesoro (unos $20 billones)"
+   "b": "Senado vota la suspensión de las PASO · licitación del Tesoro"
   },
   {
-   "w": "Diciembre",
-   "b": "Vence el crédito del BIS por USD 2.500 M que el BCRA tiene que renovar"
+   "w": "9 de enero",
+   "b": "Vencen unos USD 4.400 M de deuda en dólares"
   }
  ],
- "guion": "*DÍA DE PÁNICO EN LOS BONOS*\n_Cierre del jueves 19 de noviembre_\n\n*1) Qué pasó en EEUU hoy en criollo*\n- Anthropic, la empresa de inteligencia artificial que hace Claude, debutó en la bolsa: colocó a USD 83, abrió a USD 111,50 y cerró a USD 97,17 (+17,1%). Fue la salida a bolsa más grande de la historia.\n- Pero el resto del mercado se hundió: el S&P 500, el de las 500 más grandes, cayó 2,02%; el Nasdaq, el de las tecnológicas, 2,25%; y el Dow Jones 2,19%, más de 1.100 puntos.\n- AMD, que fabrica chips, cayó cerca de 8%: un fondo apostó en contra por sus vínculos con China.\n- Nvidia bajó 2%: muchos vendieron otras tecnológicas para comprar Anthropic.\n- UnitedHealth, la prepaga más grande, cayó 5%: siguen saliendo inversores del sector salud.\n- El porqué: la Fed dejó ver que puede volver a subir tasas y el bono a 10 años está en 5,05%. En criollo: la plata en el mundo está cara y huye de lo riesgoso.\n\n*2) Qué pasó en Argentina hoy en criollo*\n- Día de pánico: el mal clima afuera, la caída del real brasileño y las dudas por los vencimientos de 2027 pegaron de lleno.\n- El Merval cayó 1,04%. En Nueva York se hundieron Supervielle (−7,2%), Globant (−5,2%), BBVA (−5,1%) y Edenor (−4,1%); solo Pampa terminó en verde.\n- Los bonos en dólares cayeron hasta 3,9% y el riesgo país saltó a 931 puntos; venía de 848. Es el nivel más alto desde el 6 de noviembre.\n- Dólar oficial: $1.585 en el Nación, $5 más. El mayorista, $1.565, otro récord nominal.\n- Blue: $1.640, $10 más y nuevo máximo. Es el dólar de la calle.\n- MEP: $1.638,31, el que se compra legal con bonos. Contado con liqui: $1.741,05, récord; es el que usan las empresas para girar afuera. La brecha ya es de 11,2%.\n- El Banco Central compró apenas USD 3 millones, la menor compra desde que arrancó el programa (USD 344 millones en noviembre), y las reservas bajaron USD 108 millones por la caída del oro.\n- En el Senado sigue la sesión por la Ley de Discapacidad; la suspensión de las PASO se vota el 26.\n\n*3) Lo que NADIE te está contando*\n- Las reservas cayeron aunque el Central compró: la compra fue tan chica que no alcanzó a tapar la baja del oro.\n- Se movieron unos USD 410 millones en bonos atados al dólar que vencen en enero: es gente que se cubre por si el oficial salta.\n- Según La Política Online, se complicó renovar un crédito de USD 2.500 millones con el BIS que vence en diciembre.\n- Es como un almacén que vende poco: aunque cobre algo cada día, si la mercadería del depósito pierde valor, la caja termina igual más flaca.\n\n*4) Qué significa esto para tu bolsillo mañana*\n- Con el oficial a $1.585, el dólar tarjeta subió a $2.060,50.\n- Si el contado con liqui sigue arriba de $1.700, lo importado puede aumentar.\n- Si el riesgo país se queda arriba de 900, el crédito se encarece y eso tarda, pero llega a las cuotas.\n- En criollo: afuera festejaron a Anthropic pero el resto se asustó, y acá los bonos se cayeron y el dólar no afloja.",
+ "guion": "*VIERNES NEGRO PARA LOS BONOS*\n_Cómo viene la rueda del viernes 20 de noviembre (valores parciales)_\n\n*1) Qué está pasando en EEUU hoy en criollo*\n- Asia tuvo su peor semana desde 2020: Taiwán cayó 6,2% hoy y 17,5% en la semana, y el Nikkei de Japón 5,1%. Se venden en masa las acciones de inteligencia artificial.\n- Wall Street arrancó en rojo: Ámbito informa que el Nasdaq, el índice de las tecnológicas, se desploma casi 3%. Antes de abrir, los futuros del S&P 500 marcaban −0,5% y los del Dow Jones, estables.\n- Anthropic, la empresa que hace Claude, opera cerca de 9% debajo de su precio inicial en su segunda rueda, después del debut récord del jueves.\n- El jueves cerraron: S&P 500 −1,97%, Nasdaq −2,25% y Dow Jones −2,19%. AMD, que fabrica chips, cayó 7%.\n- El porqué: los inversores revisan cuánto valen las empresas de IA y salen de lo riesgoso. En la Fed, Goolsbee avisó que la inflación sigue muy por encima del 2%.\n\n*2) Qué está pasando en Argentina hoy en criollo*\n- Día de pánico: el mal clima del mundo y las dudas por la deuda de 2027 siguen pegando.\n- El riesgo país pasó los 1.000 puntos por primera vez en 13 meses: va 1.038 y venía de 931. Es lo que el mercado le cobra de más a la Argentina para prestarle.\n- Los bonos Globales caen hasta 2,2% y los Bonares 1%.\n- El Merval baja 1,6%, a 79.843 puntos, y ya pierde 13,3% en noviembre. El jueves los ADR se hundieron: Supervielle −10,4%, BBVA −6,4%, Galicia −6,2%.\n- Dólar oficial: $1.585 en el Nación, sin cambios. El mayorista, $1.572, $7 más.\n- Blue: $1.640, quieto pero en récord. Es el dólar de la calle.\n- MEP: $1.650,76, el que se compra legal con bonos. Contado con liqui: $1.753,40, nuevo récord; es el que usan las empresas para girar afuera. La brecha llega a 11,5%.\n- El Banco Central compró apenas USD 3 millones el jueves, lo menos desde que arrancó el programa, y las reservas bajaron USD 108 millones.\n\n*3) Lo que NADIE te está contando*\n- Según La Política Online, el Tesoro le compró más de USD 300 millones al Central para pagar deuda: tenía apenas USD 59 millones y el 9 de enero vencen unos USD 4.400 millones.\n- Según Criteria, citada por Ámbito, para 2027 el Central necesitaría comprar USD 12.650 millones, más del doble de lo que se calculaba en septiembre.\n- Y el ritmo de compras va para atrás: USD 31 millones por día en noviembre contra USD 66 millones en octubre.\n- Es como una familia que tiene que pagar una cuota grande en enero, ahorra cada vez menos y encima le suben la tasa del préstamo.\n\n*4) Qué significa esto para tu bolsillo*\n- Con el oficial quieto, el dólar tarjeta sigue cerca de $2.067.\n- Si el contado con liqui se queda arriba de $1.750, lo importado puede aumentar.\n- Si el riesgo país sigue arriba de 1.000, el crédito se encarece y eso, con el tiempo, llega a las cuotas.\n- En criollo: el mundo vende todo lo que huele a riesgo, a la Argentina le cobran cada vez más caro y el lunes feriado deja al mercado pensando hasta el martes.",
  "fuentes": [
   [
-   "Noticias Argentinas · Riesgo país cerró en 931",
-   "https://noticiasargentinas.com/economia/el-riesgo-pais-de-la-argentina-cerro-la-jornada-en-931-puntos-basicos_a6aff6df609bc92d20f3ab9b4"
+   "Ámbito · Riesgo país arriba de 1.000",
+   "https://www.ambito.com/finanzas/los-bonos-dolares-se-desploman-wall-street-y-aumenta-la-presion-el-riesgo-pais-n6347533"
   ],
   [
-   "Ámbito · Dólar al cierre",
-   "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-jueves-19-noviembre-n6347273"
+   "Ámbito · Dólar, MEP, CCL y blue",
+   "https://www.ambito.com/finanzas/dolar-blue-hoy-cuanto-opera-este-viernes-20-noviembre-n6347424"
   ],
   [
-   "Ámbito · Dólar blue al cierre",
-   "https://www.ambito.com/finanzas/dolar-blue-hoy-cuanto-cerro-este-jueves-19-noviembre-n6347274"
+   "Ámbito · Rally del oficial y brecha",
+   "https://www.ambito.com/finanzas/el-dolar-oficial-intensifica-su-rally-alcista-y-el-mercado-mira-cerca-la-brecha-el-ccl-n6347487"
   ],
   [
-   "Ámbito · Debut de Anthropic",
-   "https://www.ambito.com/finanzas/fiebre-la-ia-anthropic-recaudo-mas-us107000-millones-su-salida-bolsa-y-pulverizo-el-record-spacex-n6346934"
+   "Ámbito · Compras del BCRA y reservas",
+   "https://www.ambito.com/finanzas/el-bcra-realizo-la-menor-compra-el-inicio-del-programa-acumulacion-las-reservas-cayeron-mas-us100-millones-n6347308"
+  ],
+  [
+   "Ámbito · ADRs y bonos al cierre del jueves",
+   "https://www.ambito.com/los-bonos-dolares-rebotan-medio-la-euforia-anthropic-n6347109"
+  ],
+  [
+   "Ámbito · Bolsas del mundo",
+   "https://www.ambito.com/finanzas/las-bolsas-del-mundo-se-hunden-y-los-futuros-del-nasdaq-anticipan-otra-rueda-rojo-n6347451"
+  ],
+  [
+   "Ámbito · Cierre de Wall Street del jueves",
+   "https://www.ambito.com/finanzas/efecto-anthropic-wall-street-anticipa-un-rebote-el-2-y-las-bolsas-europeas-se-recuperan-n6347010"
+  ],
+  [
+   "Ámbito · Anthropic en el top 10",
+   "https://www.ambito.com/finanzas/anthropic-ingresa-al-top-10-del-ranking-las-empresas-mas-valiosas-del-mundo-su-debut-wall-street-n6347489"
+  ],
+  [
+   "Ámbito · Necesidad de reservas 2027",
+   "https://www.ambito.com/finanzas/por-la-caida-fuentes-financiamiento-alternativas-la-necesidad-comprar-reservas-subio-us12650-2027-n6347219"
+  ],
+  [
+   "Ámbito · Gobernadores dialoguistas",
+   "https://www.ambito.com/politica/cuatro-gobernadores-dialoguistas-se-reunen-medio-la-ofensiva-legislativa-javier-milei-n6347468"
   ],
   [
    "Ámbito · Peronismo sin PASO",
-   "https://www.ambito.com/politica/los-tres-escenarios-del-peronismo-paso-acuerdo-interna-abierta-o-listas-separadas-n6347070"
+   "https://www.ambito.com/ambito-nacional/sin-paso-la-vista-el-frente-renovador-anticipa-acuerdo-unidad-el-peronismo-n6347483"
   ],
   [
-   "Ámbito · Milei y Bullrich",
-   "https://www.ambito.com/politica/es-mi-socia-javier-milei-nego-una-interna-patricia-bullrich-y-apunto-contra-el-kirchnerismo-n6346910"
+   "Ámbito · Corte y prepagas",
+   "https://www.ambito.com/politica/la-corte-suprema-frena-los-aumentos-las-prepagas-cuando-se-implementa-el-cambio-y-que-hacer-si-no-se-respeta-n6347534"
   ],
   [
-   "Ámbito · Cumbre Trump-Putin-Xi",
-   "https://www.ambito.com/mundo/historica-cumbre-donald-trump-vladimir-putin-y-xi-jinping-china-hablaron-mas-una-hora-los-desafios-globales-n6346970"
+   "Ámbito · Agenda de Milei",
+   "https://www.ambito.com/politica/operativo-centralidad-el-despliegue-javier-y-karina-milei-recuperar-la-agenda-la-estadia-leon-xiv-n6347510"
+  ],
+  [
+   "Ámbito · Feriados de noviembre",
+   "https://www.ambito.com/informacion-general/feriados-noviembre-se-firmo-el-decreto-trasladar-una-fecha-clave-y-asi-quedo-el-calendario-n6345042"
+  ],
+  [
+   "La Política Online · El Tesoro compra dólares al BCRA",
+   "https://www.lapoliticaonline.com/economia/caputo-empezo-a-comprar-dolares-al-bcra-para-pagar-la-deuda-pero-las-reservas-no-se-recuperan/"
+  ],
+  [
+   "La Política Online · Aguinaldo de estatales",
+   "https://www.lapoliticaonline.com/economia/caputo-analiza-postergar-el-aguinaldo-de-los-estatales-que-ganan-mas-de-1-5-millon/"
+  ],
+  [
+   "La Política Online · Citas de Milei",
+   "https://www.lapoliticaonline.com/politica/milei-busco-generar-entusiasmo-por-su-reeleccion-con-citas-apocrifas-de-picasso-y-alejandro-magno/"
   ],
   [
    "La Política Online · Bullrich y la vicepresidencia",
    "https://www.lapoliticaonline.com/politica/patricia-rechaza-el-ofrecimiento-de-ser-vice-de-milei-y-pide-cambiar-el-plan-economico/"
   ],
   [
-   "La Política Online · Milei 'estoico'",
-   "https://www.lapoliticaonline.com/politica/milei-dijo-que-es-un-estoico-con-conciencia-intertemporal-y-que-en-35-anos-argentina-sera-como-eeuu/"
+   "La Política Online · Riesgo país del jueves",
+   "https://www.lapoliticaonline.com/economia/exploto-el-riesgo-pais-supero-los-930-puntos-y-se-acerca-a-la-zona-de-default/"
   ],
   [
-   "La Política Online · Enojo con Bullrich por las PASO",
-   "https://www.lapoliticaonline.com/politica/indignacion-en-el-gobierno-con-bullrich-jugo-contra-la-suspension-de-las-paso-y-ahora-se-cuelga-la-medalla/"
+   "Infobae · Milei y el laberinto de 2027",
+   "https://www.infobae.com/politica/2026/11/20/milei-atrapado-en-el-laberinto-de-2027-las-certezas-de-la-reeleccion-chocan-con-las-dudas-economicas/"
   ],
   [
-   "La Política Online · Crédito del BIS",
-   "https://www.lapoliticaonline.com/economia/la-caida-de-la-sesion-en-diputados-preocupa-a-bausili-por-una-deuda-de-2-500-millones-de-dolares-que-vence-en-diciembre/"
-  ],
-  [
-   "La Política Online · Brecha cambiaria",
-   "https://www.lapoliticaonline.com/economia/la-brecha-cambiaria-supero-el-10-y-crece-la-presion-para-sacar-dolares-del-pais/"
-  ],
-  [
-   "BAE Negocios · Compras del BCRA y reservas",
-   "https://www.baenegocios.com/finanzas/el-banco-central-redujo-sus-compras-de-dolares-a-apenas-usd-3-millones-y-las-reservas-cayeron/"
-  ],
-  [
-   "NegociosAR · Compras y acumulado del BCRA",
-   "https://negociosar.com/el-bcra-realizo-la-menor-compra-desde-el-inicio-del-programa-de-acumulacion-las-reservas-cayeron-mas-de-us100-millones/"
-  ],
-  [
-   "El Cronista · Riesgo país arriba de 900",
-   "https://www.cronista.com/economia-politica/el-riesgo-pais-vuelve-a-superar-los-900-puntos-caen-bonos-y-acciones-argentinas/"
-  ],
-  [
-   "La Nación · Dólar, riesgo país y cobertura",
-   "https://www.lanacion.com.ar/economia/el-dolar-volvio-a-subir-hasta-su-valor-mas-alto-del-ano-y-el-riesgo-pais-roza-los-900-puntos-nid19112026/"
-  ],
-  [
-   "617.news · Cierre de bonos, ADRs y Merval",
-   "https://617.news/wall-street-profundiza-las-bajas-pese-al-debut-record-de-anthropic/"
-  ],
-  [
-   "Diario Panorama · Mercados a las 15:30",
-   "https://www.diariopanorama.com/noticia/573518/riesgo-pais-supero-900-puntos-cayeron-acciones-dolar-mayorista-alcanzo-nuevo-record"
-  ],
-  [
-   "Diario Neuquino · Dólar al cierre",
-   "https://diarioneuquino.com.ar/el-dolar-cerro-en-nuevos-maximos-el-oficial-llego-a-1-585-y-el-blue-alcanzo-los-1-640/"
-  ],
-  [
-   "El Destape · Senadores para suspender las PASO",
-   "http://www.eldestapeweb.com/politica/gobierno-esta-confiado-asegura-tener-38-42-senadores-aprobar-suspension-paso-2026111916629"
-  ],
-  [
-   "El Destape · Sesión del Senado en vivo",
-   "https://eldestapeweb.com/politica/javier-milei-medidas-gobierno-vivo-ultimas-noticias-jueves-19-noviembre-minuto-minuto-2026111974227"
-  ],
-  [
-   "Parlamentario.com · Sesión del Senado",
-   "https://www.parlamentario.com/2026/11/19/el-senado-inicio-una-sesion-con-reformas-clave-en-discapacidad-propiedad-privada-y-patentes/"
-  ],
-  [
-   "Infobae · Milei y Bullrich",
-   "https://www.infobae.com/politica/2026/11/19/tras-algunos-gestos-de-distension-bullrich-y-milei-podrian-reencontrarse-esta-noche-en-un-evento/"
-  ],
-  [
-   "Yahoo Finance · Cierre de Wall Street",
-   "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-live-141306032.html"
+   "MDZ · Encuesta por provincias",
+   "https://www.mdzol.com/politica/2026/11/20/encuesta-milei-tiene-sus-bastiones-kicillof-sus-refugios-y-bullrich-una-carta-fuerte-en-una-provincia-amiga-1996731.html"
   ]
  ]
 }
