@@ -559,6 +559,13 @@ footer .src{columns:auto;display:grid;grid-template-columns:repeat(auto-fill,min
   .crs button b{font-size:15px}
   .ind .mini{width:44px;height:18px}
 }
+
+/* En pantallas angostas: el Análisis del día va antes de Mercados del mundo y Política */
+@media (max-width:1000px){
+  #indicadores{display:contents}
+  #indicadores>.sh{order:1} #indicadores>.grid{order:2} #lectura{order:3} #indicadores>.world-wrap{order:4} #indicadores>.pol-wrap{order:5}
+  #lectura{margin-top:8px}
+}
 </style>
 </head>
 <body>
