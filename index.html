@@ -491,10 +491,10 @@ footer .src{columns:auto;display:grid;grid-template-columns:repeat(auto-fill,min
 
 /* ===== Guía de botones, 8 pestañas y secciones nuevas ===== */
 .guia{display:flex;gap:10px;align-items:flex-start;margin:10px 10px 2px;padding:9px 12px;border-radius:12px;background:#eef4ff;border:1.5px solid #c9dafc;color:#1b3a73}
-.guia-i{flex:none;width:30px;height:30px;border-radius:50%;background:#2d68d6;color:#fff;display:grid;place-items:center}
-.guia-i svg{width:17px;height:17px}
+.guia .guia-i{flex:none;width:30px;height:30px;border-radius:50%;background:#2d68d6;color:#fff;display:flex;align-items:center;justify-content:center;margin-top:1px}
+.guia .guia-i svg{width:17px;height:17px;display:block}
 .guia b{display:block;font-size:14.5px;color:#14306a}
-.guia span{display:block;font-size:13px;line-height:1.35}
+.guia>div>span{display:block;font-size:13px;line-height:1.35}
 .guia em{font-style:normal;font-weight:800;color:#2d68d6}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .guia{background:#13203a;border-color:#2a3f69;color:#c9d8f5}:root:not([data-theme="light"]) .guia b{color:#e3ecff}:root:not([data-theme="light"]) .guia em{color:#8fb4ff}}
 .tabs{grid-template-columns:repeat(4,minmax(0,1fr))}
@@ -540,7 +540,7 @@ footer .src{columns:auto;display:grid;grid-template-columns:repeat(auto-fill,min
 .ind .mini{float:right;width:50px;height:20px;margin:1px 0 2px 8px;overflow:visible}
 @media (min-width:1001px) and (min-height:740px){
   .guia{margin:8px 10px 0;padding:6px 10px}
-  .guia-i{width:26px;height:26px}
+  .guia .guia-i{width:26px;height:26px}
   .guia b{font-size:13.5px} .guia span{font-size:12px}
   .tabs{gap:6px;margin:6px 10px 4px}
   .tab{min-height:38px;padding:6px 6px;font-size:13px}
