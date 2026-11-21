@@ -488,6 +488,77 @@ footer .src{columns:auto;display:grid;grid-template-columns:repeat(auto-fill,min
 .v01-nota{margin:10px 0 4px;font-size:12.5px;line-height:1.45;color:var(--ink)}
 .v01-src{margin:4px 0 0;font-size:11.5px;color:var(--muted)}
 @media (max-width:640px){.tabs{grid-template-columns:repeat(2,1fr)}.v01-r{grid-template-columns:minmax(0,1fr) minmax(0,1fr);}.v01-r .n{grid-column:1/-1}.v01-r:first-child .n{display:none}}
+
+/* ===== Guía de botones, 8 pestañas y secciones nuevas ===== */
+.guia{display:flex;gap:10px;align-items:flex-start;margin:10px 10px 2px;padding:9px 12px;border-radius:12px;background:#eef4ff;border:1.5px solid #c9dafc;color:#1b3a73}
+.guia-i{flex:none;width:30px;height:30px;border-radius:50%;background:#2d68d6;color:#fff;display:grid;place-items:center}
+.guia-i svg{width:17px;height:17px}
+.guia b{display:block;font-size:14.5px;color:#14306a}
+.guia span{display:block;font-size:13px;line-height:1.35}
+.guia em{font-style:normal;font-weight:800;color:#2d68d6}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .guia{background:#13203a;border-color:#2a3f69;color:#c9d8f5}:root:not([data-theme="light"]) .guia b{color:#e3ecff}:root:not([data-theme="light"]) .guia em{color:#8fb4ff}}
+.tabs{grid-template-columns:repeat(4,minmax(0,1fr))}
+.tab{min-width:0}
+.tab span{white-space:normal;text-align:center;line-height:1.15}
+.viendo{margin:2px 12px 0;padding:6px 2px 4px;font-size:13px;color:var(--muted);border-bottom:1px dashed var(--ring-strong)}
+.viendo b{color:var(--ink)}
+.pt{margin:8px 0 2px;font-size:17px;font-weight:800;color:var(--ink)}
+.ps{margin:0 0 10px;font-size:13px;color:var(--muted)}
+.vid-l{list-style:none;margin:0;padding:0;display:grid;gap:8px;counter-reset:v}
+.vid-l li{counter-increment:v;display:grid;grid-template-columns:30px minmax(0,1fr) auto;gap:4px 10px;align-items:start;padding:10px 12px;border:1px solid var(--line);border-radius:12px;background:var(--bg)}
+.vid-l li::before{content:counter(v);width:28px;height:28px;border-radius:50%;background:#c8102e;color:#fff;font-weight:800;display:grid;place-items:center;font-size:14px}
+.vid-l b{display:block;font-size:15.5px;line-height:1.3;color:var(--ink)}
+.vid-l span{display:block;font-size:13px;color:var(--muted);margin-top:3px;line-height:1.35}
+.vid-c{font:700 12.5px/1 var(--font);padding:8px 10px;border-radius:999px;border:1.5px solid var(--ring-strong);background:var(--card);color:var(--ink);cursor:pointer;white-space:nowrap}
+.vid-c:hover{border-color:var(--accent)}
+.deu-res,.deu-p{border:1px solid var(--line);border-radius:12px;padding:9px 12px;margin-bottom:8px;background:var(--bg)}
+.deu-h{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+.deu-h b{font-size:14.5px;color:var(--ink)}
+.deu-h strong{font-size:16px;color:var(--ink);white-space:nowrap}
+.deu-q{font-size:12.5px;color:var(--muted);margin-top:1px}
+.deu-bar{height:12px;border-radius:999px;background:var(--line);margin-top:7px;overflow:hidden}
+.deu-bar i{display:block;height:100%;border-radius:999px;background:linear-gradient(90deg,#e0a100,#d93025)}
+.deu-res .deu-bar i{background:linear-gradient(90deg,#1f9d55,#3bb273)}
+.deu-pc{font-size:13px;margin-top:5px;color:var(--ink)}
+.deu-a{font-size:13.5px;font-weight:700;color:var(--ink);margin:6px 0 2px}
+.bn{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.bn>div{border:1px solid var(--line);border-radius:12px;padding:10px 12px;background:var(--bg);min-width:0}
+.bn .k{font-size:12px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+.bn .v{font-size:24px;font-weight:800;color:var(--ink);margin-top:3px}
+.bn .u{font-size:13px;font-weight:700;color:var(--accent);margin-top:2px}
+.bn .d{font-size:12.5px;color:var(--muted);margin-top:4px;line-height:1.35}
+.sem-tab .v01-r{grid-template-columns:minmax(0,1.3fr) minmax(0,1fr) minmax(0,1fr) minmax(0,.9fr)}
+.sem-tab .c.up{color:var(--down)} .sem-tab .c.down{color:var(--up)} .sem-tab .c{font-weight:800}
+.sem-tab .c.bueno{color:var(--up)} .sem-tab .c.malo{color:var(--down)}
+.crs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-bottom:10px}
+.crs button{font:inherit;border:1.5px solid var(--ring-strong);border-radius:12px;padding:8px 6px;background:linear-gradient(180deg,var(--card),var(--card2));color:var(--ink);cursor:pointer;box-shadow:0 2px 0 var(--ring-strong);min-width:0}
+.crs button b{display:block;font-size:16px}
+.crs button span{display:block;font-size:12px;color:var(--muted);line-height:1.2;margin-top:1px}
+.crs button[aria-pressed="true"]{background:linear-gradient(180deg,#4a86ee,#2d68d6);border-color:#2457c5;color:#fff;box-shadow:0 2px 0 #1d4aa8}
+.crs button[aria-pressed="true"] span{color:#e3ecff}
+.ind{position:relative}
+.ind .mini{float:right;width:50px;height:20px;margin:1px 0 2px 8px;overflow:visible}
+@media (min-width:1001px) and (min-height:740px){
+  .guia{margin:8px 10px 0;padding:6px 10px}
+  .guia-i{width:26px;height:26px}
+  .guia b{font-size:13.5px} .guia span{font-size:12px}
+  .tabs{gap:6px;margin:6px 10px 4px}
+  .tab{min-height:38px;padding:6px 6px;font-size:13px}
+  .viendo{padding:3px 2px 3px;font-size:12px}
+  .pt{font-size:16px;margin-top:6px}
+}
+@media (max-width:640px){
+  .tabs{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .tab{flex-direction:row;justify-content:flex-start;min-height:52px;font-size:14px;text-align:left;padding:8px 10px}
+  .tab span{text-align:left}
+  .bn{grid-template-columns:1fr}
+  .vid-l li{grid-template-columns:30px minmax(0,1fr)}
+  .vid-c{grid-column:2;justify-self:start}
+  .sem-tab .v01-r{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .sem-tab .v01-r .n{grid-column:1/-1}
+  .crs button b{font-size:15px}
+  .ind .mini{width:44px;height:18px}
+}
 </style>
 </head>
 <body>
@@ -529,13 +600,18 @@ footer .src{columns:auto;display:grid;grid-template-columns:repeat(auto-fill,min
     <section id="lectura">
       <div class="sh"><div class="sh-t"><span class="sh-i sh-lec" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/></svg></span><div><h2>Análisis del día</h2><p class="sh-s">Qué pasó, por qué, y qué significa para vos</p></div></div></div>
       <div class="panel">
-        <p class="tabs-hint">Tocá un botón para cambiar lo que ves</p>
+        <div class="guia" id="guia"><span class="guia-i" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 11V6a2 2 0 0 0-4 0"/><path d="M14 10V4a2 2 0 0 0-4 0v2"/><path d="M10 10.5V6a2 2 0 0 0-4 0v8"/><path d="M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15"/></svg></span><div><b>Elegí qué querés leer</b><span>Cada botón muestra un tema distinto. Tocá uno y la información de abajo cambia. El botón <em>azul</em> es el que estás viendo.</span></div></div>
         <div class="tabs" role="tablist">
           <button class="tab" role="tab" id="t-lec" aria-selected="true" aria-controls="p-lec"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 7v14"/><path d="M16 12h2"/><path d="M16 8h2"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/><path d="M6 12h2"/><path d="M6 8h2"/></svg><span>Lectura del día</span></button>
+          <button class="tab" role="tab" id="t-vid" aria-selected="false" aria-controls="p-vid"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="14" height="14" rx="2"/><path d="m22 8-6 4 6 4z"/></svg><span>Ideas de video</span></button>
           <button class="tab" role="tab" id="t-emp" aria-selected="false" aria-controls="p-emp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"/><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"/><path d="M10 6h4"/><path d="M10 10h4"/><path d="M10 14h4"/><path d="M10 18h4"/></svg><span>Empresas</span></button>
           <button class="tab" role="tab" id="t-tit" aria-selected="false" aria-controls="p-tit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18h-5"/><path d="M18 14h-8"/><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-4 0v-9a2 2 0 0 1 2-2h2"/><rect width="8" height="4" x="10" y="6" rx="1"/></svg><span>Titulares</span></button>
-          <button class="tab" role="tab" id="t-01" aria-selected="false" aria-controls="p-01"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/><path d="M12 7v5l4 2"/></svg><span>Hoy vs. 2001</span></button>
+          <button class="tab" role="tab" id="t-deu" aria-selected="false" aria-controls="p-deu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18"/><path d="M5 21v-9"/><path d="M19 21v-9"/><path d="M9 21v-9"/><path d="M15 21v-9"/><path d="m2 10 10-6 10 6"/></svg><span>Deuda y reservas</span></button>
+          <button class="tab" role="tab" id="t-bol" aria-selected="false" aria-controls="p-bol"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1"/><path d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4"/></svg><span>Bolsillo</span></button>
+          <button class="tab" role="tab" id="t-sem" aria-selected="false" aria-controls="p-sem"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M16 2v4"/><path d="M8 2v4"/><path d="M3 10h18"/><path d="M7 14h10"/><path d="M7 18h6"/></svg><span>La semana</span></button>
+          <button class="tab" role="tab" id="t-01" aria-selected="false" aria-controls="p-01"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/><path d="M12 7v5l4 2"/></svg><span>Hoy vs. crisis</span></button>
         </div>
+        <div class="viendo" id="viendo" aria-live="polite">Estás viendo: <b id="viendo-t">Lectura del día</b></div>
         <div class="pane" id="p-lec" role="tabpanel">
           <div class="blk"><h3>Qué pasó y por qué</h3><ul class="qp" id="porque"></ul></div>
           <div class="blk oculto"><h3>Lo que nadie te está contando</h3><p class="oc" id="oculto"></p></div>
@@ -546,7 +622,11 @@ footer .src{columns:auto;display:grid;grid-template-columns:repeat(auto-fill,min
           <h3>Estados Unidos</h3><ul id="emp-us"></ul>
         </div>
         <div class="pane" id="p-tit" role="tabpanel" hidden><ul class="news" id="news"></ul></div>
-        <div class="pane v01" id="p-01" role="tabpanel" hidden><h3 class="v01-t">¿Qué tan cerca estamos de 2001?</h3><p class="v01-s">Los números de hoy al lado de los del peor momento de la crisis (diciembre de 2001).</p><div class="termo" id="termo"></div><div class="v01-tab" id="v01-rows" role="table" aria-label="Comparación hoy y 2001"></div><p class="v01-nota"><b>Diferencias de fondo:</b> en 2001 el dólar estaba fijo 1 a 1 (convertibilidad), hubo corralito y default de la deuda. Hoy el dólar flota, los depósitos se pueden retirar y la deuda se paga. La comparación sirve como referencia, no como pronóstico.</p><p class="v01-src">Datos de 2001: Rava (riesgo país), Infobae (reservas), La Nación con datos del BCRA (depósitos), Ámbito (Merval), UTDT (corralito).</p></div>
+        <div class="pane px" id="p-vid" role="tabpanel" hidden><h3 class="pt">Ideas para el video de hoy</h3><p class="ps">Tres títulos posibles, cada uno con su gancho, armados con los datos del día.</p><ol class="vid-l" id="vid-l"></ol></div>
+        <div class="pane px" id="p-deu" role="tabpanel" hidden><h3 class="pt">¿Alcanzan los dólares?</h3><p class="ps">Los próximos pagos de deuda en dólares, al lado de las reservas del Banco Central.</p><div class="deu-res" id="deu-res"></div><div class="deu-l" id="deu-l"></div><p class="deu-a" id="deu-a"></p><p class="v01-nota" id="deu-n"></p></div>
+        <div class="pane px" id="p-bol" role="tabpanel" hidden><h3 class="pt">El bolsillo en números</h3><p class="ps">Precios, sueldos y jubilaciones: los últimos datos oficiales.</p><div class="bn" id="bn"></div><p class="v01-src">Fuentes: INDEC (inflación y salarios) y ANSES (jubilaciones). Se actualiza cuando sale un dato oficial nuevo.</p></div>
+        <div class="pane px" id="p-sem" role="tabpanel" hidden><h3 class="pt" id="sem-t">La semana</h3><p class="ps">Cómo terminó cada número comparado con el viernes anterior.</p><div class="v01-tab sem-tab" id="sem-rows" role="table" aria-label="Resumen de la semana"></div><p class="v01-nota" id="sem-r"></p></div>
+        <div class="pane v01" id="p-01" role="tabpanel" hidden><h3 class="v01-t" id="v01-t">¿Qué tan cerca estamos de una crisis?</h3><p class="v01-s">Elegí una crisis para comparar sus números con los de hoy:</p><div class="crs" id="crs" role="group" aria-label="Elegir crisis"></div><div class="termo" id="termo"></div><div class="v01-tab" id="v01-rows" role="table" aria-label="Comparación con la crisis"></div><p class="v01-nota" id="v01-nota"></p><p class="v01-src" id="v01-src"></p></div>
       </div>
     </section>
   </div>
@@ -627,7 +707,9 @@ footer .src{columns:auto;display:grid;grid-template-columns:repeat(auto-fill,min
       }
       card.appendChild(vv);
       var cls=i.k==='Riesgo país'?(String(i.d).trim().charAt(0)==='−'?'up':'down'):(i.tend==='up'&&i.estado==='verde'?'':'');
-      card.appendChild(el('div','d '+cls,i.d||''));
+      var dd=el('div','d '+cls); var SK2={'Dólar oficial':'oficial','Dólar blue':'blue','Contado con liqui':'ccl','Brecha con el CCL':'brecha','Reservas BCRA':'reservas'}[i.k];
+      if(SK2&&D.series&&D.series[SK2]&&D.series[SK2].length>2&&!i.serie){ var ms=document.createElementNS('http://www.w3.org/2000/svg','svg'); ms.setAttribute('class','mini'); ms.setAttribute('data-s',SK2); ms.setAttribute('role','img'); ms.setAttribute('aria-label','Evolución de los últimos '+D.series[SK2].length+' días'); dd.appendChild(ms); }
+      dd.appendChild(document.createTextNode(i.d||'')); card.appendChild(dd);
       card.appendChild(el('div','cr',i.criollo||CRIOLLO[i.k]||i.d||''));
       if(i.serie){ spark=document.createElementNS('http://www.w3.org/2000/svg','svg'); spark.setAttribute('aria-label','Evolución del riesgo país'); card.appendChild(spark); }
       grid.appendChild(card);
@@ -666,42 +748,108 @@ footer .src{columns:auto;display:grid;grid-template-columns:repeat(auto-fill,min
       if(D.iso<e){ var b=el('div','stale','Atención: estos datos son del '+D.fecha+'. La actualización de hoy todavía no llegó.'); b.setAttribute('role','status'); $('upd').classList.add('viejo'); $('pizarra').insertBefore(b,$('pizarra').children[1]); } }
 
     // Pestañas
-    var tabs=[['t-lec','p-lec'],['t-emp','p-emp'],['t-tit','p-tit'],['t-01','p-01']];
-    tabs.forEach(function(t){ $(t[0]).addEventListener('click',function(){ tabs.forEach(function(o){ var on=o[0]===t[0]; $(o[0]).setAttribute('aria-selected',on?'true':'false'); $(o[1]).hidden=!on; }); }); });
-    // Hoy vs. 2001
+    var tabs=[['t-lec','p-lec'],['t-vid','p-vid'],['t-emp','p-emp'],['t-tit','p-tit'],['t-deu','p-deu'],['t-bol','p-bol'],['t-sem','p-sem'],['t-01','p-01']];
+    tabs.forEach(function(t){ $(t[0]).addEventListener('click',function(){ tabs.forEach(function(o){ var on=o[0]===t[0]; $(o[0]).setAttribute('aria-selected',on?'true':'false'); $(o[1]).hidden=!on; if(on) $(o[1]).scrollTop=0; }); $('viendo-t').textContent=$(t[0]).textContent.trim(); }); });
+    function escH(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
+    function numAR(s){ s=String(s||'').replace(/[^0-9,.\-−]/g,'').replace('−','-'); if(!s) return NaN; s=s.replace(/\./g,'').replace(',','.'); return parseFloat(s); }
+    function fmt(n){ return Math.round(n).toLocaleString('es-AR'); }
+    var IX={}; (D.indicadores||[]).forEach(function(i){ IX[i.k]=i; });
+    // Ideas de video
+    (function(){ var ol=$('vid-l'); (D.videos||[]).forEach(function(v){ var li=el('li'); var d=el('div'); d.appendChild(el('b',null,v.t)); d.appendChild(el('span',null,v.g||'')); li.appendChild(d);
+      var b=el('button','vid-c','Copiar título'); b.type='button'; b.addEventListener('click',function(){ var tx=v.t; function ok(){ b.textContent='¡Copiado!'; setTimeout(function(){b.textContent='Copiar título';},1800); }
+        try{ navigator.clipboard.writeText(tx).then(ok,function(){}); }catch(_){} }); li.appendChild(b); ol.appendChild(li); });
+      if(!(D.videos||[]).length){ $('t-vid').hidden=true; } })();
+    // ¿Alcanzan los dólares?
+    (function(){ var de=D.deuda||{}, res=IX['Reservas BCRA']?numAR(IX['Reservas BCRA'].v):NaN, L=$('deu-l');
+      if(!(de.pagos||[]).length){ $('t-deu').hidden=true; return; }
+      if(!isNaN(res)) $('deu-res').innerHTML='<div class="deu-h"><b>Reservas del Banco Central hoy</b><strong>USD '+fmt(res)+' M</strong></div><div class="deu-bar"><i style="width:100%"></i></div><div class="deu-q">'+escH(IX['Reservas BCRA'].d||'')+'</div>';
+      var tot=0; de.pagos.forEach(function(p){ tot+=p.m; var pc=isNaN(res)?null:p.m/res*100; var d=el('div','deu-p');
+        d.innerHTML='<div class="deu-h"><b>'+escH(p.f)+'</b><strong>USD '+fmt(p.m)+' M</strong></div><div class="deu-q">'+escH(p.q)+'</div>'+(pc===null?'':'<div class="deu-bar"><i style="width:'+Math.max(2,Math.min(100,pc))+'%"></i></div><div class="deu-pc">Equivale a <b>'+String(Math.round(pc*10)/10).replace('.',',')+'%</b> de las reservas</div>');
+        L.appendChild(d); });
+      $('deu-a').textContent=(!isNaN(res)&&de.pagos.length>1?'Los pagos de esta lista suman USD '+fmt(tot)+' M ('+String(Math.round(tot/res*1000)/10).replace('.',',')+'% de las reservas). ':'')+(de.anual?de.anual+'.':'');
+      $('deu-n').textContent=de.nota||''; })();
+    // El bolsillo en números
+    (function(){ var b=D.bolsillo_num, box=$('bn'); if(!b){ $('t-bol').hidden=true; return; }
+      var of=IX['Dólar oficial']?numAR(IX['Dólar oficial'].v):NaN;
+      [['ipc','Inflación del mes'],['salarios','Salarios'],['jubilacion','Jubilación mínima']].forEach(function(x){ var o=b[x[0]]; if(!o) return; var c=el('div');
+        c.appendChild(el('div','k',x[1])); c.appendChild(el('div','v',o.v));
+        if(x[0]==='jubilacion'&&!isNaN(of)&&of>0){ var j=numAR(o.v); if(!isNaN(j)) c.appendChild(el('div','u','≈ USD '+fmt(j/of)+' al dólar oficial')); }
+        c.appendChild(el('div','d',o.d||'')); box.appendChild(c); }); })();
+    // La semana
+    (function(){ var w=D.semana; if(!w||!(w.items||[]).length){ $('t-sem').hidden=true; return; }
+      $('sem-t').textContent=w.t||'La semana';
+      var BS={'Reservas BCRA':1,'Merval':1,'Merval (en dólares)':1,'Compras BCRA':1,'Depósitos en USD':1};
+      var h='<div class="v01-r" role="row"><span class="n">Indicador</span><span>Viernes anterior</span><span>Este viernes</span><span>Cambio</span></div>';
+      w.items.forEach(function(it){ var cl=it.tend==='flat'?'':(BS[it.k]?(it.tend==='up'?'bueno':'malo'):(it.tend==='up'?'malo':'bueno'));
+        h+='<div class="v01-r" role="row"><span class="n">'+escH(it.k)+'</span><span class="a"><small class="m">Antes</small>'+escH(it.a||'—')+'</span><span class="h"><small class="m">Ahora</small>'+escH(it.b||'—')+'</span><span class="c '+cl+'"><small class="m">Cambio</small>'+escH(it.c||'')+'</span></div>'; });
+      $('sem-rows').innerHTML=h; $('sem-r').textContent=w.resumen||''; })();
+    // Hoy vs. crisis
     (function(){
-      function num(s){ s=String(s||'').replace(/[^0-9,.\-−]/g,'').replace('−','-'); if(!s) return NaN; s=s.replace(/\./g,'').replace(',','.'); return parseFloat(s); }
-      var I={}; (D.indicadores||[]).forEach(function(i){ I[i.k]=i; });
-      function hoy(k,extra){ var i=I[k]; if(!i) return '<b>—</b>'; return '<b>'+esc(i.v)+'</b><small>'+esc(extra||i.d||'')+'</small>'; }
-      function esc(s){ return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
-      var PICO=5495, rp=I['Riesgo país']?num(I['Riesgo país'].v):NaN;
-      if(!isNaN(rp)){
-        var pct=Math.max(0,Math.min(100,Math.round(rp/PICO*100)));
-        var txt= pct<25?'Lejos del nivel de 2001':(pct<50?'A mitad de camino del nivel de 2001':(pct<80?'Cerca del nivel de 2001':'En niveles de 2001'));
-        $('termo').innerHTML='<div class="tt"><span>Termómetro del riesgo país</span><b>'+pct+'% del pico de 2001</b></div>'+
-          '<div class="bar" role="img" aria-label="Riesgo país al '+pct+' por ciento del pico de 2001"><div class="fill" style="width:'+pct+'%"></div></div>'+
-          '<div class="lbl"><span>0</span><span>Hoy: '+esc(I['Riesgo país'].v)+'</span><span>Dic. 2001: 5.495</span></div>'+
-          '<div class="msg"><b>'+txt+'.</b> El récord histórico fue 7.222 puntos, en agosto de 2002.</div>';
-      } else { $('termo').hidden=true; }
+      var num=numAR, I=IX, esc=escH;
+      function hoy(k){ var i=I[k]; if(!i) return '<b>—</b>'; return '<b>'+esc(i.v)+'</b><small>'+esc(i.d||'')+'</small>'; }
+      var IB=I['Brecha con el CCL']||I['Brecha CCL']||I['Brecha'], bonos=I['Bonos en dólares'];
       var of=I['Dólar oficial']?num(I['Dólar oficial'].v):NaN, ccl=I['Contado con liqui']?num(I['Contado con liqui'].v):NaN;
       var brecha=(!isNaN(of)&&!isNaN(ccl)&&of>0)?Math.round((ccl/of-1)*1000)/10:null;
-      var IB=I['Brecha con el CCL']||I['Brecha CCL']||I['Brecha'];
-      var bonos=I['Bonos en dólares'];
-      var R=[
-        ['Riesgo país','<b>5.495</b><small>25/12/2001, tras el default</small>',hoy('Riesgo país')],
-        ['Reservas del BCRA','<b>USD 15.232 M</b><small>perdieron 55% en el año (venían de USD 34.234 M)</small>',hoy('Reservas BCRA')],
-        ['Depósitos en dólares','<b>USD 43.989 M</b><small>los bancos perdieron 22% de los depósitos en 11 meses; llegó el corralito</small>',hoy('Depósitos en USD')],
-        ['Dólar oficial','<b>$1</b><small>fijo 1 a 1 (convertibilidad); en 2002 llegó a casi $4</small>',hoy('Dólar oficial')],
-        ['Brecha con el CCL','<b>No había</b><small>con el 1 a 1 no existía brecha</small>',IB?hoy(IB.k):(brecha===null?'<b>—</b>':'<b>'+String(brecha).replace('.',',')+'%</b><small>contado con liqui vs. oficial</small>')],
-        ['Merval','<b>−29%</b><small>en todo 2001; cerró en 295 puntos</small>',hoy('Merval')],
-        ['Banco Central','<b>Perdió USD 19.002 M</b><small>en el año, para sostener el 1 a 1</small>',hoy('Compras BCRA')],
-        ['Bonos y deuda','<b>Default</b><small>23/12/2001, la mayor cesación de pagos de la historia</small>',bonos?'<b>'+esc(bonos.v)+'</b><small>'+esc(bonos.d||'')+' · la deuda se paga</small>':'<b>Se paga</b><small>sin default</small>']
-      ];
-      var h='<div class="v01-r" role="row"><span class="n">Indicador</span><span>Diciembre 2001</span><span>Hoy</span></div>';
-      R.forEach(function(r){ h+='<div class="v01-r" role="row"><span class="n">'+r[0]+'</span><span class="a"><small class="m">2001</small>'+r[1]+'</span><span class="h"><small class="m">Hoy</small>'+r[2]+'</span></div>'; });
-      $('v01-rows').innerHTML=h;
+      var H={
+        rp:hoy('Riesgo país'), res:hoy('Reservas BCRA'), dep:hoy('Depósitos en USD'), of:hoy('Dólar oficial'),
+        br:IB?hoy(IB.k):(brecha===null?'<b>—</b>':'<b>'+String(brecha).replace('.',',')+'%</b><small>contado con liqui vs. oficial</small>'),
+        mv:hoy('Merval'), bc:hoy('Compras BCRA'),
+        bo:bonos?'<b>'+esc(bonos.v)+'</b><small>'+esc(bonos.d||'')+' · la deuda se paga</small>':'<b>Se paga</b><small>sin default</small>'
+      };
+      var C={
+        '2001':{n:'La gran crisis',col:'Diciembre 2001',pico:5495,pl:'Dic. 2001: 5.495',titulo:'¿Qué tan cerca estamos de 2001?',
+          extra:'El récord histórico fue 7.222 puntos, en agosto de 2002.',
+          rows:[['Riesgo país','<b>5.495</b><small>25/12/2001, tras el default</small>','rp'],
+            ['Reservas del BCRA','<b>USD 15.232 M</b><small>perdieron 55% en el año (venían de USD 34.234 M)</small>','res'],
+            ['Depósitos en dólares','<b>USD 43.989 M</b><small>los bancos perdieron 22% de los depósitos en 11 meses; llegó el corralito</small>','dep'],
+            ['Dólar oficial','<b>$1</b><small>fijo 1 a 1 (convertibilidad); en 2002 llegó a casi $4</small>','of'],
+            ['Brecha con el CCL','<b>No había</b><small>con el 1 a 1 no existía brecha</small>','br'],
+            ['Merval','<b>−29%</b><small>en todo 2001; cerró en 295 puntos</small>','mv'],
+            ['Banco Central','<b>Perdió USD 19.002 M</b><small>en el año, para sostener el 1 a 1</small>','bc'],
+            ['Bonos y deuda','<b>Default</b><small>23/12/2001, la mayor cesación de pagos de la historia</small>','bo']],
+          nota:'<b>Diferencias de fondo:</b> en 2001 el dólar estaba fijo 1 a 1 (convertibilidad), hubo corralito y default de la deuda. Hoy el dólar flota, los depósitos se pueden retirar y la deuda se paga. La comparación sirve como referencia, no como pronóstico.',
+          src:'Datos de 2001: Rava (riesgo país), Infobae (reservas), La Nación con datos del BCRA (depósitos), Ámbito (Merval), UTDT (corralito).'},
+        '2018':{n:'Corrida cambiaria',col:'Crisis 2018',pico:800,pl:'Sept. 2018: ~800',titulo:'¿Qué tan cerca estamos de 2018?',
+          extra:'En 2018 el riesgo país superó los 800 puntos (el 31/8 cerró en 774).',
+          rows:[['Riesgo país','<b>Más de 800</b><small>en septiembre de 2018 (774 el 31/8)</small>','rp'],
+            ['Reservas del BCRA','<b>USD 53.793 M</b><small>a fin de agosto de 2018, sostenidas por el préstamo del FMI</small>','res'],
+            ['Depósitos en dólares','<b>Récord</b><small>los más altos del siglo: no hubo corrida de depósitos</small>','dep'],
+            ['Dólar oficial','<b>De $20 a $40</b><small>se duplicó en el año; máximo de $42 el 29/9/2018</small>','of'],
+            ['Brecha con el CCL','<b>No había</b><small>sin cepo, el dólar era uno solo</small>','br'],
+            ['Banco Central','<b>Usó USD 8.500 M</b><small>en dos meses para frenar al dólar</small>','bc'],
+            ['Bonos y deuda','<b>Rescate del FMI</b><small>préstamo de USD 50.000 M, el más grande de su historia</small>','bo']],
+          nota:'<b>Diferencias de fondo:</b> en 2018 no había cepo y el golpe fue sobre todo una devaluación: el dólar se duplicó, pero la gente no sacó sus dólares de los bancos. El FMI puso la plata para pagar. La comparación sirve como referencia, no como pronóstico.',
+          src:'Datos de 2018: Infobae (dólar, riesgo país y BCRA), Wikipedia (préstamo del FMI), IDESA (depósitos).'},
+        '2019':{n:'Después de las PASO',col:'Crisis 2019',pico:2084,pl:'Oct. 2019: 2.084',titulo:'¿Qué tan cerca estamos de 2019?',
+          extra:'Una semana después de las PASO de agosto de 2019 ya estaba en 1.963 puntos.',
+          rows:[['Riesgo país','<b>2.084</b><small>en octubre de 2019; una semana después de las PASO ya estaba en 1.963</small>','rp'],
+            ['Reservas del BCRA','<b>USD 47.448 M</b><small>perdieron más de USD 18.800 M (28,4%) desde las PASO</small>','res'],
+            ['Depósitos en dólares','<b>Cayeron 25,6%</b><small>en el primer mes tras las PASO: se fueron unos USD 14.000 M (venían de USD 32.500 M)</small>','dep'],
+            ['Dólar oficial','<b>De $45 a $60</b><small>+32,6% después de las PASO; después vino el cepo</small>','of'],
+            ['Merval','<b>Se partió a la mitad</b><small>en dólares, en el "lunes negro" después de las PASO</small>','mv'],
+            ['Banco Central','<b>Vendió más de USD 7.000 M</b><small>para frenar al dólar</small>','bc'],
+            ['Bonos y deuda','<b>Reperfilamiento</b><small>en agosto de 2019 se postergaron pagos de deuda de corto plazo</small>','bo']],
+          nota:'<b>Diferencias de fondo:</b> en 2019 la crisis vino de golpe después de una elección: en pocas semanas cayeron las reservas y los depósitos en dólares, y el Gobierno terminó poniendo el cepo. La comparación sirve como referencia, no como pronóstico.',
+          src:'Datos de 2019: Infobae (riesgo país, reservas, depósitos, dólar, Merval y ventas del BCRA).'}
+      };
+      var rp=I['Riesgo país']?num(I['Riesgo país'].v):NaN, cr=$('crs');
+      function ver(y){ var c=C[y];
+        [].forEach.call(cr.children,function(b){ b.setAttribute('aria-pressed',b.getAttribute('data-y')===y?'true':'false'); });
+        $('v01-t').textContent=c.titulo;
+        if(!isNaN(rp)){ var raw=Math.round(rp/c.pico*100), pct=Math.max(0,Math.min(100,raw));
+          var txt= raw>=100?'Hoy ya está por encima del nivel de '+y:(pct<25?'Lejos del nivel de '+y:(pct<50?'A mitad de camino del nivel de '+y:(pct<80?'Cerca del nivel de '+y:'Casi en el nivel de '+y)));
+          $('termo').hidden=false;
+          $('termo').innerHTML='<div class="tt"><span>Termómetro del riesgo país</span><b>'+(raw>=100?'Ya lo superó ('+raw+'%)':pct+'% del pico de '+y)+'</b></div>'+
+            '<div class="bar" role="img" aria-label="Riesgo país al '+raw+' por ciento del pico de '+y+'"><div class="fill" style="width:'+pct+'%"></div></div>'+
+            '<div class="lbl"><span>0</span><span>Hoy: '+esc(I['Riesgo país'].v)+'</span><span>'+c.pl+'</span></div>'+
+            '<div class="msg"><b>'+txt+'.</b> '+c.extra+'</div>';
+        } else { $('termo').hidden=true; }
+        var h='<div class="v01-r" role="row"><span class="n">Indicador</span><span>'+c.col+'</span><span>Hoy</span></div>';
+        c.rows.forEach(function(r){ h+='<div class="v01-r" role="row"><span class="n">'+r[0]+'</span><span class="a"><small class="m">'+y+'</small>'+r[1]+'</span><span class="h"><small class="m">Hoy</small>'+H[r[2]]+'</span></div>'; });
+        $('v01-rows').innerHTML=h; $('v01-nota').innerHTML=c.nota; $('v01-src').textContent=c.src; }
+      ['2001','2018','2019'].forEach(function(y){ var b=el('button'); b.type='button'; b.setAttribute('data-y',y); b.innerHTML='<b>'+y+'</b><span>'+C[y].n+'</span>'; b.addEventListener('click',function(){ ver(y); }); cr.appendChild(b); });
+      ver('2001');
     })();
-
 
     // Modo criollo
     var bc=$('btn-criollo'); function setCr(on){ $('indicadores').classList.toggle('criollo',on); bc.setAttribute('aria-pressed',on?'true':'false'); try{localStorage.setItem('pz-criollo',on?'1':'0');}catch(_){} }
@@ -742,10 +890,20 @@ footer .src{columns:auto;display:grid;grid-template-columns:repeat(auto-fill,min
         r.addEventListener('mousemove',show); r.addEventListener('touchstart',show,{passive:true}); r.addEventListener('mouseleave',function(){tip.style.opacity=0;});
         spark.appendChild(r); });
     }
+    function drawMinis(){ var NS='http://www.w3.org/2000/svg';
+      document.querySelectorAll('.ind .mini').forEach(function(sv){ var key=sv.getAttribute('data-s'), data=(D.series[key]||[]).slice(-10), n=data.length; if(n<2) return;
+        while(sv.firstChild) sv.removeChild(sv.firstChild);
+        var W=50,Hh=20,p=2; sv.setAttribute('viewBox','0 0 '+W+' '+Hh); sv.setAttribute('preserveAspectRatio','none');
+        var vs=data.map(function(d){return d[1];}), lo=Math.min.apply(null,vs), hi=Math.max.apply(null,vs);
+        var up=vs[n-1]>=vs[0], good=key==='reservas'?up:(key==='brecha'?!up:null);
+        var css=getComputedStyle(document.documentElement), col=good===null?css.getPropertyValue('--accent').trim():(good?css.getPropertyValue('--up').trim():css.getPropertyValue('--down').trim());
+        var pts=data.map(function(d,i){ return (p+(W-2*p)*i/(n-1)).toFixed(1)+','+(p+(Hh-2*p)*(1-(d[1]-lo)/(hi-lo||1))).toFixed(1); });
+        var pa=document.createElementNS(NS,'polyline'); pa.setAttribute('points',pts.join(' ')); pa.setAttribute('fill','none'); pa.setAttribute('stroke',col); pa.setAttribute('stroke-width','1.8'); pa.setAttribute('stroke-linejoin','round'); pa.setAttribute('stroke-linecap','round'); pa.setAttribute('vector-effect','non-scaling-stroke'); sv.appendChild(pa);
+        var t=document.createElementNS(NS,'title'); t.textContent=data[0][0]+': '+vs[0].toLocaleString('es-AR')+' → '+data[n-1][0]+': '+vs[n-1].toLocaleString('es-AR'); sv.appendChild(t); }); }
     function fitVals(){ document.querySelectorAll('.ind .v').forEach(function(v){ v.style.fontSize=''; var fs=parseFloat(getComputedStyle(v).fontSize), n=0; while(v.scrollWidth>v.clientWidth+1 && fs>12 && n<20){ fs-=1; n++; v.style.fontSize=fs+'px'; } }); }
-    draw(); fitVals(); if(document.fonts&&document.fonts.ready) document.fonts.ready.then(fitVals);
+    draw(); drawMinis(); fitVals(); if(document.fonts&&document.fonts.ready) document.fonts.ready.then(fitVals);
     var rt; window.addEventListener('resize',function(){clearTimeout(rt); rt=setTimeout(function(){draw(); fitVals();},120);});
-    new MutationObserver(draw).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
+    new MutationObserver(function(){draw(); drawMinis();}).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
   }
 
   var inline=document.getElementById('datos');
