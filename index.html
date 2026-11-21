@@ -560,11 +560,11 @@ footer .src{columns:auto;display:grid;grid-template-columns:repeat(auto-fill,min
   .ind .mini{width:44px;height:18px}
 }
 
-/* En pantallas angostas: el Análisis del día va antes de Mercados del mundo y Política */
+/* En pantallas angostas: Análisis del día después de los números; Mercados del mundo al final */
 @media (max-width:1000px){
-  #indicadores{display:contents}
-  #indicadores>.sh{order:1} #indicadores>.grid{order:2} #lectura{order:3} #indicadores>.world-wrap{order:4} #indicadores>.pol-wrap{order:5}
-  #lectura{margin-top:8px}
+  .main,#indicadores{display:contents}
+  .main>*,#indicadores>*{min-width:0}
+  #indicadores>.sh{order:1} #indicadores>.grid{order:2} #lectura{order:3} #indicadores>.pol-wrap{order:4} #agenda-sec{order:5} #indicadores>.world-wrap{order:6} #pie{order:7}
 }
 </style>
 </head>
@@ -598,11 +598,11 @@ footer .src{columns:auto;display:grid;grid-template-columns:repeat(auto-fill,min
     <section id="indicadores">
       <div class="sh"><div class="sh-t"><span class="sh-i sh-num" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v16a2 2 0 0 0 2 2h16"/><path d="M8 17v-3"/><path d="M13 17V9"/><path d="M18 17V5"/></svg></span><div><h2>Argentina en números</h2><p class="sh-s">Dólar, riesgo país, reservas y bolsa · valores de cierre</p></div></div><button class="toggle" id="btn-criollo" type="button" aria-pressed="false"><span class="sw" aria-hidden="true"></span><span>Explicar en criollo</span></button></div>
       <div class="grid" id="grid"></div>
-      <div class="world-wrap"><div class="sh"><div class="sh-t"><span class="sh-i sh-mundo" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg></span><div><h2>Mercados del mundo</h2><p class="sh-s">Wall Street, empresas clave y la Fed</p></div></div></div><div class="world" id="mundo" aria-label="Mercados internacionales"></div></div>
       <div class="pol-wrap" id="politica">
         <div class="sh"><div class="sh-t"><span class="sh-i sh-pol" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 18v-7"/><path d="M11.12 2.198a2 2 0 0 1 1.76.006l7.866 3.847c.476.233.31.949-.22.949H3.474c-.53 0-.695-.716-.22-.949z"/><path d="M14 18v-7"/><path d="M18 18v-7"/><path d="M3 22h18"/><path d="M6 18v-7"/></svg></span><div><h2>Política</h2><p class="sh-s">Lo que pasa en la política argentina · tocá un titular para leer la nota</p></div></div></div>
         <ul class="pol" id="pol-list"></ul>
       </div>
+      <div class="world-wrap"><div class="sh"><div class="sh-t"><span class="sh-i sh-mundo" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg></span><div><h2>Mercados del mundo</h2><p class="sh-s">Wall Street, empresas clave y la Fed</p></div></div></div><div class="world" id="mundo" aria-label="Mercados internacionales"></div></div>
     </section>
     <section id="lectura">
       <div class="sh"><div class="sh-t"><span class="sh-i sh-lec" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/></svg></span><div><h2>Análisis del día</h2><p class="sh-s">Qué pasó, por qué, y qué significa para vos</p></div></div></div>
