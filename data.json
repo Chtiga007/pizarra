@@ -1,52 +1,52 @@
 {
- "fecha": "Domingo 22 de noviembre de 2026",
- "iso": "2026-11-22",
- "corte": "Actualizado a las 18:52 h · fin de semana",
+ "fecha": "Lunes 23 de noviembre de 2026",
+ "iso": "2026-11-23",
+ "corte": "Actualizado a las 13:49 h · feriado · Wall Street con valores parciales",
  "clima": {
-  "tag": "Domingo de espera y agenda",
+  "tag": "Feriado con rebote afuera",
   "tipo": "atipico",
-  "por": "Sin mercado hasta el martes: el foco pasa a la licitación del jueves y al Congreso"
+  "por": "Sin mercado local; Wall Street rebota con Nvidia y los ADRs suben hasta 6,8%"
  },
- "frase": "Riesgo país en 1.071 y CCL en $1.799: semana corta con licitación y Presupuesto",
- "atipica": "Es domingo y el lunes 23 es feriado: no hay mercado local hasta el martes 24. Los valores son los del cierre del viernes 20; Wall Street sí opera el lunes. No conviene sobreinterpretar.",
+ "frase": "Feriado acá, alivio afuera: el Nasdaq sube 6,7% y los ADRs argentinos hasta 6,8%",
+ "atipica": "Hoy es feriado por el Día de la Soberanía: no opera el mercado local. Dólar, riesgo país, reservas y Merval son del cierre del viernes 20; Wall Street y los ADRs son parciales de hoy, con poco volumen para lo argentino. No conviene sobreinterpretar.",
  "claves": [
-  "Cierre del viernes: CCL $1.799,14 (+7,6% en la semana) y brecha de 13,9% con el mayorista",
-  "Jueves 26: el Tesoro sale a renovar $25,4 billones; el 9 de enero vencen USD 4.378 M en bonos",
-  "Semana clave en el Congreso: Santilli informa el miércoles y el Senado trata las PASO el jueves"
+  "Wall Street rebota: Nasdaq +6,7% y Nvidia +34,5% tras el regreso de Jensen Huang (parcial)",
+  "ADRs argentinos arriba hasta 6,8% y bonos en alza, pero el riesgo país sigue arriba de 1.000",
+  "Mañana vuelve el mercado con el CCL en $1.799,14; el jueves 26, licitación por $25,4 billones"
  ],
  "indicadores": [
   {
    "k": "Dólar oficial",
    "v": "$1.600",
-   "d": "Cierre del viernes 20 · mayorista $1.580, récord nominal · tarjeta $2.080",
+   "d": "Cierre del viernes 20 · hoy feriado · mayorista $1.580 · tarjeta $2.080",
    "tend": "flat",
    "estado": "amarillo"
   },
   {
    "k": "Dólar MEP",
    "v": "$1.701,05",
-   "d": "Cierre del viernes 20 · +3,5% en el día · +7,9% en la semana · brecha 7,7%",
+   "d": "Cierre del viernes 20 · +7,9% en la semana · brecha 7,7% · hoy feriado",
    "tend": "flat",
    "estado": "amarillo"
   },
   {
    "k": "Contado con liqui",
    "v": "$1.799,14",
-   "d": "Cierre del viernes 20 · +3,2% en el día · +7,6% en la semana · récord",
+   "d": "Cierre del viernes 20 · +7,6% en la semana · récord · hoy feriado",
    "tend": "flat",
    "estado": "rojo"
   },
   {
    "k": "Dólar blue",
    "v": "$1.675",
-   "d": "Cierre del viernes 20 · +$100 en la semana, la mayor suba en más de dos años · compra $1.655",
+   "d": "Cierre del viernes 20 · compra $1.655 · +$100 en la semana · hoy feriado",
    "tend": "flat",
    "estado": "rojo"
   },
   {
    "k": "Riesgo país",
    "v": "1.071",
-   "d": "+140 el viernes · venía de 931 · +241 en la semana (cierre del viernes)",
+   "d": "+140 el viernes · venía de 931 · hoy sin cierre: bonos suben afuera, sigue arriba de 1.000",
    "tend": "flat",
    "estado": "rojo",
    "serie": true
@@ -54,7 +54,7 @@
   {
    "k": "Reservas BCRA",
    "v": "49.362 M",
-   "d": "USD · cierre del viernes 20 (Ámbito) · −235 M en la semana",
+   "d": "USD · cierre del viernes 20 (Ámbito) · −235 M en la semana · hoy feriado",
    "tend": "flat",
    "estado": "amarillo"
   },
@@ -68,14 +68,14 @@
   {
    "k": "Merval",
    "v": "−10% sem.",
-   "d": "Caída en dólares en la semana · −20% en noviembre (Ámbito) · sin cierre del viernes en puntos",
+   "d": "Caída en dólares en la semana (Ámbito) · hoy feriado: ADRs suben hasta 6,8% en Wall Street",
    "tend": "flat",
    "estado": "rojo"
   },
   {
    "k": "Compras BCRA",
    "v": "USD 0",
-   "d": "El viernes 20 no compró · USD 344 M en noviembre · USD 121 M en la semana",
+   "d": "Viernes 20 no compró · USD 344 M en noviembre · hoy feriado, sin operaciones",
    "tend": "flat",
    "estado": "rojo"
   },
@@ -90,7 +90,7 @@
   {
    "k": "Licitación",
    "v": "$25,4 bill.",
-   "d": "Jueves 26 · vencimientos a renovar, unos $20 billones de privados · el menú se conoce el martes 24",
+   "d": "Jueves 26 · el menú se conoce mañana, martes 24 · unos $20 billones de privados",
    "tend": "flat",
    "estado": "amarillo",
    "criollo": "El Tesoro pide plata prestada para pagar lo que vence; si no consigue renovar todo, esos pesos quedan libres y pueden ir al dólar."
@@ -177,113 +177,98 @@
  "mundo": [
   {
    "k": "S&P 500",
-   "v": "6.924,67",
-   "d": "−3,5% el viernes 20 · entró en corrección (más de 10% abajo del récord)",
-   "tend": "down"
+   "v": "7.231,13",
+   "d": "+4,6% hoy (parcial, 12:20 h) · venía de 6.924,67 el viernes",
+   "tend": "up"
   },
   {
    "k": "Nasdaq",
-   "v": "22.617,73",
-   "d": "−5,28% el viernes 20 · arrastrado por las acciones de IA y chips",
-   "tend": "down"
+   "v": "24.141,27",
+   "d": "+6,7% hoy (parcial) · la semana pasada perdió 10%",
+   "tend": "up"
   },
   {
    "k": "Dow Jones",
-   "v": "48.147,42",
-   "d": "−1,9% el viernes 20 · también en zona de corrección",
-   "tend": "down"
+   "v": "49.479,82",
+   "d": "+2,8% hoy (parcial) · venía de 48.147,42",
+   "tend": "up"
   },
   {
    "k": "Nvidia",
-   "v": "−13,9%",
-   "d": "Viernes 20 · Trump pidió que vuelva Jensen Huang; el directorio no lo respaldó",
-   "tend": "down"
+   "v": "+34,5%",
+   "d": "US$ 169,35 (parcial, 13:22 h) · vuelve Jensen Huang como CEO",
+   "tend": "up"
   },
   {
    "k": "Fed",
    "v": "3,75–4%",
-   "d": "El mercado descuenta una suba de 0,25 en diciembre; JP Morgan espera tres (dic., ene. y mar.)",
+   "d": "Waller plantea evaluar subir 0,5 en diciembre; Bessent alerta un «error de política»",
    "tend": "flat"
   }
  ],
  "porque": [
   {
-   "q": "Wall Street cerró la semana en corrección",
-   "p": "El viernes el S&P 500 cayó 3,5%, el Nasdaq 5,28% y el Dow 1,9%: se venden acciones de IA y chips, y el mercado ya descuenta una suba de tasas en diciembre."
+   "q": "Wall Street rebota fuerte después de la caída",
+   "p": "Nvidia restituyó a Jensen Huang como CEO y su acción salta 34,5%. Tras perder 10% la semana pasada, el Nasdaq recupera 6,7% y arrastra al resto."
   },
   {
-   "q": "El real brasileño se desplomó",
-   "p": "Perdió 16,3% desde el balotaje del 25 de octubre y roza los 6 por dólar. Cuando se debilita Brasil, el principal socio, también le pega a la Argentina."
+   "q": "Los ADRs argentinos suben con el feriado",
+   "p": "Acá no hay mercado, pero en Nueva York las acciones argentinas rebotan hasta 6,8% y los bonos suben por el mejor clima global. El riesgo país sigue arriba de 1.000."
   },
   {
-   "q": "El riesgo país saltó 241 puntos en cinco ruedas",
-   "p": "Pasó de 830 a 1.071: el mercado duda de cómo se pagarán los vencimientos de enero y de 2027, y la tormenta externa aceleró las ventas."
+   "q": "El Tesoro de EE.UU. le habla a la Fed",
+   "p": "Bessent advirtió que la Fed puede equivocarse si sigue endureciendo; el gobernador Waller plantea evaluar una suba de medio punto en diciembre. Tasas más altas encarecen el crédito a emergentes."
   },
   {
-   "q": "El jueves, examen en pesos",
-   "p": "El Tesoro tiene que renovar $25,4 billones. Es la primera prueba para ver si el mercado sigue prestando en pesos o pide tasas más altas."
+   "q": "Mañana vuelve el mercado y el jueves rinde examen",
+   "p": "El martes se conoce el menú de la licitación por $25,4 billones del jueves. Es la prueba de si el mercado sigue prestando en pesos."
   }
  ],
- "oculto": "El Gobierno explica la caída por el contexto externo, pero según datos de PPI que cita Ámbito, los bonos Globales perdieron entre 5,6% y 8,2% en la semana, contra 1,4% del índice de bonos emergentes (EMB): la Argentina cayó varias veces más que sus pares. Además, LCG calcula una tasa implícita de 33% anual entre los vencimientos de 2027 y 2028, una señal de que el mercado le pone un precio alto a esa deuda. Del lado positivo, la inflación núcleo de octubre fue 1,5% y el superávit primario llega a 1,4% del PBI.",
+ "oculto": "El rebote de Nvidia es grande, pero según Ámbito la acción había caído 27,7% desde la salida de Huang el 12 de noviembre: aun con la suba de 34,5% de hoy queda cerca de 3% abajo de donde estaba. Del lado argentino, la suba de los ADRs se da con la plaza local cerrada y poco volumen; el riesgo país no tiene cierre de hoy y sigue arriba de 1.000. En el Congreso, La Libertad Avanza tiene 21 senadores propios y necesita 37 para suspender las PASO el jueves.",
  "bolsillo": [
-  "El dólar tarjeta está en $2.080: si el oficial vuelve a subir el martes, lo que pagás afuera o en servicios en dólares también sube.",
-  "Con el CCL en $1.799 y la brecha en 13,9%, si esa distancia se mantiene, los importados y lo que se fija con ese dólar pueden aumentar en las próximas semanas.",
-  "Si el Tesoro tiene que convalidar tasas más altas el jueves, el plazo fijo podría pagar algo más, pero también se encarecerían los préstamos y las cuotas.",
-  "Si Wall Street vuelve a caer el lunes, con la plaza local cerrada, el martes 24 puede arrancar movido para el dólar y los bonos."
+  "Hoy no se mueve nada acá: el dólar oficial sigue en $1.600 y el tarjeta en $2.080 hasta que abra el mercado mañana.",
+  "Si el buen clima de Wall Street se sostiene mañana, el CCL ($1.799,14) y el MEP ($1.701,05) podrían tomar aire; si se da vuelta, la presión puede volver.",
+  "Si el Tesoro tiene que pagar tasas más altas el jueves, el plazo fijo podría rendir algo más, pero también se encarecerían préstamos y cuotas.",
+  "Si la Fed termina subiendo tasas en diciembre, el crédito para la Argentina se encarece y eso pesa sobre el dólar y los bonos."
  ],
  "empresas": {
   "ar": [
    {
-    "n": "Supervielle",
-    "c": "−22,6%",
-    "que": "Banco; el ADR más castigado de la semana por la suba del riesgo país."
+    "n": "Central Puerto",
+    "c": "+6,8%",
+    "que": "Genera electricidad; el ADR que más sube hoy en Nueva York (parcial)."
    },
    {
-    "n": "Cresud",
-    "c": "−18,2%",
-    "que": "Campos y negocios inmobiliarios; cayó fuerte en la semana."
+    "n": "IRSA",
+    "c": "+5,7%",
+    "que": "Shoppings, oficinas y hoteles; rebota tras la semana de ventas (parcial)."
    },
    {
     "n": "BBVA Argentina",
-    "c": "−16,9%",
-    "que": "Banco; sufre cuando caen los bonos que tiene en cartera (semana)."
-   },
-   {
-    "n": "Galicia",
-    "c": "−14,5%",
-    "que": "El grupo financiero más grande del país; cayó con todo el sector (semana)."
-   },
-   {
-    "n": "YPF",
-    "c": "−13,6%",
-    "que": "La petrolera con mayoría estatal; también se sumó a la ola de ventas (semana)."
+    "c": "+5,3%",
+    "que": "Banco; se recupera con la suba de los bonos (parcial)."
    },
    {
     "n": "Banco Macro",
-    "c": "−11,5%",
-    "que": "Banco con fuerte presencia en las provincias (semana)."
+    "c": "+5,3%",
+    "que": "Banco con fuerte presencia en las provincias; también rebota (parcial)."
    }
   ],
   "eeuu": [
    {
     "n": "Nvidia",
-    "c": "−13,9%",
-    "que": "Hace los chips de la IA; cayó el viernes en medio del lío por la salida de su CEO."
+    "c": "+34,5%",
+    "que": "Hace los chips de la IA; se dispara por el regreso de Jensen Huang (parcial)."
    },
    {
     "n": "AMD",
     "c": "−13,2%",
-    "que": "Fabrica chips; cayó con todo el sector de semiconductores."
+    "que": "Fabrica chips; dato del viernes 20, cuando cayó con todo el sector."
    },
    {
     "n": "Goldman Sachs",
     "c": "−6,7%",
-    "que": "Banco de inversión; los bancos también sufrieron la ola de ventas."
-   },
-   {
-    "n": "Global Payments",
-    "c": "+10%",
-    "que": "Procesa pagos con tarjeta; fue de las pocas que subió el viernes."
+    "que": "Banco de inversión; dato del viernes 20, en la ola de ventas."
    }
   ]
  },
@@ -302,15 +287,15 @@
   },
   {
    "s": "Ámbito",
-   "t": "PASO, debut de Santilli y Presupuesto: la semana decisiva del Congreso",
-   "g": "El jefe de Gabinete responde el miércoles más de 1.500 preguntas en el Senado",
-   "u": "https://www.ambito.com/politica/reforma-debut-diego-santilli-y-presupuesto-2027-los-ejes-una-semana-decisiva-el-congreso-n6347582"
+   "t": "PASO: el oficialismo confía en un piso de 38 votos en el Senado",
+   "g": "LLA tiene 21 propios y necesita 37; la sesión sería el jueves 26",
+   "u": "https://www.ambito.com/politica/suspension-las-paso-la-libertad-avanza-confia-un-piso-38-votos-el-senado-n6348075"
   },
   {
-   "s": "Infobae",
-   "t": "El Gobierno llega a la última semana legislativa con la agenda inconclusa",
-   "g": "Ley Malvinas y la Carta Orgánica del BCRA quedarían para extraordinarias",
-   "u": "https://www.infobae.com/politica/2026/11/22/el-gobierno-encara-la-ultima-semana-legislativa-con-agenda-inconclusa-y-dudas-por-el-temario-de-extraordinarias/"
+   "s": "La Nación",
+   "t": "Dogma vs. pragmatismo: la disputa interna del Gobierno se agrava con el ruido del plan",
+   "g": "Discrepan sobre cuándo anunciar medidas de alivio",
+   "u": "https://lanacion.com.ar/politica/dogma-vs-pragmatismo-la-disputa-dentro-del-gobierno-ortodoxo-de-milei-que-se-exacerba-con-los-nid22112026"
   },
   {
    "s": "Página/12",
@@ -323,20 +308,20 @@
   {
    "sec": "Economía",
    "s": "Ámbito",
-   "t": "La tormenta global desnuda la fragilidad argentina: qué señales espera la city",
-   "u": "https://www.ambito.com/finanzas/la-tormenta-global-desnuda-la-fragilidad-argentina-hasta-cuando-seguira-la-sangria-y-que-senales-espera-la-city-n6348063"
+   "t": "Con la plaza local cerrada, los ADRs rebotan hasta 6,8% y los bonos suben",
+   "u": "https://www.ambito.com/finanzas/los-adrs-rebotan-68-y-los-bonos-suben-la-mejora-del-clima-internacional-n6348259"
   },
   {
    "sec": "Economía",
    "s": "Ámbito",
-   "t": "Neffa ve posible un mayorista de $1.700 en diciembre, arriba del REM",
-   "u": "https://www.ambito.com/economia/gustavo-neffa-es-posible-un-dolar-mayorista-1700-diciembre-las-cosas-cambiaron-n6347925"
+   "t": "Con desconfianza del mercado, Economía sale a renovar $25,4 billones",
+   "u": "https://www.ambito.com/deuda-medio-una-creciente-desconfianza-del-mercado-economia-sale-renovar-254-billones-n6347729"
   },
   {
    "sec": "Economía",
    "s": "La Nación",
-   "t": "Los economistas esperan que sigan la volatilidad y la tensión con el dólar",
-   "u": "https://www.lanacion.com.ar/economia/dolar/economistas-esperan-que-se-mantengan-la-volatilidad-y-las-tensiones-con-el-dolar-nid22112026/"
+   "t": "Las causas detrás del salto del dólar de la semana pasada",
+   "u": "https://www.lanacion.com.ar/economia/dolar/por-que-subio-el-dolar-las-causas-detras-del-salto-de-las-cotizaciones-de-esta-semana-y-el-impacto-nid21112026/"
   },
   {
    "sec": "Política",
@@ -346,37 +331,33 @@
   },
   {
    "sec": "Política",
-   "s": "Ámbito",
-   "t": "Milei volvió a defender la gestión del oro del BCRA y cruzó a sus críticos",
-   "u": "https://www.ambito.com/politica/javier-milei-defendio-nuevamente-la-gestion-del-oro-del-bcra-salieron-pedir-perdon-n6348110"
+   "s": "Infobae",
+   "t": "El Gobierno llega a la última semana legislativa con la agenda inconclusa",
+   "u": "https://www.infobae.com/politica/2026/11/22/el-gobierno-encara-la-ultima-semana-legislativa-con-agenda-inconclusa-y-dudas-por-el-temario-de-extraordinarias/"
   },
   {
    "sec": "Política",
-   "s": "La Nación",
-   "t": "Buscaglia: una crisis de confianza que pide cambios profundos",
-   "u": "https://www.lanacion.com.ar/economia/una-crisis-de-confianza-que-requiere-cambios-profundos-nid22112026/"
-  },
-  {
-   "sec": "Mundo",
-   "s": "EFE",
-   "t": "COP31: la UE y Panamá rechazan el borrador final del «Pacto de Antalya»",
-   "u": "https://www.infobae.com/america/agencias/2026/11/22/temas-del-dia-de-efe-internacional-del-domingo-22-de-noviembre-1200-gmt/"
+   "s": "Ámbito",
+   "t": "Milei volvió a defender la gestión del oro del BCRA",
+   "u": "https://www.ambito.com/politica/javier-milei-defendio-nuevamente-la-gestion-del-oro-del-bcra-salieron-pedir-perdon-n6348110"
   },
   {
    "sec": "Mundo",
    "s": "Ámbito",
-   "t": "Derrumbe en Wall Street: el S&P 500 y el Dow Jones entraron en corrección",
-   "u": "https://www.ambito.com/finanzas/las-bolsas-del-mundo-se-hunden-y-los-futuros-del-nasdaq-anticipan-otra-rueda-rojo-n6347451"
+   "t": "Nvidia se dispara en Wall Street tras restituir a Jensen Huang",
+   "u": "https://www.ambito.com/finanzas/nvidia-se-dispara-mas-33-wall-street-el-giro-la-compania-y-la-restitucion-jensen-huang-como-presidente-n6348307"
+  },
+  {
+   "sec": "Mundo",
+   "s": "Ámbito",
+   "t": "Bessent advierte que la Fed podría cometer un «error de política»",
+   "u": "https://www.ambito.com/finanzas/scott-bessent-advirtio-que-la-fed-podria-cometer-un-error-politica-y-exigio-explicaciones-nvidia-sus-ventas-china-n6348093"
   }
  ],
  "agenda": [
   {
-   "w": "Lunes 23/11",
-   "b": "Feriado por el Día de la Soberanía: sin mercado local; Wall Street opera"
-  },
-  {
    "w": "Martes 24/11",
-   "b": "Vuelve el mercado · Mesa Política en Casa Rosada · menú de la licitación · EMAE de septiembre"
+   "b": "Vuelve el mercado local · menú de la licitación · Mesa Política en Casa Rosada · EMAE de septiembre"
   },
   {
    "w": "Miércoles 25/11",
@@ -385,10 +366,46 @@
   {
    "w": "Jueves 26/11",
    "b": "Licitación del Tesoro por $25,4 billones · Senado: suspensión de las PASO · Diputados: Presupuesto 2027"
+  },
+  {
+   "w": "9 de enero de 2027",
+   "b": "Vencen USD 4.378 M de Bonares y Globales"
   }
  ],
- "guion": "*DOMINGO DE ESPERA Y AGENDA*\n_Cómo cerró la semana y qué viene después del feriado_\n\n*1) Qué pasó en EEUU esta semana en criollo*\n- El S&P 500, el índice de las 500 empresas más grandes, cayó 3,5% el viernes y cerró en 6.924,67 puntos: entró en corrección, más de 10% abajo de su récord.\n- El Nasdaq, el de las tecnológicas, se hundió 5,28% y cerró en 22.617,73. El Dow Jones bajó 1,9% a 48.147,42.\n- Nvidia, la que hace los chips de la inteligencia artificial, cayó 13,9%. Trump pidió que vuelva su CEO Jensen Huang y el directorio no lo respaldó. AMD perdió 13,2%.\n- El porqué: el mercado duda de cuánto valen las empresas de IA y de cómo se financia su infraestructura. Además, ya descuenta una suba de tasas de la Fed en diciembre.\n- Ojo con Brasil: el real perdió 16,3% desde el balotaje del 25 de octubre y roza los 6 por dólar.\n- El lunes Wall Street opera y acá no: lo que pase allá se va a sentir el martes.\n\n*2) Cómo cerró la semana en Argentina en criollo*\n- Semana de pánico: la tormenta de afuera y las dudas por la deuda pegaron de lleno.\n- El riesgo país cerró el viernes en 1.071 puntos: +241 en la semana (venía de 830). Es lo que el mercado le cobra de más a la Argentina para prestarle.\n- Los bonos Globales perdieron entre 5,6% y 8,2% en la semana, mucho más que los de otros emergentes.\n- El Merval cayó cerca de 10% en dólares en la semana. Los ADR más castigados: Supervielle −22,6%, Cresud −18,2%, BBVA −16,9%, Galicia −14,5% e YPF −13,6%.\n- Dólar oficial: $1.600 en el Nación; el mayorista, $1.580, récord nominal. El tarjeta, $2.080.\n- Blue: $1.675, $100 más en la semana, la mayor suba en más de dos años.\n- MEP: $1.701,05 (+7,9% en la semana). Contado con liqui: $1.799,14 (+7,6%), récord. La brecha con el mayorista llegó a 13,9%.\n- El Banco Central no compró nada el viernes: USD 121 millones en la semana y USD 344 millones en noviembre. Reservas: USD 49.362 millones.\n- Lo que viene: el jueves 26 el Tesoro licita para renovar $25,4 billones; el miércoles Santilli da su primer informe en el Senado y el jueves se tratan las PASO y el Presupuesto 2027.\n\n*3) Lo que NADIE te está contando*\n- El Gobierno habla de un golpe externo, pero los bonos argentinos cayeron varias veces más que el índice de emergentes (EMB), que bajó 1,4%.\n- LCG calcula una tasa implícita de 33% anual entre los vencimientos de 2027 y 2028: el mercado le pone un precio alto a esa deuda.\n- No todo es malo: la inflación núcleo de octubre fue 1,5% y el superávit primario llega a 1,4% del PBI.\n- Es como una casa con las cuentas del mes ordenadas, pero con una cuota grande en enero: el banco no duda de lo que ganás hoy, duda de cómo vas a pagar esa cuota.\n\n*4) Qué significa esto para tu bolsillo la semana que viene*\n- Con el tarjeta en $2.080: si el oficial sube el martes, lo que pagás afuera también.\n- Si el CCL sigue cerca de $1.800, lo importado puede aumentar en las próximas semanas.\n- Si el Tesoro convalida tasas más altas el jueves, el plazo fijo podría pagar algo más, pero los préstamos y las cuotas se encarecen.\n- En criollo: el mercado descansa hasta el martes, pero el jueves rinde examen. Si el Tesoro renueva bien, puede bajar la fiebre; si no, la semana puede volver a ser movida.",
+ "guion": "*FERIADO CON REBOTE AFUERA*\n_Qué está pasando hoy (valores parciales de Wall Street; acá no hay mercado)_\n\n*1) Qué está pasando en EEUU hoy en criollo*\n- El Nasdaq, el índice de las tecnológicas, sube 6,7% a 24.141,27 puntos. La semana pasada había perdido 10%, la peor semana desde marzo de 2020.\n- El S&P 500, las 500 empresas más grandes, sube 4,6% a 7.231,13. El Dow Jones, las industriales clásicas, gana 2,8% a 49.479,82.\n- Nvidia, la que hace los chips de la inteligencia artificial, se dispara 34,5% a US$ 169,35: el directorio restituyó a Jensen Huang como CEO.\n- Ojo: desde que Huang se fue, el 12 de noviembre, la acción había caído 27,7%. Hoy recupera casi todo, pero no todo.\n- La Fed: Bessent, el secretario del Tesoro, advirtió que puede cometer un «error de política», y el gobernador Waller plantea evaluar una suba de medio punto en diciembre.\n\n*2) Qué está pasando en Argentina hoy en criollo*\n- Es feriado por el Día de la Soberanía: no opera el mercado local. Todo vuelve mañana.\n- En Nueva York los ADRs argentinos rebotan: Central Puerto +6,8%, IRSA +5,7%, BBVA y Macro +5,3%. Los bonos también suben.\n- El riesgo país no tiene cierre hoy: el viernes terminó en 1.071 (venía de 931) y, según Ámbito, sigue arriba de 1.000.\n- Dólar oficial: $1.600 en el Nación (mayorista $1.580). Tarjeta: $2.080. Valores del viernes.\n- Blue: $1.675. MEP: $1.701,05. Contado con liqui: $1.799,14, con una brecha de 13,9% con el mayorista.\n- Banco Central: el viernes no compró; lleva USD 344 millones en noviembre. Reservas: USD 49.362 millones.\n- Lo que viene: mañana el menú de la licitación del jueves por $25,4 billones; el miércoles Santilli informa en el Senado y el jueves se votan las PASO (LLA tiene 21 propios y necesita 37).\n\n*3) Lo que NADIE te está contando*\n- La suba de los ADRs se da sin mercado local y con poco volumen: es una señal, no una tendencia.\n- Nvidia sube 34,5% pero sigue cerca de 3% abajo de donde estaba antes de la salida de Huang.\n- Es como un remedio que baja la fiebre de afuera: ayuda, pero la Argentina sigue con su propio examen el jueves.\n\n*4) Qué significa esto para tu bolsillo mañana*\n- Hoy no cambia nada: el oficial sigue en $1.600 y el tarjeta en $2.080.\n- Si el buen clima de afuera se sostiene, el CCL y el MEP podrían tomar aire; si se da vuelta, vuelve la presión.\n- Si la Fed sube tasas en diciembre, el crédito para la Argentina se encarece.\n- En criollo: afuera hubo alivio, pero la prueba de verdad es el martes cuando abra el mercado y el jueves con la licitación.",
  "fuentes": [
+  [
+   "Ámbito · ADRs y bonos en el feriado",
+   "https://www.ambito.com/finanzas/los-adrs-rebotan-68-y-los-bonos-suben-la-mejora-del-clima-internacional-n6348259"
+  ],
+  [
+   "Ámbito · Wall Street rebota",
+   "https://www.ambito.com/finanzas/wall-street-rebota-67-el-nasdaq-al-frente-el-nuevo-nombramiento-jensen-huang-nvidia-n6348272"
+  ],
+  [
+   "Ámbito · Nvidia y Jensen Huang",
+   "https://www.ambito.com/finanzas/nvidia-se-dispara-mas-33-wall-street-el-giro-la-compania-y-la-restitucion-jensen-huang-como-presidente-n6348307"
+  ],
+  [
+   "Ámbito · Dólar hoy, lunes 23",
+   "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cotiza-este-lunes-23-noviembre-n6348176"
+  ],
+  [
+   "Ámbito · Dólar blue, lunes 23",
+   "https://www.ambito.com/finanzas/dolar-blue-hoy-cuanto-opera-este-lunes-23-noviembre-n6348177"
+  ],
+  [
+   "Ámbito · Bessent y la Fed",
+   "https://www.ambito.com/finanzas/scott-bessent-advirtio-que-la-fed-podria-cometer-un-error-politica-y-exigio-explicaciones-nvidia-sus-ventas-china-n6348093"
+  ],
+  [
+   "Ámbito · PASO: piso de 38 votos",
+   "https://www.ambito.com/politica/suspension-las-paso-la-libertad-avanza-confia-un-piso-38-votos-el-senado-n6348075"
+  ],
+  [
+   "Ámbito · Feriado del lunes 23",
+   "https://www.ambito.com/informacion-general/nuevo-fin-semana-largo-que-es-feriado-el-lunes-23-noviembre-n6345602"
+  ],
   [
    "Ámbito · Milei y el oro del BCRA",
    "https://www.ambito.com/politica/javier-milei-defendio-nuevamente-la-gestion-del-oro-del-bcra-salieron-pedir-perdon-n6348110"
@@ -404,14 +421,6 @@
   [
    "Ámbito · La tormenta global y la fragilidad argentina",
    "https://www.ambito.com/finanzas/la-tormenta-global-desnuda-la-fragilidad-argentina-hasta-cuando-seguira-la-sangria-y-que-senales-espera-la-city-n6348063"
-  ],
-  [
-   "Ámbito · Dólar hoy, domingo 22",
-   "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cotiza-este-domingo-22-noviembre-n6348002"
-  ],
-  [
-   "Ámbito · Dólar blue, domingo 22",
-   "https://www.ambito.com/finanzas/dolar-blue-hoy-cuanto-opera-este-domingo-22-noviembre-n6348003"
   ],
   [
    "Ámbito · Entrevista a Gustavo Neffa",
@@ -518,6 +527,14 @@
    "https://www.lapoliticaonline.com/economia/el-banco-central-empezo-a-trabajar-en-un-plan-de-dolarizacion/"
   ],
   [
+   "La Nación · Dogma vs. pragmatismo",
+   "https://lanacion.com.ar/politica/dogma-vs-pragmatismo-la-disputa-dentro-del-gobierno-ortodoxo-de-milei-que-se-exacerba-con-los-nid22112026"
+  ],
+  [
+   "La Nación · Por qué subió el dólar",
+   "https://www.lanacion.com.ar/economia/dolar/por-que-subio-el-dolar-las-causas-detras-del-salto-de-las-cotizaciones-de-esta-semana-y-el-impacto-nid21112026/"
+  ],
+  [
    "Infobae · Última semana legislativa",
    "https://www.infobae.com/politica/2026/11/22/el-gobierno-encara-la-ultima-semana-legislativa-con-agenda-inconclusa-y-dudas-por-el-temario-de-extraordinarias/"
   ],
@@ -532,10 +549,6 @@
   [
    "La Nación · Buscaglia: crisis de confianza",
    "https://www.lanacion.com.ar/economia/una-crisis-de-confianza-que-requiere-cambios-profundos-nid22112026/"
-  ],
-  [
-   "EFE · Temas internacionales del domingo",
-   "https://www.infobae.com/america/agencias/2026/11/22/temas-del-dia-de-efe-internacional-del-domingo-22-de-noviembre-1200-gmt/"
   ],
   [
    "Infobae · Mesa Política y semana clave",
@@ -835,16 +848,16 @@
  },
  "videos": [
   {
-   "t": "CCL a $1.799 y brecha de 13,9%: qué nos dice el dólar financiero",
-   "g": "Subió 7,6% en una semana: por qué el que gira afuera paga cada vez más y qué puede pasar el martes."
+   "t": "Feriado acá, rebote afuera: qué dicen los ADRs que suben hasta 6,8%",
+   "g": "Con el mercado local cerrado, Nueva York da una pista de cómo puede arrancar el martes."
   },
   {
-   "t": "Jueves 26: el Tesoro sale a renovar $25,4 billones",
-   "g": "La primera prueba después de la peor semana: qué pasa con los pesos si el mercado no renueva todo."
+   "t": "Nvidia +34,5%: el regreso de Jensen Huang y el rebote de Wall Street",
+   "g": "El Nasdaq recupera 6,7% después de perder 10%: por qué le importa a la Argentina."
   },
   {
-   "t": "Wall Street en corrección: el Nasdaq cayó 5,28% en un día",
-   "g": "Nvidia −13,9%, la IA en baja y una Fed que podría subir tasas: cómo le pega a la Argentina."
+   "t": "Semana corta y decisiva: licitación de $25,4 billones y PASO en el Senado",
+   "g": "El jueves el Tesoro rinde examen en pesos y el oficialismo necesita 37 votos."
   }
  ]
 }
