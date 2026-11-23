@@ -1,17 +1,17 @@
 {
  "fecha": "Lunes 23 de noviembre de 2026",
  "iso": "2026-11-23",
- "corte": "Actualizado a las 13:49 h · feriado · Wall Street con valores parciales",
+ "corte": "Actualizado a las 18:53 h · feriado · Wall Street con el último dato de Ámbito",
  "clima": {
-  "tag": "Feriado con rebote afuera",
+  "tag": "Feriado con alivio afuera",
   "tipo": "atipico",
-  "por": "Sin mercado local; Wall Street rebota con Nvidia y los ADRs suben hasta 6,8%"
+  "por": "Sin mercado local; Wall Street rebota con Nvidia y el riesgo país baja a 1.027"
  },
- "frase": "Feriado acá, alivio afuera: el Nasdaq sube 6,7% y los ADRs argentinos hasta 6,8%",
- "atipica": "Hoy es feriado por el Día de la Soberanía: no opera el mercado local. Dólar, riesgo país, reservas y Merval son del cierre del viernes 20; Wall Street y los ADRs son parciales de hoy, con poco volumen para lo argentino. No conviene sobreinterpretar.",
+ "frase": "Feriado acá, alivio afuera: el riesgo país baja a 1.027 y los ADRs suben hasta 6,1%",
+ "atipica": "Hoy fue feriado por el Día de la Soberanía: no operó el mercado local. Dólar, reservas, compras del BCRA y Merval son del cierre del viernes 20; el riesgo país y los ADRs se movieron solo en Nueva York, con poco volumen. No conviene sobreinterpretar: la prueba es mañana, cuando vuelva a operar la plaza porteña.",
  "claves": [
-  "Wall Street rebota: Nasdaq +6,7% y Nvidia +34,5% tras el regreso de Jensen Huang (parcial)",
-  "ADRs argentinos arriba hasta 6,8% y bonos en alza, pero el riesgo país sigue arriba de 1.000",
+  "Wall Street rebota: S&P 500 +4,8%, Nasdaq más de 6% y Nvidia más de 31% con el regreso de Huang",
+  "Con la plaza local cerrada, el riesgo país baja 44 puntos a 1.027 y los ADRs suben hasta 6,1%",
   "Mañana vuelve el mercado con el CCL en $1.799,14; el jueves 26, licitación por $25,4 billones"
  ],
  "indicadores": [
@@ -45,9 +45,9 @@
   },
   {
    "k": "Riesgo país",
-   "v": "1.071",
-   "d": "+140 el viernes · venía de 931 · hoy sin cierre: bonos suben afuera, sigue arriba de 1.000",
-   "tend": "flat",
+   "v": "1.027",
+   "d": "−44 · venía de 1.071 el viernes · cálculo de JP Morgan con la plaza local cerrada (Ámbito)",
+   "tend": "down",
    "estado": "rojo",
    "serie": true
   },
@@ -68,14 +68,14 @@
   {
    "k": "Merval",
    "v": "−10% sem.",
-   "d": "Caída en dólares en la semana (Ámbito) · hoy feriado: ADRs suben hasta 6,8% en Wall Street",
+   "d": "Caída en dólares la semana pasada (Ámbito) · hoy feriado: en Nueva York los ADRs subieron hasta 6,1%",
    "tend": "flat",
    "estado": "rojo"
   },
   {
    "k": "Compras BCRA",
    "v": "USD 0",
-   "d": "Viernes 20 no compró · USD 344 M en noviembre · hoy feriado, sin operaciones",
+   "d": "El viernes 20 no compró · USD 344 M en noviembre · hoy feriado, sin operaciones",
    "tend": "flat",
    "estado": "rojo"
   },
@@ -177,26 +177,26 @@
  "mundo": [
   {
    "k": "S&P 500",
-   "v": "7.231,13",
-   "d": "+4,6% hoy (parcial, 12:20 h) · venía de 6.924,67 el viernes",
+   "v": "+4,8%",
+   "d": "Último dato de Ámbito (17:49 h), sin nota de cierre aún · venía de 6.924,67",
    "tend": "up"
   },
   {
    "k": "Nasdaq",
-   "v": "24.141,27",
-   "d": "+6,7% hoy (parcial) · la semana pasada perdió 10%",
+   "v": "+6%",
+   "d": "Más de 6% según Ámbito (17:49 h) · la semana pasada perdió 10%",
    "tend": "up"
   },
   {
    "k": "Dow Jones",
-   "v": "49.479,82",
-   "d": "+2,8% hoy (parcial) · venía de 48.147,42",
+   "v": "+3%",
+   "d": "Más de 3% según Ámbito (17:49 h) · venía de 48.147,42",
    "tend": "up"
   },
   {
    "k": "Nvidia",
-   "v": "+34,5%",
-   "d": "US$ 169,35 (parcial, 13:22 h) · vuelve Jensen Huang como CEO",
+   "v": "+31%",
+   "d": "Más de 31% (Ámbito, 17:49 h) · llegó a +34,5% al mediodía · vuelve Huang",
    "tend": "up"
   },
   {
@@ -209,25 +209,25 @@
  "porque": [
   {
    "q": "Wall Street rebota fuerte después de la caída",
-   "p": "Nvidia restituyó a Jensen Huang como CEO y su acción salta 34,5%. Tras perder 10% la semana pasada, el Nasdaq recupera 6,7% y arrastra al resto."
+   "p": "Nvidia restituyó a Jensen Huang como CEO y su acción sube más de 31%. Tras perder 10% la semana pasada, el Nasdaq recupera más de 6% y arrastra al resto."
   },
   {
-   "q": "Los ADRs argentinos suben con el feriado",
-   "p": "Acá no hay mercado, pero en Nueva York las acciones argentinas rebotan hasta 6,8% y los bonos suben por el mejor clima global. El riesgo país sigue arriba de 1.000."
+   "q": "El riesgo país baja aunque acá fue feriado",
+   "p": "Los bonos argentinos se negocian también en Nueva York: con el mejor clima global subieron y el riesgo país cayó 44 puntos, de 1.071 a 1.027."
   },
   {
    "q": "El Tesoro de EE.UU. le habla a la Fed",
-   "p": "Bessent advirtió que la Fed puede equivocarse si sigue endureciendo; el gobernador Waller plantea evaluar una suba de medio punto en diciembre. Tasas más altas encarecen el crédito a emergentes."
+   "p": "Bessent advirtió que la Fed puede equivocarse si sigue endureciendo; Waller plantea evaluar una suba de medio punto en diciembre. Tasas más altas encarecen el crédito a emergentes."
   },
   {
    "q": "Mañana vuelve el mercado y el jueves rinde examen",
    "p": "El martes se conoce el menú de la licitación por $25,4 billones del jueves. Es la prueba de si el mercado sigue prestando en pesos."
   }
  ],
- "oculto": "El rebote de Nvidia es grande, pero según Ámbito la acción había caído 27,7% desde la salida de Huang el 12 de noviembre: aun con la suba de 34,5% de hoy queda cerca de 3% abajo de donde estaba. Del lado argentino, la suba de los ADRs se da con la plaza local cerrada y poco volumen; el riesgo país no tiene cierre de hoy y sigue arriba de 1.000. En el Congreso, La Libertad Avanza tiene 21 senadores propios y necesita 37 para suspender las PASO el jueves.",
+ "oculto": "La baja del riesgo país a 1.027 se calculó con la plaza porteña cerrada: los precios salen de los bonos que operan en Nueva York, con poco volumen, y el índice sigue arriba de 1.000 por tercera rueda. Del lado de Nvidia, según Ámbito la acción había caído 27,7% desde la salida de Huang el 12 de noviembre: ni con el salto de hoy recupera del todo ese nivel. Y mientras tanto el BCRA no compró dólares el viernes y lleva USD 344 M en noviembre.",
  "bolsillo": [
-  "Hoy no se mueve nada acá: el dólar oficial sigue en $1.600 y el tarjeta en $2.080 hasta que abra el mercado mañana.",
-  "Si el buen clima de Wall Street se sostiene mañana, el CCL ($1.799,14) y el MEP ($1.701,05) podrían tomar aire; si se da vuelta, la presión puede volver.",
+  "Hoy no se movió nada acá: el dólar oficial sigue en $1.600 y el tarjeta en $2.080 hasta que abra el mercado mañana.",
+  "Si el alivio de afuera se sostiene mañana, el CCL ($1.799,14) y el MEP ($1.701,05) podrían tomar aire; si se da vuelta, la presión puede volver.",
   "Si el Tesoro tiene que pagar tasas más altas el jueves, el plazo fijo podría rendir algo más, pero también se encarecerían préstamos y cuotas.",
   "Si la Fed termina subiendo tasas en diciembre, el crédito para la Argentina se encarece y eso pesa sobre el dólar y los bonos."
  ],
@@ -235,30 +235,30 @@
   "ar": [
    {
     "n": "Central Puerto",
-    "c": "+6,8%",
-    "que": "Genera electricidad; el ADR que más sube hoy en Nueva York (parcial)."
+    "c": "+6,1%",
+    "que": "Genera electricidad; el ADR que más subió en Nueva York con la plaza local cerrada."
    },
    {
-    "n": "IRSA",
-    "c": "+5,7%",
-    "que": "Shoppings, oficinas y hoteles; rebota tras la semana de ventas (parcial)."
+    "n": "Grupo Financiero Galicia",
+    "c": "+5,5%",
+    "que": "Dueño del Banco Galicia; rebota con la mejora de los bonos."
+   },
+   {
+    "n": "Grupo Supervielle",
+    "c": "+5,1%",
+    "que": "Banco mediano; se recupera tras la semana de ventas."
    },
    {
     "n": "BBVA Argentina",
-    "c": "+5,3%",
-    "que": "Banco; se recupera con la suba de los bonos (parcial)."
-   },
-   {
-    "n": "Banco Macro",
-    "c": "+5,3%",
-    "que": "Banco con fuerte presencia en las provincias; también rebota (parcial)."
+    "c": "+5%",
+    "que": "Banco; acompaña el rebote del sector financiero."
    }
   ],
   "eeuu": [
    {
     "n": "Nvidia",
-    "c": "+34,5%",
-    "que": "Hace los chips de la IA; se dispara por el regreso de Jensen Huang (parcial)."
+    "c": "+31%",
+    "que": "Hace los chips de la IA; se dispara por el regreso de Jensen Huang (más de 31%, último dato de Ámbito)."
    },
    {
     "n": "AMD",
@@ -276,14 +276,14 @@
   {
    "s": "La Política Online",
    "t": "En plena corrida, aliados le piden a Milei cambios urgentes en el equipo económico",
-   "g": "Con el riesgo país arriba de 1.000, crece la presión interna; Bullrich niega la fórmula con Milei",
+   "g": "Con el riesgo país arriba de 1.000, crece la presión interna antes de 2027",
    "u": "https://www.lapoliticaonline.com/politica/los-propios-le-piden-cambios-urgentes-a-milei-para-no-perder-las-elecciones/"
   },
   {
    "s": "La Política Online",
-   "t": "PJ bonaerense: Máximo Kirchner y Kicillof sellaron la paz y se repartieron cargos",
-   "g": "Máximo preside el Congreso del partido; queda abierto cómo se eligen candidatos para 2027",
-   "u": "https://www.lapoliticaonline.com/politica/fumata-blanca-en-el-pj-bonaerense-maximo-y-kicillof-sellaron-la-paz-y-repartieron-el-poder/"
+   "t": "Macri llamó a Llaryora para negociar los lugares en el Consejo de la Magistratura",
+   "g": "El PRO busca acuerdos con gobernadores por los cargos judiciales",
+   "u": "https://www.lapoliticaonline.com/politica/macri-abrio-una-negocaicion/"
   },
   {
    "s": "Ámbito",
@@ -292,23 +292,23 @@
    "u": "https://www.ambito.com/politica/suspension-las-paso-la-libertad-avanza-confia-un-piso-38-votos-el-senado-n6348075"
   },
   {
-   "s": "La Nación",
-   "t": "Dogma vs. pragmatismo: la disputa interna del Gobierno se agrava con el ruido del plan",
-   "g": "Discrepan sobre cuándo anunciar medidas de alivio",
-   "u": "https://lanacion.com.ar/politica/dogma-vs-pragmatismo-la-disputa-dentro-del-gobierno-ortodoxo-de-milei-que-se-exacerba-con-los-nid22112026"
+   "s": "Perfil",
+   "t": "Semana clave: el oficialismo acelera en el Congreso con las PASO y el Presupuesto 2027",
+   "g": "Termina el período de sesiones ordinarias",
+   "u": "https://perfil.com/politica/semana-clave-el-oficialismo-acelera-en-el-congreso-por-las-paso-y-el-presupuesto-2027-a7Bkm6e0BEpG"
   },
   {
-   "s": "Página/12",
-   "t": "Un viejo posteo de Milei vuelve a circular en plena suba del riesgo país",
-   "g": "La publicación reapareció en redes con el riesgo país arriba de 1.000",
-   "u": "https://www.pagina12.com.ar/2026/11/20/milei-en-su-laberinto/"
+   "s": "Letra P",
+   "t": "La carrera de Milei hacia 2027 choca con las internas y las urgencias económicas",
+   "g": "La interna del Gobierno y el frente económico condicionan la estrategia electoral",
+   "u": "https://www.letrap.com.ar/congreso/la-carrera-javier-milei-2027-choca-las-internas-y-las-urgencias-economicas-n5427293"
   }
  ],
  "titulares": [
   {
    "sec": "Economía",
    "s": "Ámbito",
-   "t": "Con la plaza local cerrada, los ADRs rebotan hasta 6,8% y los bonos suben",
+   "t": "Con la plaza local cerrada, los ADRs rebotan y el riesgo país baja a 1.027",
    "u": "https://www.ambito.com/finanzas/los-adrs-rebotan-68-y-los-bonos-suben-la-mejora-del-clima-internacional-n6348259"
   },
   {
@@ -326,20 +326,20 @@
   {
    "sec": "Política",
    "s": "La Política Online",
-   "t": "Encuesta de UdeSA: solo uno de cada cuatro apoya el plan económico",
-   "u": "https://www.lapoliticaonline.com/politica/se-desploma-la-aceptacion-del-plan-economico-solo-uno-de-cada-cuatro-argentinos-lo-apoya/"
+   "t": "Florencia López: «Wall Street sabe que el plan de Milei y Caputo ya fracasó»",
+   "u": "https://www.lapoliticaonline.com/entrevista/wall-street-sabe-que-el-plan-de-milei-y-caputo-ya-fracaso/"
+  },
+  {
+   "sec": "Política",
+   "s": "Ámbito",
+   "t": "En el Encuentro del Norte Grande, Quintela pidió un peronismo unido frente a Milei",
+   "u": "https://www.ambito.com/politica/ricardo-quintela-pidio-un-peronismo-unido-enfrentar-javier-milei-hay-otro-camino-n6348395"
   },
   {
    "sec": "Política",
    "s": "Infobae",
    "t": "El Gobierno llega a la última semana legislativa con la agenda inconclusa",
    "u": "https://www.infobae.com/politica/2026/11/22/el-gobierno-encara-la-ultima-semana-legislativa-con-agenda-inconclusa-y-dudas-por-el-temario-de-extraordinarias/"
-  },
-  {
-   "sec": "Política",
-   "s": "Ámbito",
-   "t": "Milei volvió a defender la gestión del oro del BCRA",
-   "u": "https://www.ambito.com/politica/javier-milei-defendio-nuevamente-la-gestion-del-oro-del-bcra-salieron-pedir-perdon-n6348110"
   },
   {
    "sec": "Mundo",
@@ -350,8 +350,8 @@
   {
    "sec": "Mundo",
    "s": "Ámbito",
-   "t": "Bessent advierte que la Fed podría cometer un «error de política»",
-   "u": "https://www.ambito.com/finanzas/scott-bessent-advirtio-que-la-fed-podria-cometer-un-error-politica-y-exigio-explicaciones-nvidia-sus-ventas-china-n6348093"
+   "t": "Trump celebró el regreso de Huang a Nvidia y lo llamó «gran patriota»",
+   "u": "https://ambito.com/mundo/donald-trump-celebro-la-reincorporacion-jensen-huang-nvidia-y-lo-definio-como-un-gran-patriota-n6348314"
   }
  ],
  "agenda": [
@@ -372,11 +372,31 @@
    "b": "Vencen USD 4.378 M de Bonares y Globales"
   }
  ],
- "guion": "*FERIADO CON REBOTE AFUERA*\n_Qué está pasando hoy (valores parciales de Wall Street; acá no hay mercado)_\n\n*1) Qué está pasando en EEUU hoy en criollo*\n- El Nasdaq, el índice de las tecnológicas, sube 6,7% a 24.141,27 puntos. La semana pasada había perdido 10%, la peor semana desde marzo de 2020.\n- El S&P 500, las 500 empresas más grandes, sube 4,6% a 7.231,13. El Dow Jones, las industriales clásicas, gana 2,8% a 49.479,82.\n- Nvidia, la que hace los chips de la inteligencia artificial, se dispara 34,5% a US$ 169,35: el directorio restituyó a Jensen Huang como CEO.\n- Ojo: desde que Huang se fue, el 12 de noviembre, la acción había caído 27,7%. Hoy recupera casi todo, pero no todo.\n- La Fed: Bessent, el secretario del Tesoro, advirtió que puede cometer un «error de política», y el gobernador Waller plantea evaluar una suba de medio punto en diciembre.\n\n*2) Qué está pasando en Argentina hoy en criollo*\n- Es feriado por el Día de la Soberanía: no opera el mercado local. Todo vuelve mañana.\n- En Nueva York los ADRs argentinos rebotan: Central Puerto +6,8%, IRSA +5,7%, BBVA y Macro +5,3%. Los bonos también suben.\n- El riesgo país no tiene cierre hoy: el viernes terminó en 1.071 (venía de 931) y, según Ámbito, sigue arriba de 1.000.\n- Dólar oficial: $1.600 en el Nación (mayorista $1.580). Tarjeta: $2.080. Valores del viernes.\n- Blue: $1.675. MEP: $1.701,05. Contado con liqui: $1.799,14, con una brecha de 13,9% con el mayorista.\n- Banco Central: el viernes no compró; lleva USD 344 millones en noviembre. Reservas: USD 49.362 millones.\n- Lo que viene: mañana el menú de la licitación del jueves por $25,4 billones; el miércoles Santilli informa en el Senado y el jueves se votan las PASO (LLA tiene 21 propios y necesita 37).\n\n*3) Lo que NADIE te está contando*\n- La suba de los ADRs se da sin mercado local y con poco volumen: es una señal, no una tendencia.\n- Nvidia sube 34,5% pero sigue cerca de 3% abajo de donde estaba antes de la salida de Huang.\n- Es como un remedio que baja la fiebre de afuera: ayuda, pero la Argentina sigue con su propio examen el jueves.\n\n*4) Qué significa esto para tu bolsillo mañana*\n- Hoy no cambia nada: el oficial sigue en $1.600 y el tarjeta en $2.080.\n- Si el buen clima de afuera se sostiene, el CCL y el MEP podrían tomar aire; si se da vuelta, vuelve la presión.\n- Si la Fed sube tasas en diciembre, el crédito para la Argentina se encarece.\n- En criollo: afuera hubo alivio, pero la prueba de verdad es el martes cuando abra el mercado y el jueves con la licitación.",
+ "guion": "*FERIADO CON ALIVIO AFUERA*\n_Cómo cerró el lunes: acá fue feriado, afuera hubo rebote_\n\n*1) Qué pasó en EEUU hoy en criollo*\n- El Nasdaq, el índice de las tecnológicas, subió más de 6%. La semana pasada había perdido 10%.\n- El S&P 500, las 500 empresas más grandes, subió 4,8%. El Dow Jones, las industriales clásicas, más de 3%.\n- Nvidia, la que hace los chips de la inteligencia artificial, saltó más de 31% (al mediodía llegó a 34,5%): el directorio restituyó a Jensen Huang como CEO.\n- Trump celebró el regreso de Huang y lo llamó «gran patriota».\n- La Fed: Bessent, el secretario del Tesoro, advirtió que puede cometer un «error de política», y el gobernador Waller plantea evaluar una suba de medio punto en diciembre.\n\n*2) Qué pasó en Argentina hoy en criollo*\n- Fue feriado por el Día de la Soberanía: no operó el mercado local. Todo vuelve mañana.\n- En Nueva York los ADRs argentinos rebotaron: Central Puerto +6,1%, Galicia +5,5%, Supervielle +5,1% y BBVA +5%.\n- Riesgo país: bajó 44 puntos a 1.027; venía de 1.071 el viernes. Sigue arriba de 1.000.\n- Dólar oficial: $1.600 en el Nación (mayorista $1.580). Tarjeta: $2.080. Valores del viernes.\n- Blue: $1.675. MEP: $1.701,05. Contado con liqui: $1.799,14, con una brecha de 13,9% con el mayorista.\n- Banco Central: el viernes no compró; lleva USD 344 millones en noviembre. Reservas: USD 49.362 millones.\n- Lo que viene: mañana el menú de la licitación del jueves por $25,4 billones; el miércoles Santilli informa en el Senado y el jueves se votan las PASO (LLA tiene 21 propios y necesita 37).\n\n*3) Lo que NADIE te está contando*\n- La baja del riesgo país se calculó sin la plaza porteña: son precios de Nueva York con poco volumen. Es una señal, no una tendencia.\n- Nvidia había caído 27,7% desde la salida de Huang: ni con el salto de hoy recupera del todo.\n- El BCRA no compró dólares el viernes: sin compras, las reservas no se recuperan.\n- Es como un remedio que baja la fiebre de afuera: ayuda, pero la Argentina sigue con su propio examen el jueves.\n\n*4) Qué significa esto para tu bolsillo mañana*\n- Hoy no cambió nada: el oficial sigue en $1.600 y el tarjeta en $2.080.\n- Si el alivio de afuera se sostiene, el CCL y el MEP podrían tomar aire; si se da vuelta, vuelve la presión.\n- Si la Fed sube tasas en diciembre, el crédito para la Argentina se encarece.\n- En criollo: afuera hubo alivio y el riesgo país bajó a 1.027, pero la prueba de verdad es mañana cuando abra el mercado y el jueves con la licitación.",
  "fuentes": [
   [
-   "Ámbito · ADRs y bonos en el feriado",
+   "Ámbito · ADRs y riesgo país al cierre del feriado",
    "https://www.ambito.com/finanzas/los-adrs-rebotan-68-y-los-bonos-suben-la-mejora-del-clima-internacional-n6348259"
+  ],
+  [
+   "Ámbito · Trump y el regreso de Huang",
+   "https://ambito.com/mundo/donald-trump-celebro-la-reincorporacion-jensen-huang-nvidia-y-lo-definio-como-un-gran-patriota-n6348314"
+  ],
+  [
+   "Ámbito · Nvidia reincorpora a Huang",
+   "https://www.ambito.com/finanzas/tras-el-escandalo-nvidia-anuncio-la-reincorporacion-jensen-huang-como-director-general-y-presidente-ejecutivo-n6348262"
+  ],
+  [
+   "Ámbito · Quintela y el Norte Grande",
+   "https://www.ambito.com/politica/ricardo-quintela-pidio-un-peronismo-unido-enfrentar-javier-milei-hay-otro-camino-n6348395"
+  ],
+  [
+   "La Política Online · Entrevista a Florencia López",
+   "https://www.lapoliticaonline.com/entrevista/wall-street-sabe-que-el-plan-de-milei-y-caputo-ya-fracaso/"
+  ],
+  [
+   "La Política Online · Macri y Llaryora",
+   "https://www.lapoliticaonline.com/politica/macri-abrio-una-negocaicion/"
   ],
   [
    "Ámbito · Wall Street rebota",
@@ -525,6 +545,14 @@
   [
    "La Política Online · BCRA y dolarización",
    "https://www.lapoliticaonline.com/economia/el-banco-central-empezo-a-trabajar-en-un-plan-de-dolarizacion/"
+  ],
+  [
+   "Perfil · Semana clave en el Congreso",
+   "https://perfil.com/politica/semana-clave-el-oficialismo-acelera-en-el-congreso-por-las-paso-y-el-presupuesto-2027-a7Bkm6e0BEpG"
+  ],
+  [
+   "Letra P · La carrera de Milei hacia 2027",
+   "https://www.letrap.com.ar/congreso/la-carrera-javier-milei-2027-choca-las-internas-y-las-urgencias-economicas-n5427293"
   ],
   [
    "La Nación · Dogma vs. pragmatismo",
@@ -848,12 +876,12 @@
  },
  "videos": [
   {
-   "t": "Feriado acá, rebote afuera: qué dicen los ADRs que suben hasta 6,8%",
-   "g": "Con el mercado local cerrado, Nueva York da una pista de cómo puede arrancar el martes."
+   "t": "Feriado acá, alivio afuera: el riesgo país baja a 1.027",
+   "g": "Sin mercado local, Nueva York da la primera pista de cómo puede arrancar el martes."
   },
   {
-   "t": "Nvidia +34,5%: el regreso de Jensen Huang y el rebote de Wall Street",
-   "g": "El Nasdaq recupera 6,7% después de perder 10%: por qué le importa a la Argentina."
+   "t": "Nvidia más de 31%: el regreso de Huang y el rebote de Wall Street",
+   "g": "El Nasdaq sube más de 6% después de perder 10%: por qué le importa a la Argentina."
   },
   {
    "t": "Semana corta y decisiva: licitación de $25,4 billones y PASO en el Senado",
