@@ -1,62 +1,62 @@
 {
  "fecha": "Martes 24 de noviembre de 2026",
  "iso": "2026-11-24",
- "corte": "Actualizado a las 13:50 h · valores parciales de la rueda",
+ "corte": "Actualizado a las 19:14 h · cierre definitivo",
  "clima": {
-  "tag": "Vuelta tensa tras el feriado",
+  "tag": "Día de alta tensión",
   "tipo": "tenso",
-  "por": "El riesgo país vuelve a 1.071, máximo de 2026, y Wall Street abre con dudas por la Fed"
+  "por": "Riesgo país casi en 1.100, blue récord, reservas en baja y la economía en recesión técnica"
  },
- "frase": "Se esfumó el alivio del feriado: el riesgo país vuelve a 1.071 y el mayorista supera los $1.585",
+ "frase": "El riesgo país roza los 1.100 puntos y el blue marca un récord de $1.700",
  "atipica": null,
  "claves": [
-  "Riesgo país: sube a 1.071 (máximo de 2026) y los Globales caen hasta 2% en Wall Street",
-  "El mayorista supera los $1.585 en la vuelta tras el feriado; el CCL ronda los $1.800",
-  "A las 16 el INDEC publica el EMAE de septiembre: podría confirmar la recesión técnica"
+  "Riesgo país: 1.096 puntos (+69), máximo desde octubre de 2025; los Globales caen hasta 2%",
+  "Blue récord: $1.700 (+$25); el oficial sube a $1.615 y el mayorista a $1.593",
+  "Recesión técnica: el EMAE subió 1,1% en septiembre, pero suma dos trimestres en baja"
  ],
  "indicadores": [
   {
    "k": "Dólar oficial",
-   "v": "$1.600",
-   "d": "Banco Nación al inicio (Ámbito) · el mayorista supera $1.585 en la rueda · venía de $1.580",
+   "v": "$1.615",
+   "d": "Subió $15 · compra $1.565 (Banco Nación) · mayorista $1.593 (+$13)",
    "tend": "up",
    "estado": "amarillo"
   },
   {
    "k": "Dólar MEP",
-   "v": "$1.701,05",
-   "d": "Último dato de Ámbito: cierre del viernes 20 · brecha 7,7% · sin dato parcial de hoy",
-   "tend": "flat",
+   "v": "$1.689,77",
+   "d": "−$11,28 · venía de $1.701,05 el viernes 20 · brecha 6,1%",
+   "tend": "down",
    "estado": "amarillo"
   },
   {
    "k": "Contado con liqui",
-   "v": "$1.799,14",
-   "d": "Cierre del viernes 20 · Ámbito: «roza los $1.800» en la previa de hoy",
-   "tend": "flat",
+   "v": "$1.794,05",
+   "d": "−$5,09 · venía de $1.799,14 el viernes 20 · brecha 12,6%",
+   "tend": "down",
    "estado": "rojo"
   },
   {
    "k": "Dólar blue",
-   "v": "$1.675",
-   "d": "Compra $1.655 · valor de apertura (Ámbito) · igual que el viernes 20",
-   "tend": "flat",
+   "v": "$1.700",
+   "d": "Subió $25 · compra $1.680 · récord nominal (Ámbito)",
+   "tend": "up",
    "estado": "rojo"
   },
   {
    "k": "Riesgo país",
-   "v": "1.071",
-   "d": "+44 · venía de 1.027 el lunes · dato de Ámbito a las 11:13 · máximo de 2026",
+   "v": "1.096",
+   "d": "+69 · venía de 1.027 el lunes · máximo desde octubre de 2025 (parcial, Ámbito 18:16 h)",
    "tend": "up",
    "estado": "rojo",
    "serie": true
   },
   {
    "k": "Reservas BCRA",
-   "v": "49.362 M",
-   "d": "USD · cierre del viernes 20 (Ámbito) · −81 M ese día · el dato de hoy sale después de las 18",
-   "tend": "flat",
-   "estado": "amarillo"
+   "v": "48.744 M",
+   "d": "USD · −618 M hoy · el nivel más bajo en más de un mes",
+   "tend": "down",
+   "estado": "rojo"
   },
   {
    "k": "Depósitos en USD",
@@ -67,33 +67,33 @@
   },
   {
    "k": "Merval",
-   "v": "−10% sem.",
-   "d": "Caída en dólares en la semana al 20/11 (Ámbito) · sin dato parcial de hoy · los bonos caen hasta 2%",
-   "tend": "flat",
-   "estado": "rojo"
+   "v": "81.261",
+   "d": "MSCI Merval +0,4% en pesos · −0,4% en dólares (45,55)",
+   "tend": "up",
+   "estado": "amarillo"
   },
   {
    "k": "Compras BCRA",
    "v": "USD 0",
-   "d": "Último dato: el viernes 20 no compró · USD 344 M en noviembre · el de hoy, después de las 18",
+   "d": "Segunda rueda sin comprar · USD 344 M en noviembre",
    "tend": "flat",
    "estado": "rojo"
   },
   {
    "k": "Brecha con el CCL",
-   "v": "≈14%",
-   "d": "CCL vs. mayorista según Ámbito (07:43 h) · venía de 13,9% el viernes 20",
-   "tend": "flat",
+   "v": "12,6%",
+   "d": "CCL vs. mayorista · venía de 13,9% el viernes 20",
+   "tend": "down",
    "estado": "rojo",
    "criollo": "Cuánto más caro está el dólar para girar afuera que el oficial; si sube, hay más ganas de dolarizarse."
   },
   {
-   "k": "Licitación",
-   "v": "$25,4 bill.",
-   "d": "Jueves 26 · Economía tiene que anunciar el menú · unos $20 billones de privados",
-   "tend": "flat",
-   "estado": "amarillo",
-   "criollo": "El Tesoro pide plata prestada para pagar lo que vence; si no consigue renovar todo, esos pesos quedan libres y pueden ir al dólar."
+   "k": "Actividad (EMAE)",
+   "v": "+1,1% mens.",
+   "d": "Septiembre (INDEC, vía Ámbito) · dos trimestres seguidos en baja: recesión técnica",
+   "tend": "up",
+   "estado": "rojo",
+   "criollo": "El EMAE mide cuánto produce la economía mes a mes; dos trimestres seguidos en baja es lo que se llama recesión técnica."
   }
  ],
  "riesgo": [
@@ -172,31 +172,35 @@
   [
    "20/11",
    1071
+  ],
+  [
+   "24/11",
+   1096
   ]
  ],
  "mundo": [
   {
    "k": "S&P 500",
-   "v": "Fut. −0,46%",
-   "d": "Futuros antes de la apertura (Ámbito, 10:54 h) · el lunes cerró +4,73%",
+   "v": "−0,6%",
+   "d": "Último dato de Ámbito (15:38 h), sin nota de cierre · el lunes subió 4,73%",
    "tend": "down"
   },
   {
    "k": "Nasdaq",
-   "v": "Fut. −1,1%",
-   "d": "Futuros antes de la apertura (Ámbito) · el lunes cerró +6,51%",
+   "v": "−1,6%",
+   "d": "Último dato de Ámbito (15:38 h) · el lunes subió 6,51%",
    "tend": "down"
   },
   {
    "k": "Dow Jones",
-   "v": "Fut. −0,14%",
-   "d": "Futuros antes de la apertura (Ámbito) · el lunes cerró +3,01%",
-   "tend": "down"
+   "v": "+0,8%",
+   "d": "Último dato de Ámbito (15:38 h) · extiende el rebote del lunes (+3,01%)",
+   "tend": "up"
   },
   {
-   "k": "Nvidia",
-   "v": "−5,06%",
-   "d": "Premarket: USD 156,70 · el lunes cerró +31,5% a USD 165,05 (Ámbito)",
+   "k": "Anthropic",
+   "v": "−10,37%",
+   "d": "USD 77,27 a las 13:34 h · por debajo de su precio de salida (USD 83)",
    "tend": "down"
   },
   {
@@ -208,67 +212,67 @@
  ],
  "porque": [
   {
-   "q": "Wall Street toma ganancias tras el gran rebote",
-   "p": "Después de que el Nasdaq subiera 6,51% el lunes, los futuros arrancan en baja y Nvidia cede 5% en el premarket: el mercado vuelve a mirar a la Fed."
+   "q": "Wall Street toma ganancias en tecnología",
+   "p": "Tras el salto del lunes, el Nasdaq cae 1,6% y Anthropic se hunde 10% por debajo de su precio de salida. El Dow sube 0,8%: la plata rota de tecnológicas a empresas tradicionales."
   },
   {
    "q": "La Fed prepara otra suba de tasas",
-   "p": "Según Ámbito, el mercado da 96% de chances de una suba de 0,25 en diciembre. Tasas más altas en EE.UU. encarecen la plata para los países emergentes como la Argentina."
+   "p": "El mercado da 96% de chances de una suba de 0,25 en diciembre. Tasas más altas en EE.UU. encarecen el crédito para países como la Argentina."
   },
   {
-   "q": "El riesgo país borra el alivio del feriado",
-   "p": "Los Globales caen hasta 2% en Wall Street y el riesgo país sube a 1.071, el máximo de 2026. Pesan la Fed, las reservas y los vencimientos de enero."
+   "q": "El riesgo país roza los 1.100",
+   "p": "Los Globales caen hasta 2% y el riesgo país sube a 1.096. El mercado duda de cómo se pagan los USD 4.378 M de enero con reservas que bajan y un Central que no compra."
   },
   {
-   "q": "Hoy el INDEC mide la economía",
-   "p": "A las 16 sale el EMAE de septiembre. Si confirma otra caída trimestral, la Argentina estaría en recesión técnica: dos trimestres seguidos en baja."
+   "q": "La economía entró en recesión técnica",
+   "p": "El EMAE subió 1,1% en septiembre, pero no alcanzó: el trimestre igual quedó en baja y ya son dos seguidos. Menos actividad es menos ventas y menos empleo."
   }
  ],
- "oculto": "El riesgo país de 1.071 es el mismo nivel del viernes: la baja a 1.027 del feriado se calculó con poco volumen en Nueva York y se borró en la primera rueda con la plaza porteña abierta. Además, según Ámbito, en enero de 2027 vencen unos USD 4.500 M con los bonistas, mientras el BCRA no compró dólares el viernes y las reservas brutas (USD 49.362 M) bajaron 81 M ese día.",
+ "oculto": "Las reservas cayeron USD 618 M en un día sin que el BCRA vendiera en el mercado: según Ámbito, el oro bajó 2,75% y eso solo restó unos USD 230 M. Además, el Tesoro tenía apenas USD 158 M depositados en el BCRA al 18 de noviembre, frente a USD 4.378 M que vencen en enero. Y mientras el Gobierno culpa al contexto externo, el blue marcó récord ($1.700) aun con el dólar global en baja (DXY −0,50%).",
  "bolsillo": [
-  "Por ahora el dólar oficial sigue en $1.600 en el Nación y el tarjeta en $2.080, pero el mayorista ya supera los $1.585: si sigue subiendo, el minorista lo acompaña.",
-  "Si el CCL se queda cerca de $1.800, la brecha de casi 14% puede trasladarse a precios de productos con insumos importados.",
-  "Si el EMAE confirma la recesión técnica, menos actividad puede significar menos ventas y más cuidado con las cuotas en el comercio.",
-  "Si la Fed sube tasas en diciembre, el crédito para la Argentina se encarece y eso presiona sobre el dólar y las tasas en pesos."
+  "El oficial ya está en $1.615 en el Nación y el tarjeta en $2.099,50: si el mayorista sigue subiendo, las compras en dólares con tarjeta se encarecen mes a mes.",
+  "Si el blue se sostiene arriba de $1.700, algunos comercios pueden usarlo de referencia para remarcar productos importados.",
+  "Con la economía en recesión técnica, si cae la actividad también pueden frenarse paritarias y changas: conviene mirar con cuidado las cuotas largas.",
+  "Las tasas de los bancos subieron (la BADLAR pasó de 22,13% a 22,50%): si siguen subiendo, el plazo fijo rinde un poco más pero los créditos se encarecen."
  ],
  "empresas": {
   "ar": [
    {
-    "n": "Central Puerto",
-    "c": "+6,1%",
-    "que": "Genera electricidad; fue el ADR que más subió el lunes 23 (dato del feriado, sin cifras de hoy)."
+    "n": "Grupo Supervielle",
+    "c": "+5,2%",
+    "que": "Banco mediano; lideró las subas del panel líder porteño."
+   },
+   {
+    "n": "YPF",
+    "c": "−3,8%",
+    "que": "La petrolera estatal; fue el ADR que más cayó en Nueva York."
+   },
+   {
+    "n": "Cresud",
+    "c": "−3,1%",
+    "que": "Campos y real estate; cayó con el resto de los activos argentinos en Wall Street."
    },
    {
     "n": "Grupo Financiero Galicia",
-    "c": "+5,5%",
-    "que": "Dueño del Banco Galicia; rebotó el lunes 23 en Nueva York (sin cifras de hoy)."
-   },
-   {
-    "n": "Grupo Supervielle",
-    "c": "+5,1%",
-    "que": "Banco mediano; rebotó el lunes 23 tras la semana de ventas."
-   },
-   {
-    "n": "BBVA Argentina",
-    "c": "+5%",
-    "que": "Banco; acompañó el rebote del lunes 23 del sector financiero."
+    "c": "−3%",
+    "que": "Dueño del Banco Galicia; los bancos sufren cuando sube el riesgo país."
    }
   ],
   "eeuu": [
    {
+    "n": "Anthropic",
+    "c": "−10,37%",
+    "que": "Hace la IA Claude; a días de salir a la bolsa ya cotiza por debajo del precio de salida."
+   },
+   {
     "n": "Nvidia",
     "c": "−5,06%",
-    "que": "Hace los chips de la IA; cede en el premarket tras subir 31,5% el lunes por la vuelta de Jensen Huang."
+    "que": "Hace los chips de la IA; cedió en el premarket tras saltar 31,5% el lunes por la vuelta de Jensen Huang."
    },
    {
-    "n": "TSMC",
-    "c": "+9,85%",
-    "que": "Fabrica los chips de Nvidia y Apple; subió en la Bolsa de Taiwán contagiada por el rebote del lunes."
-   },
-   {
-    "n": "Foxconn",
-    "c": "+8,05%",
-    "que": "Arma servidores y iPhones; subió en Taiwán por el efecto Nvidia (Ámbito)."
+    "n": "Dow Jones",
+    "c": "+0,8%",
+    "que": "Las 30 grandes empresas tradicionales; reciben la plata que sale de tecnología."
    }
   ]
  },
@@ -276,139 +280,155 @@
   {
    "s": "La Política Online",
    "t": "Lula retira al embajador de Brasil en Buenos Aires por la falta de señales de Milei",
-   "g": "Detonante: Quirno dijo que la Argentina no reconoció el triunfo de Lula",
+   "g": "Brasil deja la embajada a cargo de un encargado de negocios",
    "u": "https://www.lapoliticaonline.com/politica/lula-retira-el-embajador-de-buenos-aires-ante-la-falta-de-senal-de-acuerdo-de-milei-no-podemos-esperar-para-siempre/"
   },
   {
    "s": "La Política Online",
-   "t": "Renunció la cúpula del PAMI en medio de una interna y la falta de fondos",
-   "g": "Asumen Verónica Pérez y Elizabeth Osterberg, cercanas a Santiago Caputo",
-   "u": "https://www.lapoliticaonline.com/politica/cayo-la-cupula-del-pami-por-un-ajuste-de-cuentas-interno-y-la-falta-de-fondos/"
+   "t": "En el Gobierno hay quienes creen que el ciclo de Toto Caputo se agotó",
+   "g": "Análisis de Ignacio Fidanza sobre la crisis financiera y su efecto político",
+   "u": "https://www.lapoliticaonline.com/politica/en-el-gobierno-sienten-que-el-tiempo-de-toto-caputo-se-agoto/"
   },
   {
    "s": "Ámbito",
-   "t": "Santilli ya envió casi 1.300 respuestas antes de su primer informe en el Senado",
-   "g": "Expone el miércoles a las 15; la mayoría de las preguntas son del PJ",
-   "u": "https://ambito.com/politica/diego-santilli-brinda-su-primer-informe-gestion-y-ya-envio-las-casi-1300-respuestas-los-senadores-n6348665"
+   "t": "El vocero Ravier descartó la salida de Caputo pese al dólar y el riesgo país",
+   "g": "Atribuyó la presión a Brasil, la guerra en Medio Oriente y el contexto global",
+   "u": "https://www.ambito.com/el-gobierno-descarto-la-salida-luis-caputo-la-suba-del-dolar-y-el-riesgo-pais-n6348804"
   },
   {
    "s": "Infobae",
-   "t": "El Senado arranca su última semana ordinaria con la suspensión de las PASO como eje",
-   "g": "Hacen falta 37 votos; la Casa Rosada cuenta 35 y apuesta a llegar a 38",
-   "u": "https://www.infobae.com/politica/2026/11/24/con-la-suspension-de-las-paso-como-foco-principal-el-senado-inicia-su-ultima-semana-de-sesiones-ordinarias/"
+   "t": "El Gobierno convocará a extraordinarias en diciembre con las PASO como prioridad",
+   "g": "También Súper RIGI, acuerdo con EE.UU., ludopatía y Presupuesto 2027",
+   "u": "https://www.infobae.com/politica/2026/11/24/karina-milei-reune-a-la-mesa-politica-para-avanzar-con-la-agenda-legislativa/"
   },
   {
-   "s": "Página/12",
-   "t": "El Gobierno negocia con gobernadores la sesión del jueves para suspender las PASO",
-   "g": "El proyecto deja afuera las colectoras y mantiene Ficha Limpia",
-   "u": "https://www.pagina12.com.ar/2026/11/23/senado-el-gobierno-trabaja-en-la-sesion-del-jueves-para-avanzar-con-la-suspension-de-las-paso/"
+   "s": "La Nación",
+   "t": "Nueva cúpula en el PAMI y polémica por el homenaje a Santucho en la UBA",
+   "g": "El Gobierno pidió al rector frenar el acto y sanciones a sus promotores",
+   "u": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-continua-el-escandalo-por-el-homenaje-a-santucho-y-se-define-la-nid24112026/"
   }
  ],
  "titulares": [
   {
    "sec": "Economía",
    "s": "Ámbito",
-   "t": "El riesgo país sube a 1.071, máximo de 2026, con nuevas caídas de los bonos",
-   "u": "https://www.ambito.com/finanzas/los-bonos-argentinos-vuelven-caer-wall-street-y-crece-la-presion-el-riesgo-pais-n6348600"
+   "t": "La economía entró en recesión técnica pese a crecer 1,1% en septiembre",
+   "u": "https://www.ambito.com/la-economia-entro-recesion-tecnica-sumo-dos-trimestres-seguidos-caida-pese-crecer-11-mensual-septiembre-n6348824"
   },
   {
    "sec": "Economía",
    "s": "Ámbito",
-   "t": "El INDEC publica hoy el EMAE, que podría confirmar la recesión técnica",
-   "u": "https://www.ambito.com/economia/el-indec-publica-un-dato-clave-la-que-confirmaria-la-recesion-tecnica-n6348520"
+   "t": "El BCRA no compró por segunda rueda y las reservas caen a USD 48.744 M",
+   "u": "https://www.ambito.com/finanzas/el-bcra-no-compro-dolares-segunda-rueda-fila-y-las-reservas-cayeron-al-menor-nivel-mas-un-mes-n6348885"
   },
   {
    "sec": "Economía",
-   "s": "La Política Online",
-   "t": "La Fed anticipa más subas de tasas y suma presión sobre Caputo",
-   "u": "https://www.lapoliticaonline.com/economia/la-fed-anticipa-nuevas-subas-de-tasas-y-le-suma-presion-a-caputo/"
+   "s": "Ámbito",
+   "t": "Dólar bajo presión: las causas de la suba y las dudas sobre la estrategia oficial",
+   "u": "https://www.ambito.com/finanzas/dolar-presion-las-causas-detras-la-suba-y-las-dudas-la-estrategia-del-gobierno-contenerla-n6348729"
   },
   {
    "sec": "Política",
    "s": "La Política Online",
-   "t": "La Iglesia presiona para que el Senado apruebe la ley contra las apuestas online",
-   "u": "https://www.lapoliticaonline.com/politica/la-iglesia-presiona-para-que-salga-la-ley-contra-las-apuestas-online-y-en-la-provincia-convoco-a-los-bloques/"
+   "t": "Renunció la cúpula del PAMI en medio de una interna y la falta de fondos",
+   "u": "https://www.lapoliticaonline.com/politica/cayo-la-cupula-del-pami-por-un-ajuste-de-cuentas-interno-y-la-falta-de-fondos/"
   },
   {
    "sec": "Política",
    "s": "Infobae",
-   "t": "El Gobierno descarta cambios aunque se confirme la recesión técnica",
-   "u": "https://www.infobae.com/politica/2026/11/24/el-gobierno-no-hara-cambios-aunque-se-declare-una-recesion-tecnica-y-apuesta-al-congreso-para-calmar-a-los-mercados/"
+   "t": "El Gobierno busca ordenar sus conflictos internos antes de un fin de año difícil",
+   "u": "https://www.infobae.com/politica/2026/11/24/el-gobierno-encara-otra-reunion-clave-para-aplacar-sus-conflictos-y-acomodarse-antes-de-un-desafiante-fin-de-ano/"
   },
   {
    "sec": "Política",
-   "s": "Letra P",
-   "t": "Milei, golpeado por los mercados y sostenido por la política",
-   "u": "https://www.letrap.com.ar/congreso/javier-milei-esta-golpeado-los-mercados-y-sostenido-la-politica-n5428426"
+   "s": "Página/12",
+   "t": "El Gobierno negocia con gobernadores la sesión del jueves para suspender las PASO",
+   "u": "https://www.pagina12.com.ar/2026/11/23/senado-el-gobierno-trabaja-en-la-sesion-del-jueves-para-avanzar-con-la-suspension-de-las-paso/"
   },
   {
    "sec": "Mundo",
    "s": "Ámbito",
-   "t": "Wall Street en alerta: Nvidia cae 5% antes de abrir y crece la tensión por la Fed",
+   "t": "Wall Street: cae el Nasdaq, pero el Dow Jones extiende el rebote",
    "u": "https://www.ambito.com/finanzas/wall-street-alerta-nvidia-cae-5-el-premarket-un-repunte-historico-y-crece-la-tension-la-fed-n6348554"
   },
   {
    "sec": "Mundo",
    "s": "Ámbito",
-   "t": "Huang vuelve a Nvidia ovacionado: «Cometí errores muy graves»",
-   "u": "https://www.ambito.com/tecnologia/jensen-huang-fue-ovacionado-su-regreso-nvidia-cometi-errores-muy-graves-n6348667"
+   "t": "Anthropic cae más de 10% y ya cotiza debajo de su precio de salida a la bolsa",
+   "u": "https://www.ambito.com/finanzas/anthropic-se-derrumba-la-bolsa-pocos-dias-su-debut-cae-mas-10-y-se-vende-debajo-del-precio-opi-n6348700"
   }
  ],
  "agenda": [
   {
-   "w": "Martes 24/11 · 16 h",
-   "b": "INDEC publica el EMAE de septiembre · por la tarde, reservas y compras del BCRA"
-  },
-  {
    "w": "Miércoles 25/11",
-   "b": "Primer informe de gestión de Santilli en el Senado (15 h), con casi 1.300 respuestas"
+   "b": "Santilli da su primer informe de gestión en el Senado (15 h) · se fija el dólar de referencia de los bonos dólar linked"
   },
   {
    "w": "Jueves 26/11",
    "b": "Licitación del Tesoro por $25,4 billones · Senado: suspensión de las PASO · Wall Street cerrado (Acción de Gracias)"
   },
   {
+   "w": "Viernes 27/11",
+   "b": "El Gobierno convoca a sesiones extraordinarias para diciembre · Wall Street con horario reducido"
+  },
+  {
    "w": "9 de enero de 2027",
    "b": "Vencen USD 4.378 M de Bonares y Globales"
   }
  ],
- "guion": "*VUELTA TENSA TRAS EL FERIADO*\n_Aproximación del martes: cómo viene la rueda a media tarde_\n\n*1) Qué está pasando en EEUU hoy en criollo*\n- Después del gran rebote del lunes (Nasdaq +6,51%, S&P 500 +4,73%, Dow Jones +3,01%), los futuros arrancaron en baja: Nasdaq −1,1%, S&P 500 −0,46% y Dow −0,14% antes de la apertura.\n- Nvidia, la de los chips de la inteligencia artificial, cayó 5,06% en el premarket a USD 156,70, tras haber saltado 31,5% el lunes. Es toma de ganancias: los que compraron barato venden.\n- Jensen Huang volvió a la empresa, lo ovacionaron y dijo: «Cometí errores muy graves».\n- La Fed: el mercado da 96% de chances de que suba la tasa 0,25 en diciembre. En criollo: la plata en el mundo se encarece.\n- El jueves Wall Street no opera por Acción de Gracias y el viernes tiene horario reducido.\n\n*2) Qué está pasando en Argentina hoy en criollo*\n- Volvió el mercado después del feriado y el alivio de ayer se borró.\n- Riesgo país: sube a 1.071 puntos, el máximo de 2026. Venía de 1.027 el lunes. Los bonos Globales caen hasta 2% en Wall Street.\n- Dólar mayorista: supera los $1.585 (venía de $1.580). En el Nación, el oficial arrancó en $1.600 y el tarjeta en $2.080.\n- Blue: $1.675. MEP: $1.701,05 (cierre del viernes). Contado con liqui: ronda los $1.800, con una brecha de casi 14%.\n- Banco Central: el viernes no compró dólares; lleva USD 344 millones en noviembre. Reservas: USD 49.362 millones. El dato de hoy sale a la tarde.\n- A las 16 el INDEC publica el EMAE de septiembre: puede confirmar la recesión técnica.\n- El jueves, licitación del Tesoro por $25,4 billones y sesión en el Senado por las PASO.\n\n*3) Lo que NADIE te está contando*\n- La baja del riesgo país del feriado se hizo con poco volumen en Nueva York: con la plaza abierta, volvió a 1.071.\n- En enero vencen unos USD 4.500 millones con los bonistas y el Central no compró el viernes.\n- El Gobierno anticipa que no hará cambios aunque se confirme la recesión.\n- Es como un termómetro que bajó un día porque estabas al sol: la fiebre seguía ahí.\n\n*4) Qué significa esto para tu bolsillo mañana*\n- Si el mayorista sigue subiendo, el dólar del Nación y el tarjeta ($2.080) lo acompañan.\n- Si el CCL se queda cerca de $1.800, la brecha puede empujar precios de productos importados.\n- Si el EMAE confirma la recesión, conviene mirar con cuidado las cuotas y los gastos fijos.\n- En criollo: el alivio del feriado duró un día; hoy mandan la Fed y el riesgo país, y el jueves llega la licitación.",
+ "guion": "*DÍA DE ALTA TENSIÓN*\n_Cierre del martes 24 de noviembre_\n\n*1) Qué pasó en EEUU hoy en criollo*\n- Después del gran rebote del lunes, Wall Street volvió a dudar: según el último dato de Ámbito, el Nasdaq caía 1,6% y el S&P 500 0,6%. En criollo: los que ganaron fuerte ayer con las tecnológicas salieron a vender.\n- El Dow Jones, en cambio, subía 0,8%: la plata se fue de las tecnológicas a las empresas tradicionales.\n- Anthropic, la que hace la inteligencia artificial Claude, se hundió 10,37% a USD 77,27: ya está por debajo del precio al que salió a la bolsa (USD 83).\n- Nvidia, la de los chips, arrancó con una baja de 5% tras haber saltado 31,5% el lunes por la vuelta de Jensen Huang.\n- La Fed: el mercado da 96% de chances de que suba la tasa 0,25 en diciembre. En criollo: la plata en el mundo se encarece.\n- El jueves Wall Street no opera por Acción de Gracias.\n\n*2) Qué pasó en Argentina hoy en criollo*\n- Volvió el mercado tras el feriado y fue un día de tensión.\n- Riesgo país: 1.096 puntos, venía de 1.027 el lunes. Es el nivel más alto desde octubre de 2025. Los bonos Globales cayeron hasta 2%.\n- Acciones: el MSCI Merval subió 0,4% en pesos pero bajó 0,4% en dólares. En Nueva York cayeron YPF (−3,8%), Cresud (−3,1%) y Galicia (−3%); en la plaza local, Supervielle subió 5,2%.\n- Dólar oficial: $1.615 en el Nación (+$15). El mayorista cerró en $1.593 (+$13). El tarjeta, $2.099,50.\n- Blue: $1.700, subió $25 y marcó récord.\n- MEP: $1.689,77 y contado con liqui: $1.794,05, los dos un poco abajo del viernes. La brecha con el CCL bajó a 12,6%.\n- Banco Central: segunda rueda sin comprar dólares. Las reservas cayeron USD 618 millones, a USD 48.744 millones, el nivel más bajo en más de un mes.\n- El INDEC confirmó la recesión técnica: la economía creció 1,1% en septiembre, pero suma dos trimestres seguidos en baja.\n- El vocero Ravier descartó la salida de Caputo. El jueves hay licitación por $25,4 billones.\n\n*3) Lo que NADIE te está contando*\n- De los USD 618 millones que perdieron las reservas, unos 230 millones fueron solo por la baja del oro (−2,75%).\n- El Tesoro tenía apenas USD 158 millones depositados en el Central al 18 de noviembre, y en enero vencen USD 4.378 millones.\n- El Gobierno culpa al contexto externo, pero el dólar en el mundo bajó (DXY −0,50%) y el blue igual hizo récord.\n- Es como tener la heladera casi vacía a fin de mes y una cuota grande que vence en enero: todos miran cómo vas a llegar.\n\n*4) Qué significa esto para tu bolsillo mañana*\n- Si el mayorista sigue subiendo, el dólar del Nación y el tarjeta ($2.099,50) lo acompañan.\n- Si el blue se sostiene arriba de $1.700, algunos productos importados pueden remarcarse.\n- Con recesión técnica, si cae la actividad, ojo con las cuotas largas y los gastos fijos.\n- En criollo: el mercado le está pidiendo al Gobierno una señal de cómo paga enero; hasta que llegue, el dólar y el riesgo país van a seguir nerviosos.",
  "fuentes": [
   [
-   "Ámbito · Riesgo país a máximos de 2026",
+   "Ámbito · Riesgo país roza los 1.100 y ADRs",
    "https://www.ambito.com/finanzas/los-bonos-argentinos-vuelven-caer-wall-street-y-crece-la-presion-el-riesgo-pais-n6348600"
   ],
   [
-   "Ámbito · Dólar minuto a minuto, martes 24",
-   "https://www.ambito.com/finanzas/dolar-hoy-y-dolar-blue-hoy-minuto-minuto-cuanto-opera-este-lunes-24-noviembre-n6348482"
+   "Ámbito · Dólar al cierre, martes 24",
+   "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-martes-24-noviembre-n6348825"
   ],
   [
-   "Ámbito · Vuelve el mercado y la brecha",
-   "https://www.ambito.com/finanzas/dolar-el-mercado-vuelve-operar-el-feriado-y-todas-las-miradas-apuntan-la-brecha-cambiaria-n6348489"
+   "Ámbito · Blue récord de $1.700",
+   "https://www.ambito.com/finanzas/el-dolar-blue-salto-25-alcanzo-los-1700-y-marco-un-nuevo-record-n6348832"
   ],
   [
-   "Ámbito · Dólar hoy, martes 24",
-   "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cotiza-este-martes-24-noviembre-n6348472"
+   "Ámbito · BCRA y reservas al cierre",
+   "https://www.ambito.com/finanzas/el-bcra-no-compro-dolares-segunda-rueda-fila-y-las-reservas-cayeron-al-menor-nivel-mas-un-mes-n6348885"
   ],
   [
-   "Ámbito · Dólar blue, martes 24",
-   "https://www.ambito.com/finanzas/dolar-blue-hoy-cuanto-opera-este-martes-24-noviembre-n6348473"
+   "Ámbito · Recesión técnica (EMAE)",
+   "https://www.ambito.com/la-economia-entro-recesion-tecnica-sumo-dos-trimestres-seguidos-caida-pese-crecer-11-mensual-septiembre-n6348824"
   ],
   [
-   "Ámbito · Dólar mayorista",
-   "https://www.ambito.com/contenidos/dolar-mayorista.html"
+   "Ámbito · Dólar bajo presión",
+   "https://www.ambito.com/finanzas/dolar-presion-las-causas-detras-la-suba-y-las-dudas-la-estrategia-del-gobierno-contenerla-n6348729"
   ],
   [
-   "Ámbito · Wall Street y Nvidia en el premarket",
+   "Ámbito · Wall Street",
    "https://www.ambito.com/finanzas/wall-street-alerta-nvidia-cae-5-el-premarket-un-repunte-historico-y-crece-la-tension-la-fed-n6348554"
   ],
   [
-   "Ámbito · Huang vuelve a Nvidia",
-   "https://www.ambito.com/tecnologia/jensen-huang-fue-ovacionado-su-regreso-nvidia-cometi-errores-muy-graves-n6348667"
+   "Ámbito · Anthropic debajo de su OPI",
+   "https://www.ambito.com/finanzas/anthropic-se-derrumba-la-bolsa-pocos-dias-su-debut-cae-mas-10-y-se-vende-debajo-del-precio-opi-n6348700"
   ],
   [
-   "Ámbito · EMAE y recesión técnica",
-   "https://www.ambito.com/economia/el-indec-publica-un-dato-clave-la-que-confirmaria-la-recesion-tecnica-n6348520"
+   "Ámbito · El Gobierno descarta la salida de Caputo",
+   "https://www.ambito.com/el-gobierno-descarto-la-salida-luis-caputo-la-suba-del-dolar-y-el-riesgo-pais-n6348804"
+  ],
+  [
+   "Ámbito · Dólar minuto a minuto, martes 24",
+   "https://www.ambito.com/finanzas/dolar-hoy-y-dolar-blue-hoy-minuto-minuto-cuanto-opera-este-martes-24-noviembre-n6348482"
+  ],
+  [
+   "Ámbito · ADRs y riesgo país del lunes",
+   "https://www.ambito.com/finanzas/los-adrs-rebotan-68-y-los-bonos-suben-la-mejora-del-clima-internacional-n6348259"
+  ],
+  [
+   "Ámbito · Licitación de $25,4 billones",
+   "https://www.ambito.com/deuda-medio-una-creciente-desconfianza-del-mercado-economia-sale-renovar-254-billones-n6347729"
+  ],
+  [
+   "Ámbito · Vencimientos de enero 2027",
+   "https://www.ambito.com/economia/el-tesoro-habria-vuelto-comprar-dolares-al-bcra-afrontar-vencimientos-deuda-y-crece-la-presion-las-reservas-n6346000"
   ],
   [
    "Ámbito · Informe de Santilli",
@@ -419,76 +439,28 @@
    "https://www.lapoliticaonline.com/politica/lula-retira-el-embajador-de-buenos-aires-ante-la-falta-de-senal-de-acuerdo-de-milei-no-podemos-esperar-para-siempre/"
   ],
   [
+   "La Política Online · El tiempo de Caputo",
+   "https://www.lapoliticaonline.com/politica/en-el-gobierno-sienten-que-el-tiempo-de-toto-caputo-se-agoto/"
+  ],
+  [
    "La Política Online · Cae la cúpula del PAMI",
    "https://www.lapoliticaonline.com/politica/cayo-la-cupula-del-pami-por-un-ajuste-de-cuentas-interno-y-la-falta-de-fondos/"
   ],
   [
-   "La Política Online · La Fed y Caputo",
-   "https://www.lapoliticaonline.com/economia/la-fed-anticipa-nuevas-subas-de-tasas-y-le-suma-presion-a-caputo/"
+   "Infobae · Sesiones extraordinarias",
+   "https://www.infobae.com/politica/2026/11/24/karina-milei-reune-a-la-mesa-politica-para-avanzar-con-la-agenda-legislativa/"
   ],
   [
-   "La Política Online · La Iglesia y las apuestas online",
-   "https://www.lapoliticaonline.com/politica/la-iglesia-presiona-para-que-salga-la-ley-contra-las-apuestas-online-y-en-la-provincia-convoco-a-los-bloques/"
+   "Infobae · Reunión clave del Gobierno",
+   "https://www.infobae.com/politica/2026/11/24/el-gobierno-encara-otra-reunion-clave-para-aplacar-sus-conflictos-y-acomodarse-antes-de-un-desafiante-fin-de-ano/"
   ],
   [
-   "Infobae · Recesión técnica y Congreso",
-   "https://www.infobae.com/politica/2026/11/24/el-gobierno-no-hara-cambios-aunque-se-declare-una-recesion-tecnica-y-apuesta-al-congreso-para-calmar-a-los-mercados/"
-  ],
-  [
-   "Infobae · Senado y PASO",
-   "https://www.infobae.com/politica/2026/11/24/con-la-suspension-de-las-paso-como-foco-principal-el-senado-inicia-su-ultima-semana-de-sesiones-ordinarias/"
+   "La Nación · PAMI y homenaje a Santucho",
+   "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-continua-el-escandalo-por-el-homenaje-a-santucho-y-se-define-la-nid24112026/"
   ],
   [
    "Página/12 · Sesión por las PASO",
    "https://www.pagina12.com.ar/2026/11/23/senado-el-gobierno-trabaja-en-la-sesion-del-jueves-para-avanzar-con-la-suspension-de-las-paso/"
-  ],
-  [
-   "Letra P · Milei, mercados y política",
-   "https://www.letrap.com.ar/congreso/javier-milei-esta-golpeado-los-mercados-y-sostenido-la-politica-n5428426"
-  ],
-  [
-   "La Nación · Mesa política e índice de confianza",
-   "https://www.lanacion.com.ar/sociedad/karina-milei-encabeza-la-reunion-de-su-mesa-politica-desde-las-13-subio-el-indice-de-confianza-en-el-nid24112026/"
-  ],
-  [
-   "Ámbito · ADRs y riesgo país al cierre del feriado",
-   "https://www.ambito.com/finanzas/los-adrs-rebotan-68-y-los-bonos-suben-la-mejora-del-clima-internacional-n6348259"
-  ],
-  [
-   "Ámbito · Nvidia reincorpora a Huang",
-   "https://www.ambito.com/finanzas/tras-el-escandalo-nvidia-anuncio-la-reincorporacion-jensen-huang-como-director-general-y-presidente-ejecutivo-n6348262"
-  ],
-  [
-   "Ámbito · Wall Street rebota",
-   "https://www.ambito.com/finanzas/wall-street-rebota-67-el-nasdaq-al-frente-el-nuevo-nombramiento-jensen-huang-nvidia-n6348272"
-  ],
-  [
-   "Ámbito · Nvidia y Jensen Huang",
-   "https://www.ambito.com/finanzas/nvidia-se-dispara-mas-33-wall-street-el-giro-la-compania-y-la-restitucion-jensen-huang-como-presidente-n6348307"
-  ],
-  [
-   "Ámbito · Licitación de $25,4 billones",
-   "https://www.ambito.com/deuda-medio-una-creciente-desconfianza-del-mercado-economia-sale-renovar-254-billones-n6347729"
-  ],
-  [
-   "Ámbito · Compras del BCRA del viernes",
-   "https://www.ambito.com/finanzas/el-bcra-volvio-frenar-las-compras-el-mercado-una-fuerte-presion-el-dolar-n6347761"
-  ],
-  [
-   "Ámbito · Blue en la semana",
-   "https://www.ambito.com/finanzas/el-dolar-blue-no-detiene-la-escalada-trepo-100-la-semana-el-mayor-avance-mas-dos-anos-n6347748"
-  ],
-  [
-   "Ámbito · Vencimientos de enero 2027",
-   "https://www.ambito.com/economia/el-tesoro-habria-vuelto-comprar-dolares-al-bcra-afrontar-vencimientos-deuda-y-crece-la-presion-las-reservas-n6346000"
-  ],
-  [
-   "Ámbito · Riesgo país al cierre: 1.071",
-   "https://www.ambito.com/finanzas/dolar-blue-hoy-cuanto-cerro-este-viernes-20-noviembre-n6347716"
-  ],
-  [
-   "Ámbito · Dólar al cierre y brecha",
-   "https://www.ambito.com/finanzas/el-dolar-oficial-intensifica-su-rally-alcista-y-el-mercado-mira-cerca-la-brecha-el-ccl-n6347487"
   ],
   [
    "Con Interés · Perfil de vencimientos 2027 (Finanzas)",
@@ -540,6 +512,10 @@
    [
     "20/11",
     1600
+   ],
+   [
+    "24/11",
+    1615
    ]
   ],
   "blue": [
@@ -574,6 +550,10 @@
    [
     "20/11",
     1675
+   ],
+   [
+    "24/11",
+    1700
    ]
   ],
   "ccl": [
@@ -608,6 +588,10 @@
    [
     "20/11",
     1799.14
+   ],
+   [
+    "24/11",
+    1794.05
    ]
   ],
   "brecha": [
@@ -642,6 +626,10 @@
    [
     "20/11",
     13.9
+   ],
+   [
+    "24/11",
+    12.6
    ]
   ],
   "reservas": [
@@ -676,6 +664,10 @@
    [
     "20/11",
     49362
+   ],
+   [
+    "24/11",
+    48744
    ]
   ]
  },
@@ -780,16 +772,16 @@
  },
  "videos": [
   {
-   "t": "Se terminó el alivio: el riesgo país vuelve a 1.071",
-   "g": "La baja del feriado duró un día: qué cambió cuando volvió a abrir la plaza porteña."
+   "t": "Riesgo país casi en 1.100 y blue récord: qué está pasando",
+   "g": "Bonos en baja, reservas que caen USD 618 M y un Central que no compra: las piezas del día."
   },
   {
-   "t": "¿Recesión técnica? Lo que puede mostrar hoy el INDEC",
-   "g": "A las 16 sale el EMAE: qué significa encadenar dos trimestres en baja y cómo te afecta."
+   "t": "Recesión técnica: qué significa y cómo te afecta",
+   "g": "El EMAE subió 1,1% en septiembre, pero la economía suma dos trimestres en baja."
   },
   {
-   "t": "La Fed, Nvidia y la Argentina: por qué nos pega lo que pasa afuera",
-   "g": "96% de chances de suba de tasas en diciembre: qué le hace al dólar y a los bonos."
+   "t": "Anthropic, Nvidia y la Fed: por qué Wall Street nos pega",
+   "g": "La IA se desinfla, la Fed sube tasas y la Argentina paga más caro el crédito."
   }
  ]
 }
