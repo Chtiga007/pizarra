@@ -5,12 +5,12 @@
  "clima": {
   "tag": "Otra rueda de pánico",
   "tipo": "panico",
-  "por": "Riesgo país en 1.128, el mayorista pasa los $1.600 y caen acciones y bonos"
+  "por": "Riesgo país cerró en 1.067 tras tocar 1.131; el mayorista pasa los $1.600"
  },
- "frase": "El riesgo país salta a 1.128 puntos y el dólar mayorista supera los $1.600",
+ "frase": "El riesgo país tocó 1.131 y cerró en 1.067; el dólar mayorista supera los $1.600",
  "atipica": null,
  "claves": [
-  "Riesgo país: 1.128 puntos (+3,2%) a media mañana; caen bonos y ADRs (YPF −4,4%)",
+  "Riesgo país: cerró en 1.067 (−29) tras tocar un máximo anual de 1.131 en la rueda",
   "Mayorista: $1.612 (+$19) y blue $1.725 (+$25); MEP y CCL bajan y la brecha cae a 9,4%",
   "Wall Street: futuros del Nasdaq −2,7% antes de la apertura; el Kospi coreano se hundió 6,16%"
  ],
@@ -45,9 +45,9 @@
   },
   {
    "k": "Riesgo país",
-   "v": "1.128",
-   "d": "+32 · venía de 1.096 (parcial) el martes · +3,2% (Ámbito 10:48 h)",
-   "tend": "up",
+   "v": "1.067",
+   "d": "−29 · venía de 1.096 el martes · cierre (Ámbito)",
+   "tend": "down",
    "estado": "rojo",
    "serie": true
   },
@@ -176,6 +176,10 @@
   [
    "24/11",
    1096
+  ],
+  [
+   "25/11",
+   1067
   ]
  ],
  "mundo": [
@@ -220,8 +224,8 @@
    "p": "El Kospi coreano cayó 6,16% y el Nikkei 2,78%. Cuando el mundo vende acciones de riesgo, los países emergentes como la Argentina son los primeros en sufrir."
   },
   {
-   "q": "El riesgo país ya pasa los 1.100",
-   "p": "Llegó a 1.128 (+3,2%) con caídas generalizadas de bonos. Pesan el contexto externo, las reservas que bajan y los $25,4 billones que el Tesoro tiene que renovar el jueves."
+   "q": "El riesgo país tocó 1.131 y aflojó",
+   "p": "Llegó a un máximo anual de 1.131 y cerró en 1.067 (−29). Pesan el contexto externo, las reservas que bajan y los $25,4 billones que el Tesoro tiene que renovar el jueves."
   },
   {
    "q": "El mayorista supera los $1.600",
@@ -391,8 +395,12 @@
    "b": "Vencen USD 4.378 M de Bonares y Globales"
   }
  ],
- "guion": "*OTRA RUEDA DE PÁNICO*\n_Aproximación del miércoles 25 de noviembre · 13:50 h_\n\n*1) Qué está pasando en EEUU hoy en criollo*\n- Los futuros de Wall Street anticipaban otra rueda en rojo: Nasdaq −2,7%, S&P 500 −1,8% y Dow Jones −1,2% antes de la apertura. En criollo: siguen vendiendo todo lo que huele a inteligencia artificial.\n- El martes había cerrado dispar: el Nasdaq perdió 1,48%, el S&P 500 0,48% y el Dow ganó 0,86%.\n- Nvidia, la de los chips, cayó 6% el martes después de saltar 31,5% el lunes. Anthropic, la de Claude, perdió 6,6% y quedó abajo de su precio de salida (USD 83).\n- En Asia fue peor: la bolsa de Corea se hundió 6,16% y la de Japón 2,78%.\n- Hoy sale el PCE, la inflación que mira la Fed. El mercado da 96% de chances de que suba la tasa en diciembre. En criollo: la plata en el mundo se encarece.\n- Mañana Wall Street no opera por Acción de Gracias.\n\n*2) Qué está pasando en Argentina hoy en criollo*\n- El ruido de afuera llega con fuerza: caen bonos y acciones.\n- Riesgo país: 1.128 puntos a media mañana, +3,2%. Venía de 1.096 el martes.\n- Acciones: el MSCI Merval cae 2,2%, a 79.447. Bajan Metrogas (−5,1%), BBVA (−3,4%) y Central Puerto (−2,7%); en Nueva York, YPF (−4,4%), Cresud (−4,1%) y Galicia (−3,6%).\n- Dólar mayorista: $1.612, sube $19 y marca otro récord. El tarjeta ya está en $2.119.\n- Blue: $1.725, sube $25. Otro récord nominal.\n- MEP: $1.665,65 y contado con liqui: $1.763,39, los dos en baja. La brecha con el CCL se achica a 9,4%. En criollo: lo que sube es el oficial, no los dólares libres.\n- Banco Central: el martes no compró por segunda rueda y las reservas cerraron en USD 48.744 millones. El dato de hoy sale a la tarde.\n- A las 15 Santilli da su informe en el Senado, y el jueves el Tesoro tiene que renovar $25,4 billones.\n\n*3) Lo que NADIE te está contando*\n- La brecha baja, pero no por calma: baja porque sube el oficial.\n- Según PPI, citado por Ámbito, el Central ya vendió unos USD 590 millones en cobertura dollar linked y los futuros crecieron USD 1.359 millones en noviembre: contiene el dólar con herramientas que no se ven en las reservas.\n- El Gobierno dice que la suba del riesgo país es transitoria, pero ya pasó de 402 en julio a 1.128 hoy.\n- Es como bajar la fiebre con un antitérmico: el termómetro mejora, pero la infección sigue ahí.\n\n*4) Qué significa esto para tu bolsillo mañana*\n- Si el mayorista sigue subiendo, el tarjeta ($2.119) y las compras en dólares se encarecen.\n- Si el blue se sostiene arriba de $1.700, algunos importados pueden remarcarse.\n- Si el Tesoro no renueva todo el jueves, puede haber más pesos buscando dólares; si paga más tasa, el plazo fijo rinde más y el crédito se encarece.\n- En criollo: hoy el mundo empuja para abajo y la Argentina no tiene colchón; el jueves, con la licitación, se ve si el mercado le sigue prestando al Gobierno.",
+ "guion": "*OTRA RUEDA DE PÁNICO*\n_Aproximación del miércoles 25 de noviembre · 13:50 h_\n\n*1) Qué está pasando en EEUU hoy en criollo*\n- Los futuros de Wall Street anticipaban otra rueda en rojo: Nasdaq −2,7%, S&P 500 −1,8% y Dow Jones −1,2% antes de la apertura. En criollo: siguen vendiendo todo lo que huele a inteligencia artificial.\n- El martes había cerrado dispar: el Nasdaq perdió 1,48%, el S&P 500 0,48% y el Dow ganó 0,86%.\n- Nvidia, la de los chips, cayó 6% el martes después de saltar 31,5% el lunes. Anthropic, la de Claude, perdió 6,6% y quedó abajo de su precio de salida (USD 83).\n- En Asia fue peor: la bolsa de Corea se hundió 6,16% y la de Japón 2,78%.\n- Hoy sale el PCE, la inflación que mira la Fed. El mercado da 96% de chances de que suba la tasa en diciembre. En criollo: la plata en el mundo se encarece.\n- Mañana Wall Street no opera por Acción de Gracias.\n\n*2) Qué está pasando en Argentina hoy en criollo*\n- El ruido de afuera llega con fuerza: caen bonos y acciones.\n- Riesgo país: tocó 1.131 puntos en la rueda y cerró en 1.067, −29. Venía de 1.096 el martes.\n- Acciones: el MSCI Merval cae 2,2%, a 79.447. Bajan Metrogas (−5,1%), BBVA (−3,4%) y Central Puerto (−2,7%); en Nueva York, YPF (−4,4%), Cresud (−4,1%) y Galicia (−3,6%).\n- Dólar mayorista: $1.612, sube $19 y marca otro récord. El tarjeta ya está en $2.119.\n- Blue: $1.725, sube $25. Otro récord nominal.\n- MEP: $1.665,65 y contado con liqui: $1.763,39, los dos en baja. La brecha con el CCL se achica a 9,4%. En criollo: lo que sube es el oficial, no los dólares libres.\n- Banco Central: el martes no compró por segunda rueda y las reservas cerraron en USD 48.744 millones. El dato de hoy sale a la tarde.\n- A las 15 Santilli da su informe en el Senado, y el jueves el Tesoro tiene que renovar $25,4 billones.\n\n*3) Lo que NADIE te está contando*\n- La brecha baja, pero no por calma: baja porque sube el oficial.\n- Según PPI, citado por Ámbito, el Central ya vendió unos USD 590 millones en cobertura dollar linked y los futuros crecieron USD 1.359 millones en noviembre: contiene el dólar con herramientas que no se ven en las reservas.\n- El Gobierno dice que la suba del riesgo país es transitoria, pero ya pasó de 402 en julio a 1.067 hoy.\n- Es como bajar la fiebre con un antitérmico: el termómetro mejora, pero la infección sigue ahí.\n\n*4) Qué significa esto para tu bolsillo mañana*\n- Si el mayorista sigue subiendo, el tarjeta ($2.119) y las compras en dólares se encarecen.\n- Si el blue se sostiene arriba de $1.700, algunos importados pueden remarcarse.\n- Si el Tesoro no renueva todo el jueves, puede haber más pesos buscando dólares; si paga más tasa, el plazo fijo rinde más y el crédito se encarece.\n- En criollo: hoy el mundo empuja para abajo y la Argentina no tiene colchón; el jueves, con la licitación, se ve si el mercado le sigue prestando al Gobierno.",
  "fuentes": [
+  [
+   "Ámbito · Riesgo país al cierre (1.067)",
+   "https://www.ambito.com/finanzas/dolar-hoy-y-dolar-blue-hoy-minuto-minuto-cuanto-opera-este-miercoles-25-noviembre-n6349008"
+  ],
   [
    "Ámbito · Riesgo país supera los 1.100",
    "https://www.ambito.com/finanzas/el-riesgo-pais-ya-supera-los-1100-puntos-y-la-sangria-los-bonos-no-se-detiene-n6349109"
@@ -787,7 +795,7 @@
  },
  "videos": [
   {
-   "t": "Riesgo país en 1.128 y dólar arriba de $1.600: qué está pasando",
+   "t": "Riesgo país en 1.067 y dólar arriba de $1.600: qué está pasando",
    "g": "Bonos y acciones en baja, el mayorista en récord y una licitación de $25,4 billones el jueves."
   },
   {
