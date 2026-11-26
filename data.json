@@ -1,61 +1,61 @@
 {
- "fecha": "Miércoles 25 de noviembre de 2026",
- "iso": "2026-11-25",
- "corte": "Actualizado a las 13:50 h · valores parciales de la rueda",
+ "fecha": "Jueves 26 de noviembre de 2026",
+ "iso": "2026-11-26",
+ "corte": "Actualizado a las 13:51 h · valores parciales de la rueda",
  "clima": {
-  "tag": "Otra rueda de pánico",
-  "tipo": "panico",
-  "por": "Riesgo país cerró en 1.067 tras tocar 1.131; el mayorista pasa los $1.600"
+  "tag": "Rueda tensa y sin Wall Street",
+  "tipo": "atipico",
+  "por": "EE.UU. no opera por Acción de Gracias; el oficial sube por octava rueda y el Tesoro licita"
  },
- "frase": "El riesgo país tocó 1.131 y cerró en 1.067; el dólar mayorista supera los $1.600",
- "atipica": null,
+ "frase": "El dólar oficial suma su octava suba al hilo y el Tesoro sale a renovar $25,4 billones",
+ "atipica": "Wall Street está cerrado por el Día de Acción de Gracias: la rueda local opera sin referencia externa y con poco volumen, así que no conviene sobreinterpretar los movimientos de hoy.",
  "claves": [
-  "Riesgo país: cerró en 1.067 (−29) tras tocar un máximo anual de 1.131 en la rueda",
-  "Mayorista: $1.612 (+$19) y blue $1.725 (+$25); MEP y CCL bajan y la brecha cae a 9,4%",
-  "Wall Street: futuros del Nasdaq −2,7% antes de la apertura; el Kospi coreano se hundió 6,16%"
+  "Dólar oficial: Ámbito informa la octava suba seguida; el miércoles cerró en $1.630 en el BNA y $1.604 el mayorista",
+  "Riesgo país: 1.067 al cierre del miércoles (−29), tras tocar 1.131; hoy no hay bonos en Nueva York",
+  "Licitación del Tesoro por $25,4 billones y súper jueves en el Congreso: PASO en el Senado y Presupuesto en Diputados"
  ],
  "indicadores": [
   {
    "k": "Dólar oficial",
    "v": "$1.630",
-   "d": "Venta BNA implícita en el tarjeta de Ámbito ($2.119) · venía de $1.615 · mayorista $1.612 (+$19)",
+   "d": "Cierre del miércoles BNA (+$15) · mayorista $1.604 (+$11) · hoy, octava suba según Ámbito",
    "tend": "up",
    "estado": "rojo"
   },
   {
    "k": "Dólar MEP",
-   "v": "$1.665,65",
-   "d": "−$24,99 · venía de $1.690,64 · brecha 3,3% (Ámbito 11:57 h)",
+   "v": "$1.669,39",
+   "d": "−1,3% al cierre del miércoles · venía de $1.690,64 · brecha 4,1%",
    "tend": "down",
    "estado": "amarillo"
   },
   {
    "k": "Contado con liqui",
-   "v": "$1.763,39",
-   "d": "−$32,59 · venía de $1.795,98 · brecha 9,4% (Ámbito 11:57 h)",
+   "v": "$1.779,20",
+   "d": "−0,9% al cierre del miércoles · venía de $1.794,05 · volumen récord",
    "tend": "down",
    "estado": "amarillo"
   },
   {
    "k": "Dólar blue",
-   "v": "$1.725",
-   "d": "Sube $25 · compra $1.705 · nuevo récord nominal (Ámbito 11:57 h)",
+   "v": "$1.710",
+   "d": "Sube $10 al cierre del miércoles · compra $1.690 · récord nominal",
    "tend": "up",
    "estado": "rojo"
   },
   {
    "k": "Riesgo país",
    "v": "1.067",
-   "d": "−29 · venía de 1.096 el martes · cierre (Ámbito)",
+   "d": "−29 · venía de 1.096 el martes · cierre del miércoles (máx. 1.131)",
    "tend": "down",
    "estado": "rojo",
    "serie": true
   },
   {
    "k": "Reservas BCRA",
-   "v": "48.744 M",
-   "d": "USD · cierre del martes 24 (−618 M) · el dato de hoy sale a la tarde",
-   "tend": "down",
+   "v": "48.748 M",
+   "d": "USD · +4 M el miércoles 25 · el dato de hoy sale a la tarde",
+   "tend": "flat",
    "estado": "rojo"
   },
   {
@@ -67,22 +67,22 @@
   },
   {
    "k": "Merval",
-   "v": "79.447",
-   "d": "MSCI Merval −2,2% a media mañana · venía de 81.261 (Ámbito 10:48 h)",
-   "tend": "down",
-   "estado": "rojo"
+   "v": "81.643",
+   "d": "+0,5% al cierre del miércoles · +1,4% en dólares · venía de 81.261",
+   "tend": "up",
+   "estado": "amarillo"
   },
   {
    "k": "Compras BCRA",
    "v": "USD 0",
-   "d": "Martes 24, segunda rueda sin comprar · USD 344 M en noviembre · hoy, sin dato aún",
+   "d": "Miércoles 25, tercera rueda sin comprar · USD 344 M en noviembre",
    "tend": "flat",
    "estado": "rojo"
   },
   {
    "k": "Brecha con el CCL",
-   "v": "9,4%",
-   "d": "CCL vs. mayorista · venía de 12,6% el martes",
+   "v": "10,9%",
+   "d": "CCL vs. mayorista al cierre del miércoles · venía de 12,6% el martes",
    "tend": "down",
    "estado": "amarillo",
    "criollo": "Cuánto más caro está el dólar para girar afuera que el oficial; si sube, hay más ganas de dolarizarse."
@@ -90,7 +90,7 @@
   {
    "k": "Licitación",
    "v": "$25,4 bill.",
-   "d": "Jueves 26/11 · vencimientos a renovar · Lecap, CER, TAMAR y dollar linked",
+   "d": "Hoy jueves · más de $20 bill. en manos privadas · Lecap, CER y dollar linked · resultado a la tarde",
    "tend": "flat",
    "estado": "amarillo",
    "criollo": "El Tesoro sale a pedir pesos prestados para pagar lo que vence; si no logra renovar todo, esos pesos quedan sueltos y pueden ir al dólar."
@@ -185,305 +185,300 @@
  "mundo": [
   {
    "k": "S&P 500",
-   "v": "−1,8%",
-   "d": "Futuros antes de la apertura (Ámbito 09:23 h) · el martes cerró −0,48% (7.203)",
+   "v": "−0,28%",
+   "d": "Cierre del miércoles (7.181,36) · hoy cerrado por Acción de Gracias",
    "tend": "down"
   },
   {
    "k": "Nasdaq",
-   "v": "−2,7%",
-   "d": "Futuros antes de la apertura · el martes cerró −1,48% (23.733)",
+   "v": "−0,62%",
+   "d": "Cierre del miércoles (23.585,80) · llegó a caer casi 5% en la rueda",
    "tend": "down"
   },
   {
    "k": "Dow Jones",
-   "v": "−1,2%",
-   "d": "Futuros antes de la apertura · el martes cerró +0,86% (50.021)",
-   "tend": "down"
+   "v": "+0,33%",
+   "d": "Cierre del miércoles (50.184,68) · viernes, horario reducido",
+   "tend": "up"
   },
   {
-   "k": "Kospi (Corea)",
-   "v": "−6,16%",
-   "d": "Asia se hundió por la caída de las tecnológicas · Nikkei −2,78%",
+   "k": "Nvidia",
+   "v": "−4,8%",
+   "d": "Miércoles · sigue la venta de tecnológicas ligadas a la IA",
    "tend": "down"
   },
   {
    "k": "Fed",
    "v": "3,75–4%",
-   "d": "96% de chances de una suba de 0,25 en diciembre · hoy sale el PCE",
+   "d": "~98% de chances de una suba de 0,25 en diciembre · PCE interanual 3,8%",
    "tend": "up"
   }
  ],
  "porque": [
   {
-   "q": "Wall Street arranca otra vez en rojo",
-   "p": "Los futuros anticipaban caídas de hasta 2,7% en el Nasdaq: siguen las dudas sobre la IA, hay rumores de nuevos aranceles de EE.UU. y hoy se conoce el PCE, la inflación que mira la Fed."
+   "q": "Wall Street no opera y llegan más aranceles",
+   "p": "EE.UU. está de feriado. El miércoles Trump propuso aranceles de hasta 20% a 14 economías, entre ellas China y la UE; la Argentina no está en la lista."
   },
   {
-   "q": "Asia se desplomó por las tecnológicas",
-   "p": "El Kospi coreano cayó 6,16% y el Nikkei 2,78%. Cuando el mundo vende acciones de riesgo, los países emergentes como la Argentina son los primeros en sufrir."
+   "q": "La Fed se encamina a subir la tasa",
+   "p": "La inflación PCE dio 3,8% interanual y el PBI creció 4,3%. El mercado da ~98% de chances de una suba en diciembre: la plata en el mundo se encarece."
   },
   {
-   "q": "El riesgo país tocó 1.131 y aflojó",
-   "p": "Llegó a un máximo anual de 1.131 y cerró en 1.067 (−29). Pesan el contexto externo, las reservas que bajan y los $25,4 billones que el Tesoro tiene que renovar el jueves."
+   "q": "El oficial sube por octava rueda seguida",
+   "p": "El miércoles el mayorista cerró en $1.604 y el BNA en $1.630. El MEP y el CCL bajaron con volumen récord: Ámbito habla de señales de intervención oficial."
   },
   {
-   "q": "El mayorista supera los $1.600",
-   "p": "Opera en $1.612, otro récord nominal. Pero el MEP y el CCL bajan, y la brecha se achica a 9,4%: el salto es del oficial, no de los dólares libres."
+   "q": "Prueba de fuego para el Tesoro",
+   "p": "Tiene que renovar $25,4 billones con el riesgo país en 1.067. Además hizo un canje con el BCRA para estirar vencimientos de diciembre hasta 2027."
   }
  ],
- "oculto": "La brecha con el CCL bajó de 12,6% a 9,4% en una mañana, pero no por calma: el mayorista sube a $1.612 mientras el MEP y el CCL retroceden. Según PPI, citado por Ámbito, el BCRA ya vendió unos USD 590 M en cobertura dollar linked hasta el 17 de noviembre y en noviembre crecieron USD 1.359 M los contratos de futuros: el Central contiene el dólar con instrumentos que no se ven en las reservas. Y el mismo día que se fija el dólar de referencia para vencimientos dollar linked por unos USD 1.870 M, el Gobierno habla de una suba 'transitoria' del riesgo país.",
+ "oculto": "El BCRA lleva tres ruedas sin comprar dólares y en noviembre promedia USD 25 M diarios, contra USD 66 M en octubre. El Tesoro tenía solo USD 158 M depositados en el Central al 18 de noviembre, según el análisis citado por Ámbito, y el lunes 30 vence la letra dollar linked D30N6 por USD 1.888 M. Mientras tanto, el MEP y el CCL bajan con un volumen récord de USD 436 M: la calma de los dólares libres podría no ser espontánea.",
  "bolsillo": [
-  "El tarjeta ya cotiza $2.119 según Ámbito: si el mayorista sigue subiendo, las compras y suscripciones en dólares se encarecen de nuevo el mes que viene.",
-  "Si el blue se sostiene arriba de $1.700, los comercios que usan el paralelo de referencia pueden remarcar productos importados.",
-  "Si el Tesoro no logra renovar todo el jueves, puede haber más pesos en la calle buscando dólar; si renueva con tasas más altas, el plazo fijo rinde más y los créditos se encarecen.",
-  "Con la economía en recesión técnica, si se frena la actividad conviene mirar con lupa las cuotas largas y los gastos fijos."
+  "El tarjeta está en $2.119 según Ámbito: si el oficial sigue subiendo, las compras y suscripciones en dólares se encarecen el mes que viene.",
+  "Si el Tesoro renueva todo hoy pagando más tasa, el plazo fijo puede rendir algo más, pero los créditos y las cuotas también se encarecen.",
+  "Si no logra renovar todo, quedan más pesos en la calle que pueden ir al dólar y presionar sobre el blue ($1.710).",
+  "Si el oficial se sostiene arriba de $1.600, los productos importados y los que tienen precio en dólares pueden remarcarse."
  ],
  "empresas": {
   "ar": [
    {
-    "n": "Metrogas",
-    "c": "−5,1%",
-    "que": "Distribuye gas en el AMBA; encabezó las bajas del panel líder porteño."
+    "n": "Transener",
+    "c": "+7,1%",
+    "que": "Transporta electricidad en alta tensión; encabezó las subas del panel líder el miércoles."
    },
    {
-    "n": "YPF",
-    "c": "−4,4%",
-    "que": "La petrolera estatal; el ADR que más cae en Nueva York a media mañana."
+    "n": "Telecom",
+    "c": "+5,7%",
+    "que": "Dueña de Personal y Fibertel; el ADR que más subió en Nueva York (+5,1% en la plaza local)."
+   },
+   {
+    "n": "Metrogas",
+    "c": "+5%",
+    "que": "Distribuye gas en el AMBA; rebotó tras caer el martes."
    },
    {
     "n": "Cresud",
-    "c": "−4,1%",
-    "que": "Campos y real estate; cae con el resto de los activos argentinos."
+    "c": "+4,3%",
+    "que": "Campos y real estate; su ADR rebotó en Wall Street."
    },
    {
-    "n": "Grupo Financiero Galicia",
-    "c": "−3,6%",
-    "que": "Dueño del Banco Galicia; los bancos sufren cuando sube el riesgo país."
-   },
-   {
-    "n": "BBVA Argentina",
-    "c": "−3,4%",
-    "que": "Banco de capital español; baja en la plaza local."
-   },
-   {
-    "n": "Central Puerto",
-    "c": "−2,7%",
-    "que": "Genera electricidad; también cede en la bolsa porteña."
+    "n": "Grupo Supervielle",
+    "c": "+3,9%",
+    "que": "Grupo bancario; subió en Nueva York en la tregua del miércoles."
    }
   ],
   "eeuu": [
    {
-    "n": "Nvidia",
+    "n": "ASML",
     "c": "−6%",
-    "que": "Hace los chips de la IA; cerró el martes en baja tras saltar 31,5% el lunes por la vuelta de Jensen Huang."
+    "que": "Fabrica las máquinas para hacer chips; cayó con las tecnológicas el miércoles."
+   },
+   {
+    "n": "Micron",
+    "c": "−4,9%",
+    "que": "Hace chips de memoria; también golpeada por las dudas sobre la IA."
+   },
+   {
+    "n": "Nvidia",
+    "c": "−4,8%",
+    "que": "Hace los chips de la IA; sigue la corrección tras el salto del lunes."
    },
    {
     "n": "Anthropic",
-    "c": "−6,6%",
-    "que": "Hace la IA Claude; cerró el martes debajo de su precio de salida (USD 83)."
-   },
-   {
-    "n": "Dollar Tree",
-    "c": "+11,1%",
-    "que": "Cadena de tiendas de descuento; subió el martes contra la corriente."
-   },
-   {
-    "n": "JetBlue",
-    "c": "+4,6%",
-    "que": "Aerolínea de bajo costo; subió el martes."
+    "c": "+2,6%",
+    "que": "Hace la IA Claude; rebotó tras cerrar el martes debajo de su precio de salida (USD 83)."
    }
   ]
  },
  "politica": [
   {
    "s": "La Política Online",
-   "t": "Bullrich redobla su desafío a Milei y dice que se ve presidenta",
-   "g": "La jefa del bloque libertario en el Senado choca con el plan económico",
-   "u": "https://www.lapoliticaonline.com/politica/bullrich-insiste-me-veo-presidenta/"
+   "t": "Para destrabar la suspensión de las PASO, el Gobierno resignó las colectoras",
+   "g": "Sin firmas en comisión, LLA retiró el capítulo; en el recinto necesita 37 votos",
+   "u": "https://www.lapoliticaonline.com/politica/el-gobierno-tuvo-que-bajar-las-colectoras/"
   },
   {
    "s": "La Política Online",
-   "t": "Milei frenó el lanzamiento del canal de streaming del karinismo",
-   "g": "Lo suspendió en plena suba del dólar y del riesgo país",
-   "u": "https://www.lapoliticaonline.com/politica/milei-le-bajo-a-oria-el-lanzamiento-del-678-de-karina/"
+   "t": "Malestar en el Gobierno con Bullrich por la suspensión de las PASO",
+   "g": "La acusan de haber jugado en contra y de atribuirse ahora el logro",
+   "u": "https://www.lapoliticaonline.com/politica/indignacion-en-el-gobierno-con-bullrich-jugo-contra-la-suspension-de-las-paso-y-ahora-se-cuelga-la-medalla/"
   },
   {
    "s": "Ámbito",
-   "t": "La Casa Rosada considera transitoria la suba del riesgo país",
-   "g": "Habla de sobrerreacción y descarta cambios en la política cambiaria",
-   "u": "https://www.ambito.com/politica/el-gobierno-considera-transitoria-la-suba-del-riesgo-pais-n6348932"
+   "t": "PASO, Ficha Limpia y financiamiento: los nueve cambios que vota el Senado",
+   "g": "Suspende las PASO solo para 2027; el tope de aportes privados pasa de 2% a 35%",
+   "u": "https://www.ambito.com/politica/de-la-suspension-las-paso-ficha-limpia-los-nueve-cambios-la-reforma-que-debatira-el-senado-n6349639"
   },
   {
-   "s": "Infobae",
-   "t": "El Gobierno apuesta al Congreso para calmar a los mercados",
-   "g": "Santilli da hoy su primer informe en el Senado y el jueves se votan las PASO",
-   "u": "https://www.infobae.com/politica/2026/11/25/el-gobierno-busca-mostrar-fortaleza-politica-en-el-congreso-para-aliviar-la-presion-de-los-mercados-financieros/"
+   "s": "C5N",
+   "t": "Doble sesión: PASO y ludopatía en el Senado, Presupuesto 2027 en Diputados",
+   "g": "Bullrich se mostró confiada en que la suspensión de las PASO se aprueba",
+   "u": "https://www.c5n.com/politica/diputados-senado-sesiones-congreso-debates-presupuesto-paso-26-noviembre-2026"
   },
   {
-   "s": "Página/12",
-   "t": "Críticas al informe de gestión de Santilli por respuestas evasivas",
-   "g": "El jefe de Gabinete responde más de 1.200 preguntas desde las 15 h",
-   "u": "https://www.pagina12.com.ar/2026/11/25/un-informe-de-gestion-plagado-de-evasivas-e-imprecisiones/"
+   "s": "La Nación",
+   "t": "Congreso en vivo: reforma electoral, Presupuesto y Carta Orgánica del BCRA",
+   "g": "Las universidades advierten por el financiamiento en el Presupuesto 2027",
+   "u": "https://www.lanacion.com.ar/politica/sesion-en-la-camara-de-diputados-y-de-senadores-hoy-en-vivo-presupuesto-2027-reforma-electoral-y-ley-nid26112026/"
   }
  ],
  "titulares": [
   {
    "sec": "Economía",
    "s": "Ámbito",
-   "t": "El riesgo país supera los 1.100 puntos y siguen cayendo bonos y acciones",
-   "u": "https://www.ambito.com/finanzas/el-riesgo-pais-ya-supera-los-1100-puntos-y-la-sangria-los-bonos-no-se-detiene-n6349109"
+   "t": "El dólar oficial suma ocho subas seguidas y marca otro récord nominal",
+   "u": "https://www.ambito.com/economia/el-dolar-oficial-encadeno-siete-subas-y-marco-un-nuevo-record-nominal-mientras-crecen-las-senales-intervencion-n6349490"
   },
   {
    "sec": "Economía",
    "s": "Ámbito",
-   "t": "El mayorista pasa los $1.600 y marca otro récord nominal",
-   "u": "https://www.ambito.com/finanzas/el-dolar-vuelve-marcar-records-nominales-y-se-recalienta-la-brecha-el-mayorista-ya-roza-los-1600-n6349017"
+   "t": "Nuevo canje con el BCRA y licitación para refinanciar $25,4 billones",
+   "u": "https://www.ambito.com/finanzas/deuda-el-gobierno-oficializo-un-nuevo-canje-el-bcra-y-encara-una-licitacion-refinanciar-unos-25-billones-n6349485"
   },
   {
    "sec": "Economía",
    "s": "Ámbito",
-   "t": "El Tesoro sale a renovar $25,4 billones con el riesgo país en máximos del año",
-   "u": "https://ambito.com/finanzas/deuda-el-tesoro-sale-testear-el-apetito-del-mercado-el-largo-plazo-el-riesgo-pais-maximos-del-ano-n6348904"
+   "t": "El salto del riesgo país complica el programa financiero de 2027",
+   "u": "https://www.ambito.com/finanzas/el-salto-del-riesgo-pais-complica-el-programa-financiero-2027-y-obliga-luis-caputo-dar-senales-certidumbre-n6349259"
   },
   {
    "sec": "Política",
    "s": "La Política Online",
-   "t": "Jorge Macri cambia su gabinete como parte de un acuerdo con Mauricio",
-   "u": "https://www.lapoliticaonline.com/politica/mauricio-macri-pide-echar-a-tres-funcionarios-portenos-para-abrir-una-negociacion-con-jorge/"
+   "t": "Cierra una fábrica de calzado en Chivilcoy y su intendente le pide ayuda a Milei",
+   "u": "https://lapoliticaonline.com/economia/cierra-otra-fabrica-de-la-industria-del-calzado-y-traslada-su-produccion-a-brasil"
   },
   {
    "sec": "Política",
    "s": "Ámbito",
-   "t": "Extraordinarias en diciembre: Presupuesto, PASO, Súper RIGI y acuerdo con EE.UU.",
-   "u": "https://www.ambito.com/politica/el-gobierno-convocara-sesiones-extraordinarias-diciembre-tratar-el-presupuesto-y-la-reforma-electoral-n6348928"
+   "t": "Caputo descarta irse: seguirá \"mientras el Presidente quiera\"",
+   "u": "https://www.ambito.com/politica/luis-caputo-descarto-su-salida-del-gobierno-mientras-el-presidente-quiera-siempre-n6349421"
   },
   {
    "sec": "Política",
-   "s": "Página/12",
-   "t": "Jueves caliente en el Congreso: PASO en el Senado y Presupuesto en Diputados",
-   "u": "https://www.pagina12.com.ar/2026/11/25/fiebre-de-jueves-por-la-tarde-en-el-congreso-paso-en-el-senado-y-presupuesto-en-diputados/"
+   "s": "Ámbito",
+   "t": "Sin colectoras, LLA consiguió el dictamen de la reforma política en el Senado",
+   "u": "https://www.ambito.com/sin-la-habilitacion-listas-colectoras-el-senado-se-encamina-dictaminar-la-reforma-politica-n6346691"
   },
   {
    "sec": "Mundo",
    "s": "Ámbito",
-   "t": "Los futuros de Wall Street anticipan otra rueda de fuertes caídas",
+   "t": "EE.UU. lanza otra ronda de aranceles y China y la UE salen a responder",
+   "u": "https://www.ambito.com/finanzas/eeuu-anuncio-una-nueva-bateria-aranceles-y-desato-advertencias-sus-principales-socios-comerciales-n6349523"
+  },
+  {
+   "sec": "Mundo",
+   "s": "Ámbito",
+   "t": "Montaña rusa en Wall Street: el Nasdaq llegó a caer casi 5% y recortó",
    "u": "https://www.ambito.com/finanzas/la-sangria-los-mercados-no-se-detiene-los-futuros-wall-street-adelantan-caidas-casi-3-n6349052"
-  },
-  {
-   "sec": "Mundo",
-   "s": "Infobae",
-   "t": "La bolsa de Corea se hunde 6,16% por la caída de las tecnológicas",
-   "u": "https://www.infobae.com/america/agencias/2026/11/25/el-kospi-surcoreano-se-hunde-un-616-tras-las-perdidas-de-tecnologicas-en-eeuu/"
   }
  ],
  "agenda": [
   {
-   "w": "Miércoles 25/11",
-   "b": "Santilli da su primer informe de gestión en el Senado (15 h) · sale el PCE en EE.UU. · se fija el dólar de referencia dollar linked"
-  },
-  {
    "w": "Jueves 26/11",
-   "b": "Licitación del Tesoro por $25,4 billones · Senado: suspensión de las PASO · Diputados: Presupuesto · Wall Street cerrado (Acción de Gracias)"
+   "b": "Licitación del Tesoro por $25,4 billones · Senado: suspensión de las PASO y ludopatía · Diputados: Presupuesto 2027 · Wall Street cerrado"
   },
   {
    "w": "Viernes 27/11",
-   "b": "Decreto de sesiones extraordinarias para diciembre · Wall Street con horario reducido"
+   "b": "Wall Street con horario reducido · se espera el decreto de sesiones extraordinarias para diciembre"
+  },
+  {
+   "w": "Lunes 30/11",
+   "b": "Vence la letra dollar linked D30N6 por USD 1.888 M"
   },
   {
    "w": "9 de enero de 2027",
    "b": "Vencen USD 4.378 M de Bonares y Globales"
   }
  ],
- "guion": "*OTRA RUEDA DE PÁNICO*\n_Aproximación del miércoles 25 de noviembre · 13:50 h_\n\n*1) Qué está pasando en EEUU hoy en criollo*\n- Los futuros de Wall Street anticipaban otra rueda en rojo: Nasdaq −2,7%, S&P 500 −1,8% y Dow Jones −1,2% antes de la apertura. En criollo: siguen vendiendo todo lo que huele a inteligencia artificial.\n- El martes había cerrado dispar: el Nasdaq perdió 1,48%, el S&P 500 0,48% y el Dow ganó 0,86%.\n- Nvidia, la de los chips, cayó 6% el martes después de saltar 31,5% el lunes. Anthropic, la de Claude, perdió 6,6% y quedó abajo de su precio de salida (USD 83).\n- En Asia fue peor: la bolsa de Corea se hundió 6,16% y la de Japón 2,78%.\n- Hoy sale el PCE, la inflación que mira la Fed. El mercado da 96% de chances de que suba la tasa en diciembre. En criollo: la plata en el mundo se encarece.\n- Mañana Wall Street no opera por Acción de Gracias.\n\n*2) Qué está pasando en Argentina hoy en criollo*\n- El ruido de afuera llega con fuerza: caen bonos y acciones.\n- Riesgo país: tocó 1.131 puntos en la rueda y cerró en 1.067, −29. Venía de 1.096 el martes.\n- Acciones: el MSCI Merval cae 2,2%, a 79.447. Bajan Metrogas (−5,1%), BBVA (−3,4%) y Central Puerto (−2,7%); en Nueva York, YPF (−4,4%), Cresud (−4,1%) y Galicia (−3,6%).\n- Dólar mayorista: $1.612, sube $19 y marca otro récord. El tarjeta ya está en $2.119.\n- Blue: $1.725, sube $25. Otro récord nominal.\n- MEP: $1.665,65 y contado con liqui: $1.763,39, los dos en baja. La brecha con el CCL se achica a 9,4%. En criollo: lo que sube es el oficial, no los dólares libres.\n- Banco Central: el martes no compró por segunda rueda y las reservas cerraron en USD 48.744 millones. El dato de hoy sale a la tarde.\n- A las 15 Santilli da su informe en el Senado, y el jueves el Tesoro tiene que renovar $25,4 billones.\n\n*3) Lo que NADIE te está contando*\n- La brecha baja, pero no por calma: baja porque sube el oficial.\n- Según PPI, citado por Ámbito, el Central ya vendió unos USD 590 millones en cobertura dollar linked y los futuros crecieron USD 1.359 millones en noviembre: contiene el dólar con herramientas que no se ven en las reservas.\n- El Gobierno dice que la suba del riesgo país es transitoria, pero ya pasó de 402 en julio a 1.067 hoy.\n- Es como bajar la fiebre con un antitérmico: el termómetro mejora, pero la infección sigue ahí.\n\n*4) Qué significa esto para tu bolsillo mañana*\n- Si el mayorista sigue subiendo, el tarjeta ($2.119) y las compras en dólares se encarecen.\n- Si el blue se sostiene arriba de $1.700, algunos importados pueden remarcarse.\n- Si el Tesoro no renueva todo el jueves, puede haber más pesos buscando dólares; si paga más tasa, el plazo fijo rinde más y el crédito se encarece.\n- En criollo: hoy el mundo empuja para abajo y la Argentina no tiene colchón; el jueves, con la licitación, se ve si el mercado le sigue prestando al Gobierno.",
+ "guion": "*RUEDA TENSA Y SIN WALL STREET*\n_Aproximación del jueves 26 de noviembre · 13:51 h_\n\n*1) Qué está pasando en EEUU hoy en criollo*\n- Hoy Wall Street no abre por el Día de Acción de Gracias. Mañana opera con horario reducido.\n- El miércoles fue una montaña rusa: el Nasdaq llegó a caer casi 5% y terminó −0,62%; el S&P 500 bajó 0,28% y el Dow Jones subió 0,33%. En criollo: hubo susto, pero aparecieron compradores.\n- Siguen castigadas las tecnológicas: Nvidia −4,8%, Micron −4,9% y ASML −6%. Anthropic, la de Claude, rebotó 2,6%.\n- La inflación PCE dio 3,8% interanual y el PBI creció 4,3%. El mercado da ~98% de chances de que la Fed suba la tasa en diciembre. En criollo: la plata en el mundo se encarece.\n- Trump propuso aranceles de hasta 20% a 14 economías, entre ellas China y la Unión Europea. La Argentina no está en la lista.\n\n*2) Qué está pasando en Argentina hoy en criollo*\n- Rueda rara: sin Wall Street no hay referencia externa y el volumen es bajo.\n- Dólar oficial: según Ámbito va por su octava suba seguida. El miércoles cerró en $1.630 en el Nación y el mayorista en $1.604, primera vez arriba de $1.600.\n- Blue: $1.710 al cierre del miércoles, +$10, otro récord.\n- MEP $1.669,39 (−1,3%) y contado con liqui $1.779,20 (−0,9%), con volumen récord. La brecha con el CCL bajó a 10,9%. En criollo: los analistas ven la mano del Gobierno frenando los dólares libres.\n- Riesgo país: cerró el miércoles en 1.067, −29. Venía de 1.096 y llegó a tocar 1.131.\n- Acciones: el Merval subió 0,5%, a 81.643. Subieron Transener (+7,1%), Telecom (+5,1%) y Metrogas (+5%).\n- Banco Central: tercera rueda sin comprar dólares; lleva USD 344 millones en noviembre. Reservas: USD 48.748 millones.\n- Hoy el Tesoro licita para renovar $25,4 billones. El resultado se conoce a la tarde.\n- En el Congreso: el Senado vota la suspensión de las PASO y Diputados el Presupuesto 2027.\n\n*3) Lo que NADIE te está contando*\n- En noviembre el Central compra en promedio USD 25 millones por día; en octubre eran USD 66 millones.\n- El lunes 30 vence una letra atada al dólar por USD 1.888 millones, y el Tesoro tenía apenas USD 158 millones depositados en el Central al 18 de noviembre.\n- El MEP y el CCL bajan con volumen récord de USD 436 millones: la calma puede no ser espontánea.\n- Es como el que tapa la gotera con un balde: el piso no se moja, pero el agua sigue entrando.\n\n*4) Qué significa esto para tu bolsillo mañana*\n- Si el oficial sigue subiendo, el tarjeta ($2.119) y las compras en dólares se encarecen.\n- Si el Tesoro renueva todo pagando más tasa, el plazo fijo rinde algo más y los créditos se encarecen.\n- Si no renueva todo, más pesos pueden ir al dólar y presionar sobre el blue.\n- En criollo: hoy, sin Wall Street, la Argentina juega sola; la licitación y la votación en el Congreso dirán si el mercado le da aire al Gobierno.",
  "fuentes": [
   [
-   "Ámbito · Riesgo país al cierre (1.067)",
-   "https://www.ambito.com/finanzas/dolar-hoy-y-dolar-blue-hoy-minuto-minuto-cuanto-opera-este-miercoles-25-noviembre-n6349008"
+   "Ámbito · Dólar oficial, ocho subas",
+   "https://www.ambito.com/economia/el-dolar-oficial-encadeno-siete-subas-y-marco-un-nuevo-record-nominal-mientras-crecen-las-senales-intervencion-n6349490"
   ],
   [
-   "Ámbito · Riesgo país supera los 1.100",
-   "https://www.ambito.com/finanzas/el-riesgo-pais-ya-supera-los-1100-puntos-y-la-sangria-los-bonos-no-se-detiene-n6349109"
+   "Ámbito · Dólar minuto a minuto, jueves 26",
+   "https://www.ambito.com/finanzas/dolar-hoy-y-dolar-blue-hoy-minuto-minuto-cuanto-opera-este-jueves-26-noviembre-n6349479"
   ],
   [
-   "Ámbito · Dólar blue hoy, miércoles 25",
-   "https://www.ambito.com/finanzas/dolar-blue-hoy-cuanto-opera-este-miercoles-25-noviembre-n6348993"
+   "Ámbito · Dólar hoy, jueves 26",
+   "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cotiza-este-jueves-26-noviembre-n6349464"
   ],
   [
-   "Ámbito · Dólar hoy, miércoles 25",
-   "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cotiza-este-miercoles-25-noviembre-n6348992"
+   "Ámbito · Dólar blue hoy, jueves 26",
+   "https://www.ambito.com/finanzas/dolar-blue-hoy-cuanto-opera-este-jueves-26-noviembre-n6349465"
   ],
   [
-   "Ámbito · Dólar minuto a minuto, miércoles 25",
-   "https://www.ambito.com/finanzas/dolar-hoy-y-dolar-blue-hoy-minuto-minuto-cuanto-opera-este-miercoles-25-noviembre-n6349008"
-  ],
-  [
-   "Ámbito · Mayorista récord y brecha",
+   "Ámbito · Dólar al cierre del miércoles",
    "https://www.ambito.com/finanzas/el-dolar-vuelve-marcar-records-nominales-y-se-recalienta-la-brecha-el-mayorista-ya-roza-los-1600-n6349017"
   ],
   [
-   "Ámbito · Futuros de Wall Street",
+   "Ámbito · Riesgo país, bonos y ADRs del miércoles",
+   "https://www.ambito.com/finanzas/el-riesgo-pais-ya-supera-los-1100-puntos-y-la-sangria-los-bonos-no-se-detiene-n6349109"
+  ],
+  [
+   "Ámbito · BCRA y reservas del miércoles",
+   "https://www.ambito.com/finanzas/en-medio-la-tension-cambiaria-el-bcra-dejo-las-compras-pausa-tecera-rueda-consecutiva-n6349347"
+  ],
+  [
+   "Ámbito · Wall Street al cierre del miércoles",
    "https://www.ambito.com/finanzas/la-sangria-los-mercados-no-se-detiene-los-futuros-wall-street-adelantan-caidas-casi-3-n6349052"
   ],
   [
-   "Ámbito · Wall Street al cierre del martes",
-   "https://www.ambito.com/finanzas/wall-street-alerta-nvidia-cae-5-el-premarket-un-repunte-historico-y-crece-la-tension-la-fed-n6348554"
+   "Ámbito · Canje con el BCRA y licitación",
+   "https://www.ambito.com/finanzas/deuda-el-gobierno-oficializo-un-nuevo-canje-el-bcra-y-encara-una-licitacion-refinanciar-unos-25-billones-n6349485"
   ],
   [
-   "Ámbito · BCRA y reservas del martes",
-   "https://www.ambito.com/finanzas/el-bcra-no-compro-dolares-segunda-rueda-fila-y-las-reservas-cayeron-al-menor-nivel-mas-un-mes-n6348885"
+   "Ámbito · Programa financiero 2027",
+   "https://www.ambito.com/finanzas/el-salto-del-riesgo-pais-complica-el-programa-financiero-2027-y-obliga-luis-caputo-dar-senales-certidumbre-n6349259"
   ],
   [
-   "Ámbito · Licitación del Tesoro",
-   "https://ambito.com/finanzas/deuda-el-tesoro-sale-testear-el-apetito-del-mercado-el-largo-plazo-el-riesgo-pais-maximos-del-ano-n6348904"
+   "Ámbito · Nuevos aranceles de EE.UU.",
+   "https://www.ambito.com/finanzas/eeuu-anuncio-una-nueva-bateria-aranceles-y-desato-advertencias-sus-principales-socios-comerciales-n6349523"
   ],
   [
-   "Ámbito · Riesgo país 'transitorio' según el Gobierno",
-   "https://www.ambito.com/politica/el-gobierno-considera-transitoria-la-suba-del-riesgo-pais-n6348932"
+   "Ámbito · Ofensiva arancelaria de Trump",
+   "https://www.ambito.com/economia/nueva-ofensiva-donald-trump-impondra-aranceles-20-china-la-ue-india-y-otras-11-s-n6349164"
   ],
   [
-   "Ámbito · Sesiones extraordinarias",
-   "https://www.ambito.com/politica/el-gobierno-convocara-sesiones-extraordinarias-diciembre-tratar-el-presupuesto-y-la-reforma-electoral-n6348928"
+   "Ámbito · Acciones argentinas en 2026",
+   "https://www.ambito.com/finanzas/acciones-argentinas-se-hunden-605-2026-que-dicen-los-balances-y-que-oportunidades-abre-la-caida-2027-n6349372"
   ],
   [
-   "Ámbito · Informe de gestión de Santilli",
-   "https://www.ambito.com/politica/evasivas-contradicciones-y-verdades-medias-algunas-las-curiosidades-del-informe-gestion-que-diego-santilli-defendera-el-senado-n6348881"
+   "Ámbito · Reforma política en el Senado",
+   "https://www.ambito.com/politica/de-la-suspension-las-paso-ficha-limpia-los-nueve-cambios-la-reforma-que-debatira-el-senado-n6349639"
+  ],
+  [
+   "Ámbito · Caputo descarta su salida",
+   "https://www.ambito.com/politica/luis-caputo-descarto-su-salida-del-gobierno-mientras-el-presidente-quiera-siempre-n6349421"
+  ],
+  [
+   "Ámbito · Dictamen sin colectoras",
+   "https://www.ambito.com/sin-la-habilitacion-listas-colectoras-el-senado-se-encamina-dictaminar-la-reforma-politica-n6346691"
   ],
   [
    "Ámbito · Vencimientos de enero 2027",
    "https://www.ambito.com/economia/el-tesoro-habria-vuelto-comprar-dolares-al-bcra-afrontar-vencimientos-deuda-y-crece-la-presion-las-reservas-n6346000"
   ],
   [
-   "La Política Online · Bullrich se ve presidenta",
-   "https://www.lapoliticaonline.com/politica/bullrich-insiste-me-veo-presidenta/"
+   "La Política Online · Colectoras y PASO",
+   "https://www.lapoliticaonline.com/politica/el-gobierno-tuvo-que-bajar-las-colectoras/"
   ],
   [
-   "La Política Online · Milei frena el 678 de Karina",
-   "https://www.lapoliticaonline.com/politica/milei-le-bajo-a-oria-el-lanzamiento-del-678-de-karina/"
+   "La Política Online · Malestar con Bullrich",
+   "https://www.lapoliticaonline.com/politica/indignacion-en-el-gobierno-con-bullrich-jugo-contra-la-suspension-de-las-paso-y-ahora-se-cuelga-la-medalla/"
   ],
   [
-   "La Política Online · Jorge y Mauricio Macri",
-   "https://www.lapoliticaonline.com/politica/mauricio-macri-pide-echar-a-tres-funcionarios-portenos-para-abrir-una-negociacion-con-jorge/"
+   "La Política Online · Cierre de fábrica en Chivilcoy",
+   "https://lapoliticaonline.com/economia/cierra-otra-fabrica-de-la-industria-del-calzado-y-traslada-su-produccion-a-brasil"
   ],
   [
-   "Infobae · El Gobierno apuesta al Congreso",
-   "https://www.infobae.com/politica/2026/11/25/el-gobierno-busca-mostrar-fortaleza-politica-en-el-congreso-para-aliviar-la-presion-de-los-mercados-financieros/"
+   "C5N · Doble sesión en el Congreso",
+   "https://www.c5n.com/politica/diputados-senado-sesiones-congreso-debates-presupuesto-paso-26-noviembre-2026"
   ],
   [
-   "Infobae · Kospi se hunde 6,16%",
-   "https://www.infobae.com/america/agencias/2026/11/25/el-kospi-surcoreano-se-hunde-un-616-tras-las-perdidas-de-tecnologicas-en-eeuu/"
-  ],
-  [
-   "Página/12 · Informe de gestión de Santilli",
-   "https://www.pagina12.com.ar/2026/11/25/un-informe-de-gestion-plagado-de-evasivas-e-imprecisiones/"
-  ],
-  [
-   "Página/12 · Jueves en el Congreso",
-   "https://www.pagina12.com.ar/2026/11/25/fiebre-de-jueves-por-la-tarde-en-el-congreso-paso-en-el-senado-y-presupuesto-en-diputados/"
-  ],
-  [
-   "Río Negro · Santilli en el Senado",
-   "https://www.rionegro.com.ar/politica/diego-santilli-presenta-su-primer-informe-de-gestion-a-que-hora-llega-al-senado-y-que-temas-abordara-4812247/"
+   "La Nación · Congreso en vivo",
+   "https://www.lanacion.com.ar/politica/sesion-en-la-camara-de-diputados-y-de-senadores-hoy-en-vivo-presupuesto-2027-reforma-electoral-y-ley-nid26112026/"
   ],
   [
    "Con Interés · Perfil de vencimientos 2027 (Finanzas)",
@@ -795,16 +790,16 @@
  },
  "videos": [
   {
-   "t": "Riesgo país en 1.067 y dólar arriba de $1.600: qué está pasando",
-   "g": "Bonos y acciones en baja, el mayorista en récord y una licitación de $25,4 billones el jueves."
+   "t": "Ocho subas seguidas del dólar oficial: qué está pasando",
+   "g": "El BNA cerró el miércoles en $1.630 y el mayorista en $1.604, mientras el MEP y el CCL bajan."
   },
   {
-   "t": "¿Por qué baja la brecha si el dólar sube? La trampa del día",
-   "g": "El mayorista pasa los $1.600 mientras el CCL cae: la brecha se achica de 12,6% a 9,4%."
+   "t": "$25,4 billones en juego: la licitación que define diciembre",
+   "g": "El Tesoro sale a renovar con el riesgo país en 1.067 y un canje con el BCRA de fondo."
   },
   {
-   "t": "Corea se hunde 6% y Wall Street tiembla: cómo nos pega la IA",
-   "g": "El Kospi cae 6,16%, el Nasdaq anticipa −2,7% y la Fed piensa en subir tasas."
+   "t": "¿El Banco Central se quedó sin compras? Lo que muestran los datos",
+   "g": "Tres ruedas sin comprar, USD 344 M en noviembre y USD 1.888 M de dollar linked que vencen el lunes."
   }
  ]
 }
